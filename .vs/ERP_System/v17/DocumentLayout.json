@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "D:\\Web Dev\\.NET\\ERP_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|d:\\web dev\\.net\\erp_system\\dl\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dl\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|d:\\web dev\\.net\\erp_system\\gui\\suppliers\\supplierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:gui\\suppliers\\supplierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\ERP_System\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\ERP_System\\gui\\login\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:gui\\login\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|d:\\web dev\\.net\\erp_system\\gui\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:gui\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|d:\\web dev\\.net\\erp_system\\gui\\suppliers\\supplierform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:gui\\suppliers\\supplierform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\ERP_System\\gui\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:gui\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\ERP_System\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|d:\\web dev\\.net\\erp_system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\ERP_System\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|d:\\web dev\\.net\\erp_system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\ERP_System\\dl\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dl\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +54,71 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SupplierForm.Designer.cs",
+              "DocumentMoniker": "D:\\Web Dev\\.NET\\ERP_System\\GUI\\Suppliers\\SupplierForm.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\Suppliers\\SupplierForm.Designer.cs",
+              "ToolTip": "D:\\Web Dev\\.NET\\ERP_System\\GUI\\Suppliers\\SupplierForm.Designer.cs",
+              "RelativeToolTip": "GUI\\Suppliers\\SupplierForm.Designer.cs",
+              "ViewState": "AgIAADQCAAAAAAAAAAAYwD4CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T19:05:46.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\Web Dev\\.NET\\ERP_System\\GUI\\Login\\LoginForm.cs",
+              "RelativeDocumentMoniker": "GUI\\Login\\LoginForm.cs",
+              "ToolTip": "D:\\Web Dev\\.NET\\ERP_System\\GUI\\Login\\LoginForm.cs",
+              "RelativeToolTip": "GUI\\Login\\LoginForm.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAvwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T12:51:10.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Web Dev\\.NET\\ERP_System\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Web Dev\\.NET\\ERP_System\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T12:49:49.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "D:\\Web Dev\\.NET\\ERP_System\\GUI\\Login\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\Login\\LoginForm.Designer.cs",
+              "ToolTip": "D:\\Web Dev\\.NET\\ERP_System\\GUI\\Login\\LoginForm.Designer.cs",
+              "RelativeToolTip": "GUI\\Login\\LoginForm.Designer.cs",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAQwCcCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T12:28:02.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\Web Dev\\.NET\\ERP_System\\GUI\\Login\\LoginForm.cs",
+              "RelativeDocumentMoniker": "GUI\\Login\\LoginForm.cs",
+              "ToolTip": "D:\\Web Dev\\.NET\\ERP_System\\GUI\\Login\\LoginForm.cs [Design]",
+              "RelativeToolTip": "GUI\\Login\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T12:26:34.709Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "App.config",
               "DocumentMoniker": "D:\\Web Dev\\.NET\\ERP_System\\App.config",
               "RelativeDocumentMoniker": "App.config",
@@ -42,43 +126,44 @@
               "RelativeToolTip": "App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-16T11:11:22.951Z"
+              "WhenOpened": "2025-11-16T11:11:22.951Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Web Dev\\.NET\\ERP_System\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\Web Dev\\.NET\\ERP_System\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-16T10:47:46.671Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SupplierForm.cs [Design]",
+              "DocumentMoniker": "D:\\Web Dev\\.NET\\ERP_System\\GUI\\Suppliers\\SupplierForm.cs",
+              "RelativeDocumentMoniker": "GUI\\Suppliers\\SupplierForm.cs",
+              "ToolTip": "D:\\Web Dev\\.NET\\ERP_System\\GUI\\Suppliers\\SupplierForm.cs [Design]",
+              "RelativeToolTip": "GUI\\Suppliers\\SupplierForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T19:05:30.3Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "DBConnection.cs",
               "DocumentMoniker": "D:\\Web Dev\\.NET\\ERP_System\\DL\\DBConnection.cs",
               "RelativeDocumentMoniker": "DL\\DBConnection.cs",
               "ToolTip": "D:\\Web Dev\\.NET\\ERP_System\\DL\\DBConnection.cs",
               "RelativeToolTip": "DL\\DBConnection.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAuwCkAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T10:38:14.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\ERP_System\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\ERP_System\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T10:34:04.164Z"
+              "WhenOpened": "2025-11-16T10:38:14.792Z"
             }
           ]
         }
