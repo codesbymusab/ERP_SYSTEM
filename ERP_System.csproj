@@ -99,7 +99,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL\ActivityLogBL.cs" />
+    <Compile Include="BL\AttendanceBL.cs" />
+    <Compile Include="BL\EmployeeBL.cs" />
+    <Compile Include="BL\ProductBL.cs" />
+    <Compile Include="BL\PurchaseBL.cs" />
+    <Compile Include="BL\PurhaseItemBL.cs" />
+    <Compile Include="BL\SaleBL.cs" />
+    <Compile Include="BL\SaleItemBL.cs" />
+    <Compile Include="BL\SupplierBL.cs" />
+    <Compile Include="BL\UserBL.cs" />
+    <Compile Include="DL\ActivityLogDL.cs" />
+    <Compile Include="DL\AttendanceDL.cs" />
     <Compile Include="DL\DBConnection.cs" />
+    <Compile Include="DL\EmployeeDL.cs" />
+    <Compile Include="DL\ProductDL.cs" />
+    <Compile Include="DL\PurchaseDL.cs" />
+    <Compile Include="DL\PurchaseItemDL.cs" />
+    <Compile Include="DL\SaleDL.cs" />
+    <Compile Include="DL\SaleItemDL.cs" />
+    <Compile Include="DL\SupplierDL.cs" />
+    <Compile Include="DL\UserDL.cs" />
+    <Compile Include="DTO\ActivityLogDTO.cs" />
+    <Compile Include="DTO\AttendanceDTO.cs" />
+    <Compile Include="DTO\EmployeeDTO.cs" />
+    <Compile Include="DTO\LoginDTO.cs" />
+    <Compile Include="DTO\ProductDTO.cs" />
+    <Compile Include="DTO\PurchaseDTO.cs" />
+    <Compile Include="DTO\PurchaseItemDTO.cs" />
+    <Compile Include="DTO\RequestDTO.cs" />
+    <Compile Include="DTO\SaleDTO.cs" />
+    <Compile Include="DTO\SaleItemDTO.cs" />
+    <Compile Include="DTO\SupplierDTO.cs" />
+    <Compile Include="DTO\USerDTO.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,9 +185,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BL\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Assets\hamburg.png" />
     <Content Include="Assets\Logo.png">

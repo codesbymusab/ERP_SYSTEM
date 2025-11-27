@@ -22,3 +22,27 @@ D:\Web Dev\.NET\ERP_System\obj\Debug\ERP_System.GUI.Login.LoginForm.resources
 D:\Web Dev\.NET\ERP_System\obj\Debug\ERP_System.csproj.Up2Date
 D:\Web Dev\.NET\ERP_System\bin\Debug\Assets\Logo.png
 D:\Web Dev\.NET\ERP_System\obj\Debug\ERP_System.GUI.Suppliers.SupplierForm.resources
+C:\Users\LENOVO\Desktop\C++\Project\bin\Debug\Assets\Logo.png
+C:\Users\LENOVO\Desktop\C++\Project\bin\Debug\ERP_System.exe.config
+C:\Users\LENOVO\Desktop\C++\Project\bin\Debug\ERP_System.exe
+C:\Users\LENOVO\Desktop\C++\Project\bin\Debug\ERP_System.pdb
+C:\Users\LENOVO\Desktop\C++\Project\bin\Debug\Bunifu.Charts.WinForms.dll
+C:\Users\LENOVO\Desktop\C++\Project\bin\Debug\Bunifu.Licensing.dll
+C:\Users\LENOVO\Desktop\C++\Project\bin\Debug\Bunifu.UI.WinForms.dll
+C:\Users\LENOVO\Desktop\C++\Project\bin\Debug\Newtonsoft.Json.dll
+C:\Users\LENOVO\Desktop\C++\Project\bin\Debug\System.CodeDom.dll
+C:\Users\LENOVO\Desktop\C++\Project\bin\Debug\Bunifu.Charts.WinForms.xml
+C:\Users\LENOVO\Desktop\C++\Project\bin\Debug\Bunifu.UI.WinForms.xml
+C:\Users\LENOVO\Desktop\C++\Project\bin\Debug\Newtonsoft.Json.xml
+C:\Users\LENOVO\Desktop\C++\Project\bin\Debug\System.CodeDom.xml
+C:\Users\LENOVO\Desktop\C++\Project\obj\Debug\ERP_System.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\C++\Project\obj\Debug\ERP_System.exe.config
+C:\Users\LENOVO\Desktop\C++\Project\obj\Debug\ERP_System.Form1.resources
+C:\Users\LENOVO\Desktop\C++\Project\obj\Debug\ERP_System.GUI.Login.LoginForm.resources
+C:\Users\LENOVO\Desktop\C++\Project\obj\Debug\ERP_System.GUI.Suppliers.SupplierForm.resources
+C:\Users\LENOVO\Desktop\C++\Project\obj\Debug\ERP_System.Properties.Resources.resources
+C:\Users\LENOVO\Desktop\C++\Project\obj\Debug\ERP_System.csproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\C++\Project\obj\Debug\ERP_System.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\C++\Project\obj\Debug\ERP_System.csproj.Up2Date
+C:\Users\LENOVO\Desktop\C++\Project\obj\Debug\ERP_System.exe
+C:\Users\LENOVO\Desktop\C++\Project\obj\Debug\ERP_System.pdb
