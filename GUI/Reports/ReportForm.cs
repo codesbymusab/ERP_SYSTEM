@@ -8,19 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ERP_System
+namespace ERP_System.GUI.Reports
 {
-    public partial class Form1 : Form
+    public partial class ReportForm : Form
     {
-        public Form1()
+        public ReportForm()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            DBConnection conn = new DBConnection();
-            conn.checkConnection();
         }
     }
 }

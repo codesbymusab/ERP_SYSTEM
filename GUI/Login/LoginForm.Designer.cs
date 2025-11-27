@@ -25,6 +25,7 @@ namespace ERP_System.GUI.Login
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.pnlMain = new Bunifu.UI.WinForms.BunifuPanel();
             this.cardLogin = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.lblPasswordLabel = new System.Windows.Forms.Label();
             this.lblEmailLabel = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
@@ -39,11 +40,10 @@ namespace ERP_System.GUI.Login
             this.lblDemoManager = new System.Windows.Forms.Label();
             this.lblDemoUser = new System.Windows.Forms.Label();
             this.lblVersion = new System.Windows.Forms.Label();
-            this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.pnlMain.SuspendLayout();
             this.cardLogin.SuspendLayout();
-            this.pnlDemo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
+            this.pnlDemo.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlMain
@@ -59,7 +59,7 @@ namespace ERP_System.GUI.Login
             this.pnlMain.Location = new System.Drawing.Point(0, 0);
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.ShowBorders = true;
-            this.pnlMain.Size = new System.Drawing.Size(1089, 709);
+            this.pnlMain.Size = new System.Drawing.Size(1902, 1032);
             this.pnlMain.TabIndex = 0;
             // 
             // cardLogin
@@ -82,11 +82,28 @@ namespace ERP_System.GUI.Login
             this.cardLogin.Controls.Add(this.lnkForgotPassword);
             this.cardLogin.Controls.Add(this.pnlDemo);
             this.cardLogin.Controls.Add(this.lblVersion);
-            this.cardLogin.Location = new System.Drawing.Point(259, 12);
+            this.cardLogin.Location = new System.Drawing.Point(666, 174);
             this.cardLogin.Name = "cardLogin";
             this.cardLogin.ShowBorders = true;
             this.cardLogin.Size = new System.Drawing.Size(584, 685);
             this.cardLogin.TabIndex = 0;
+            // 
+            // bunifuPictureBox1
+            // 
+            this.bunifuPictureBox1.AllowFocused = false;
+            this.bunifuPictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bunifuPictureBox1.AutoSizeHeight = true;
+            this.bunifuPictureBox1.BackColor = System.Drawing.Color.White;
+            this.bunifuPictureBox1.BorderRadius = 0;
+            this.bunifuPictureBox1.Image = global::ERP_System.Properties.Resources.Logo;
+            this.bunifuPictureBox1.IsCircle = true;
+            this.bunifuPictureBox1.Location = new System.Drawing.Point(225, 12);
+            this.bunifuPictureBox1.Name = "bunifuPictureBox1";
+            this.bunifuPictureBox1.Size = new System.Drawing.Size(142, 142);
+            this.bunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuPictureBox1.TabIndex = 8;
+            this.bunifuPictureBox1.TabStop = false;
+            this.bunifuPictureBox1.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square;
             // 
             // lblPasswordLabel
             // 
@@ -467,30 +484,13 @@ namespace ERP_System.GUI.Login
             this.lblVersion.TabIndex = 5;
             this.lblVersion.Text = "Demo: admin@company.com | Role: Administrator";
             // 
-            // bunifuPictureBox1
-            // 
-            this.bunifuPictureBox1.AllowFocused = false;
-            this.bunifuPictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuPictureBox1.AutoSizeHeight = true;
-            this.bunifuPictureBox1.BackColor = System.Drawing.Color.White;
-            this.bunifuPictureBox1.BorderRadius = 0;
-            this.bunifuPictureBox1.Image = global::ERP_System.Properties.Resources.Logo;
-            this.bunifuPictureBox1.IsCircle = true;
-            this.bunifuPictureBox1.Location = new System.Drawing.Point(225, 12);
-            this.bunifuPictureBox1.Name = "bunifuPictureBox1";
-            this.bunifuPictureBox1.Size = new System.Drawing.Size(142, 142);
-            this.bunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuPictureBox1.TabIndex = 8;
-            this.bunifuPictureBox1.TabStop = false;
-            this.bunifuPictureBox1.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square;
-            // 
             // LoginForm
             // 
             this.AcceptButton = this.btnSignIn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.ClientSize = new System.Drawing.Size(1089, 709);
+            this.ClientSize = new System.Drawing.Size(1902, 1032);
             this.Controls.Add(this.pnlMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -501,8 +501,8 @@ namespace ERP_System.GUI.Login
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnlMain.ResumeLayout(false);
             this.cardLogin.ResumeLayout(false);
-            this.pnlDemo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();
+            this.pnlDemo.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
