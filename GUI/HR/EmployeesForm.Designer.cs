@@ -1,6 +1,4 @@
-﻿using ERP_System.GUI.Inventory;
-
-namespace ERP_System.GUI.Employees
+﻿namespace ERP_System.GUI.HR
 {
     partial class EmployeesForm
     {
@@ -28,9 +26,7 @@ namespace ERP_System.GUI.Employees
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-
-
-        private void InitializeComponent()
+           private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmployeesForm));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -1985,7 +1981,4 @@ namespace ERP_System.GUI.Employees
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label35;
     }
-
-
-
 }

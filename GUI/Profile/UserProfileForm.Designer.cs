@@ -37,7 +37,7 @@
             this.ClientSize = new System.Drawing.Size(1902, 1032);
             this.Name = "UserProfileForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "UserProfile";
+            this.Text = "UserProfileForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 

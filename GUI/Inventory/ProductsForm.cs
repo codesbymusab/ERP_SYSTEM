@@ -16,10 +16,5 @@ namespace ERP_System.GUI.Inventory
         {
             InitializeComponent();
         }
-
-        private void bunifuPanel1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

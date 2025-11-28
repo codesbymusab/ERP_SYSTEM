@@ -1,4 +1,4 @@
-﻿namespace ERP_System.GUI.Main
+﻿namespace ERP_System.GUI.DashBoard
 {
     partial class DashBoardForm
     {

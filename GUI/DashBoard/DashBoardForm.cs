@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ERP_System.GUI.Main
+namespace ERP_System.GUI.DashBoard
 {
     public partial class DashBoardForm : Form
     {

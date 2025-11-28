@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ERP_System.GUI.Employees
+namespace ERP_System.GUI.HR
 {
     public partial class EmployeesForm : Form
     {

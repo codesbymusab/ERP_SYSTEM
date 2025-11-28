@@ -1,4 +1,6 @@
-﻿using ERP_System.GUI.Login;
+﻿using ERP_System.GUI.Administration;
+using ERP_System.GUI.HR;
+using ERP_System.GUI.Login;
 using ERP_System.GUI.Suppliers;
 using System;
 using System.Collections.Generic;
@@ -18,7 +20,7 @@ namespace ERP_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SupplierForm());
+            Application.Run(new EmployeesForm());
         }
     }
 }
