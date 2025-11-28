@@ -99,7 +99,6 @@ D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\bin\Debug\Bunifu.UI.WinForms.xml
 D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\bin\Debug\Newtonsoft.Json.xml
 D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\bin\Debug\System.CodeDom.xml
 D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\obj\Debug\ERP_System.csproj.AssemblyReference.cache
-D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\obj\Debug\ERP_System.exe.config
 D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\obj\Debug\ERP_System.GUI.Administration.ActivityLogForm.resources
 D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\obj\Debug\ERP_System.GUI.Administration.SettingsForm.resources
 D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\obj\Debug\ERP_System.GUI.Administration.UserManagementForm.resources
@@ -120,3 +119,5 @@ D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\obj\Debug\ERP_System.csproj.CoreCompil
 D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\obj\Debug\ERP_System.csproj.Up2Date
 D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\obj\Debug\ERP_System.exe
 D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\obj\Debug\ERP_System.pdb
+D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\obj\Debug\ERP_System.GUI.SideNavBar.resources
+D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\obj\Debug\ERP_System.MainPageForm.resources

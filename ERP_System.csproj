@@ -201,6 +201,12 @@
     <Compile Include="GUI\Reports\ReportsForm.Designer.cs">
       <DependentUpon>ReportsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\SideNavBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\SideNavBar.Designer.cs">
+      <DependentUpon>SideNavBar.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Transactions\HistoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -218,6 +224,12 @@
     </Compile>
     <Compile Include="GUI\Transactions\SalesForm.Designer.cs">
       <DependentUpon>SalesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPageForm.Designer.cs">
+      <DependentUpon>MainPageForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -245,9 +257,15 @@
     <EmbeddedResource Include="GUI\Reports\ReportsForm.resx">
       <DependentUpon>ReportsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SideNavBar.resx">
+      <DependentUpon>SideNavBar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Transactions\HistoryForm.resx" />
     <EmbeddedResource Include="GUI\Transactions\PurchasesForm.resx" />
     <EmbeddedResource Include="GUI\Transactions\SalesForm.resx" />
+    <EmbeddedResource Include="MainPageForm.resx">
+      <DependentUpon>MainPageForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
