@@ -1,136 +1,140 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\",
+  "WorkspaceRootPath": "D:\\GitHub\\ERP_SYSTEM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|d:\\web dev\\.net\\git_erp_system\\erp_system\\mainpageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:mainpageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\MainPageForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainPageForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\activitylogbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:bl\\activitylogbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\attendancebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:bl\\attendancebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\supplierbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:bl\\supplierbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\purchasebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:bl\\purchasebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\productbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:bl\\productbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dto\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dto\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dto\\activitylogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dto\\activitylogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\gui\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:gui\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\gui\\login\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:gui\\login\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dl\\activitylogdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dl\\activitylogdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dl\\attendancedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dl\\attendancedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\saleitembl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:bl\\saleitembl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dl\\saleitemdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dl\\saleitemdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\salebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:bl\\salebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dl\\saledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dl\\saledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\purhaseitembl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:bl\\purhaseitembl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dl\\purchaseitemdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dl\\purchaseitemdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dl\\purchasedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dl\\purchasedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:bl\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dl\\employeedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dl\\employeedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dto\\purchaseitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dto\\purchaseitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dto\\supplierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dto\\supplierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dto\\saleitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dto\\saleitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dto\\saledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dto\\saledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\dl\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32043C5-FB78-4D31-918A-EAD629E875FA}|ERP_System.csproj|solutionrelative:dl\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\MainPageForm.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainPageForm.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO\\Desktop\\C\u002B\u002B\\Project\\GUI\\Suppliers\\SupplierForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\lenovo\\desktop\\c\u002B\u002B\\project\\gui\\suppliers\\supplierform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DTO\\ProductDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTO\\ProductDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DTO\\ActivityLogDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTO\\ActivityLogDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DTO\\LoginDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTO\\LoginDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\GUI\\Login\\LoginForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GUI\\Login\\LoginForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\gui\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:gui\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\BL\\ActivityLogBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BL\\ActivityLogBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DL\\ActivityLogDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DL\\ActivityLogDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\bl\\AttendanceBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bl\\AttendanceBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DL\\AttendanceDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DL\\AttendanceDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\bl\\SaleItemBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bl\\SaleItemBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DL\\SaleItemDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DL\\SaleItemDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\bl\\SaleBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bl\\SaleBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DL\\SaleDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DL\\SaleDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\bl\\PurhaseItemBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bl\\PurhaseItemBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DL\\PurchaseItemDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DL\\PurchaseItemDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\bl\\PurchaseBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bl\\PurchaseBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DL\\PurchaseDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DL\\PurchaseDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\bl\\UserBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bl\\UserBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DL\\UserDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DL\\UserDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DTO\\AttendanceDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTO\\AttendanceDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DTO\\PurchaseItemDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTO\\PurchaseItemDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DL\\EmployeeDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DL\\EmployeeDL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DL\\DBConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DL\\DBConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DTO\\SaleDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTO\\SaleDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DTO\\SaleItemDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTO\\SaleItemDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\DTO\\SupplierDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTO\\SupplierDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\bl\\ProductBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bl\\ProductBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\bl\\SupplierBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bl\\SupplierBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\ERP_SYSTEM\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -140,44 +144,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPageForm.cs [Design]",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\MainPageForm.cs",
-              "RelativeDocumentMoniker": "MainPageForm.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\MainPageForm.cs [Design]",
-              "RelativeToolTip": "MainPageForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T19:32:17.937Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\ProductDTO.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\ProductDTO.cs",
-              "RelativeToolTip": "DTO\\ProductDTO.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAqwAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T02:29:57.711Z",
+              "Title": "MainPageForm.resx",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\MainPageForm.resx",
+              "RelativeDocumentMoniker": "MainPageForm.resx",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\MainPageForm.resx",
+              "RelativeToolTip": "MainPageForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-11-29T00:58:39.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
+              "Title": "MainPageForm.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\MainPageForm.cs",
+              "RelativeDocumentMoniker": "MainPageForm.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\MainPageForm.cs [Design]",
+              "RelativeToolTip": "MainPageForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T19:33:02.553Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DTO\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\ProductDTO.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DTO\\ProductDTO.cs",
+              "RelativeToolTip": "DTO\\ProductDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T02:29:57.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ActivityLogDTO.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\ActivityLogDTO.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DTO\\ActivityLogDTO.cs",
               "RelativeDocumentMoniker": "DTO\\ActivityLogDTO.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\ActivityLogDTO.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DTO\\ActivityLogDTO.cs",
               "RelativeToolTip": "DTO\\ActivityLogDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -185,11 +204,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "LoginDTO.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\LoginDTO.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DTO\\LoginDTO.cs",
               "RelativeDocumentMoniker": "DTO\\LoginDTO.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\LoginDTO.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DTO\\LoginDTO.cs",
               "RelativeToolTip": "DTO\\LoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -197,11 +216,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "LoginForm.Designer.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\GUI\\Login\\LoginForm.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\GUI\\Login\\LoginForm.Designer.cs",
               "RelativeDocumentMoniker": "GUI\\Login\\LoginForm.Designer.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\GUI\\Login\\LoginForm.Designer.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\GUI\\Login\\LoginForm.Designer.cs",
               "RelativeToolTip": "GUI\\Login\\LoginForm.Designer.cs",
               "ViewState": "AgIAABYCAAAAAAAAAAAiwCcCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -209,9 +228,9 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\GUI\\Login\\LoginForm.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\GUI\\Login\\LoginForm.cs",
               "RelativeDocumentMoniker": "GUI\\Login\\LoginForm.cs",
               "ToolTip": "C:\\Users\\kaptop collection\\Downloads\\ERP_SYSTEM-d2c4b5b12c3610a1127031d66cdfd6a3fb5e26ea\\ERP_SYSTEM-d2c4b5b12c3610a1127031d66cdfd6a3fb5e26ea\\GUI\\Login\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -219,11 +238,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "ActivityLogBL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\BL\\ActivityLogBL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\BL\\ActivityLogBL.cs",
               "RelativeDocumentMoniker": "BL\\ActivityLogBL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\BL\\ActivityLogBL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\BL\\ActivityLogBL.cs",
               "RelativeToolTip": "BL\\ActivityLogBL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -231,11 +250,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "ActivityLogDL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\ActivityLogDL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DL\\ActivityLogDL.cs",
               "RelativeDocumentMoniker": "DL\\ActivityLogDL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\ActivityLogDL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DL\\ActivityLogDL.cs",
               "RelativeToolTip": "DL\\ActivityLogDL.cs",
               "ViewState": "AgIAABYAAAAAAAAAAADwvy4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -243,23 +262,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "AttendanceBL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\AttendanceBL.cs",
-              "RelativeDocumentMoniker": "bl\\AttendanceBL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\AttendanceBL.cs",
-              "RelativeToolTip": "bl\\AttendanceBL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\BL\\AttendanceBL.cs",
+              "RelativeDocumentMoniker": "BL\\AttendanceBL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\BL\\AttendanceBL.cs",
+              "RelativeToolTip": "BL\\AttendanceBL.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAADwvxwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T19:11:06.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 12,
               "Title": "AttendanceDL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\AttendanceDL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DL\\AttendanceDL.cs",
               "RelativeDocumentMoniker": "DL\\AttendanceDL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\AttendanceDL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DL\\AttendanceDL.cs",
               "RelativeToolTip": "DL\\AttendanceDL.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAADwv2kAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -267,23 +286,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 13,
               "Title": "SaleItemBL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\SaleItemBL.cs",
-              "RelativeDocumentMoniker": "bl\\SaleItemBL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\SaleItemBL.cs",
-              "RelativeToolTip": "bl\\SaleItemBL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\BL\\SaleItemBL.cs",
+              "RelativeDocumentMoniker": "BL\\SaleItemBL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\BL\\SaleItemBL.cs",
+              "RelativeToolTip": "BL\\SaleItemBL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T19:10:40.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "SaleItemDL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\SaleItemDL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DL\\SaleItemDL.cs",
               "RelativeDocumentMoniker": "DL\\SaleItemDL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\SaleItemDL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DL\\SaleItemDL.cs",
               "RelativeToolTip": "DL\\SaleItemDL.cs",
               "ViewState": "AgIAADAAAAAAAAAAAADwv0wAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -291,23 +310,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 15,
               "Title": "SaleBL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\SaleBL.cs",
-              "RelativeDocumentMoniker": "bl\\SaleBL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\SaleBL.cs",
-              "RelativeToolTip": "bl\\SaleBL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\BL\\SaleBL.cs",
+              "RelativeDocumentMoniker": "BL\\SaleBL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\BL\\SaleBL.cs",
+              "RelativeToolTip": "BL\\SaleBL.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAADwvx0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T19:09:46.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 16,
               "Title": "SaleDL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\SaleDL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DL\\SaleDL.cs",
               "RelativeDocumentMoniker": "DL\\SaleDL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\SaleDL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DL\\SaleDL.cs",
               "RelativeToolTip": "DL\\SaleDL.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAADwv2kAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -315,23 +334,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 17,
               "Title": "PurhaseItemBL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\PurhaseItemBL.cs",
-              "RelativeDocumentMoniker": "bl\\PurhaseItemBL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\PurhaseItemBL.cs",
-              "RelativeToolTip": "bl\\PurhaseItemBL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\BL\\PurhaseItemBL.cs",
+              "RelativeDocumentMoniker": "BL\\PurhaseItemBL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\BL\\PurhaseItemBL.cs",
+              "RelativeToolTip": "BL\\PurhaseItemBL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T19:09:20.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 18,
               "Title": "PurchaseItemDL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\PurchaseItemDL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DL\\PurchaseItemDL.cs",
               "RelativeDocumentMoniker": "DL\\PurchaseItemDL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\PurchaseItemDL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DL\\PurchaseItemDL.cs",
               "RelativeToolTip": "DL\\PurchaseItemDL.cs",
               "ViewState": "AgIAADEAAAAAAAAAAADwv0wAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -339,23 +358,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "PurchaseBL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\PurchaseBL.cs",
-              "RelativeDocumentMoniker": "bl\\PurchaseBL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\PurchaseBL.cs",
-              "RelativeToolTip": "bl\\PurchaseBL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\BL\\PurchaseBL.cs",
+              "RelativeDocumentMoniker": "BL\\PurchaseBL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\BL\\PurchaseBL.cs",
+              "RelativeToolTip": "BL\\PurchaseBL.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADwvxwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T19:08:23.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "PurchaseDL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\PurchaseDL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DL\\PurchaseDL.cs",
               "RelativeDocumentMoniker": "DL\\PurchaseDL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\PurchaseDL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DL\\PurchaseDL.cs",
               "RelativeToolTip": "DL\\PurchaseDL.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAADwv2oAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -363,23 +382,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "UserBL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\UserBL.cs",
-              "RelativeDocumentMoniker": "bl\\UserBL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\UserBL.cs",
-              "RelativeToolTip": "bl\\UserBL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\BL\\UserBL.cs",
+              "RelativeDocumentMoniker": "BL\\UserBL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\BL\\UserBL.cs",
+              "RelativeToolTip": "BL\\UserBL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T19:07:33.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 22,
               "Title": "UserDL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\UserDL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DL\\UserDL.cs",
               "RelativeDocumentMoniker": "DL\\UserDL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\UserDL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DL\\UserDL.cs",
               "RelativeToolTip": "DL\\UserDL.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAADwv3wAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -387,11 +406,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "AttendanceDTO.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\AttendanceDTO.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DTO\\AttendanceDTO.cs",
               "RelativeDocumentMoniker": "DTO\\AttendanceDTO.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\AttendanceDTO.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DTO\\AttendanceDTO.cs",
               "RelativeToolTip": "DTO\\AttendanceDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -399,11 +418,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 24,
               "Title": "PurchaseItemDTO.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\PurchaseItemDTO.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DTO\\PurchaseItemDTO.cs",
               "RelativeDocumentMoniker": "DTO\\PurchaseItemDTO.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\PurchaseItemDTO.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DTO\\PurchaseItemDTO.cs",
               "RelativeToolTip": "DTO\\PurchaseItemDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -413,9 +432,9 @@
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "EmployeeDL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\EmployeeDL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DL\\EmployeeDL.cs",
               "RelativeDocumentMoniker": "DL\\EmployeeDL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\EmployeeDL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DL\\EmployeeDL.cs",
               "RelativeToolTip": "DL\\EmployeeDL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -423,11 +442,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 26,
               "Title": "DBConnection.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\DBConnection.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DL\\DBConnection.cs",
               "RelativeDocumentMoniker": "DL\\DBConnection.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DL\\DBConnection.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DL\\DBConnection.cs",
               "RelativeToolTip": "DL\\DBConnection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -435,11 +454,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 27,
               "Title": "SaleDTO.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\SaleDTO.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DTO\\SaleDTO.cs",
               "RelativeDocumentMoniker": "DTO\\SaleDTO.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\SaleDTO.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DTO\\SaleDTO.cs",
               "RelativeToolTip": "DTO\\SaleDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -449,9 +468,9 @@
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "SaleItemDTO.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\SaleItemDTO.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DTO\\SaleItemDTO.cs",
               "RelativeDocumentMoniker": "DTO\\SaleItemDTO.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\SaleItemDTO.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DTO\\SaleItemDTO.cs",
               "RelativeToolTip": "DTO\\SaleItemDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -459,11 +478,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "SupplierDTO.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\SupplierDTO.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\DTO\\SupplierDTO.cs",
               "RelativeDocumentMoniker": "DTO\\SupplierDTO.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\DTO\\SupplierDTO.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\DTO\\SupplierDTO.cs",
               "RelativeToolTip": "DTO\\SupplierDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -471,35 +490,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 30,
               "Title": "ProductBL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\ProductBL.cs",
-              "RelativeDocumentMoniker": "bl\\ProductBL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\ProductBL.cs",
-              "RelativeToolTip": "bl\\ProductBL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\BL\\ProductBL.cs",
+              "RelativeDocumentMoniker": "BL\\ProductBL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\BL\\ProductBL.cs",
+              "RelativeToolTip": "BL\\ProductBL.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAUwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T18:43:08.703Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 31,
               "Title": "SupplierBL.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\SupplierBL.cs",
-              "RelativeDocumentMoniker": "bl\\SupplierBL.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\bl\\SupplierBL.cs",
-              "RelativeToolTip": "bl\\SupplierBL.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\BL\\SupplierBL.cs",
+              "RelativeDocumentMoniker": "BL\\SupplierBL.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\BL\\SupplierBL.cs",
+              "RelativeToolTip": "BL\\SupplierBL.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T18:43:25.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 32,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\Program.cs",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAmwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -507,20 +526,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 33,
               "Title": "App.config",
-              "DocumentMoniker": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\App.config",
+              "DocumentMoniker": "D:\\GitHub\\ERP_SYSTEM\\App.config",
               "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "D:\\Web Dev\\.NET\\GIT_ERP_System\\ERP_SYSTEM\\App.config",
+              "ToolTip": "D:\\GitHub\\ERP_SYSTEM\\App.config",
               "RelativeToolTip": "App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-16T11:11:22.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T11:11:22.951Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 2,
               "Title": "SupplierForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\C\u002B\u002B\\Project\\GUI\\Suppliers\\SupplierForm.Designer.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\C\u002B\u002B\\Project\\GUI\\Suppliers\\SupplierForm.Designer.cs",
@@ -530,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 3,
               "Title": "SupplierForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\C\u002B\u002B\\Project\\GUI\\Suppliers\\SupplierForm.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\C\u002B\u002B\\Project\\GUI\\Suppliers\\SupplierForm.cs [Design]",
