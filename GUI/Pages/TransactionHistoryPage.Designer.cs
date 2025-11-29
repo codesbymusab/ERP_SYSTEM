@@ -66,6 +66,7 @@
             // pnlMain
             // 
             this.pnlMain.BackgroundColor = System.Drawing.Color.White;
+            this.pnlMain.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlMain.BackgroundImage")));
             this.pnlMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlMain.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(238)))));
             this.pnlMain.BorderRadius = 8;
@@ -74,28 +75,29 @@
             this.pnlMain.Controls.Add(this.pnlContent);
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMain.Location = new System.Drawing.Point(0, 0);
-            this.pnlMain.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlMain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.ShowBorders = true;
-            this.pnlMain.Size = new System.Drawing.Size(1155, 687);
+            this.pnlMain.Size = new System.Drawing.Size(1540, 846);
             this.pnlMain.TabIndex = 29;
             // 
             // pnlHeader
             // 
-            this.pnlHeader.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.pnlHeader.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlHeader.BackgroundColor = System.Drawing.Color.White;
+            this.pnlHeader.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlHeader.BackgroundImage")));
             this.pnlHeader.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlHeader.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(238)))));
             this.pnlHeader.BorderRadius = 8;
             this.pnlHeader.BorderThickness = 1;
             this.pnlHeader.Controls.Add(this.lblDate);
             this.pnlHeader.Controls.Add(this.lblPageTitle);
-            this.pnlHeader.Location = new System.Drawing.Point(220, 0);
-            this.pnlHeader.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlHeader.Location = new System.Drawing.Point(293, 0);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.ShowBorders = true;
-            this.pnlHeader.Size = new System.Drawing.Size(916, 64);
+            this.pnlHeader.Size = new System.Drawing.Size(1221, 79);
             this.pnlHeader.TabIndex = 29;
             // 
             // lblDate
@@ -105,10 +107,9 @@
             this.lblDate.BackColor = System.Drawing.Color.White;
             this.lblDate.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblDate.Location = new System.Drawing.Point(684, 20);
-            this.lblDate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblDate.Location = new System.Drawing.Point(912, 25);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(234, 23);
+            this.lblDate.Size = new System.Drawing.Size(285, 30);
             this.lblDate.TabIndex = 5;
             this.lblDate.Text = "Saturday, November 22, 2025";
             // 
@@ -118,27 +119,27 @@
             this.lblPageTitle.BackColor = System.Drawing.Color.White;
             this.lblPageTitle.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPageTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblPageTitle.Location = new System.Drawing.Point(14, 19);
-            this.lblPageTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPageTitle.Location = new System.Drawing.Point(19, 23);
             this.lblPageTitle.Name = "lblPageTitle";
-            this.lblPageTitle.Size = new System.Drawing.Size(172, 25);
+            this.lblPageTitle.Size = new System.Drawing.Size(216, 32);
             this.lblPageTitle.TabIndex = 4;
             this.lblPageTitle.Text = "Transaction History";
             // 
             // pnlContent
             // 
             this.pnlContent.BackgroundColor = System.Drawing.Color.White;
+            this.pnlContent.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlContent.BackgroundImage")));
             this.pnlContent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlContent.BorderColor = System.Drawing.Color.White;
             this.pnlContent.BorderRadius = 20;
             this.pnlContent.BorderThickness = 1;
             this.pnlContent.Controls.Add(this.tabHistory);
             this.pnlContent.Controls.Add(this.lblListHeader);
-            this.pnlContent.Location = new System.Drawing.Point(252, 95);
-            this.pnlContent.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlContent.Location = new System.Drawing.Point(336, 117);
+            this.pnlContent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlContent.Name = "pnlContent";
             this.pnlContent.ShowBorders = true;
-            this.pnlContent.Size = new System.Drawing.Size(1142, 254);
+            this.pnlContent.Size = new System.Drawing.Size(1523, 313);
             this.pnlContent.TabIndex = 31;
             // 
             // tabHistory
@@ -209,20 +210,20 @@
             this.tabHistory.DisplayStyleProvider.TextColorUnselected = System.Drawing.SystemColors.ControlText;
             this.tabHistory.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabHistory.HotTrack = true;
-            this.tabHistory.Location = new System.Drawing.Point(30, 77);
-            this.tabHistory.Margin = new System.Windows.Forms.Padding(2);
+            this.tabHistory.Location = new System.Drawing.Point(40, 95);
+            this.tabHistory.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabHistory.Name = "tabHistory";
             this.tabHistory.SelectedIndex = 0;
-            this.tabHistory.Size = new System.Drawing.Size(1092, 156);
+            this.tabHistory.Size = new System.Drawing.Size(1456, 192);
             this.tabHistory.TabIndex = 17;
             // 
             // tabAll
             // 
             this.tabAll.Controls.Add(this.dgvAllTransactions);
-            this.tabAll.Location = new System.Drawing.Point(4, 26);
-            this.tabAll.Margin = new System.Windows.Forms.Padding(2);
+            this.tabAll.Location = new System.Drawing.Point(4, 30);
+            this.tabAll.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabAll.Name = "tabAll";
-            this.tabAll.Size = new System.Drawing.Size(1084, 126);
+            this.tabAll.Size = new System.Drawing.Size(1448, 158);
             this.tabAll.TabIndex = 0;
             this.tabAll.Text = "All Transactions";
             this.tabAll.UseVisualStyleBackColor = true;
@@ -240,7 +241,7 @@
             this.dgvAllTransactions.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
@@ -267,7 +268,7 @@
             this.dgvAllTransactions.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
@@ -280,23 +281,23 @@
             this.dgvAllTransactions.HeaderBgColor = System.Drawing.Color.Empty;
             this.dgvAllTransactions.HeaderForeColor = System.Drawing.Color.White;
             this.dgvAllTransactions.Location = new System.Drawing.Point(0, 0);
-            this.dgvAllTransactions.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvAllTransactions.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvAllTransactions.Name = "dgvAllTransactions";
             this.dgvAllTransactions.RowHeadersVisible = false;
             this.dgvAllTransactions.RowHeadersWidth = 53;
             this.dgvAllTransactions.RowTemplate.Height = 40;
             this.dgvAllTransactions.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvAllTransactions.Size = new System.Drawing.Size(1084, 126);
+            this.dgvAllTransactions.Size = new System.Drawing.Size(1448, 158);
             this.dgvAllTransactions.TabIndex = 17;
             this.dgvAllTransactions.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
             // tabSales
             // 
             this.tabSales.Controls.Add(this.dgvSalesHistory);
-            this.tabSales.Location = new System.Drawing.Point(4, 26);
-            this.tabSales.Margin = new System.Windows.Forms.Padding(2);
+            this.tabSales.Location = new System.Drawing.Point(4, 30);
+            this.tabSales.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabSales.Name = "tabSales";
-            this.tabSales.Size = new System.Drawing.Size(1084, 126);
+            this.tabSales.Size = new System.Drawing.Size(1448, 158);
             this.tabSales.TabIndex = 1;
             this.tabSales.Text = "Sales";
             this.tabSales.UseVisualStyleBackColor = true;
@@ -314,7 +315,7 @@
             this.dgvSalesHistory.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
@@ -341,7 +342,7 @@
             this.dgvSalesHistory.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
@@ -354,23 +355,23 @@
             this.dgvSalesHistory.HeaderBgColor = System.Drawing.Color.Empty;
             this.dgvSalesHistory.HeaderForeColor = System.Drawing.Color.White;
             this.dgvSalesHistory.Location = new System.Drawing.Point(0, 0);
-            this.dgvSalesHistory.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvSalesHistory.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvSalesHistory.Name = "dgvSalesHistory";
             this.dgvSalesHistory.RowHeadersVisible = false;
             this.dgvSalesHistory.RowHeadersWidth = 53;
             this.dgvSalesHistory.RowTemplate.Height = 40;
             this.dgvSalesHistory.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvSalesHistory.Size = new System.Drawing.Size(1084, 126);
+            this.dgvSalesHistory.Size = new System.Drawing.Size(1448, 158);
             this.dgvSalesHistory.TabIndex = 18;
             this.dgvSalesHistory.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
             // tabPurchases
             // 
             this.tabPurchases.Controls.Add(this.dgvPurchaseHistory);
-            this.tabPurchases.Location = new System.Drawing.Point(4, 26);
-            this.tabPurchases.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPurchases.Location = new System.Drawing.Point(4, 30);
+            this.tabPurchases.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPurchases.Name = "tabPurchases";
-            this.tabPurchases.Size = new System.Drawing.Size(1084, 126);
+            this.tabPurchases.Size = new System.Drawing.Size(1448, 158);
             this.tabPurchases.TabIndex = 2;
             this.tabPurchases.Text = "Purchases";
             this.tabPurchases.UseVisualStyleBackColor = true;
@@ -388,7 +389,7 @@
             this.dgvPurchaseHistory.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle8.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.White;
@@ -415,7 +416,7 @@
             this.dgvPurchaseHistory.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
@@ -428,13 +429,13 @@
             this.dgvPurchaseHistory.HeaderBgColor = System.Drawing.Color.Empty;
             this.dgvPurchaseHistory.HeaderForeColor = System.Drawing.Color.White;
             this.dgvPurchaseHistory.Location = new System.Drawing.Point(0, 0);
-            this.dgvPurchaseHistory.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvPurchaseHistory.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvPurchaseHistory.Name = "dgvPurchaseHistory";
             this.dgvPurchaseHistory.RowHeadersVisible = false;
             this.dgvPurchaseHistory.RowHeadersWidth = 53;
             this.dgvPurchaseHistory.RowTemplate.Height = 40;
             this.dgvPurchaseHistory.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvPurchaseHistory.Size = new System.Drawing.Size(1084, 126);
+            this.dgvPurchaseHistory.Size = new System.Drawing.Size(1448, 158);
             this.dgvPurchaseHistory.TabIndex = 18;
             this.dgvPurchaseHistory.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
@@ -443,20 +444,20 @@
             this.lblListHeader.BackColor = System.Drawing.Color.Transparent;
             this.lblListHeader.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblListHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblListHeader.Location = new System.Drawing.Point(15, 24);
-            this.lblListHeader.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblListHeader.Location = new System.Drawing.Point(20, 30);
             this.lblListHeader.Name = "lblListHeader";
-            this.lblListHeader.Size = new System.Drawing.Size(191, 26);
+            this.lblListHeader.Size = new System.Drawing.Size(255, 32);
             this.lblListHeader.TabIndex = 14;
             this.lblListHeader.Text = "Transactions";
             // 
             // TransactionHistoryPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pnlMain);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TransactionHistoryPage";
-            this.Size = new System.Drawing.Size(1155, 687);
+            this.Size = new System.Drawing.Size(1540, 846);
             this.pnlMain.ResumeLayout(false);
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();

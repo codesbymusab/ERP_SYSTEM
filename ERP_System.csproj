@@ -144,7 +144,9 @@
     <Compile Include="GUI\Components\SideNavBar.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\Components\SideNavBar.Designer.cs" />
+    <Compile Include="GUI\Components\SideNavBar.Designer.cs">
+      <DependentUpon>SideNavBar.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Pages\DashboardPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -215,6 +217,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Pages\EmployeesPage.resx">
       <DependentUpon>EmployeesPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pages\TransactionHistoryPage.resx">
+      <DependentUpon>TransactionHistoryPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
