@@ -15,6 +15,11 @@ namespace ERP_System
         public MainPageForm()
         {
             InitializeComponent();
+
+            // Set the reference to this form in the SideNavBar
+            this.sideNavBar1.SetMainPageForm(this);
+
+            // Attach event handlers for navigation
             this.sideNavBar1.btnDashboard.Click += dashboardBtn_Click;
             this.sideNavBar1.btnProd.Click += productsBtn_Click;
             this.sideNavBar1.btnEmp.Click += employBtn_Click;
@@ -24,17 +29,6 @@ namespace ERP_System
             this.sideNavBar1.btnPurchases.Click += purchasesBtn_Click;
             this.sideNavBar1.btnHistory.Click += historyBtn_Click;
             this.sideNavBar1.btnUserProfile.Click += profileBtn_Click;
-            
-        }
-
-        private void historyBtn_Click(object sender, EventArgs e)
-        {
-            this.bunifuPages1.PageIndex = 5;
-        }
-
-        private void sideNavBar1_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void dashboardBtn_Click(object sender, EventArgs e)
@@ -42,19 +36,14 @@ namespace ERP_System
             this.bunifuPages1.PageIndex = 0;
         }
 
-        private void productsBtn_Click(object sender, EventArgs e)
-        {
-            this.bunifuPages1.PageIndex = 2;
-        }
-
-        private void EmployPage_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void employBtn_Click(object sender, EventArgs e)
         {
             this.bunifuPages1.PageIndex = 1;
+        }
+
+        private void productsBtn_Click(object sender, EventArgs e)
+        {
+            this.bunifuPages1.PageIndex = 2;
         }
 
         private void stkAdjBtn_Click(object sender, EventArgs e)
@@ -65,6 +54,11 @@ namespace ERP_System
         private void suppliersBtn_Click(object sender, EventArgs e)
         {
             this.bunifuPages1.PageIndex = 4;
+        }
+
+        private void historyBtn_Click(object sender, EventArgs e)
+        {
+            this.bunifuPages1.PageIndex = 5;
         }
 
         private void purchasesBtn_Click(object sender, EventArgs e)
@@ -82,5 +76,14 @@ namespace ERP_System
             this.bunifuPages1.PageIndex = 8;
         }
 
+        private void EmployPage_Click(object sender, EventArgs e)
+        {
+            // Empty handler - can be removed if not used
+        }
+
+        private void sideNavBar1_Load(object sender, EventArgs e)
+        {
+            // Can be used for any initialization when sidebar loads
+        }
     }
 }

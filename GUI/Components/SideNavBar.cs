@@ -8,13 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ERP_System.GUI.HR
+namespace ERP_System.GUI
 {
-    public partial class EmployeesForm : Form
+    public partial class SideNavBar : UserControl
     {
-        public EmployeesForm()
+        private MainPageForm mainPageForm;
+
+        public SideNavBar()
         {
             InitializeComponent();
+        }
+        public void SetMainPageForm(MainPageForm form)
+        {
+            mainPageForm = form;
         }
     }
 }

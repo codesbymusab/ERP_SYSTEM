@@ -326,8 +326,8 @@
             this.bunifuDataGridView3 = new Bunifu.UI.WinForms.BunifuDataGridView();
             this.bunifuButton3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.label91 = new System.Windows.Forms.Label();
-            this.sideNavBar1 = new ERP_System.GUI.SideNavBar();
             this.ProfilePage = new System.Windows.Forms.TabPage();
+            this.sideNavBar1 = new ERP_System.GUI.SideNavBar();
             this.bunifuPanel2.SuspendLayout();
             this.SalePage.SuspendLayout();
             this.bunifuPanel36.SuspendLayout();
@@ -422,11 +422,11 @@
             this.bunifuPanel2.Controls.Add(this.lblConnection);
             this.bunifuPanel2.Controls.Add(this.lblUserInfo);
             this.bunifuPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.bunifuPanel2.Location = new System.Drawing.Point(0, 994);
+            this.bunifuPanel2.Location = new System.Drawing.Point(0, 656);
             this.bunifuPanel2.Margin = new System.Windows.Forms.Padding(0);
             this.bunifuPanel2.Name = "bunifuPanel2";
             this.bunifuPanel2.ShowBorders = true;
-            this.bunifuPanel2.Size = new System.Drawing.Size(1924, 38);
+            this.bunifuPanel2.Size = new System.Drawing.Size(1155, 31);
             this.bunifuPanel2.TabIndex = 9;
             // 
             // lblConnection
@@ -435,10 +435,11 @@
             this.lblConnection.BackColor = System.Drawing.Color.Transparent;
             this.lblConnection.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblConnection.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(95)))), ((int)(((byte)(102)))));
-            this.lblConnection.Location = new System.Drawing.Point(1755, 14);
+            this.lblConnection.Location = new System.Drawing.Point(1028, 11);
+            this.lblConnection.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblConnection.Name = "lblConnection";
             this.lblConnection.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblConnection.Size = new System.Drawing.Size(157, 21);
+            this.lblConnection.Size = new System.Drawing.Size(118, 17);
             this.lblConnection.TabIndex = 3;
             this.lblConnection.Text = "Status: Connected";
             // 
@@ -448,10 +449,11 @@
             this.lblUserInfo.Cursor = System.Windows.Forms.Cursors.Default;
             this.lblUserInfo.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUserInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblUserInfo.Location = new System.Drawing.Point(24, 10);
+            this.lblUserInfo.Location = new System.Drawing.Point(18, 8);
+            this.lblUserInfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUserInfo.Name = "lblUserInfo";
             this.lblUserInfo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblUserInfo.Size = new System.Drawing.Size(528, 28);
+            this.lblUserInfo.Size = new System.Drawing.Size(396, 23);
             this.lblUserInfo.TabIndex = 2;
             this.lblUserInfo.Text = "User: admin@company.com | Role: Administrator";
             // 
@@ -464,8 +466,9 @@
             this.SalePage.Controls.Add(this.bunifuPanel41);
             this.SalePage.Controls.Add(this.bunifuPanel42);
             this.SalePage.Location = new System.Drawing.Point(4, 4);
+            this.SalePage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SalePage.Name = "SalePage";
-            this.SalePage.Size = new System.Drawing.Size(1895, 1024);
+            this.SalePage.Size = new System.Drawing.Size(1109, 679);
             this.SalePage.TabIndex = 9;
             this.SalePage.Text = "SalesPage";
             this.SalePage.UseVisualStyleBackColor = true;
@@ -481,10 +484,11 @@
             this.bunifuPanel36.Controls.Add(this.label92);
             this.bunifuPanel36.Controls.Add(this.label94);
             this.bunifuPanel36.Controls.Add(this.label93);
-            this.bunifuPanel36.Location = new System.Drawing.Point(342, 130);
+            this.bunifuPanel36.Location = new System.Drawing.Point(256, 106);
+            this.bunifuPanel36.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel36.Name = "bunifuPanel36";
             this.bunifuPanel36.ShowBorders = true;
-            this.bunifuPanel36.Size = new System.Drawing.Size(350, 156);
+            this.bunifuPanel36.Size = new System.Drawing.Size(262, 127);
             this.bunifuPanel36.TabIndex = 31;
             // 
             // label92
@@ -493,10 +497,11 @@
             this.label92.Cursor = System.Windows.Forms.Cursors.Default;
             this.label92.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label92.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label92.Location = new System.Drawing.Point(25, 85);
+            this.label92.Location = new System.Drawing.Point(19, 69);
+            this.label92.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label92.Name = "label92";
             this.label92.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label92.Size = new System.Drawing.Size(128, 23);
+            this.label92.Size = new System.Drawing.Size(96, 19);
             this.label92.TabIndex = 4;
             this.label92.Text = "5";
             // 
@@ -506,10 +511,11 @@
             this.label94.Cursor = System.Windows.Forms.Cursors.Default;
             this.label94.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label94.ForeColor = System.Drawing.Color.Gray;
-            this.label94.Location = new System.Drawing.Point(23, 119);
+            this.label94.Location = new System.Drawing.Point(17, 97);
+            this.label94.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label94.Name = "label94";
             this.label94.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label94.Size = new System.Drawing.Size(102, 27);
+            this.label94.Size = new System.Drawing.Size(76, 22);
             this.label94.TabIndex = 3;
             this.label94.Text = "All Time";
             // 
@@ -519,10 +525,11 @@
             this.label93.Cursor = System.Windows.Forms.Cursors.Default;
             this.label93.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label93.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label93.Location = new System.Drawing.Point(24, 22);
+            this.label93.Location = new System.Drawing.Point(18, 18);
+            this.label93.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label93.Name = "label93";
             this.label93.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label93.Size = new System.Drawing.Size(143, 23);
+            this.label93.Size = new System.Drawing.Size(107, 19);
             this.label93.TabIndex = 1;
             this.label93.Text = "Total Sales";
             // 
@@ -539,11 +546,11 @@
             this.bunifuPanel37.Controls.Add(this.invoicesDgv);
             this.bunifuPanel37.Controls.Add(this.bunifuButton4);
             this.bunifuPanel37.Controls.Add(this.bunifuTextBox2);
-            this.bunifuPanel37.Location = new System.Drawing.Point(342, 304);
-            this.bunifuPanel37.Margin = new System.Windows.Forms.Padding(30);
+            this.bunifuPanel37.Location = new System.Drawing.Point(256, 247);
+            this.bunifuPanel37.Margin = new System.Windows.Forms.Padding(22, 24, 22, 24);
             this.bunifuPanel37.Name = "bunifuPanel37";
             this.bunifuPanel37.ShowBorders = true;
-            this.bunifuPanel37.Size = new System.Drawing.Size(1507, 543);
+            this.bunifuPanel37.Size = new System.Drawing.Size(1130, 441);
             this.bunifuPanel37.TabIndex = 32;
             // 
             // bunifuDropdown1
@@ -582,9 +589,10 @@
             this.bunifuDropdown1.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
             this.bunifuDropdown1.ItemHighLightForeColor = System.Drawing.Color.White;
             this.bunifuDropdown1.ItemTopMargin = 3;
-            this.bunifuDropdown1.Location = new System.Drawing.Point(1581, 84);
+            this.bunifuDropdown1.Location = new System.Drawing.Point(1186, 68);
+            this.bunifuDropdown1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuDropdown1.Name = "bunifuDropdown1";
-            this.bunifuDropdown1.Size = new System.Drawing.Size(150, 46);
+            this.bunifuDropdown1.Size = new System.Drawing.Size(114, 46);
             this.bunifuDropdown1.TabIndex = 19;
             this.bunifuDropdown1.Text = "All";
             this.bunifuDropdown1.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
@@ -595,9 +603,10 @@
             this.label95.BackColor = System.Drawing.Color.Transparent;
             this.label95.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label95.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label95.Location = new System.Drawing.Point(22, 25);
+            this.label95.Location = new System.Drawing.Point(16, 20);
+            this.label95.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(193, 32);
+            this.label95.Size = new System.Drawing.Size(145, 26);
             this.label95.TabIndex = 13;
             this.label95.Text = "Sales && Invoices";
             // 
@@ -654,14 +663,15 @@
             this.invoicesDgv.HeaderBackColor = System.Drawing.Color.DodgerBlue;
             this.invoicesDgv.HeaderBgColor = System.Drawing.Color.Empty;
             this.invoicesDgv.HeaderForeColor = System.Drawing.Color.White;
-            this.invoicesDgv.Location = new System.Drawing.Point(30, 146);
+            this.invoicesDgv.Location = new System.Drawing.Point(22, 119);
+            this.invoicesDgv.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.invoicesDgv.Name = "invoicesDgv";
             this.invoicesDgv.ReadOnly = true;
             this.invoicesDgv.RowHeadersVisible = false;
             this.invoicesDgv.RowHeadersWidth = 53;
             this.invoicesDgv.RowTemplate.Height = 40;
             this.invoicesDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.invoicesDgv.Size = new System.Drawing.Size(1450, 370);
+            this.invoicesDgv.Size = new System.Drawing.Size(1088, 301);
             this.invoicesDgv.TabIndex = 12;
             this.invoicesDgv.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
@@ -715,7 +725,8 @@
             this.bunifuButton4.IdleIconLeftImage = null;
             this.bunifuButton4.IdleIconRightImage = null;
             this.bunifuButton4.IndicateFocus = false;
-            this.bunifuButton4.Location = new System.Drawing.Point(1324, 25);
+            this.bunifuButton4.Location = new System.Drawing.Point(993, 20);
+            this.bunifuButton4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuButton4.Name = "bunifuButton4";
             this.bunifuButton4.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton4.OnDisabledState.BorderRadius = 15;
@@ -749,7 +760,7 @@
             this.bunifuButton4.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton4.OnPressedState.IconLeftImage = null;
             this.bunifuButton4.OnPressedState.IconRightImage = null;
-            this.bunifuButton4.Size = new System.Drawing.Size(150, 41);
+            this.bunifuButton4.Size = new System.Drawing.Size(112, 33);
             this.bunifuButton4.TabIndex = 10;
             this.bunifuButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton4.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -787,7 +798,8 @@
             this.bunifuTextBox2.IconRight = null;
             this.bunifuTextBox2.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox2.Lines = new string[0];
-            this.bunifuTextBox2.Location = new System.Drawing.Point(30, 84);
+            this.bunifuTextBox2.Location = new System.Drawing.Point(22, 68);
+            this.bunifuTextBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuTextBox2.MaxLength = 256;
             this.bunifuTextBox2.MinimumSize = new System.Drawing.Size(1, 1);
             this.bunifuTextBox2.Modified = false;
@@ -813,7 +825,7 @@
             stateProperties4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.bunifuTextBox2.OnIdleState = stateProperties4;
-            this.bunifuTextBox2.Padding = new System.Windows.Forms.Padding(10, 6, 10, 6);
+            this.bunifuTextBox2.Padding = new System.Windows.Forms.Padding(8, 5, 8, 5);
             this.bunifuTextBox2.PasswordChar = '\0';
             this.bunifuTextBox2.PlaceholderForeColor = System.Drawing.Color.DimGray;
             this.bunifuTextBox2.PlaceholderText = "Search by invoices or customer...";
@@ -823,7 +835,7 @@
             this.bunifuTextBox2.SelectionLength = 0;
             this.bunifuTextBox2.SelectionStart = 0;
             this.bunifuTextBox2.ShortcutsEnabled = true;
-            this.bunifuTextBox2.Size = new System.Drawing.Size(1444, 54);
+            this.bunifuTextBox2.Size = new System.Drawing.Size(1083, 44);
             this.bunifuTextBox2.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox2.TabIndex = 4;
             this.bunifuTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -845,10 +857,11 @@
             this.bunifuPanel38.Controls.Add(this.label98);
             this.bunifuPanel38.Controls.Add(this.label99);
             this.bunifuPanel38.Controls.Add(this.label101);
-            this.bunifuPanel38.Location = new System.Drawing.Point(1111, 130);
+            this.bunifuPanel38.Location = new System.Drawing.Point(833, 106);
+            this.bunifuPanel38.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel38.Name = "bunifuPanel38";
             this.bunifuPanel38.ShowBorders = true;
-            this.bunifuPanel38.Size = new System.Drawing.Size(350, 156);
+            this.bunifuPanel38.Size = new System.Drawing.Size(262, 127);
             this.bunifuPanel38.TabIndex = 34;
             // 
             // label98
@@ -857,10 +870,11 @@
             this.label98.Cursor = System.Windows.Forms.Cursors.Default;
             this.label98.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label98.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label98.Location = new System.Drawing.Point(25, 85);
+            this.label98.Location = new System.Drawing.Point(19, 69);
+            this.label98.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label98.Name = "label98";
             this.label98.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label98.Size = new System.Drawing.Size(128, 23);
+            this.label98.Size = new System.Drawing.Size(96, 19);
             this.label98.TabIndex = 4;
             this.label98.Text = "1";
             // 
@@ -870,10 +884,11 @@
             this.label99.Cursor = System.Windows.Forms.Cursors.Default;
             this.label99.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label99.ForeColor = System.Drawing.Color.Gray;
-            this.label99.Location = new System.Drawing.Point(23, 119);
+            this.label99.Location = new System.Drawing.Point(17, 97);
+            this.label99.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label99.Name = "label99";
             this.label99.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label99.Size = new System.Drawing.Size(168, 27);
+            this.label99.Size = new System.Drawing.Size(126, 22);
             this.label99.TabIndex = 3;
             this.label99.Text = "Awaiting Paymnet";
             // 
@@ -883,10 +898,11 @@
             this.label101.Cursor = System.Windows.Forms.Cursors.Default;
             this.label101.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label101.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label101.Location = new System.Drawing.Point(24, 22);
+            this.label101.Location = new System.Drawing.Point(18, 18);
+            this.label101.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label101.Name = "label101";
             this.label101.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label101.Size = new System.Drawing.Size(143, 23);
+            this.label101.Size = new System.Drawing.Size(107, 19);
             this.label101.TabIndex = 1;
             this.label101.Text = "Pending";
             // 
@@ -901,10 +917,11 @@
             this.bunifuPanel39.Controls.Add(this.label102);
             this.bunifuPanel39.Controls.Add(this.label103);
             this.bunifuPanel39.Controls.Add(this.label104);
-            this.bunifuPanel39.Location = new System.Drawing.Point(1499, 127);
+            this.bunifuPanel39.Location = new System.Drawing.Point(1124, 103);
+            this.bunifuPanel39.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel39.Name = "bunifuPanel39";
             this.bunifuPanel39.ShowBorders = true;
-            this.bunifuPanel39.Size = new System.Drawing.Size(350, 156);
+            this.bunifuPanel39.Size = new System.Drawing.Size(262, 127);
             this.bunifuPanel39.TabIndex = 35;
             // 
             // label102
@@ -913,10 +930,11 @@
             this.label102.Cursor = System.Windows.Forms.Cursors.Default;
             this.label102.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label102.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label102.Location = new System.Drawing.Point(25, 85);
+            this.label102.Location = new System.Drawing.Point(19, 69);
+            this.label102.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label102.Name = "label102";
             this.label102.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label102.Size = new System.Drawing.Size(128, 23);
+            this.label102.Size = new System.Drawing.Size(96, 19);
             this.label102.TabIndex = 4;
             this.label102.Text = "5";
             // 
@@ -926,10 +944,11 @@
             this.label103.Cursor = System.Windows.Forms.Cursors.Default;
             this.label103.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label103.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label103.Location = new System.Drawing.Point(23, 119);
+            this.label103.Location = new System.Drawing.Point(17, 97);
+            this.label103.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label103.Name = "label103";
             this.label103.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label103.Size = new System.Drawing.Size(102, 27);
+            this.label103.Size = new System.Drawing.Size(76, 22);
             this.label103.TabIndex = 3;
             this.label103.Text = "Incomplete";
             // 
@@ -939,10 +958,11 @@
             this.label104.Cursor = System.Windows.Forms.Cursors.Default;
             this.label104.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label104.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label104.Location = new System.Drawing.Point(22, 22);
+            this.label104.Location = new System.Drawing.Point(16, 18);
+            this.label104.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label104.Name = "label104";
             this.label104.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label104.Size = new System.Drawing.Size(184, 23);
+            this.label104.Size = new System.Drawing.Size(138, 19);
             this.label104.TabIndex = 1;
             this.label104.Text = "Darfts";
             // 
@@ -957,10 +977,11 @@
             this.bunifuPanel41.Controls.Add(this.label100);
             this.bunifuPanel41.Controls.Add(this.label96);
             this.bunifuPanel41.Controls.Add(this.label97);
-            this.bunifuPanel41.Location = new System.Drawing.Point(726, 130);
+            this.bunifuPanel41.Location = new System.Drawing.Point(544, 106);
+            this.bunifuPanel41.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel41.Name = "bunifuPanel41";
             this.bunifuPanel41.ShowBorders = true;
-            this.bunifuPanel41.Size = new System.Drawing.Size(350, 156);
+            this.bunifuPanel41.Size = new System.Drawing.Size(262, 127);
             this.bunifuPanel41.TabIndex = 33;
             // 
             // label100
@@ -969,10 +990,11 @@
             this.label100.Cursor = System.Windows.Forms.Cursors.Default;
             this.label100.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label100.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label100.Location = new System.Drawing.Point(25, 85);
+            this.label100.Location = new System.Drawing.Point(19, 69);
+            this.label100.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label100.Name = "label100";
             this.label100.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label100.Size = new System.Drawing.Size(128, 23);
+            this.label100.Size = new System.Drawing.Size(96, 19);
             this.label100.TabIndex = 4;
             this.label100.Text = "$44108.27";
             // 
@@ -982,10 +1004,11 @@
             this.label96.Cursor = System.Windows.Forms.Cursors.Default;
             this.label96.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label96.ForeColor = System.Drawing.Color.Gray;
-            this.label96.Location = new System.Drawing.Point(23, 119);
+            this.label96.Location = new System.Drawing.Point(17, 97);
+            this.label96.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label96.Name = "label96";
             this.label96.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label96.Size = new System.Drawing.Size(147, 27);
+            this.label96.Size = new System.Drawing.Size(110, 22);
             this.label96.TabIndex = 3;
             this.label96.Text = "Paid Invoices";
             // 
@@ -995,10 +1018,11 @@
             this.label97.Cursor = System.Windows.Forms.Cursors.Default;
             this.label97.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label97.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label97.Location = new System.Drawing.Point(24, 22);
+            this.label97.Location = new System.Drawing.Point(18, 18);
+            this.label97.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label97.Name = "label97";
             this.label97.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label97.Size = new System.Drawing.Size(205, 23);
+            this.label97.Size = new System.Drawing.Size(154, 19);
             this.label97.TabIndex = 1;
             this.label97.Text = "Total Revnue";
             // 
@@ -1014,10 +1038,11 @@
             this.bunifuPanel42.BorderThickness = 1;
             this.bunifuPanel42.Controls.Add(this.label107);
             this.bunifuPanel42.Controls.Add(this.label108);
-            this.bunifuPanel42.Location = new System.Drawing.Point(294, 0);
+            this.bunifuPanel42.Location = new System.Drawing.Point(220, 0);
+            this.bunifuPanel42.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel42.Name = "bunifuPanel42";
             this.bunifuPanel42.ShowBorders = true;
-            this.bunifuPanel42.Size = new System.Drawing.Size(1606, 79);
+            this.bunifuPanel42.Size = new System.Drawing.Size(916, 64);
             this.bunifuPanel42.TabIndex = 29;
             // 
             // label107
@@ -1027,9 +1052,10 @@
             this.label107.BackColor = System.Drawing.Color.White;
             this.label107.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label107.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label107.Location = new System.Drawing.Point(1285, 23);
+            this.label107.Location = new System.Drawing.Point(676, 19);
+            this.label107.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(285, 30);
+            this.label107.Size = new System.Drawing.Size(234, 23);
             this.label107.TabIndex = 5;
             this.label107.Text = "Saturday, November 22, 2025";
             // 
@@ -1039,17 +1065,19 @@
             this.label108.BackColor = System.Drawing.Color.White;
             this.label108.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label108.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label108.Location = new System.Drawing.Point(19, 23);
+            this.label108.Location = new System.Drawing.Point(14, 19);
+            this.label108.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label108.Name = "label108";
-            this.label108.Size = new System.Drawing.Size(68, 32);
+            this.label108.Size = new System.Drawing.Size(55, 25);
             this.label108.TabIndex = 4;
             this.label108.Text = "Sales";
             // 
             // RepPage
             // 
             this.RepPage.Location = new System.Drawing.Point(4, 4);
+            this.RepPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RepPage.Name = "RepPage";
-            this.RepPage.Size = new System.Drawing.Size(1895, 1024);
+            this.RepPage.Size = new System.Drawing.Size(1109, 679);
             this.RepPage.TabIndex = 6;
             this.RepPage.Text = "ReportsPage";
             this.RepPage.UseVisualStyleBackColor = true;
@@ -1059,8 +1087,9 @@
             this.HistoryPage.Controls.Add(this.bunifuPanel27);
             this.HistoryPage.Controls.Add(this.bunifuPanel30);
             this.HistoryPage.Location = new System.Drawing.Point(4, 4);
+            this.HistoryPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.HistoryPage.Name = "HistoryPage";
-            this.HistoryPage.Size = new System.Drawing.Size(1895, 1024);
+            this.HistoryPage.Size = new System.Drawing.Size(1109, 679);
             this.HistoryPage.TabIndex = 5;
             this.HistoryPage.Text = "HistoryPage";
             this.HistoryPage.UseVisualStyleBackColor = true;
@@ -1077,10 +1106,11 @@
             this.bunifuPanel27.BorderThickness = 1;
             this.bunifuPanel27.Controls.Add(this.label79);
             this.bunifuPanel27.Controls.Add(this.label80);
-            this.bunifuPanel27.Location = new System.Drawing.Point(294, 0);
+            this.bunifuPanel27.Location = new System.Drawing.Point(220, 0);
+            this.bunifuPanel27.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel27.Name = "bunifuPanel27";
             this.bunifuPanel27.ShowBorders = true;
-            this.bunifuPanel27.Size = new System.Drawing.Size(1606, 79);
+            this.bunifuPanel27.Size = new System.Drawing.Size(916, 64);
             this.bunifuPanel27.TabIndex = 29;
             // 
             // label79
@@ -1090,9 +1120,10 @@
             this.label79.BackColor = System.Drawing.Color.White;
             this.label79.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label79.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label79.Location = new System.Drawing.Point(1296, 25);
+            this.label79.Location = new System.Drawing.Point(684, 20);
+            this.label79.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(285, 30);
+            this.label79.Size = new System.Drawing.Size(234, 23);
             this.label79.TabIndex = 5;
             this.label79.Text = "Saturday, November 22, 2025";
             // 
@@ -1102,9 +1133,10 @@
             this.label80.BackColor = System.Drawing.Color.White;
             this.label80.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label80.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label80.Location = new System.Drawing.Point(19, 23);
+            this.label80.Location = new System.Drawing.Point(14, 19);
+            this.label80.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(216, 32);
+            this.label80.Size = new System.Drawing.Size(172, 25);
             this.label80.TabIndex = 4;
             this.label80.Text = "Transaction History";
             // 
@@ -1118,10 +1150,11 @@
             this.bunifuPanel30.BorderThickness = 1;
             this.bunifuPanel30.Controls.Add(this.tabControlExtra4);
             this.bunifuPanel30.Controls.Add(this.label83);
-            this.bunifuPanel30.Location = new System.Drawing.Point(336, 117);
+            this.bunifuPanel30.Location = new System.Drawing.Point(252, 95);
+            this.bunifuPanel30.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel30.Name = "bunifuPanel30";
             this.bunifuPanel30.ShowBorders = true;
-            this.bunifuPanel30.Size = new System.Drawing.Size(1522, 313);
+            this.bunifuPanel30.Size = new System.Drawing.Size(1142, 254);
             this.bunifuPanel30.TabIndex = 31;
             // 
             // tabControlExtra4
@@ -1192,18 +1225,20 @@
             this.tabControlExtra4.DisplayStyleProvider.TextColorUnselected = System.Drawing.SystemColors.ControlText;
             this.tabControlExtra4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControlExtra4.HotTrack = true;
-            this.tabControlExtra4.Location = new System.Drawing.Point(40, 95);
+            this.tabControlExtra4.Location = new System.Drawing.Point(30, 77);
+            this.tabControlExtra4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabControlExtra4.Name = "tabControlExtra4";
             this.tabControlExtra4.SelectedIndex = 0;
-            this.tabControlExtra4.Size = new System.Drawing.Size(1456, 192);
+            this.tabControlExtra4.Size = new System.Drawing.Size(1092, 156);
             this.tabControlExtra4.TabIndex = 17;
             // 
             // AllTab
             // 
             this.AllTab.Controls.Add(this.AllDgv);
-            this.AllTab.Location = new System.Drawing.Point(4, 30);
+            this.AllTab.Location = new System.Drawing.Point(4, 26);
+            this.AllTab.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AllTab.Name = "AllTab";
-            this.AllTab.Size = new System.Drawing.Size(1448, 158);
+            this.AllTab.Size = new System.Drawing.Size(1084, 126);
             this.AllTab.TabIndex = 0;
             this.AllTab.Text = "All Transactions";
             this.AllTab.UseVisualStyleBackColor = true;
@@ -1221,7 +1256,7 @@
             this.AllDgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
@@ -1248,7 +1283,7 @@
             this.AllDgv.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
@@ -1261,21 +1296,23 @@
             this.AllDgv.HeaderBgColor = System.Drawing.Color.Empty;
             this.AllDgv.HeaderForeColor = System.Drawing.Color.White;
             this.AllDgv.Location = new System.Drawing.Point(0, 0);
+            this.AllDgv.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AllDgv.Name = "AllDgv";
             this.AllDgv.RowHeadersVisible = false;
             this.AllDgv.RowHeadersWidth = 53;
             this.AllDgv.RowTemplate.Height = 40;
             this.AllDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.AllDgv.Size = new System.Drawing.Size(1448, 158);
+            this.AllDgv.Size = new System.Drawing.Size(1084, 126);
             this.AllDgv.TabIndex = 17;
             this.AllDgv.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
             // SalesTab
             // 
             this.SalesTab.Controls.Add(this.SalesDgv);
-            this.SalesTab.Location = new System.Drawing.Point(4, 30);
+            this.SalesTab.Location = new System.Drawing.Point(4, 26);
+            this.SalesTab.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SalesTab.Name = "SalesTab";
-            this.SalesTab.Size = new System.Drawing.Size(1448, 158);
+            this.SalesTab.Size = new System.Drawing.Size(1084, 126);
             this.SalesTab.TabIndex = 1;
             this.SalesTab.Text = "Sales";
             this.SalesTab.UseVisualStyleBackColor = true;
@@ -1293,7 +1330,7 @@
             this.SalesDgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle8.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.White;
@@ -1320,7 +1357,7 @@
             this.SalesDgv.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
@@ -1333,21 +1370,23 @@
             this.SalesDgv.HeaderBgColor = System.Drawing.Color.Empty;
             this.SalesDgv.HeaderForeColor = System.Drawing.Color.White;
             this.SalesDgv.Location = new System.Drawing.Point(0, 0);
+            this.SalesDgv.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SalesDgv.Name = "SalesDgv";
             this.SalesDgv.RowHeadersVisible = false;
             this.SalesDgv.RowHeadersWidth = 53;
             this.SalesDgv.RowTemplate.Height = 40;
             this.SalesDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.SalesDgv.Size = new System.Drawing.Size(1448, 158);
+            this.SalesDgv.Size = new System.Drawing.Size(1084, 126);
             this.SalesDgv.TabIndex = 18;
             this.SalesDgv.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
             // PurTab
             // 
             this.PurTab.Controls.Add(this.PurDgv);
-            this.PurTab.Location = new System.Drawing.Point(4, 30);
+            this.PurTab.Location = new System.Drawing.Point(4, 26);
+            this.PurTab.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PurTab.Name = "PurTab";
-            this.PurTab.Size = new System.Drawing.Size(1448, 158);
+            this.PurTab.Size = new System.Drawing.Size(1084, 126);
             this.PurTab.TabIndex = 2;
             this.PurTab.Text = "Purchases";
             this.PurTab.UseVisualStyleBackColor = true;
@@ -1365,7 +1404,7 @@
             this.PurDgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle11.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.White;
@@ -1392,7 +1431,7 @@
             this.PurDgv.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
@@ -1405,12 +1444,13 @@
             this.PurDgv.HeaderBgColor = System.Drawing.Color.Empty;
             this.PurDgv.HeaderForeColor = System.Drawing.Color.White;
             this.PurDgv.Location = new System.Drawing.Point(0, 0);
+            this.PurDgv.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PurDgv.Name = "PurDgv";
             this.PurDgv.RowHeadersVisible = false;
             this.PurDgv.RowHeadersWidth = 53;
             this.PurDgv.RowTemplate.Height = 40;
             this.PurDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.PurDgv.Size = new System.Drawing.Size(1448, 158);
+            this.PurDgv.Size = new System.Drawing.Size(1084, 126);
             this.PurDgv.TabIndex = 18;
             this.PurDgv.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
@@ -1419,9 +1459,10 @@
             this.label83.BackColor = System.Drawing.Color.Transparent;
             this.label83.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label83.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label83.Location = new System.Drawing.Point(20, 29);
+            this.label83.Location = new System.Drawing.Point(15, 24);
+            this.label83.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(255, 32);
+            this.label83.Size = new System.Drawing.Size(191, 26);
             this.label83.TabIndex = 14;
             this.label83.Text = "Transactions";
             // 
@@ -1429,8 +1470,9 @@
             // 
             this.SuppPage.Controls.Add(this.bunifuPanel28);
             this.SuppPage.Location = new System.Drawing.Point(4, 4);
+            this.SuppPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.SuppPage.Name = "SuppPage";
-            this.SuppPage.Size = new System.Drawing.Size(1895, 1024);
+            this.SuppPage.Size = new System.Drawing.Size(1109, 679);
             this.SuppPage.TabIndex = 4;
             this.SuppPage.Text = "SupplierPage";
             this.SuppPage.UseVisualStyleBackColor = true;
@@ -1449,9 +1491,10 @@
             this.bunifuPanel28.Controls.Add(this.lblStatus);
             this.bunifuPanel28.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuPanel28.Location = new System.Drawing.Point(0, 0);
+            this.bunifuPanel28.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel28.Name = "bunifuPanel28";
             this.bunifuPanel28.ShowBorders = true;
-            this.bunifuPanel28.Size = new System.Drawing.Size(1895, 1024);
+            this.bunifuPanel28.Size = new System.Drawing.Size(1109, 679);
             this.bunifuPanel28.TabIndex = 1;
             // 
             // flowLayoutPanel1
@@ -1462,10 +1505,10 @@
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
             this.flowLayoutPanel1.Controls.Add(this.bunifuPanel26);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(357, 206);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(268, 167);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1472, 717);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(811, 430);
             this.flowLayoutPanel1.TabIndex = 3;
             this.flowLayoutPanel1.WrapContents = false;
             // 
@@ -1485,12 +1528,12 @@
             this.bunifuPanel26.Controls.Add(this.bunifuLabel6);
             this.bunifuPanel26.Controls.Add(this.bunifuLabel7);
             this.bunifuPanel26.Controls.Add(this.bunifuButton1);
-            this.bunifuPanel26.Location = new System.Drawing.Point(25, 25);
-            this.bunifuPanel26.Margin = new System.Windows.Forms.Padding(25);
+            this.bunifuPanel26.Location = new System.Drawing.Point(19, 20);
+            this.bunifuPanel26.Margin = new System.Windows.Forms.Padding(19, 20, 19, 20);
             this.bunifuPanel26.Name = "bunifuPanel26";
-            this.bunifuPanel26.Padding = new System.Windows.Forms.Padding(8);
+            this.bunifuPanel26.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.bunifuPanel26.ShowBorders = true;
-            this.bunifuPanel26.Size = new System.Drawing.Size(392, 316);
+            this.bunifuPanel26.Size = new System.Drawing.Size(294, 257);
             this.bunifuPanel26.TabIndex = 3;
             // 
             // bunifuSeparator1
@@ -1502,11 +1545,10 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.Silver;
             this.bunifuSeparator1.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
             this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(24, 177);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(18, 144);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.bunifuSeparator1.Size = new System.Drawing.Size(350, 17);
+            this.bunifuSeparator1.Size = new System.Drawing.Size(262, 14);
             this.bunifuSeparator1.TabIndex = 6;
             // 
             // bunifuLabel1
@@ -1518,10 +1560,11 @@
             this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
-            this.bunifuLabel1.Location = new System.Drawing.Point(22, 20);
+            this.bunifuLabel1.Location = new System.Drawing.Point(16, 16);
+            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(227, 30);
+            this.bunifuLabel1.Size = new System.Drawing.Size(170, 24);
             this.bunifuLabel1.TabIndex = 0;
             this.bunifuLabel1.Text = "Lighting Solutions";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1536,10 +1579,11 @@
             this.bunifuLabel2.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel2.ForeColor = System.Drawing.Color.Black;
-            this.bunifuLabel2.Location = new System.Drawing.Point(24, 66);
+            this.bunifuLabel2.Location = new System.Drawing.Point(18, 54);
+            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel2.Name = "bunifuLabel2";
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(225, 30);
+            this.bunifuLabel2.Size = new System.Drawing.Size(169, 24);
             this.bunifuLabel2.TabIndex = 1;
             this.bunifuLabel2.Text = "Contact: Mike Davis";
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1554,10 +1598,11 @@
             this.bunifuLabel3.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel3.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuLabel3.Location = new System.Drawing.Point(24, 140);
+            this.bunifuLabel3.Location = new System.Drawing.Point(18, 114);
+            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel3.Name = "bunifuLabel3";
             this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel3.Size = new System.Drawing.Size(301, 30);
+            this.bunifuLabel3.Size = new System.Drawing.Size(226, 24);
             this.bunifuLabel3.TabIndex = 2;
             this.bunifuLabel3.Text = "Email: sales@lightingsol.com";
             this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1572,10 +1617,11 @@
             this.bunifuLabel6.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel6.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuLabel6.Location = new System.Drawing.Point(24, 102);
+            this.bunifuLabel6.Location = new System.Drawing.Point(18, 83);
+            this.bunifuLabel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel6.Name = "bunifuLabel6";
             this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel6.Size = new System.Drawing.Size(287, 30);
+            this.bunifuLabel6.Size = new System.Drawing.Size(215, 24);
             this.bunifuLabel6.TabIndex = 3;
             this.bunifuLabel6.Text = "Phone: +1 (555) 200-2003";
             this.bunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1590,10 +1636,11 @@
             this.bunifuLabel7.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel7.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuLabel7.Location = new System.Drawing.Point(24, 201);
+            this.bunifuLabel7.Location = new System.Drawing.Point(18, 163);
+            this.bunifuLabel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuLabel7.Name = "bunifuLabel7";
             this.bunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel7.Size = new System.Drawing.Size(161, 30);
+            this.bunifuLabel7.Size = new System.Drawing.Size(121, 24);
             this.bunifuLabel7.TabIndex = 4;
             this.bunifuLabel7.Text = "Products: 10";
             this.bunifuLabel7.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1648,7 +1695,8 @@
             this.bunifuButton1.IdleIconLeftImage = null;
             this.bunifuButton1.IdleIconRightImage = null;
             this.bunifuButton1.IndicateFocus = false;
-            this.bunifuButton1.Location = new System.Drawing.Point(19, 250);
+            this.bunifuButton1.Location = new System.Drawing.Point(14, 203);
+            this.bunifuButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuButton1.Name = "bunifuButton1";
             this.bunifuButton1.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton1.OnDisabledState.BorderRadius = 20;
@@ -1682,7 +1730,7 @@
             this.bunifuButton1.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton1.OnPressedState.IconLeftImage = null;
             this.bunifuButton1.OnPressedState.IconRightImage = null;
-            this.bunifuButton1.Size = new System.Drawing.Size(355, 41);
+            this.bunifuButton1.Size = new System.Drawing.Size(266, 33);
             this.bunifuButton1.TabIndex = 5;
             this.bunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1703,19 +1751,21 @@
             this.bunifuPanel25.BorderThickness = 1;
             this.bunifuPanel25.Controls.Add(this.label78);
             this.bunifuPanel25.Controls.Add(this.btnAddSupplier);
-            this.bunifuPanel25.Location = new System.Drawing.Point(346, 104);
+            this.bunifuPanel25.Location = new System.Drawing.Point(260, 84);
+            this.bunifuPanel25.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel25.Name = "bunifuPanel25";
             this.bunifuPanel25.ShowBorders = true;
-            this.bunifuPanel25.Size = new System.Drawing.Size(1503, 835);
+            this.bunifuPanel25.Size = new System.Drawing.Size(834, 525);
             this.bunifuPanel25.TabIndex = 4;
             // 
             // label78
             // 
             this.label78.BackColor = System.Drawing.Color.White;
             this.label78.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label78.Location = new System.Drawing.Point(15, 38);
+            this.label78.Location = new System.Drawing.Point(11, 31);
+            this.label78.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(206, 32);
+            this.label78.Size = new System.Drawing.Size(154, 26);
             this.label78.TabIndex = 5;
             this.label78.Text = "Supplier Directory";
             // 
@@ -1769,7 +1819,8 @@
             this.btnAddSupplier.IdleIconLeftImage = null;
             this.btnAddSupplier.IdleIconRightImage = null;
             this.btnAddSupplier.IndicateFocus = false;
-            this.btnAddSupplier.Location = new System.Drawing.Point(1293, 27);
+            this.btnAddSupplier.Location = new System.Drawing.Point(677, 22);
+            this.btnAddSupplier.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAddSupplier.Name = "btnAddSupplier";
             this.btnAddSupplier.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAddSupplier.OnDisabledState.BorderRadius = 20;
@@ -1803,7 +1854,7 @@
             this.btnAddSupplier.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnAddSupplier.OnPressedState.IconLeftImage = null;
             this.btnAddSupplier.OnPressedState.IconRightImage = null;
-            this.btnAddSupplier.Size = new System.Drawing.Size(190, 53);
+            this.btnAddSupplier.Size = new System.Drawing.Size(142, 43);
             this.btnAddSupplier.TabIndex = 4;
             this.btnAddSupplier.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAddSupplier.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1824,10 +1875,11 @@
             this.pnlHeader.BorderThickness = 1;
             this.pnlHeader.Controls.Add(this.lblTitle);
             this.pnlHeader.Controls.Add(this.lblDate);
-            this.pnlHeader.Location = new System.Drawing.Point(294, 0);
+            this.pnlHeader.Location = new System.Drawing.Point(220, 0);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.ShowBorders = true;
-            this.pnlHeader.Size = new System.Drawing.Size(1606, 79);
+            this.pnlHeader.Size = new System.Drawing.Size(1204, 64);
             this.pnlHeader.TabIndex = 0;
             // 
             // lblTitle
@@ -1838,10 +1890,11 @@
             this.lblTitle.CursorType = System.Windows.Forms.Cursors.Default;
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblTitle.Location = new System.Drawing.Point(63, 27);
+            this.lblTitle.Location = new System.Drawing.Point(47, 22);
+            this.lblTitle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblTitle.Size = new System.Drawing.Size(98, 32);
+            this.lblTitle.Size = new System.Drawing.Size(73, 25);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Suppliers";
             this.lblTitle.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1856,10 +1909,11 @@
             this.lblDate.CursorType = System.Windows.Forms.Cursors.Default;
             this.lblDate.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblDate.Location = new System.Drawing.Point(1301, 27);
+            this.lblDate.Location = new System.Drawing.Point(976, 22);
+            this.lblDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lblDate.Name = "lblDate";
             this.lblDate.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblDate.Size = new System.Drawing.Size(272, 30);
+            this.lblDate.Size = new System.Drawing.Size(208, 21);
             this.lblDate.TabIndex = 3;
             this.lblDate.Text = "Saturday, November 22, 2025";
             this.lblDate.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1874,10 +1928,11 @@
             this.lblStatus.CursorType = System.Windows.Forms.Cursors.Default;
             this.lblStatus.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(95)))), ((int)(((byte)(102)))));
-            this.lblStatus.Location = new System.Drawing.Point(2495, 1464);
+            this.lblStatus.Location = new System.Drawing.Point(1578, 1037);
+            this.lblStatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblStatus.Size = new System.Drawing.Size(124, 21);
+            this.lblStatus.Size = new System.Drawing.Size(96, 15);
             this.lblStatus.TabIndex = 3;
             this.lblStatus.Text = "Status: Connected";
             this.lblStatus.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1895,8 +1950,9 @@
             this.StkAdkPage.Controls.Add(this.label76);
             this.StkAdkPage.Controls.Add(this.label77);
             this.StkAdkPage.Location = new System.Drawing.Point(4, 4);
+            this.StkAdkPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.StkAdkPage.Name = "StkAdkPage";
-            this.StkAdkPage.Size = new System.Drawing.Size(1895, 1024);
+            this.StkAdkPage.Size = new System.Drawing.Size(1109, 679);
             this.StkAdkPage.TabIndex = 3;
             this.StkAdkPage.Text = "StkAdjPage";
             this.StkAdkPage.UseVisualStyleBackColor = true;
@@ -1913,9 +1969,10 @@
             this.bunifuPanel22.Controls.Add(this.bunifuPanel13);
             this.bunifuPanel22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuPanel22.Location = new System.Drawing.Point(0, 0);
+            this.bunifuPanel22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel22.Name = "bunifuPanel22";
             this.bunifuPanel22.ShowBorders = true;
-            this.bunifuPanel22.Size = new System.Drawing.Size(1895, 1024);
+            this.bunifuPanel22.Size = new System.Drawing.Size(1109, 679);
             this.bunifuPanel22.TabIndex = 1;
             // 
             // bunifuPanel23
@@ -1928,10 +1985,11 @@
             this.bunifuPanel23.BorderRadius = 20;
             this.bunifuPanel23.BorderThickness = 1;
             this.bunifuPanel23.Controls.Add(this.tabControlExtra3);
-            this.bunifuPanel23.Location = new System.Drawing.Point(323, 139);
+            this.bunifuPanel23.Location = new System.Drawing.Point(86, 36);
+            this.bunifuPanel23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel23.Name = "bunifuPanel23";
             this.bunifuPanel23.ShowBorders = true;
-            this.bunifuPanel23.Size = new System.Drawing.Size(1533, 757);
+            this.bunifuPanel23.Size = new System.Drawing.Size(1150, 615);
             this.bunifuPanel23.TabIndex = 11;
             // 
             // tabControlExtra3
@@ -2003,9 +2061,10 @@
             this.tabControlExtra3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControlExtra3.HotTrack = true;
             this.tabControlExtra3.Location = new System.Drawing.Point(0, 0);
+            this.tabControlExtra3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabControlExtra3.Name = "tabControlExtra3";
             this.tabControlExtra3.SelectedIndex = 0;
-            this.tabControlExtra3.Size = new System.Drawing.Size(1533, 757);
+            this.tabControlExtra3.Size = new System.Drawing.Size(1150, 615);
             this.tabControlExtra3.TabIndex = 11;
             // 
             // stockAdjustPage
@@ -2014,10 +2073,11 @@
             this.stockAdjustPage.Controls.Add(this.bunifuPanel24);
             this.stockAdjustPage.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.stockAdjustPage.ForeColor = System.Drawing.Color.Black;
-            this.stockAdjustPage.Location = new System.Drawing.Point(4, 30);
+            this.stockAdjustPage.Location = new System.Drawing.Point(4, 26);
+            this.stockAdjustPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.stockAdjustPage.Name = "stockAdjustPage";
-            this.stockAdjustPage.Padding = new System.Windows.Forms.Padding(3);
-            this.stockAdjustPage.Size = new System.Drawing.Size(1525, 723);
+            this.stockAdjustPage.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.stockAdjustPage.Size = new System.Drawing.Size(1142, 585);
             this.stockAdjustPage.TabIndex = 0;
             this.stockAdjustPage.Text = "Adjust Stock";
             this.stockAdjustPage.UseVisualStyleBackColor = true;
@@ -2043,11 +2103,11 @@
             this.bunifuPanel24.Controls.Add(this.label68);
             this.bunifuPanel24.Controls.Add(this.label69);
             this.bunifuPanel24.Controls.Add(this.btnAdjust);
-            this.bunifuPanel24.Location = new System.Drawing.Point(25, 29);
-            this.bunifuPanel24.Margin = new System.Windows.Forms.Padding(30);
+            this.bunifuPanel24.Location = new System.Drawing.Point(19, 25);
+            this.bunifuPanel24.Margin = new System.Windows.Forms.Padding(22, 24, 22, 24);
             this.bunifuPanel24.Name = "bunifuPanel24";
             this.bunifuPanel24.ShowBorders = true;
-            this.bunifuPanel24.Size = new System.Drawing.Size(1465, 546);
+            this.bunifuPanel24.Size = new System.Drawing.Size(1099, 444);
             this.bunifuPanel24.TabIndex = 13;
             // 
             // notesTxtBox
@@ -2080,7 +2140,8 @@
             this.notesTxtBox.IconRight = null;
             this.notesTxtBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.notesTxtBox.Lines = new string[0];
-            this.notesTxtBox.Location = new System.Drawing.Point(28, 388);
+            this.notesTxtBox.Location = new System.Drawing.Point(21, 315);
+            this.notesTxtBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.notesTxtBox.MaxLength = 32767;
             this.notesTxtBox.MinimumSize = new System.Drawing.Size(1, 1);
             this.notesTxtBox.Modified = false;
@@ -2106,7 +2167,7 @@
             stateProperties8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.notesTxtBox.OnIdleState = stateProperties8;
-            this.notesTxtBox.Padding = new System.Windows.Forms.Padding(3);
+            this.notesTxtBox.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.notesTxtBox.PasswordChar = '\0';
             this.notesTxtBox.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.notesTxtBox.PlaceholderText = "Additional Notes...";
@@ -2116,7 +2177,7 @@
             this.notesTxtBox.SelectionLength = 0;
             this.notesTxtBox.SelectionStart = 0;
             this.notesTxtBox.ShortcutsEnabled = true;
-            this.notesTxtBox.Size = new System.Drawing.Size(776, 44);
+            this.notesTxtBox.Size = new System.Drawing.Size(582, 36);
             this.notesTxtBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.notesTxtBox.TabIndex = 24;
             this.notesTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -2132,9 +2193,10 @@
             this.label64.BackColor = System.Drawing.Color.Transparent;
             this.label64.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.label64.Location = new System.Drawing.Point(23, 351);
+            this.label64.Location = new System.Drawing.Point(17, 285);
+            this.label64.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(183, 25);
+            this.label64.Size = new System.Drawing.Size(137, 20);
             this.label64.TabIndex = 23;
             this.label64.Text = "Notes";
             // 
@@ -2174,9 +2236,10 @@
             this.reasonTxtBox.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
             this.reasonTxtBox.ItemHighLightForeColor = System.Drawing.Color.White;
             this.reasonTxtBox.ItemTopMargin = 3;
-            this.reasonTxtBox.Location = new System.Drawing.Point(28, 302);
+            this.reasonTxtBox.Location = new System.Drawing.Point(21, 245);
+            this.reasonTxtBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.reasonTxtBox.Name = "reasonTxtBox";
-            this.reasonTxtBox.Size = new System.Drawing.Size(776, 32);
+            this.reasonTxtBox.Size = new System.Drawing.Size(583, 32);
             this.reasonTxtBox.TabIndex = 22;
             this.reasonTxtBox.Text = "Select Reason";
             this.reasonTxtBox.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
@@ -2187,9 +2250,10 @@
             this.label65.BackColor = System.Drawing.Color.Transparent;
             this.label65.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label65.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.label65.Location = new System.Drawing.Point(23, 265);
+            this.label65.Location = new System.Drawing.Point(17, 215);
+            this.label65.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(152, 25);
+            this.label65.Size = new System.Drawing.Size(114, 20);
             this.label65.TabIndex = 21;
             this.label65.Text = "Reason";
             // 
@@ -2223,7 +2287,8 @@
             this.qtyTxtBox.IconRight = null;
             this.qtyTxtBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.qtyTxtBox.Lines = new string[0];
-            this.qtyTxtBox.Location = new System.Drawing.Point(410, 217);
+            this.qtyTxtBox.Location = new System.Drawing.Point(308, 176);
+            this.qtyTxtBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.qtyTxtBox.MaxLength = 32767;
             this.qtyTxtBox.MinimumSize = new System.Drawing.Size(1, 1);
             this.qtyTxtBox.Modified = false;
@@ -2249,7 +2314,7 @@
             stateProperties12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.qtyTxtBox.OnIdleState = stateProperties12;
-            this.qtyTxtBox.Padding = new System.Windows.Forms.Padding(3);
+            this.qtyTxtBox.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.qtyTxtBox.PasswordChar = '\0';
             this.qtyTxtBox.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.qtyTxtBox.PlaceholderText = "0";
@@ -2259,7 +2324,7 @@
             this.qtyTxtBox.SelectionLength = 0;
             this.qtyTxtBox.SelectionStart = 0;
             this.qtyTxtBox.ShortcutsEnabled = true;
-            this.qtyTxtBox.Size = new System.Drawing.Size(394, 44);
+            this.qtyTxtBox.Size = new System.Drawing.Size(296, 36);
             this.qtyTxtBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.qtyTxtBox.TabIndex = 20;
             this.qtyTxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -2275,9 +2340,10 @@
             this.label66.BackColor = System.Drawing.Color.Transparent;
             this.label66.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.label66.Location = new System.Drawing.Point(405, 180);
+            this.label66.Location = new System.Drawing.Point(304, 146);
+            this.label66.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(183, 25);
+            this.label66.Size = new System.Drawing.Size(137, 20);
             this.label66.TabIndex = 19;
             this.label66.Text = "Quantity";
             // 
@@ -2317,9 +2383,10 @@
             this.typeDropdown.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
             this.typeDropdown.ItemHighLightForeColor = System.Drawing.Color.White;
             this.typeDropdown.ItemTopMargin = 3;
-            this.typeDropdown.Location = new System.Drawing.Point(28, 217);
+            this.typeDropdown.Location = new System.Drawing.Point(21, 176);
+            this.typeDropdown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.typeDropdown.Name = "typeDropdown";
-            this.typeDropdown.Size = new System.Drawing.Size(365, 32);
+            this.typeDropdown.Size = new System.Drawing.Size(275, 32);
             this.typeDropdown.TabIndex = 18;
             this.typeDropdown.Text = "Select Type";
             this.typeDropdown.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
@@ -2330,9 +2397,10 @@
             this.label67.BackColor = System.Drawing.Color.Transparent;
             this.label67.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label67.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.label67.Location = new System.Drawing.Point(23, 180);
+            this.label67.Location = new System.Drawing.Point(17, 146);
+            this.label67.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(183, 25);
+            this.label67.Size = new System.Drawing.Size(137, 20);
             this.label67.TabIndex = 17;
             this.label67.Text = "Adjustment Type";
             // 
@@ -2372,9 +2440,10 @@
             this.productDropdown.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
             this.productDropdown.ItemHighLightForeColor = System.Drawing.Color.White;
             this.productDropdown.ItemTopMargin = 3;
-            this.productDropdown.Location = new System.Drawing.Point(28, 131);
+            this.productDropdown.Location = new System.Drawing.Point(21, 106);
+            this.productDropdown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.productDropdown.Name = "productDropdown";
-            this.productDropdown.Size = new System.Drawing.Size(776, 32);
+            this.productDropdown.Size = new System.Drawing.Size(583, 32);
             this.productDropdown.TabIndex = 16;
             this.productDropdown.Text = "Choose Product";
             this.productDropdown.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
@@ -2385,9 +2454,10 @@
             this.label68.BackColor = System.Drawing.Color.Transparent;
             this.label68.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label68.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.label68.Location = new System.Drawing.Point(23, 94);
+            this.label68.Location = new System.Drawing.Point(17, 76);
+            this.label68.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(152, 25);
+            this.label68.Size = new System.Drawing.Size(114, 20);
             this.label68.TabIndex = 15;
             this.label68.Text = "Select Product";
             // 
@@ -2396,9 +2466,10 @@
             this.label69.AutoSize = true;
             this.label69.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label69.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label69.Location = new System.Drawing.Point(22, 25);
+            this.label69.Location = new System.Drawing.Point(16, 20);
+            this.label69.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(295, 32);
+            this.label69.Size = new System.Drawing.Size(233, 25);
             this.label69.TabIndex = 13;
             this.label69.Text = "Manual Stock Adjustment";
             // 
@@ -2451,7 +2522,8 @@
             this.btnAdjust.IdleIconLeftImage = null;
             this.btnAdjust.IdleIconRightImage = null;
             this.btnAdjust.IndicateFocus = false;
-            this.btnAdjust.Location = new System.Drawing.Point(28, 488);
+            this.btnAdjust.Location = new System.Drawing.Point(21, 396);
+            this.btnAdjust.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAdjust.Name = "btnAdjust";
             this.btnAdjust.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAdjust.OnDisabledState.BorderRadius = 15;
@@ -2485,7 +2557,7 @@
             this.btnAdjust.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnAdjust.OnPressedState.IconLeftImage = null;
             this.btnAdjust.OnPressedState.IconRightImage = null;
-            this.btnAdjust.Size = new System.Drawing.Size(178, 41);
+            this.btnAdjust.Size = new System.Drawing.Size(134, 33);
             this.btnAdjust.TabIndex = 10;
             this.btnAdjust.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAdjust.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2497,10 +2569,11 @@
             // 
             this.logPage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.logPage.Controls.Add(this.bunifuPanel21);
-            this.logPage.Location = new System.Drawing.Point(4, 30);
+            this.logPage.Location = new System.Drawing.Point(4, 26);
+            this.logPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.logPage.Name = "logPage";
-            this.logPage.Padding = new System.Windows.Forms.Padding(3);
-            this.logPage.Size = new System.Drawing.Size(1525, 723);
+            this.logPage.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.logPage.Size = new System.Drawing.Size(1142, 585);
             this.logPage.TabIndex = 1;
             this.logPage.Text = "Audit Log";
             this.logPage.UseVisualStyleBackColor = true;
@@ -2516,11 +2589,11 @@
             this.bunifuPanel21.BorderThickness = 1;
             this.bunifuPanel21.Controls.Add(this.bunifuDataGridView2);
             this.bunifuPanel21.Controls.Add(this.label63);
-            this.bunifuPanel21.Location = new System.Drawing.Point(29, 29);
-            this.bunifuPanel21.Margin = new System.Windows.Forms.Padding(30);
+            this.bunifuPanel21.Location = new System.Drawing.Point(22, 25);
+            this.bunifuPanel21.Margin = new System.Windows.Forms.Padding(22, 24, 22, 24);
             this.bunifuPanel21.Name = "bunifuPanel21";
             this.bunifuPanel21.ShowBorders = true;
-            this.bunifuPanel21.Size = new System.Drawing.Size(1450, 350);
+            this.bunifuPanel21.Size = new System.Drawing.Size(1088, 284);
             this.bunifuPanel21.TabIndex = 14;
             // 
             // bunifuDataGridView2
@@ -2537,7 +2610,7 @@
             this.bunifuDataGridView2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle14.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.White;
@@ -2564,7 +2637,7 @@
             this.bunifuDataGridView2.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle15.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.Black;
@@ -2575,14 +2648,15 @@
             this.bunifuDataGridView2.HeaderBackColor = System.Drawing.Color.DodgerBlue;
             this.bunifuDataGridView2.HeaderBgColor = System.Drawing.Color.Empty;
             this.bunifuDataGridView2.HeaderForeColor = System.Drawing.Color.White;
-            this.bunifuDataGridView2.Location = new System.Drawing.Point(32, 86);
+            this.bunifuDataGridView2.Location = new System.Drawing.Point(24, 70);
+            this.bunifuDataGridView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuDataGridView2.Name = "bunifuDataGridView2";
             this.bunifuDataGridView2.ReadOnly = true;
             this.bunifuDataGridView2.RowHeadersVisible = false;
             this.bunifuDataGridView2.RowHeadersWidth = 53;
             this.bunifuDataGridView2.RowTemplate.Height = 40;
             this.bunifuDataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.bunifuDataGridView2.Size = new System.Drawing.Size(1385, 225);
+            this.bunifuDataGridView2.Size = new System.Drawing.Size(1039, 183);
             this.bunifuDataGridView2.TabIndex = 15;
             this.bunifuDataGridView2.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
@@ -2591,9 +2665,10 @@
             this.label63.AutoSize = true;
             this.label63.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label63.Location = new System.Drawing.Point(19, 28);
+            this.label63.Location = new System.Drawing.Point(14, 23);
+            this.label63.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(258, 30);
+            this.label63.Size = new System.Drawing.Size(206, 23);
             this.label63.TabIndex = 14;
             this.label63.Text = "Stock Adjustment History";
             // 
@@ -2609,10 +2684,11 @@
             this.bunifuPanel13.BorderThickness = 1;
             this.bunifuPanel13.Controls.Add(this.label47);
             this.bunifuPanel13.Controls.Add(this.label46);
-            this.bunifuPanel13.Location = new System.Drawing.Point(294, 0);
+            this.bunifuPanel13.Location = new System.Drawing.Point(220, 0);
+            this.bunifuPanel13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel13.Name = "bunifuPanel13";
             this.bunifuPanel13.ShowBorders = true;
-            this.bunifuPanel13.Size = new System.Drawing.Size(1606, 79);
+            this.bunifuPanel13.Size = new System.Drawing.Size(892, 64);
             this.bunifuPanel13.TabIndex = 3;
             // 
             // label47
@@ -2622,9 +2698,10 @@
             this.label47.BackColor = System.Drawing.Color.White;
             this.label47.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label47.Location = new System.Drawing.Point(1285, 23);
+            this.label47.Location = new System.Drawing.Point(652, 19);
+            this.label47.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(285, 30);
+            this.label47.Size = new System.Drawing.Size(234, 23);
             this.label47.TabIndex = 5;
             this.label47.Text = "Saturday, November 22, 2025";
             // 
@@ -2634,9 +2711,10 @@
             this.label46.BackColor = System.Drawing.Color.White;
             this.label46.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label46.Location = new System.Drawing.Point(19, 23);
+            this.label46.Location = new System.Drawing.Point(14, 19);
+            this.label46.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(201, 32);
+            this.label46.Size = new System.Drawing.Size(157, 25);
             this.label46.TabIndex = 4;
             this.label46.Text = "Stock Adjustment";
             // 
@@ -2644,10 +2722,11 @@
             // 
             this.label70.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.label70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(118)))), ((int)(((byte)(125)))));
-            this.label70.Location = new System.Drawing.Point(12, 12);
+            this.label70.Location = new System.Drawing.Point(9, 10);
+            this.label70.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label70.Name = "label70";
             this.label70.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label70.Size = new System.Drawing.Size(99, 21);
+            this.label70.Size = new System.Drawing.Size(74, 17);
             this.label70.TabIndex = 2;
             this.label70.Text = "Total Products";
             // 
@@ -2655,10 +2734,11 @@
             // 
             this.label71.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.label71.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
-            this.label71.Location = new System.Drawing.Point(12, 34);
+            this.label71.Location = new System.Drawing.Point(9, 28);
+            this.label71.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label71.Name = "label71";
             this.label71.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label71.Size = new System.Drawing.Size(18, 42);
+            this.label71.Size = new System.Drawing.Size(14, 34);
             this.label71.TabIndex = 3;
             this.label71.Text = "4";
             // 
@@ -2666,10 +2746,11 @@
             // 
             this.label72.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.label72.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(118)))), ((int)(((byte)(125)))));
-            this.label72.Location = new System.Drawing.Point(12, 12);
+            this.label72.Location = new System.Drawing.Point(9, 10);
+            this.label72.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label72.Name = "label72";
             this.label72.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label72.Size = new System.Drawing.Size(109, 21);
+            this.label72.Size = new System.Drawing.Size(82, 17);
             this.label72.TabIndex = 4;
             this.label72.Text = "Inventory Value";
             // 
@@ -2677,10 +2758,11 @@
             // 
             this.label73.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.label73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
-            this.label73.Location = new System.Drawing.Point(12, 34);
+            this.label73.Location = new System.Drawing.Point(9, 28);
+            this.label73.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label73.Name = "label73";
             this.label73.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label73.Size = new System.Drawing.Size(134, 42);
+            this.label73.Size = new System.Drawing.Size(100, 34);
             this.label73.TabIndex = 5;
             this.label73.Text = "$4401.87";
             // 
@@ -2688,10 +2770,11 @@
             // 
             this.label74.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.label74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(118)))), ((int)(((byte)(125)))));
-            this.label74.Location = new System.Drawing.Point(12, 12);
+            this.label74.Location = new System.Drawing.Point(9, 10);
+            this.label74.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label74.Name = "label74";
             this.label74.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label74.Size = new System.Drawing.Size(71, 21);
+            this.label74.Size = new System.Drawing.Size(53, 17);
             this.label74.TabIndex = 6;
             this.label74.Text = "Low Stock";
             // 
@@ -2699,10 +2782,11 @@
             // 
             this.label75.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.label75.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(118)))), ((int)(((byte)(125)))));
-            this.label75.Location = new System.Drawing.Point(12, 12);
+            this.label75.Location = new System.Drawing.Point(9, 10);
+            this.label75.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label75.Name = "label75";
             this.label75.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label75.Size = new System.Drawing.Size(86, 21);
+            this.label75.Size = new System.Drawing.Size(64, 17);
             this.label75.TabIndex = 7;
             this.label75.Text = "Out of Stock";
             // 
@@ -2710,10 +2794,11 @@
             // 
             this.label76.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.label76.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
-            this.label76.Location = new System.Drawing.Point(12, 34);
+            this.label76.Location = new System.Drawing.Point(9, 28);
+            this.label76.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label76.Name = "label76";
             this.label76.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label76.Size = new System.Drawing.Size(18, 42);
+            this.label76.Size = new System.Drawing.Size(14, 34);
             this.label76.TabIndex = 8;
             this.label76.Text = "1";
             // 
@@ -2721,10 +2806,11 @@
             // 
             this.label77.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.label77.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
-            this.label77.Location = new System.Drawing.Point(12, 34);
+            this.label77.Location = new System.Drawing.Point(9, 28);
+            this.label77.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label77.Name = "label77";
             this.label77.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label77.Size = new System.Drawing.Size(18, 42);
+            this.label77.Size = new System.Drawing.Size(14, 34);
             this.label77.TabIndex = 9;
             this.label77.Text = "1";
             // 
@@ -2740,9 +2826,10 @@
             this.ProductPage.Controls.Add(this.lblOutOfStockTitle);
             this.ProductPage.Controls.Add(this.lblOutOfStockValue);
             this.ProductPage.Location = new System.Drawing.Point(4, 4);
+            this.ProductPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ProductPage.Name = "ProductPage";
-            this.ProductPage.Padding = new System.Windows.Forms.Padding(3);
-            this.ProductPage.Size = new System.Drawing.Size(1895, 1024);
+            this.ProductPage.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ProductPage.Size = new System.Drawing.Size(1109, 679);
             this.ProductPage.TabIndex = 2;
             this.ProductPage.Text = "ProductPage";
             this.ProductPage.UseVisualStyleBackColor = true;
@@ -2758,10 +2845,11 @@
             this.bunifuPanel15.Controls.Add(this.bunifuPanel16);
             this.bunifuPanel15.Controls.Add(this.bunifuPanel14);
             this.bunifuPanel15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuPanel15.Location = new System.Drawing.Point(3, 3);
+            this.bunifuPanel15.Location = new System.Drawing.Point(2, 2);
+            this.bunifuPanel15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel15.Name = "bunifuPanel15";
             this.bunifuPanel15.ShowBorders = true;
-            this.bunifuPanel15.Size = new System.Drawing.Size(1889, 1018);
+            this.bunifuPanel15.Size = new System.Drawing.Size(1105, 675);
             this.bunifuPanel15.TabIndex = 1;
             // 
             // bunifuPanel16
@@ -2776,9 +2864,10 @@
             this.bunifuPanel16.Controls.Add(this.tabControlExtra2);
             this.bunifuPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuPanel16.Location = new System.Drawing.Point(0, 0);
+            this.bunifuPanel16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel16.Name = "bunifuPanel16";
             this.bunifuPanel16.ShowBorders = true;
-            this.bunifuPanel16.Size = new System.Drawing.Size(1889, 1018);
+            this.bunifuPanel16.Size = new System.Drawing.Size(1105, 675);
             this.bunifuPanel16.TabIndex = 11;
             // 
             // bunifuPanel20
@@ -2793,11 +2882,11 @@
             this.bunifuPanel20.BorderThickness = 1;
             this.bunifuPanel20.Controls.Add(this.label61);
             this.bunifuPanel20.Controls.Add(this.label62);
-            this.bunifuPanel20.Location = new System.Drawing.Point(294, 0);
+            this.bunifuPanel20.Location = new System.Drawing.Point(220, 0);
             this.bunifuPanel20.Margin = new System.Windows.Forms.Padding(0);
             this.bunifuPanel20.Name = "bunifuPanel20";
             this.bunifuPanel20.ShowBorders = true;
-            this.bunifuPanel20.Size = new System.Drawing.Size(1606, 79);
+            this.bunifuPanel20.Size = new System.Drawing.Size(911, 64);
             this.bunifuPanel20.TabIndex = 12;
             // 
             // label61
@@ -2807,9 +2896,10 @@
             this.label61.BackColor = System.Drawing.Color.White;
             this.label61.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label61.Location = new System.Drawing.Point(1285, 23);
+            this.label61.Location = new System.Drawing.Point(671, 19);
+            this.label61.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(285, 30);
+            this.label61.Size = new System.Drawing.Size(234, 23);
             this.label61.TabIndex = 5;
             this.label61.Text = "Saturday, November 22, 2025";
             // 
@@ -2819,9 +2909,10 @@
             this.label62.BackColor = System.Drawing.Color.White;
             this.label62.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label62.Location = new System.Drawing.Point(19, 23);
+            this.label62.Location = new System.Drawing.Point(14, 19);
+            this.label62.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(106, 32);
+            this.label62.Size = new System.Drawing.Size(86, 25);
             this.label62.TabIndex = 4;
             this.label62.Text = "Products";
             // 
@@ -2893,10 +2984,11 @@
             this.tabControlExtra2.DisplayStyleProvider.TextColorUnselected = System.Drawing.SystemColors.ControlText;
             this.tabControlExtra2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControlExtra2.HotTrack = true;
-            this.tabControlExtra2.Location = new System.Drawing.Point(356, 98);
+            this.tabControlExtra2.Location = new System.Drawing.Point(267, 80);
+            this.tabControlExtra2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabControlExtra2.Name = "tabControlExtra2";
             this.tabControlExtra2.SelectedIndex = 0;
-            this.tabControlExtra2.Size = new System.Drawing.Size(1533, 757);
+            this.tabControlExtra2.Size = new System.Drawing.Size(1150, 615);
             this.tabControlExtra2.TabIndex = 11;
             // 
             // productsPage
@@ -2909,10 +3001,11 @@
             this.productsPage.Controls.Add(this.bunifuPanel5);
             this.productsPage.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.productsPage.ForeColor = System.Drawing.Color.Black;
-            this.productsPage.Location = new System.Drawing.Point(4, 30);
+            this.productsPage.Location = new System.Drawing.Point(4, 26);
+            this.productsPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.productsPage.Name = "productsPage";
-            this.productsPage.Padding = new System.Windows.Forms.Padding(3);
-            this.productsPage.Size = new System.Drawing.Size(1525, 723);
+            this.productsPage.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.productsPage.Size = new System.Drawing.Size(1142, 585);
             this.productsPage.TabIndex = 0;
             this.productsPage.Text = "All Products";
             this.productsPage.UseVisualStyleBackColor = true;
@@ -2929,10 +3022,11 @@
             this.bunifuPanel17.Controls.Add(this.label50);
             this.bunifuPanel17.Controls.Add(this.label51);
             this.bunifuPanel17.Controls.Add(this.label52);
-            this.bunifuPanel17.Location = new System.Drawing.Point(1136, 24);
+            this.bunifuPanel17.Location = new System.Drawing.Point(852, 20);
+            this.bunifuPanel17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel17.Name = "bunifuPanel17";
             this.bunifuPanel17.ShowBorders = true;
-            this.bunifuPanel17.Size = new System.Drawing.Size(350, 156);
+            this.bunifuPanel17.Size = new System.Drawing.Size(262, 127);
             this.bunifuPanel17.TabIndex = 16;
             // 
             // label49
@@ -2940,10 +3034,11 @@
             this.label49.Cursor = System.Windows.Forms.Cursors.Default;
             this.label49.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label49.Location = new System.Drawing.Point(25, 85);
+            this.label49.Location = new System.Drawing.Point(19, 69);
+            this.label49.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label49.Name = "label49";
             this.label49.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label49.Size = new System.Drawing.Size(128, 23);
+            this.label49.Size = new System.Drawing.Size(96, 19);
             this.label49.TabIndex = 4;
             this.label49.Text = "5";
             // 
@@ -2952,10 +3047,11 @@
             this.label50.Cursor = System.Windows.Forms.Cursors.Default;
             this.label50.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label50.ForeColor = System.Drawing.Color.Red;
-            this.label50.Location = new System.Drawing.Point(23, 119);
+            this.label50.Location = new System.Drawing.Point(17, 97);
+            this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label50.Name = "label50";
             this.label50.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label50.Size = new System.Drawing.Size(102, 27);
+            this.label50.Size = new System.Drawing.Size(76, 22);
             this.label50.TabIndex = 3;
             this.label50.Text = "Urgent";
             // 
@@ -2964,10 +3060,11 @@
             this.label51.Cursor = System.Windows.Forms.Cursors.Default;
             this.label51.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label51.Location = new System.Drawing.Point(24, 62);
+            this.label51.Location = new System.Drawing.Point(18, 50);
+            this.label51.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label51.Name = "label51";
             this.label51.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label51.Size = new System.Drawing.Size(9, 23);
+            this.label51.Size = new System.Drawing.Size(7, 19);
             this.label51.TabIndex = 2;
             this.label51.Text = "5";
             // 
@@ -2976,10 +3073,11 @@
             this.label52.Cursor = System.Windows.Forms.Cursors.Default;
             this.label52.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label52.Location = new System.Drawing.Point(24, 22);
+            this.label52.Location = new System.Drawing.Point(18, 18);
+            this.label52.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label52.Name = "label52";
             this.label52.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label52.Size = new System.Drawing.Size(184, 23);
+            this.label52.Size = new System.Drawing.Size(138, 19);
             this.label52.TabIndex = 1;
             this.label52.Text = "Out of Stock";
             // 
@@ -2995,10 +3093,11 @@
             this.bunifuPanel18.Controls.Add(this.label54);
             this.bunifuPanel18.Controls.Add(this.label55);
             this.bunifuPanel18.Controls.Add(this.label56);
-            this.bunifuPanel18.Location = new System.Drawing.Point(766, 24);
+            this.bunifuPanel18.Location = new System.Drawing.Point(574, 20);
+            this.bunifuPanel18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel18.Name = "bunifuPanel18";
             this.bunifuPanel18.ShowBorders = true;
-            this.bunifuPanel18.Size = new System.Drawing.Size(350, 156);
+            this.bunifuPanel18.Size = new System.Drawing.Size(262, 127);
             this.bunifuPanel18.TabIndex = 15;
             // 
             // label53
@@ -3006,10 +3105,11 @@
             this.label53.Cursor = System.Windows.Forms.Cursors.Default;
             this.label53.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label53.Location = new System.Drawing.Point(25, 85);
+            this.label53.Location = new System.Drawing.Point(19, 69);
+            this.label53.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label53.Name = "label53";
             this.label53.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label53.Size = new System.Drawing.Size(128, 23);
+            this.label53.Size = new System.Drawing.Size(96, 19);
             this.label53.TabIndex = 4;
             this.label53.Text = "1";
             // 
@@ -3018,10 +3118,11 @@
             this.label54.Cursor = System.Windows.Forms.Cursors.Default;
             this.label54.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label54.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label54.Location = new System.Drawing.Point(23, 119);
+            this.label54.Location = new System.Drawing.Point(17, 97);
+            this.label54.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label54.Name = "label54";
             this.label54.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label54.Size = new System.Drawing.Size(168, 27);
+            this.label54.Size = new System.Drawing.Size(126, 22);
             this.label54.TabIndex = 3;
             this.label54.Text = "Needs Reorder";
             // 
@@ -3030,10 +3131,11 @@
             this.label55.Cursor = System.Windows.Forms.Cursors.Default;
             this.label55.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label55.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label55.Location = new System.Drawing.Point(24, 62);
+            this.label55.Location = new System.Drawing.Point(18, 50);
+            this.label55.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label55.Name = "label55";
             this.label55.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label55.Size = new System.Drawing.Size(9, 23);
+            this.label55.Size = new System.Drawing.Size(7, 19);
             this.label55.TabIndex = 2;
             this.label55.Text = "5";
             // 
@@ -3042,10 +3144,11 @@
             this.label56.Cursor = System.Windows.Forms.Cursors.Default;
             this.label56.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label56.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label56.Location = new System.Drawing.Point(24, 22);
+            this.label56.Location = new System.Drawing.Point(18, 18);
+            this.label56.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label56.Name = "label56";
             this.label56.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label56.Size = new System.Drawing.Size(143, 23);
+            this.label56.Size = new System.Drawing.Size(107, 19);
             this.label56.TabIndex = 1;
             this.label56.Text = "Low Stock";
             // 
@@ -3061,10 +3164,11 @@
             this.bunifuPanel19.Controls.Add(this.label58);
             this.bunifuPanel19.Controls.Add(this.label59);
             this.bunifuPanel19.Controls.Add(this.label60);
-            this.bunifuPanel19.Location = new System.Drawing.Point(395, 24);
+            this.bunifuPanel19.Location = new System.Drawing.Point(296, 20);
+            this.bunifuPanel19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel19.Name = "bunifuPanel19";
             this.bunifuPanel19.ShowBorders = true;
-            this.bunifuPanel19.Size = new System.Drawing.Size(350, 156);
+            this.bunifuPanel19.Size = new System.Drawing.Size(262, 127);
             this.bunifuPanel19.TabIndex = 14;
             // 
             // label57
@@ -3072,10 +3176,11 @@
             this.label57.Cursor = System.Windows.Forms.Cursors.Default;
             this.label57.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label57.Location = new System.Drawing.Point(25, 85);
+            this.label57.Location = new System.Drawing.Point(19, 69);
+            this.label57.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label57.Name = "label57";
             this.label57.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label57.Size = new System.Drawing.Size(128, 23);
+            this.label57.Size = new System.Drawing.Size(96, 19);
             this.label57.TabIndex = 4;
             this.label57.Text = "$44108.27";
             // 
@@ -3084,10 +3189,11 @@
             this.label58.Cursor = System.Windows.Forms.Cursors.Default;
             this.label58.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label58.ForeColor = System.Drawing.Color.Gray;
-            this.label58.Location = new System.Drawing.Point(23, 119);
+            this.label58.Location = new System.Drawing.Point(17, 97);
+            this.label58.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label58.Name = "label58";
             this.label58.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label58.Size = new System.Drawing.Size(147, 27);
+            this.label58.Size = new System.Drawing.Size(110, 22);
             this.label58.TabIndex = 3;
             this.label58.Text = "Total Worth";
             // 
@@ -3096,10 +3202,11 @@
             this.label59.Cursor = System.Windows.Forms.Cursors.Default;
             this.label59.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label59.Location = new System.Drawing.Point(24, 62);
+            this.label59.Location = new System.Drawing.Point(18, 50);
+            this.label59.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label59.Name = "label59";
             this.label59.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label59.Size = new System.Drawing.Size(9, 23);
+            this.label59.Size = new System.Drawing.Size(7, 19);
             this.label59.TabIndex = 2;
             this.label59.Text = "5";
             // 
@@ -3108,10 +3215,11 @@
             this.label60.Cursor = System.Windows.Forms.Cursors.Default;
             this.label60.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label60.Location = new System.Drawing.Point(24, 22);
+            this.label60.Location = new System.Drawing.Point(18, 18);
+            this.label60.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label60.Name = "label60";
             this.label60.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label60.Size = new System.Drawing.Size(205, 23);
+            this.label60.Size = new System.Drawing.Size(154, 19);
             this.label60.TabIndex = 1;
             this.label60.Text = "Inventory Value";
             // 
@@ -3127,11 +3235,11 @@
             this.bunifuPanel4.Controls.Add(this.bunifuDataGridView1);
             this.bunifuPanel4.Controls.Add(this.btnAddProduct);
             this.bunifuPanel4.Controls.Add(this.bunifuTextBox1);
-            this.bunifuPanel4.Location = new System.Drawing.Point(23, 201);
-            this.bunifuPanel4.Margin = new System.Windows.Forms.Padding(30);
+            this.bunifuPanel4.Location = new System.Drawing.Point(17, 163);
+            this.bunifuPanel4.Margin = new System.Windows.Forms.Padding(22, 24, 22, 24);
             this.bunifuPanel4.Name = "bunifuPanel4";
             this.bunifuPanel4.ShowBorders = true;
-            this.bunifuPanel4.Size = new System.Drawing.Size(1463, 496);
+            this.bunifuPanel4.Size = new System.Drawing.Size(1097, 403);
             this.bunifuPanel4.TabIndex = 13;
             // 
             // label38
@@ -3139,9 +3247,10 @@
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label38.Location = new System.Drawing.Point(22, 25);
+            this.label38.Location = new System.Drawing.Point(16, 20);
+            this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(211, 32);
+            this.label38.Size = new System.Drawing.Size(168, 25);
             this.label38.TabIndex = 13;
             this.label38.Text = "Product Inventory";
             // 
@@ -3160,7 +3269,7 @@
             this.bunifuDataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle17.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.White;
@@ -3187,7 +3296,7 @@
             this.bunifuDataGridView1.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle18.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.Black;
@@ -3198,14 +3307,15 @@
             this.bunifuDataGridView1.HeaderBackColor = System.Drawing.Color.DodgerBlue;
             this.bunifuDataGridView1.HeaderBgColor = System.Drawing.Color.Empty;
             this.bunifuDataGridView1.HeaderForeColor = System.Drawing.Color.White;
-            this.bunifuDataGridView1.Location = new System.Drawing.Point(30, 162);
+            this.bunifuDataGridView1.Location = new System.Drawing.Point(22, 132);
+            this.bunifuDataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuDataGridView1.Name = "bunifuDataGridView1";
             this.bunifuDataGridView1.ReadOnly = true;
             this.bunifuDataGridView1.RowHeadersVisible = false;
             this.bunifuDataGridView1.RowHeadersWidth = 53;
             this.bunifuDataGridView1.RowTemplate.Height = 40;
             this.bunifuDataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.bunifuDataGridView1.Size = new System.Drawing.Size(1400, 309);
+            this.bunifuDataGridView1.Size = new System.Drawing.Size(1050, 251);
             this.bunifuDataGridView1.TabIndex = 12;
             this.bunifuDataGridView1.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
@@ -3259,7 +3369,8 @@
             this.btnAddProduct.IdleIconLeftImage = null;
             this.btnAddProduct.IdleIconRightImage = null;
             this.btnAddProduct.IndicateFocus = false;
-            this.btnAddProduct.Location = new System.Drawing.Point(1280, 25);
+            this.btnAddProduct.Location = new System.Drawing.Point(960, 20);
+            this.btnAddProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAddProduct.Name = "btnAddProduct";
             this.btnAddProduct.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAddProduct.OnDisabledState.BorderRadius = 15;
@@ -3293,7 +3404,7 @@
             this.btnAddProduct.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnAddProduct.OnPressedState.IconLeftImage = null;
             this.btnAddProduct.OnPressedState.IconRightImage = null;
-            this.btnAddProduct.Size = new System.Drawing.Size(150, 41);
+            this.btnAddProduct.Size = new System.Drawing.Size(112, 33);
             this.btnAddProduct.TabIndex = 10;
             this.btnAddProduct.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAddProduct.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3331,7 +3442,8 @@
             this.bunifuTextBox1.IconRight = null;
             this.bunifuTextBox1.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox1.Lines = new string[0];
-            this.bunifuTextBox1.Location = new System.Drawing.Point(30, 84);
+            this.bunifuTextBox1.Location = new System.Drawing.Point(22, 68);
+            this.bunifuTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuTextBox1.MaxLength = 256;
             this.bunifuTextBox1.MinimumSize = new System.Drawing.Size(1, 1);
             this.bunifuTextBox1.Modified = false;
@@ -3357,7 +3469,7 @@
             stateProperties16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
             stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.bunifuTextBox1.OnIdleState = stateProperties16;
-            this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(10, 6, 10, 6);
+            this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(8, 5, 8, 5);
             this.bunifuTextBox1.PasswordChar = '\0';
             this.bunifuTextBox1.PlaceholderForeColor = System.Drawing.Color.DimGray;
             this.bunifuTextBox1.PlaceholderText = "Search by SKU, name, category...";
@@ -3367,7 +3479,7 @@
             this.bunifuTextBox1.SelectionLength = 0;
             this.bunifuTextBox1.SelectionStart = 0;
             this.bunifuTextBox1.ShortcutsEnabled = true;
-            this.bunifuTextBox1.Size = new System.Drawing.Size(1400, 54);
+            this.bunifuTextBox1.Size = new System.Drawing.Size(1050, 46);
             this.bunifuTextBox1.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox1.TabIndex = 4;
             this.bunifuTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -3390,10 +3502,11 @@
             this.bunifuPanel5.Controls.Add(this.label40);
             this.bunifuPanel5.Controls.Add(this.label41);
             this.bunifuPanel5.Controls.Add(this.label42);
-            this.bunifuPanel5.Location = new System.Drawing.Point(23, 24);
+            this.bunifuPanel5.Location = new System.Drawing.Point(17, 20);
+            this.bunifuPanel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel5.Name = "bunifuPanel5";
             this.bunifuPanel5.ShowBorders = true;
-            this.bunifuPanel5.Size = new System.Drawing.Size(350, 156);
+            this.bunifuPanel5.Size = new System.Drawing.Size(262, 127);
             this.bunifuPanel5.TabIndex = 12;
             // 
             // label39
@@ -3401,10 +3514,11 @@
             this.label39.Cursor = System.Windows.Forms.Cursors.Default;
             this.label39.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label39.Location = new System.Drawing.Point(25, 85);
+            this.label39.Location = new System.Drawing.Point(19, 69);
+            this.label39.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label39.Name = "label39";
             this.label39.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label39.Size = new System.Drawing.Size(128, 23);
+            this.label39.Size = new System.Drawing.Size(96, 19);
             this.label39.TabIndex = 4;
             this.label39.Text = "5";
             // 
@@ -3413,10 +3527,11 @@
             this.label40.Cursor = System.Windows.Forms.Cursors.Default;
             this.label40.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.ForeColor = System.Drawing.Color.Gray;
-            this.label40.Location = new System.Drawing.Point(23, 119);
+            this.label40.Location = new System.Drawing.Point(17, 97);
+            this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label40.Name = "label40";
             this.label40.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label40.Size = new System.Drawing.Size(102, 27);
+            this.label40.Size = new System.Drawing.Size(76, 22);
             this.label40.TabIndex = 3;
             this.label40.Text = "Active SKUs";
             // 
@@ -3425,10 +3540,11 @@
             this.label41.Cursor = System.Windows.Forms.Cursors.Default;
             this.label41.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label41.Location = new System.Drawing.Point(24, 62);
+            this.label41.Location = new System.Drawing.Point(18, 50);
+            this.label41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label41.Name = "label41";
             this.label41.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label41.Size = new System.Drawing.Size(9, 23);
+            this.label41.Size = new System.Drawing.Size(7, 19);
             this.label41.TabIndex = 2;
             this.label41.Text = "5";
             // 
@@ -3437,10 +3553,11 @@
             this.label42.Cursor = System.Windows.Forms.Cursors.Default;
             this.label42.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label42.Location = new System.Drawing.Point(24, 22);
+            this.label42.Location = new System.Drawing.Point(18, 18);
+            this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label42.Name = "label42";
             this.label42.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label42.Size = new System.Drawing.Size(143, 23);
+            this.label42.Size = new System.Drawing.Size(107, 19);
             this.label42.TabIndex = 1;
             this.label42.Text = "Total Products";
             // 
@@ -3448,10 +3565,11 @@
             // 
             this.lowstockPage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lowstockPage.Controls.Add(this.bunifuPanel6);
-            this.lowstockPage.Location = new System.Drawing.Point(4, 30);
+            this.lowstockPage.Location = new System.Drawing.Point(4, 26);
+            this.lowstockPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lowstockPage.Name = "lowstockPage";
-            this.lowstockPage.Padding = new System.Windows.Forms.Padding(3);
-            this.lowstockPage.Size = new System.Drawing.Size(1525, 723);
+            this.lowstockPage.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lowstockPage.Size = new System.Drawing.Size(1142, 585);
             this.lowstockPage.TabIndex = 1;
             this.lowstockPage.Text = "Low Stock";
             this.lowstockPage.UseVisualStyleBackColor = true;
@@ -3467,11 +3585,11 @@
             this.bunifuPanel6.BorderThickness = 1;
             this.bunifuPanel6.Controls.Add(this.bunifuPanel8);
             this.bunifuPanel6.Controls.Add(this.lblHeader2);
-            this.bunifuPanel6.Location = new System.Drawing.Point(33, 29);
-            this.bunifuPanel6.Margin = new System.Windows.Forms.Padding(30);
+            this.bunifuPanel6.Location = new System.Drawing.Point(25, 25);
+            this.bunifuPanel6.Margin = new System.Windows.Forms.Padding(22, 24, 22, 24);
             this.bunifuPanel6.Name = "bunifuPanel6";
             this.bunifuPanel6.ShowBorders = true;
-            this.bunifuPanel6.Size = new System.Drawing.Size(1450, 519);
+            this.bunifuPanel6.Size = new System.Drawing.Size(1088, 422);
             this.bunifuPanel6.TabIndex = 14;
             // 
             // bunifuPanel8
@@ -3486,28 +3604,31 @@
             this.bunifuPanel8.Controls.Add(this.label44);
             this.bunifuPanel8.Controls.Add(this.itmCode);
             this.bunifuPanel8.Controls.Add(this.itmName);
-            this.bunifuPanel8.Location = new System.Drawing.Point(35, 81);
+            this.bunifuPanel8.Location = new System.Drawing.Point(26, 66);
+            this.bunifuPanel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel8.Name = "bunifuPanel8";
             this.bunifuPanel8.ShowBorders = true;
-            this.bunifuPanel8.Size = new System.Drawing.Size(1379, 100);
+            this.bunifuPanel8.Size = new System.Drawing.Size(1034, 81);
             this.bunifuPanel8.TabIndex = 15;
             // 
             // label43
             // 
             this.label43.AutoSize = true;
             this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label43.Location = new System.Drawing.Point(1469, 59);
+            this.label43.Location = new System.Drawing.Point(1102, 48);
+            this.label43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(158, 23);
+            this.label43.Size = new System.Drawing.Size(131, 19);
             this.label43.TabIndex = 3;
             this.label43.Text = "Reorder At 20 units";
             // 
             // label44
             // 
             this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(1499, 20);
+            this.label44.Location = new System.Drawing.Point(1124, 16);
+            this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(128, 23);
+            this.label44.Size = new System.Drawing.Size(106, 19);
             this.label44.TabIndex = 2;
             this.label44.Text = "Current: 8 units";
             // 
@@ -3515,18 +3636,20 @@
             // 
             this.itmCode.AutoSize = true;
             this.itmCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.itmCode.Location = new System.Drawing.Point(81, 59);
+            this.itmCode.Location = new System.Drawing.Point(61, 48);
+            this.itmCode.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.itmCode.Name = "itmCode";
-            this.itmCode.Size = new System.Drawing.Size(90, 23);
+            this.itmCode.Size = new System.Drawing.Size(76, 19);
             this.itmCode.TabIndex = 1;
             this.itmCode.Text = "FURN-045";
             // 
             // itmName
             // 
             this.itmName.AutoSize = true;
-            this.itmName.Location = new System.Drawing.Point(81, 20);
+            this.itmName.Location = new System.Drawing.Point(61, 16);
+            this.itmName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.itmName.Name = "itmName";
-            this.itmName.Size = new System.Drawing.Size(189, 23);
+            this.itmName.Size = new System.Drawing.Size(157, 19);
             this.itmName.TabIndex = 0;
             this.itmName.Text = "Office Chair-Ergonomic";
             // 
@@ -3535,9 +3658,10 @@
             this.lblHeader2.AutoSize = true;
             this.lblHeader2.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeader2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblHeader2.Location = new System.Drawing.Point(19, 28);
+            this.lblHeader2.Location = new System.Drawing.Point(14, 23);
+            this.lblHeader2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHeader2.Name = "lblHeader2";
-            this.lblHeader2.Size = new System.Drawing.Size(344, 30);
+            this.lblHeader2.Size = new System.Drawing.Size(277, 23);
             this.lblHeader2.TabIndex = 14;
             this.lblHeader2.Text = "Low Stock Items-Reorder Required";
             // 
@@ -3545,9 +3669,10 @@
             // 
             this.supplierPage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.supplierPage.Controls.Add(this.bunifuPanel11);
-            this.supplierPage.Location = new System.Drawing.Point(4, 30);
+            this.supplierPage.Location = new System.Drawing.Point(4, 26);
+            this.supplierPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.supplierPage.Name = "supplierPage";
-            this.supplierPage.Size = new System.Drawing.Size(1525, 723);
+            this.supplierPage.Size = new System.Drawing.Size(1142, 585);
             this.supplierPage.TabIndex = 2;
             this.supplierPage.Text = "Supplier Summary";
             this.supplierPage.UseVisualStyleBackColor = true;
@@ -3563,11 +3688,11 @@
             this.bunifuPanel11.BorderThickness = 1;
             this.bunifuPanel11.Controls.Add(this.bunifuPanel12);
             this.bunifuPanel11.Controls.Add(this.lblHeader3);
-            this.bunifuPanel11.Location = new System.Drawing.Point(30, 29);
-            this.bunifuPanel11.Margin = new System.Windows.Forms.Padding(30);
+            this.bunifuPanel11.Location = new System.Drawing.Point(22, 25);
+            this.bunifuPanel11.Margin = new System.Windows.Forms.Padding(22, 24, 22, 24);
             this.bunifuPanel11.Name = "bunifuPanel11";
             this.bunifuPanel11.ShowBorders = true;
-            this.bunifuPanel11.Size = new System.Drawing.Size(1450, 526);
+            this.bunifuPanel11.Size = new System.Drawing.Size(1088, 427);
             this.bunifuPanel11.TabIndex = 15;
             // 
             // bunifuPanel12
@@ -3581,10 +3706,11 @@
             this.bunifuPanel12.Controls.Add(this.btnView);
             this.bunifuPanel12.Controls.Add(this.supProducts);
             this.bunifuPanel12.Controls.Add(this.supName);
-            this.bunifuPanel12.Location = new System.Drawing.Point(30, 74);
+            this.bunifuPanel12.Location = new System.Drawing.Point(22, 60);
+            this.bunifuPanel12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel12.Name = "bunifuPanel12";
             this.bunifuPanel12.ShowBorders = true;
-            this.bunifuPanel12.Size = new System.Drawing.Size(1390, 100);
+            this.bunifuPanel12.Size = new System.Drawing.Size(1042, 81);
             this.bunifuPanel12.TabIndex = 15;
             // 
             // btnView
@@ -3637,7 +3763,8 @@
             this.btnView.IdleIconLeftImage = null;
             this.btnView.IdleIconRightImage = null;
             this.btnView.IndicateFocus = false;
-            this.btnView.Location = new System.Drawing.Point(1209, 28);
+            this.btnView.Location = new System.Drawing.Point(907, 23);
+            this.btnView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnView.Name = "btnView";
             this.btnView.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnView.OnDisabledState.BorderRadius = 10;
@@ -3671,7 +3798,7 @@
             this.btnView.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnView.OnPressedState.IconLeftImage = null;
             this.btnView.OnPressedState.IconRightImage = null;
-            this.btnView.Size = new System.Drawing.Size(150, 41);
+            this.btnView.Size = new System.Drawing.Size(112, 33);
             this.btnView.TabIndex = 11;
             this.btnView.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnView.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3682,17 +3809,19 @@
             // supProducts
             // 
             this.supProducts.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.supProducts.Location = new System.Drawing.Point(20, 56);
+            this.supProducts.Location = new System.Drawing.Point(15, 46);
+            this.supProducts.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.supProducts.Name = "supProducts";
-            this.supProducts.Size = new System.Drawing.Size(117, 23);
+            this.supProducts.Size = new System.Drawing.Size(88, 19);
             this.supProducts.TabIndex = 1;
             this.supProducts.Text = "2 products";
             // 
             // supName
             // 
-            this.supName.Location = new System.Drawing.Point(20, 17);
+            this.supName.Location = new System.Drawing.Point(15, 14);
+            this.supName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.supName.Name = "supName";
-            this.supName.Size = new System.Drawing.Size(183, 23);
+            this.supName.Size = new System.Drawing.Size(137, 19);
             this.supName.TabIndex = 0;
             this.supName.Text = "Tech Supplies Inc";
             // 
@@ -3701,9 +3830,10 @@
             this.lblHeader3.AutoSize = true;
             this.lblHeader3.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeader3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblHeader3.Location = new System.Drawing.Point(16, 25);
+            this.lblHeader3.Location = new System.Drawing.Point(12, 20);
+            this.lblHeader3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHeader3.Name = "lblHeader3";
-            this.lblHeader3.Size = new System.Drawing.Size(217, 30);
+            this.lblHeader3.Size = new System.Drawing.Size(172, 23);
             this.lblHeader3.TabIndex = 14;
             this.lblHeader3.Text = "Products By Suppllier";
             // 
@@ -3719,10 +3849,11 @@
             this.bunifuPanel14.BorderThickness = 1;
             this.bunifuPanel14.Controls.Add(this.label45);
             this.bunifuPanel14.Controls.Add(this.label48);
-            this.bunifuPanel14.Location = new System.Drawing.Point(294, 0);
+            this.bunifuPanel14.Location = new System.Drawing.Point(220, 0);
+            this.bunifuPanel14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel14.Name = "bunifuPanel14";
             this.bunifuPanel14.ShowBorders = true;
-            this.bunifuPanel14.Size = new System.Drawing.Size(1606, 79);
+            this.bunifuPanel14.Size = new System.Drawing.Size(911, 64);
             this.bunifuPanel14.TabIndex = 3;
             // 
             // label45
@@ -3732,9 +3863,10 @@
             this.label45.BackColor = System.Drawing.Color.White;
             this.label45.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label45.Location = new System.Drawing.Point(1277, 23);
+            this.label45.Location = new System.Drawing.Point(665, 19);
+            this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(285, 30);
+            this.label45.Size = new System.Drawing.Size(234, 23);
             this.label45.TabIndex = 5;
             this.label45.Text = "Saturday, November 22, 2025";
             // 
@@ -3744,9 +3876,10 @@
             this.label48.BackColor = System.Drawing.Color.White;
             this.label48.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label48.Location = new System.Drawing.Point(19, 23);
+            this.label48.Location = new System.Drawing.Point(14, 19);
+            this.label48.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(106, 32);
+            this.label48.Size = new System.Drawing.Size(86, 25);
             this.label48.TabIndex = 4;
             this.label48.Text = "Products";
             // 
@@ -3754,10 +3887,11 @@
             // 
             this.lblTotalProductsTitle.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblTotalProductsTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(118)))), ((int)(((byte)(125)))));
-            this.lblTotalProductsTitle.Location = new System.Drawing.Point(12, 12);
+            this.lblTotalProductsTitle.Location = new System.Drawing.Point(9, 10);
+            this.lblTotalProductsTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTotalProductsTitle.Name = "lblTotalProductsTitle";
             this.lblTotalProductsTitle.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblTotalProductsTitle.Size = new System.Drawing.Size(99, 21);
+            this.lblTotalProductsTitle.Size = new System.Drawing.Size(74, 17);
             this.lblTotalProductsTitle.TabIndex = 2;
             this.lblTotalProductsTitle.Text = "Total Products";
             // 
@@ -3765,10 +3899,11 @@
             // 
             this.lblTotalProductsValue.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.lblTotalProductsValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
-            this.lblTotalProductsValue.Location = new System.Drawing.Point(12, 34);
+            this.lblTotalProductsValue.Location = new System.Drawing.Point(9, 28);
+            this.lblTotalProductsValue.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTotalProductsValue.Name = "lblTotalProductsValue";
             this.lblTotalProductsValue.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblTotalProductsValue.Size = new System.Drawing.Size(18, 42);
+            this.lblTotalProductsValue.Size = new System.Drawing.Size(14, 34);
             this.lblTotalProductsValue.TabIndex = 3;
             this.lblTotalProductsValue.Text = "4";
             // 
@@ -3776,10 +3911,11 @@
             // 
             this.lblInventoryValueTitle.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblInventoryValueTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(118)))), ((int)(((byte)(125)))));
-            this.lblInventoryValueTitle.Location = new System.Drawing.Point(12, 12);
+            this.lblInventoryValueTitle.Location = new System.Drawing.Point(9, 10);
+            this.lblInventoryValueTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblInventoryValueTitle.Name = "lblInventoryValueTitle";
             this.lblInventoryValueTitle.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblInventoryValueTitle.Size = new System.Drawing.Size(109, 21);
+            this.lblInventoryValueTitle.Size = new System.Drawing.Size(82, 17);
             this.lblInventoryValueTitle.TabIndex = 4;
             this.lblInventoryValueTitle.Text = "Inventory Value";
             // 
@@ -3787,10 +3923,11 @@
             // 
             this.lblInventoryValue.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.lblInventoryValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
-            this.lblInventoryValue.Location = new System.Drawing.Point(12, 34);
+            this.lblInventoryValue.Location = new System.Drawing.Point(9, 28);
+            this.lblInventoryValue.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblInventoryValue.Name = "lblInventoryValue";
             this.lblInventoryValue.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblInventoryValue.Size = new System.Drawing.Size(134, 42);
+            this.lblInventoryValue.Size = new System.Drawing.Size(100, 34);
             this.lblInventoryValue.TabIndex = 5;
             this.lblInventoryValue.Text = "$4401.87";
             // 
@@ -3798,10 +3935,11 @@
             // 
             this.lblLowStockTitle.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblLowStockTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(118)))), ((int)(((byte)(125)))));
-            this.lblLowStockTitle.Location = new System.Drawing.Point(12, 12);
+            this.lblLowStockTitle.Location = new System.Drawing.Point(9, 10);
+            this.lblLowStockTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLowStockTitle.Name = "lblLowStockTitle";
             this.lblLowStockTitle.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblLowStockTitle.Size = new System.Drawing.Size(71, 21);
+            this.lblLowStockTitle.Size = new System.Drawing.Size(53, 17);
             this.lblLowStockTitle.TabIndex = 6;
             this.lblLowStockTitle.Text = "Low Stock";
             // 
@@ -3809,10 +3947,11 @@
             // 
             this.lblLowStockValue.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.lblLowStockValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
-            this.lblLowStockValue.Location = new System.Drawing.Point(12, 34);
+            this.lblLowStockValue.Location = new System.Drawing.Point(9, 28);
+            this.lblLowStockValue.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLowStockValue.Name = "lblLowStockValue";
             this.lblLowStockValue.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblLowStockValue.Size = new System.Drawing.Size(18, 42);
+            this.lblLowStockValue.Size = new System.Drawing.Size(14, 34);
             this.lblLowStockValue.TabIndex = 7;
             this.lblLowStockValue.Text = "1";
             // 
@@ -3820,10 +3959,11 @@
             // 
             this.lblOutOfStockTitle.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblOutOfStockTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(118)))), ((int)(((byte)(125)))));
-            this.lblOutOfStockTitle.Location = new System.Drawing.Point(12, 12);
+            this.lblOutOfStockTitle.Location = new System.Drawing.Point(9, 10);
+            this.lblOutOfStockTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOutOfStockTitle.Name = "lblOutOfStockTitle";
             this.lblOutOfStockTitle.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblOutOfStockTitle.Size = new System.Drawing.Size(86, 21);
+            this.lblOutOfStockTitle.Size = new System.Drawing.Size(64, 17);
             this.lblOutOfStockTitle.TabIndex = 8;
             this.lblOutOfStockTitle.Text = "Out of Stock";
             // 
@@ -3831,10 +3971,11 @@
             // 
             this.lblOutOfStockValue.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.lblOutOfStockValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
-            this.lblOutOfStockValue.Location = new System.Drawing.Point(12, 34);
+            this.lblOutOfStockValue.Location = new System.Drawing.Point(9, 28);
+            this.lblOutOfStockValue.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOutOfStockValue.Name = "lblOutOfStockValue";
             this.lblOutOfStockValue.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblOutOfStockValue.Size = new System.Drawing.Size(18, 42);
+            this.lblOutOfStockValue.Size = new System.Drawing.Size(14, 34);
             this.lblOutOfStockValue.TabIndex = 9;
             this.lblOutOfStockValue.Text = "1";
             // 
@@ -3844,8 +3985,9 @@
             this.EmployPage.Controls.Add(this.bunifuPanel1);
             this.EmployPage.Controls.Add(this.pnlMain);
             this.EmployPage.Location = new System.Drawing.Point(4, 4);
+            this.EmployPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.EmployPage.Name = "EmployPage";
-            this.EmployPage.Size = new System.Drawing.Size(1895, 1024);
+            this.EmployPage.Size = new System.Drawing.Size(1109, 679);
             this.EmployPage.TabIndex = 0;
             this.EmployPage.Text = "Employees";
             this.EmployPage.UseVisualStyleBackColor = true;
@@ -3861,10 +4003,11 @@
             this.bunifuPanel3.BorderRadius = 20;
             this.bunifuPanel3.BorderThickness = 1;
             this.bunifuPanel3.Controls.Add(this.tabControlExtra1);
-            this.bunifuPanel3.Location = new System.Drawing.Point(323, 139);
+            this.bunifuPanel3.Location = new System.Drawing.Point(98, 37);
+            this.bunifuPanel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel3.Name = "bunifuPanel3";
             this.bunifuPanel3.ShowBorders = true;
-            this.bunifuPanel3.Size = new System.Drawing.Size(1533, 757);
+            this.bunifuPanel3.Size = new System.Drawing.Size(1150, 615);
             this.bunifuPanel3.TabIndex = 11;
             // 
             // tabControlExtra1
@@ -3936,9 +4079,10 @@
             this.tabControlExtra1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControlExtra1.HotTrack = true;
             this.tabControlExtra1.Location = new System.Drawing.Point(0, 0);
+            this.tabControlExtra1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabControlExtra1.Name = "tabControlExtra1";
             this.tabControlExtra1.SelectedIndex = 0;
-            this.tabControlExtra1.Size = new System.Drawing.Size(1533, 757);
+            this.tabControlExtra1.Size = new System.Drawing.Size(1150, 615);
             this.tabControlExtra1.TabIndex = 11;
             // 
             // employeesPage
@@ -3951,10 +4095,11 @@
             this.employeesPage.Controls.Add(this.totalCard);
             this.employeesPage.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.employeesPage.ForeColor = System.Drawing.Color.Black;
-            this.employeesPage.Location = new System.Drawing.Point(4, 30);
+            this.employeesPage.Location = new System.Drawing.Point(4, 26);
+            this.employeesPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.employeesPage.Name = "employeesPage";
-            this.employeesPage.Padding = new System.Windows.Forms.Padding(3);
-            this.employeesPage.Size = new System.Drawing.Size(1525, 723);
+            this.employeesPage.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.employeesPage.Size = new System.Drawing.Size(1142, 585);
             this.employeesPage.TabIndex = 0;
             this.employeesPage.Text = "Employees";
             this.employeesPage.UseVisualStyleBackColor = true;
@@ -3971,10 +4116,11 @@
             this.outofStockCard.Controls.Add(this.label12);
             this.outofStockCard.Controls.Add(this.label13);
             this.outofStockCard.Controls.Add(this.label14);
-            this.outofStockCard.Location = new System.Drawing.Point(1148, 17);
+            this.outofStockCard.Location = new System.Drawing.Point(861, 14);
+            this.outofStockCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.outofStockCard.Name = "outofStockCard";
             this.outofStockCard.ShowBorders = true;
-            this.outofStockCard.Size = new System.Drawing.Size(350, 156);
+            this.outofStockCard.Size = new System.Drawing.Size(262, 127);
             this.outofStockCard.TabIndex = 16;
             // 
             // label11
@@ -3982,10 +4128,11 @@
             this.label11.Cursor = System.Windows.Forms.Cursors.Default;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label11.Location = new System.Drawing.Point(25, 85);
+            this.label11.Location = new System.Drawing.Point(19, 69);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label11.Size = new System.Drawing.Size(128, 23);
+            this.label11.Size = new System.Drawing.Size(96, 19);
             this.label11.TabIndex = 4;
             this.label11.Text = "5";
             // 
@@ -3994,10 +4141,11 @@
             this.label12.Cursor = System.Windows.Forms.Cursors.Default;
             this.label12.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Gray;
-            this.label12.Location = new System.Drawing.Point(23, 119);
+            this.label12.Location = new System.Drawing.Point(17, 97);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label12.Size = new System.Drawing.Size(102, 27);
+            this.label12.Size = new System.Drawing.Size(76, 22);
             this.label12.TabIndex = 3;
             this.label12.Text = "Active";
             // 
@@ -4006,10 +4154,11 @@
             this.label13.Cursor = System.Windows.Forms.Cursors.Default;
             this.label13.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label13.Location = new System.Drawing.Point(24, 62);
+            this.label13.Location = new System.Drawing.Point(18, 50);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
             this.label13.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label13.Size = new System.Drawing.Size(9, 23);
+            this.label13.Size = new System.Drawing.Size(7, 19);
             this.label13.TabIndex = 2;
             this.label13.Text = "5";
             // 
@@ -4018,10 +4167,11 @@
             this.label14.Cursor = System.Windows.Forms.Cursors.Default;
             this.label14.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label14.Location = new System.Drawing.Point(24, 22);
+            this.label14.Location = new System.Drawing.Point(18, 18);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label14.Size = new System.Drawing.Size(184, 23);
+            this.label14.Size = new System.Drawing.Size(138, 19);
             this.label14.TabIndex = 1;
             this.label14.Text = "Departments";
             // 
@@ -4037,10 +4187,11 @@
             this.lowstockCard.Controls.Add(this.label8);
             this.lowstockCard.Controls.Add(this.label9);
             this.lowstockCard.Controls.Add(this.label10);
-            this.lowstockCard.Location = new System.Drawing.Point(773, 17);
+            this.lowstockCard.Location = new System.Drawing.Point(580, 14);
+            this.lowstockCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lowstockCard.Name = "lowstockCard";
             this.lowstockCard.ShowBorders = true;
-            this.lowstockCard.Size = new System.Drawing.Size(350, 156);
+            this.lowstockCard.Size = new System.Drawing.Size(262, 127);
             this.lowstockCard.TabIndex = 15;
             // 
             // label7
@@ -4048,10 +4199,11 @@
             this.label7.Cursor = System.Windows.Forms.Cursors.Default;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label7.Location = new System.Drawing.Point(25, 85);
+            this.label7.Location = new System.Drawing.Point(19, 69);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label7.Size = new System.Drawing.Size(128, 23);
+            this.label7.Size = new System.Drawing.Size(96, 19);
             this.label7.TabIndex = 4;
             this.label7.Text = "1";
             // 
@@ -4060,10 +4212,11 @@
             this.label8.Cursor = System.Windows.Forms.Cursors.Default;
             this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Gray;
-            this.label8.Location = new System.Drawing.Point(23, 119);
+            this.label8.Location = new System.Drawing.Point(17, 97);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label8.Size = new System.Drawing.Size(168, 27);
+            this.label8.Size = new System.Drawing.Size(126, 22);
             this.label8.TabIndex = 3;
             this.label8.Text = "Cuurently";
             // 
@@ -4072,10 +4225,11 @@
             this.label9.Cursor = System.Windows.Forms.Cursors.Default;
             this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label9.Location = new System.Drawing.Point(24, 62);
+            this.label9.Location = new System.Drawing.Point(18, 50);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label9.Size = new System.Drawing.Size(9, 23);
+            this.label9.Size = new System.Drawing.Size(7, 19);
             this.label9.TabIndex = 2;
             this.label9.Text = "5";
             // 
@@ -4084,10 +4238,11 @@
             this.label10.Cursor = System.Windows.Forms.Cursors.Default;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label10.Location = new System.Drawing.Point(24, 22);
+            this.label10.Location = new System.Drawing.Point(18, 18);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label10.Size = new System.Drawing.Size(143, 23);
+            this.label10.Size = new System.Drawing.Size(107, 19);
             this.label10.TabIndex = 1;
             this.label10.Text = "On Leave";
             // 
@@ -4103,10 +4258,11 @@
             this.valueCard.Controls.Add(this.label4);
             this.valueCard.Controls.Add(this.label5);
             this.valueCard.Controls.Add(this.label6);
-            this.valueCard.Location = new System.Drawing.Point(395, 17);
+            this.valueCard.Location = new System.Drawing.Point(296, 14);
+            this.valueCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.valueCard.Name = "valueCard";
             this.valueCard.ShowBorders = true;
-            this.valueCard.Size = new System.Drawing.Size(350, 156);
+            this.valueCard.Size = new System.Drawing.Size(262, 127);
             this.valueCard.TabIndex = 14;
             // 
             // label3
@@ -4114,10 +4270,11 @@
             this.label3.Cursor = System.Windows.Forms.Cursors.Default;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label3.Location = new System.Drawing.Point(25, 85);
+            this.label3.Location = new System.Drawing.Point(19, 69);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label3.Size = new System.Drawing.Size(128, 23);
+            this.label3.Size = new System.Drawing.Size(96, 19);
             this.label3.TabIndex = 4;
             this.label3.Text = "4";
             // 
@@ -4126,10 +4283,11 @@
             this.label4.Cursor = System.Windows.Forms.Cursors.Default;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(23, 119);
+            this.label4.Location = new System.Drawing.Point(17, 97);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label4.Size = new System.Drawing.Size(147, 27);
+            this.label4.Size = new System.Drawing.Size(110, 22);
             this.label4.TabIndex = 3;
             this.label4.Text = "Working";
             // 
@@ -4138,10 +4296,11 @@
             this.label5.Cursor = System.Windows.Forms.Cursors.Default;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label5.Location = new System.Drawing.Point(24, 62);
+            this.label5.Location = new System.Drawing.Point(18, 50);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label5.Size = new System.Drawing.Size(9, 23);
+            this.label5.Size = new System.Drawing.Size(7, 19);
             this.label5.TabIndex = 2;
             this.label5.Text = "5";
             // 
@@ -4150,10 +4309,11 @@
             this.label6.Cursor = System.Windows.Forms.Cursors.Default;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label6.Location = new System.Drawing.Point(24, 22);
+            this.label6.Location = new System.Drawing.Point(18, 18);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label6.Size = new System.Drawing.Size(205, 23);
+            this.label6.Size = new System.Drawing.Size(154, 19);
             this.label6.TabIndex = 1;
             this.label6.Text = "Active";
             // 
@@ -4170,11 +4330,11 @@
             this.pnlDirectory.Controls.Add(this.productsDgv);
             this.pnlDirectory.Controls.Add(this.btnAddEmployee);
             this.pnlDirectory.Controls.Add(this.txtSearch);
-            this.pnlDirectory.Location = new System.Drawing.Point(18, 193);
-            this.pnlDirectory.Margin = new System.Windows.Forms.Padding(30);
+            this.pnlDirectory.Location = new System.Drawing.Point(14, 158);
+            this.pnlDirectory.Margin = new System.Windows.Forms.Padding(22, 24, 22, 24);
             this.pnlDirectory.Name = "pnlDirectory";
             this.pnlDirectory.ShowBorders = true;
-            this.pnlDirectory.Size = new System.Drawing.Size(1480, 506);
+            this.pnlDirectory.Size = new System.Drawing.Size(1110, 411);
             this.pnlDirectory.TabIndex = 13;
             // 
             // lblHeader
@@ -4182,9 +4342,10 @@
             this.lblHeader.AutoSize = true;
             this.lblHeader.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblHeader.Location = new System.Drawing.Point(22, 25);
+            this.lblHeader.Location = new System.Drawing.Point(16, 20);
+            this.lblHeader.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(227, 32);
+            this.lblHeader.Size = new System.Drawing.Size(182, 25);
             this.lblHeader.TabIndex = 13;
             this.lblHeader.Text = "Employee Directory";
             // 
@@ -4203,7 +4364,7 @@
             this.productsDgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle20.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle20.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.White;
@@ -4230,7 +4391,7 @@
             this.productsDgv.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle21.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle21.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.Black;
@@ -4241,14 +4402,15 @@
             this.productsDgv.HeaderBackColor = System.Drawing.Color.DodgerBlue;
             this.productsDgv.HeaderBgColor = System.Drawing.Color.Empty;
             this.productsDgv.HeaderForeColor = System.Drawing.Color.White;
-            this.productsDgv.Location = new System.Drawing.Point(30, 161);
+            this.productsDgv.Location = new System.Drawing.Point(22, 131);
+            this.productsDgv.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.productsDgv.Name = "productsDgv";
             this.productsDgv.ReadOnly = true;
             this.productsDgv.RowHeadersVisible = false;
             this.productsDgv.RowHeadersWidth = 53;
             this.productsDgv.RowTemplate.Height = 40;
             this.productsDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.productsDgv.Size = new System.Drawing.Size(1417, 320);
+            this.productsDgv.Size = new System.Drawing.Size(1063, 260);
             this.productsDgv.TabIndex = 12;
             this.productsDgv.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
@@ -4302,7 +4464,8 @@
             this.btnAddEmployee.IdleIconLeftImage = null;
             this.btnAddEmployee.IdleIconRightImage = null;
             this.btnAddEmployee.IndicateFocus = false;
-            this.btnAddEmployee.Location = new System.Drawing.Point(1297, 25);
+            this.btnAddEmployee.Location = new System.Drawing.Point(973, 20);
+            this.btnAddEmployee.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAddEmployee.Name = "btnAddEmployee";
             this.btnAddEmployee.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAddEmployee.OnDisabledState.BorderRadius = 15;
@@ -4336,7 +4499,7 @@
             this.btnAddEmployee.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnAddEmployee.OnPressedState.IconLeftImage = null;
             this.btnAddEmployee.OnPressedState.IconRightImage = null;
-            this.btnAddEmployee.Size = new System.Drawing.Size(150, 41);
+            this.btnAddEmployee.Size = new System.Drawing.Size(112, 33);
             this.btnAddEmployee.TabIndex = 10;
             this.btnAddEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAddEmployee.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4374,7 +4537,8 @@
             this.txtSearch.IconRight = null;
             this.txtSearch.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSearch.Lines = new string[0];
-            this.txtSearch.Location = new System.Drawing.Point(30, 84);
+            this.txtSearch.Location = new System.Drawing.Point(22, 68);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSearch.MaxLength = 256;
             this.txtSearch.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtSearch.Modified = false;
@@ -4400,7 +4564,7 @@
             stateProperties20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
             stateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtSearch.OnIdleState = stateProperties20;
-            this.txtSearch.Padding = new System.Windows.Forms.Padding(10, 6, 10, 6);
+            this.txtSearch.Padding = new System.Windows.Forms.Padding(8, 5, 8, 5);
             this.txtSearch.PasswordChar = '\0';
             this.txtSearch.PlaceholderForeColor = System.Drawing.Color.DimGray;
             this.txtSearch.PlaceholderText = "Search by name,departments or role..";
@@ -4410,7 +4574,7 @@
             this.txtSearch.SelectionLength = 0;
             this.txtSearch.SelectionStart = 0;
             this.txtSearch.ShortcutsEnabled = true;
-            this.txtSearch.Size = new System.Drawing.Size(1701, 54);
+            this.txtSearch.Size = new System.Drawing.Size(1276, 46);
             this.txtSearch.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtSearch.TabIndex = 4;
             this.txtSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -4433,10 +4597,11 @@
             this.totalCard.Controls.Add(this.bunifuLabel5);
             this.totalCard.Controls.Add(this.bunifuLabel4);
             this.totalCard.Controls.Add(this.lbl1);
-            this.totalCard.Location = new System.Drawing.Point(18, 17);
+            this.totalCard.Location = new System.Drawing.Point(14, 14);
+            this.totalCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.totalCard.Name = "totalCard";
             this.totalCard.ShowBorders = true;
-            this.totalCard.Size = new System.Drawing.Size(350, 156);
+            this.totalCard.Size = new System.Drawing.Size(262, 127);
             this.totalCard.TabIndex = 12;
             // 
             // label2
@@ -4444,10 +4609,11 @@
             this.label2.Cursor = System.Windows.Forms.Cursors.Default;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(25, 85);
+            this.label2.Location = new System.Drawing.Point(19, 69);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label2.Size = new System.Drawing.Size(128, 23);
+            this.label2.Size = new System.Drawing.Size(96, 19);
             this.label2.TabIndex = 4;
             this.label2.Text = "5";
             // 
@@ -4456,10 +4622,11 @@
             this.bunifuLabel5.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel5.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuLabel5.Location = new System.Drawing.Point(23, 119);
+            this.bunifuLabel5.Location = new System.Drawing.Point(17, 97);
+            this.bunifuLabel5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuLabel5.Name = "bunifuLabel5";
             this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel5.Size = new System.Drawing.Size(102, 27);
+            this.bunifuLabel5.Size = new System.Drawing.Size(76, 22);
             this.bunifuLabel5.TabIndex = 3;
             this.bunifuLabel5.Text = "Registered";
             // 
@@ -4468,10 +4635,11 @@
             this.bunifuLabel4.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuLabel4.Location = new System.Drawing.Point(24, 62);
+            this.bunifuLabel4.Location = new System.Drawing.Point(18, 50);
+            this.bunifuLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuLabel4.Name = "bunifuLabel4";
             this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel4.Size = new System.Drawing.Size(9, 23);
+            this.bunifuLabel4.Size = new System.Drawing.Size(7, 19);
             this.bunifuLabel4.TabIndex = 2;
             this.bunifuLabel4.Text = "5";
             // 
@@ -4480,10 +4648,11 @@
             this.lbl1.Cursor = System.Windows.Forms.Cursors.Default;
             this.lbl1.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lbl1.Location = new System.Drawing.Point(24, 22);
+            this.lbl1.Location = new System.Drawing.Point(18, 18);
+            this.lbl1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl1.Name = "lbl1";
             this.lbl1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbl1.Size = new System.Drawing.Size(172, 23);
+            this.lbl1.Size = new System.Drawing.Size(129, 19);
             this.lbl1.TabIndex = 1;
             this.lbl1.Text = "Total Employees";
             // 
@@ -4497,10 +4666,11 @@
             this.attendancePage.Controls.Add(this.absentsCard);
             this.attendancePage.Controls.Add(this.bunifuPanel7);
             this.attendancePage.Controls.Add(this.presentsCard);
-            this.attendancePage.Location = new System.Drawing.Point(4, 30);
+            this.attendancePage.Location = new System.Drawing.Point(4, 26);
+            this.attendancePage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.attendancePage.Name = "attendancePage";
-            this.attendancePage.Padding = new System.Windows.Forms.Padding(3);
-            this.attendancePage.Size = new System.Drawing.Size(1525, 723);
+            this.attendancePage.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.attendancePage.Size = new System.Drawing.Size(1142, 585);
             this.attendancePage.TabIndex = 1;
             this.attendancePage.Text = "Attendance Summary";
             this.attendancePage.UseVisualStyleBackColor = true;
@@ -4525,8 +4695,7 @@
             this.bunifuVScrollBar1.Dock = System.Windows.Forms.DockStyle.Right;
             this.bunifuVScrollBar1.DurationBeforeShrink = 2000;
             this.bunifuVScrollBar1.LargeChange = 10;
-            this.bunifuVScrollBar1.Location = new System.Drawing.Point(1502, 3);
-            this.bunifuVScrollBar1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuVScrollBar1.Location = new System.Drawing.Point(1124, 2);
             this.bunifuVScrollBar1.Maximum = 100;
             this.bunifuVScrollBar1.Minimum = 0;
             this.bunifuVScrollBar1.MinimumThumbLength = 18;
@@ -4537,11 +4706,11 @@
             this.bunifuVScrollBar1.ScrollBarBorderColor = System.Drawing.Color.Silver;
             this.bunifuVScrollBar1.ScrollBarColor = System.Drawing.Color.Silver;
             this.bunifuVScrollBar1.ShrinkSizeLimit = 3;
-            this.bunifuVScrollBar1.Size = new System.Drawing.Size(18, 715);
+            this.bunifuVScrollBar1.Size = new System.Drawing.Size(14, 579);
             this.bunifuVScrollBar1.SmallChange = 1;
             this.bunifuVScrollBar1.TabIndex = 23;
             this.bunifuVScrollBar1.ThumbColor = System.Drawing.Color.Gray;
-            this.bunifuVScrollBar1.ThumbLength = 70;
+            this.bunifuVScrollBar1.ThumbLength = 57;
             this.bunifuVScrollBar1.ThumbMargin = 1;
             this.bunifuVScrollBar1.ThumbStyle = Bunifu.UI.WinForms.BunifuVScrollBar.ThumbStyles.Inset;
             this.bunifuVScrollBar1.Value = 0;
@@ -4560,10 +4729,11 @@
             this.bunifuPanel9.Controls.Add(this.employeeDropdown);
             this.bunifuPanel9.Controls.Add(this.lblEmailLabel);
             this.bunifuPanel9.Controls.Add(this.label32);
-            this.bunifuPanel9.Location = new System.Drawing.Point(22, 186);
+            this.bunifuPanel9.Location = new System.Drawing.Point(16, 151);
+            this.bunifuPanel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel9.Name = "bunifuPanel9";
             this.bunifuPanel9.ShowBorders = true;
-            this.bunifuPanel9.Size = new System.Drawing.Size(1447, 210);
+            this.bunifuPanel9.Size = new System.Drawing.Size(1085, 171);
             this.bunifuPanel9.TabIndex = 22;
             // 
             // bunifuPanel10
@@ -4579,10 +4749,11 @@
             this.bunifuPanel10.Controls.Add(this.label35);
             this.bunifuPanel10.Controls.Add(this.label34);
             this.bunifuPanel10.Controls.Add(this.label33);
-            this.bunifuPanel10.Location = new System.Drawing.Point(884, 41);
+            this.bunifuPanel10.Location = new System.Drawing.Point(663, 33);
+            this.bunifuPanel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel10.Name = "bunifuPanel10";
             this.bunifuPanel10.ShowBorders = true;
-            this.bunifuPanel10.Size = new System.Drawing.Size(530, 153);
+            this.bunifuPanel10.Size = new System.Drawing.Size(398, 124);
             this.bunifuPanel10.TabIndex = 22;
             // 
             // label37
@@ -4590,9 +4761,10 @@
             this.label37.BackColor = System.Drawing.Color.Transparent;
             this.label37.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.ForeColor = System.Drawing.Color.DimGray;
-            this.label37.Location = new System.Drawing.Point(34, 118);
+            this.label37.Location = new System.Drawing.Point(26, 96);
+            this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(363, 25);
+            this.label37.Size = new System.Drawing.Size(272, 20);
             this.label37.TabIndex = 22;
             this.label37.Text = "Hald Day : 4 Hours Minimum";
             // 
@@ -4601,9 +4773,10 @@
             this.label36.BackColor = System.Drawing.Color.Transparent;
             this.label36.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.ForeColor = System.Drawing.Color.DimGray;
-            this.label36.Location = new System.Drawing.Point(34, 93);
+            this.label36.Location = new System.Drawing.Point(26, 76);
+            this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(363, 25);
+            this.label36.Size = new System.Drawing.Size(272, 20);
             this.label36.TabIndex = 21;
             this.label36.Text = "Full Day : Hours Minimum";
             // 
@@ -4612,9 +4785,10 @@
             this.label35.BackColor = System.Drawing.Color.Transparent;
             this.label35.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.ForeColor = System.Drawing.Color.DimGray;
-            this.label35.Location = new System.Drawing.Point(34, 68);
+            this.label35.Location = new System.Drawing.Point(26, 55);
+            this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(363, 25);
+            this.label35.Size = new System.Drawing.Size(272, 20);
             this.label35.TabIndex = 20;
             this.label35.Text = "Late After 9:30 AM";
             // 
@@ -4623,9 +4797,10 @@
             this.label34.BackColor = System.Drawing.Color.Transparent;
             this.label34.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.ForeColor = System.Drawing.Color.DimGray;
-            this.label34.Location = new System.Drawing.Point(34, 43);
+            this.label34.Location = new System.Drawing.Point(26, 35);
+            this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(363, 25);
+            this.label34.Size = new System.Drawing.Size(272, 20);
             this.label34.TabIndex = 19;
             this.label34.Text = "Standard Working Hours 9:00 AM - 5:00 PM";
             // 
@@ -4634,9 +4809,10 @@
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label33.Location = new System.Drawing.Point(34, 18);
+            this.label33.Location = new System.Drawing.Point(26, 15);
+            this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(93, 23);
+            this.label33.Size = new System.Drawing.Size(77, 19);
             this.label33.TabIndex = 18;
             this.label33.Text = "Quick Info";
             // 
@@ -4690,7 +4866,8 @@
             this.btnChkOut.IdleIconLeftImage = null;
             this.btnChkOut.IdleIconRightImage = null;
             this.btnChkOut.IndicateFocus = false;
-            this.btnChkOut.Location = new System.Drawing.Point(421, 134);
+            this.btnChkOut.Location = new System.Drawing.Point(316, 109);
+            this.btnChkOut.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnChkOut.Name = "btnChkOut";
             this.btnChkOut.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnChkOut.OnDisabledState.BorderRadius = 15;
@@ -4724,7 +4901,7 @@
             this.btnChkOut.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnChkOut.OnPressedState.IconLeftImage = null;
             this.btnChkOut.OnPressedState.IconRightImage = null;
-            this.btnChkOut.Size = new System.Drawing.Size(380, 38);
+            this.btnChkOut.Size = new System.Drawing.Size(285, 31);
             this.btnChkOut.TabIndex = 21;
             this.btnChkOut.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnChkOut.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4782,7 +4959,8 @@
             this.btnChkIn.IdleIconLeftImage = null;
             this.btnChkIn.IdleIconRightImage = null;
             this.btnChkIn.IndicateFocus = false;
-            this.btnChkIn.Location = new System.Drawing.Point(25, 134);
+            this.btnChkIn.Location = new System.Drawing.Point(19, 109);
+            this.btnChkIn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnChkIn.Name = "btnChkIn";
             this.btnChkIn.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnChkIn.OnDisabledState.BorderRadius = 15;
@@ -4816,7 +4994,7 @@
             this.btnChkIn.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnChkIn.OnPressedState.IconLeftImage = null;
             this.btnChkIn.OnPressedState.IconRightImage = null;
-            this.btnChkIn.Size = new System.Drawing.Size(375, 38);
+            this.btnChkIn.Size = new System.Drawing.Size(281, 31);
             this.btnChkIn.TabIndex = 20;
             this.btnChkIn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnChkIn.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4860,9 +5038,10 @@
             this.employeeDropdown.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
             this.employeeDropdown.ItemHighLightForeColor = System.Drawing.Color.White;
             this.employeeDropdown.ItemTopMargin = 3;
-            this.employeeDropdown.Location = new System.Drawing.Point(25, 88);
+            this.employeeDropdown.Location = new System.Drawing.Point(19, 72);
+            this.employeeDropdown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.employeeDropdown.Name = "employeeDropdown";
-            this.employeeDropdown.Size = new System.Drawing.Size(776, 32);
+            this.employeeDropdown.Size = new System.Drawing.Size(583, 32);
             this.employeeDropdown.TabIndex = 19;
             this.employeeDropdown.Text = "Choose Employee";
             this.employeeDropdown.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
@@ -4873,9 +5052,10 @@
             this.lblEmailLabel.BackColor = System.Drawing.Color.Transparent;
             this.lblEmailLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEmailLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.lblEmailLabel.Location = new System.Drawing.Point(22, 51);
+            this.lblEmailLabel.Location = new System.Drawing.Point(16, 41);
+            this.lblEmailLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEmailLabel.Name = "lblEmailLabel";
-            this.lblEmailLabel.Size = new System.Drawing.Size(174, 25);
+            this.lblEmailLabel.Size = new System.Drawing.Size(130, 20);
             this.lblEmailLabel.TabIndex = 18;
             this.lblEmailLabel.Text = "Select Employee";
             // 
@@ -4884,9 +5064,10 @@
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label32.Location = new System.Drawing.Point(23, 13);
+            this.label32.Location = new System.Drawing.Point(17, 11);
+            this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(179, 23);
+            this.label32.Size = new System.Drawing.Size(147, 19);
             this.label32.TabIndex = 17;
             this.label32.Text = "Check In / Check Out";
             // 
@@ -4902,10 +5083,11 @@
             this.attRateCard.Controls.Add(this.label16);
             this.attRateCard.Controls.Add(this.label17);
             this.attRateCard.Controls.Add(this.label18);
-            this.attRateCard.Location = new System.Drawing.Point(1119, 17);
+            this.attRateCard.Location = new System.Drawing.Point(839, 14);
+            this.attRateCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.attRateCard.Name = "attRateCard";
             this.attRateCard.ShowBorders = true;
-            this.attRateCard.Size = new System.Drawing.Size(350, 156);
+            this.attRateCard.Size = new System.Drawing.Size(262, 127);
             this.attRateCard.TabIndex = 21;
             // 
             // label15
@@ -4913,10 +5095,11 @@
             this.label15.Cursor = System.Windows.Forms.Cursors.Default;
             this.label15.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label15.Location = new System.Drawing.Point(25, 85);
+            this.label15.Location = new System.Drawing.Point(19, 69);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
             this.label15.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label15.Size = new System.Drawing.Size(128, 23);
+            this.label15.Size = new System.Drawing.Size(96, 19);
             this.label15.TabIndex = 4;
             this.label15.Text = "5";
             // 
@@ -4925,10 +5108,11 @@
             this.label16.Cursor = System.Windows.Forms.Cursors.Default;
             this.label16.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Gray;
-            this.label16.Location = new System.Drawing.Point(23, 119);
+            this.label16.Location = new System.Drawing.Point(17, 97);
+            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
             this.label16.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label16.Size = new System.Drawing.Size(102, 27);
+            this.label16.Size = new System.Drawing.Size(76, 22);
             this.label16.TabIndex = 3;
             this.label16.Text = "Today";
             // 
@@ -4937,10 +5121,11 @@
             this.label17.Cursor = System.Windows.Forms.Cursors.Default;
             this.label17.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label17.Location = new System.Drawing.Point(24, 62);
+            this.label17.Location = new System.Drawing.Point(18, 50);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
             this.label17.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label17.Size = new System.Drawing.Size(9, 23);
+            this.label17.Size = new System.Drawing.Size(7, 19);
             this.label17.TabIndex = 2;
             this.label17.Text = "5";
             // 
@@ -4949,10 +5134,11 @@
             this.label18.Cursor = System.Windows.Forms.Cursors.Default;
             this.label18.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label18.Location = new System.Drawing.Point(24, 22);
+            this.label18.Location = new System.Drawing.Point(18, 18);
+            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
             this.label18.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label18.Size = new System.Drawing.Size(184, 23);
+            this.label18.Size = new System.Drawing.Size(138, 19);
             this.label18.TabIndex = 1;
             this.label18.Text = "Attendance Rate";
             // 
@@ -4968,10 +5154,11 @@
             this.latesCard.Controls.Add(this.label20);
             this.latesCard.Controls.Add(this.label21);
             this.latesCard.Controls.Add(this.label22);
-            this.latesCard.Location = new System.Drawing.Point(752, 17);
+            this.latesCard.Location = new System.Drawing.Point(564, 14);
+            this.latesCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.latesCard.Name = "latesCard";
             this.latesCard.ShowBorders = true;
-            this.latesCard.Size = new System.Drawing.Size(350, 156);
+            this.latesCard.Size = new System.Drawing.Size(262, 127);
             this.latesCard.TabIndex = 20;
             // 
             // label19
@@ -4979,10 +5166,11 @@
             this.label19.Cursor = System.Windows.Forms.Cursors.Default;
             this.label19.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label19.Location = new System.Drawing.Point(25, 85);
+            this.label19.Location = new System.Drawing.Point(19, 69);
+            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
             this.label19.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label19.Size = new System.Drawing.Size(128, 23);
+            this.label19.Size = new System.Drawing.Size(96, 19);
             this.label19.TabIndex = 4;
             this.label19.Text = "1";
             // 
@@ -4991,10 +5179,11 @@
             this.label20.Cursor = System.Windows.Forms.Cursors.Default;
             this.label20.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.Gray;
-            this.label20.Location = new System.Drawing.Point(23, 119);
+            this.label20.Location = new System.Drawing.Point(17, 97);
+            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
             this.label20.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label20.Size = new System.Drawing.Size(168, 27);
+            this.label20.Size = new System.Drawing.Size(126, 22);
             this.label20.TabIndex = 3;
             this.label20.Text = "Today";
             // 
@@ -5003,10 +5192,11 @@
             this.label21.Cursor = System.Windows.Forms.Cursors.Default;
             this.label21.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label21.Location = new System.Drawing.Point(24, 62);
+            this.label21.Location = new System.Drawing.Point(18, 50);
+            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
             this.label21.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label21.Size = new System.Drawing.Size(9, 23);
+            this.label21.Size = new System.Drawing.Size(7, 19);
             this.label21.TabIndex = 2;
             this.label21.Text = "5";
             // 
@@ -5015,10 +5205,11 @@
             this.label22.Cursor = System.Windows.Forms.Cursors.Default;
             this.label22.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label22.Location = new System.Drawing.Point(24, 22);
+            this.label22.Location = new System.Drawing.Point(18, 18);
+            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
             this.label22.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label22.Size = new System.Drawing.Size(143, 23);
+            this.label22.Size = new System.Drawing.Size(107, 19);
             this.label22.TabIndex = 1;
             this.label22.Text = "Late";
             // 
@@ -5034,10 +5225,11 @@
             this.absentsCard.Controls.Add(this.label24);
             this.absentsCard.Controls.Add(this.label25);
             this.absentsCard.Controls.Add(this.label26);
-            this.absentsCard.Location = new System.Drawing.Point(387, 17);
+            this.absentsCard.Location = new System.Drawing.Point(290, 14);
+            this.absentsCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.absentsCard.Name = "absentsCard";
             this.absentsCard.ShowBorders = true;
-            this.absentsCard.Size = new System.Drawing.Size(350, 156);
+            this.absentsCard.Size = new System.Drawing.Size(262, 127);
             this.absentsCard.TabIndex = 19;
             // 
             // label23
@@ -5045,10 +5237,11 @@
             this.label23.Cursor = System.Windows.Forms.Cursors.Default;
             this.label23.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label23.Location = new System.Drawing.Point(25, 85);
+            this.label23.Location = new System.Drawing.Point(19, 69);
+            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
             this.label23.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label23.Size = new System.Drawing.Size(128, 23);
+            this.label23.Size = new System.Drawing.Size(96, 19);
             this.label23.TabIndex = 4;
             this.label23.Text = "4";
             // 
@@ -5057,10 +5250,11 @@
             this.label24.Cursor = System.Windows.Forms.Cursors.Default;
             this.label24.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.Gray;
-            this.label24.Location = new System.Drawing.Point(23, 119);
+            this.label24.Location = new System.Drawing.Point(17, 97);
+            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
             this.label24.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label24.Size = new System.Drawing.Size(147, 27);
+            this.label24.Size = new System.Drawing.Size(110, 22);
             this.label24.TabIndex = 3;
             this.label24.Text = "Today";
             // 
@@ -5069,10 +5263,11 @@
             this.label25.Cursor = System.Windows.Forms.Cursors.Default;
             this.label25.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label25.Location = new System.Drawing.Point(24, 62);
+            this.label25.Location = new System.Drawing.Point(18, 50);
+            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
             this.label25.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label25.Size = new System.Drawing.Size(9, 23);
+            this.label25.Size = new System.Drawing.Size(7, 19);
             this.label25.TabIndex = 2;
             this.label25.Text = "5";
             // 
@@ -5081,10 +5276,11 @@
             this.label26.Cursor = System.Windows.Forms.Cursors.Default;
             this.label26.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label26.Location = new System.Drawing.Point(22, 22);
+            this.label26.Location = new System.Drawing.Point(16, 18);
+            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
             this.label26.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label26.Size = new System.Drawing.Size(205, 23);
+            this.label26.Size = new System.Drawing.Size(154, 19);
             this.label26.TabIndex = 1;
             this.label26.Text = "Absent";
             // 
@@ -5101,11 +5297,11 @@
             this.bunifuPanel7.Controls.Add(this.label27);
             this.bunifuPanel7.Controls.Add(this.attDgv);
             this.bunifuPanel7.Controls.Add(this.btnExport);
-            this.bunifuPanel7.Location = new System.Drawing.Point(22, 400);
-            this.bunifuPanel7.Margin = new System.Windows.Forms.Padding(30);
+            this.bunifuPanel7.Location = new System.Drawing.Point(16, 327);
+            this.bunifuPanel7.Margin = new System.Windows.Forms.Padding(22, 24, 22, 24);
             this.bunifuPanel7.Name = "bunifuPanel7";
             this.bunifuPanel7.ShowBorders = true;
-            this.bunifuPanel7.Size = new System.Drawing.Size(1447, 340);
+            this.bunifuPanel7.Size = new System.Drawing.Size(1085, 276);
             this.bunifuPanel7.TabIndex = 18;
             // 
             // bunifuDatePicker1
@@ -5128,10 +5324,11 @@
             this.bunifuDatePicker1.IconColor = System.Drawing.Color.Gray;
             this.bunifuDatePicker1.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
             this.bunifuDatePicker1.LeftTextMargin = 5;
-            this.bunifuDatePicker1.Location = new System.Drawing.Point(981, 16);
+            this.bunifuDatePicker1.Location = new System.Drawing.Point(736, 13);
+            this.bunifuDatePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuDatePicker1.MinimumSize = new System.Drawing.Size(4, 32);
             this.bunifuDatePicker1.Name = "bunifuDatePicker1";
-            this.bunifuDatePicker1.Size = new System.Drawing.Size(257, 32);
+            this.bunifuDatePicker1.Size = new System.Drawing.Size(194, 32);
             this.bunifuDatePicker1.TabIndex = 14;
             // 
             // label27
@@ -5139,9 +5336,10 @@
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label27.Location = new System.Drawing.Point(22, 25);
+            this.label27.Location = new System.Drawing.Point(16, 20);
+            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(201, 32);
+            this.label27.Size = new System.Drawing.Size(160, 25);
             this.label27.TabIndex = 13;
             this.label27.Text = "Daily Attendance";
             // 
@@ -5160,7 +5358,7 @@
             this.attDgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle23.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.White;
@@ -5187,7 +5385,7 @@
             this.attDgv.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle24.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.Black;
@@ -5198,14 +5396,15 @@
             this.attDgv.HeaderBackColor = System.Drawing.Color.DodgerBlue;
             this.attDgv.HeaderBgColor = System.Drawing.Color.Empty;
             this.attDgv.HeaderForeColor = System.Drawing.Color.White;
-            this.attDgv.Location = new System.Drawing.Point(30, 72);
+            this.attDgv.Location = new System.Drawing.Point(22, 58);
+            this.attDgv.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.attDgv.Name = "attDgv";
             this.attDgv.ReadOnly = true;
             this.attDgv.RowHeadersVisible = false;
             this.attDgv.RowHeadersWidth = 53;
             this.attDgv.RowTemplate.Height = 40;
             this.attDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.attDgv.Size = new System.Drawing.Size(1384, 243);
+            this.attDgv.Size = new System.Drawing.Size(1038, 197);
             this.attDgv.TabIndex = 12;
             this.attDgv.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
@@ -5259,7 +5458,8 @@
             this.btnExport.IdleIconLeftImage = null;
             this.btnExport.IdleIconRightImage = null;
             this.btnExport.IndicateFocus = false;
-            this.btnExport.Location = new System.Drawing.Point(1264, 16);
+            this.btnExport.Location = new System.Drawing.Point(948, 13);
+            this.btnExport.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExport.Name = "btnExport";
             this.btnExport.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnExport.OnDisabledState.BorderRadius = 15;
@@ -5293,7 +5493,7 @@
             this.btnExport.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnExport.OnPressedState.IconLeftImage = null;
             this.btnExport.OnPressedState.IconRightImage = null;
-            this.btnExport.Size = new System.Drawing.Size(150, 41);
+            this.btnExport.Size = new System.Drawing.Size(112, 33);
             this.btnExport.TabIndex = 10;
             this.btnExport.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnExport.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -5313,10 +5513,11 @@
             this.presentsCard.Controls.Add(this.label29);
             this.presentsCard.Controls.Add(this.label30);
             this.presentsCard.Controls.Add(this.label31);
-            this.presentsCard.Location = new System.Drawing.Point(22, 17);
+            this.presentsCard.Location = new System.Drawing.Point(16, 14);
+            this.presentsCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.presentsCard.Name = "presentsCard";
             this.presentsCard.ShowBorders = true;
-            this.presentsCard.Size = new System.Drawing.Size(350, 156);
+            this.presentsCard.Size = new System.Drawing.Size(262, 127);
             this.presentsCard.TabIndex = 17;
             // 
             // label28
@@ -5324,10 +5525,11 @@
             this.label28.Cursor = System.Windows.Forms.Cursors.Default;
             this.label28.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label28.Location = new System.Drawing.Point(25, 85);
+            this.label28.Location = new System.Drawing.Point(19, 69);
+            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
             this.label28.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label28.Size = new System.Drawing.Size(128, 23);
+            this.label28.Size = new System.Drawing.Size(96, 19);
             this.label28.TabIndex = 4;
             this.label28.Text = "5";
             // 
@@ -5336,10 +5538,11 @@
             this.label29.Cursor = System.Windows.Forms.Cursors.Default;
             this.label29.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.Color.Gray;
-            this.label29.Location = new System.Drawing.Point(23, 119);
+            this.label29.Location = new System.Drawing.Point(17, 97);
+            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
             this.label29.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label29.Size = new System.Drawing.Size(102, 27);
+            this.label29.Size = new System.Drawing.Size(76, 22);
             this.label29.TabIndex = 3;
             this.label29.Text = "Today";
             // 
@@ -5348,10 +5551,11 @@
             this.label30.Cursor = System.Windows.Forms.Cursors.Default;
             this.label30.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label30.Location = new System.Drawing.Point(24, 62);
+            this.label30.Location = new System.Drawing.Point(18, 50);
+            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label30.Name = "label30";
             this.label30.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label30.Size = new System.Drawing.Size(9, 23);
+            this.label30.Size = new System.Drawing.Size(7, 19);
             this.label30.TabIndex = 2;
             this.label30.Text = "5";
             // 
@@ -5360,10 +5564,11 @@
             this.label31.Cursor = System.Windows.Forms.Cursors.Default;
             this.label31.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label31.Location = new System.Drawing.Point(24, 22);
+            this.label31.Location = new System.Drawing.Point(18, 18);
+            this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label31.Name = "label31";
             this.label31.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label31.Size = new System.Drawing.Size(172, 23);
+            this.label31.Size = new System.Drawing.Size(129, 19);
             this.label31.TabIndex = 1;
             this.label31.Text = "Present";
             // 
@@ -5379,11 +5584,11 @@
             this.bunifuPanel1.BorderThickness = 1;
             this.bunifuPanel1.Controls.Add(this.label1);
             this.bunifuPanel1.Controls.Add(this.lblTopTitle);
-            this.bunifuPanel1.Location = new System.Drawing.Point(294, 0);
+            this.bunifuPanel1.Location = new System.Drawing.Point(220, 0);
             this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(1606, 79);
+            this.bunifuPanel1.Size = new System.Drawing.Size(916, 64);
             this.bunifuPanel1.TabIndex = 10;
             // 
             // label1
@@ -5393,9 +5598,10 @@
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(1285, 23);
+            this.label1.Location = new System.Drawing.Point(676, 19);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(285, 30);
+            this.label1.Size = new System.Drawing.Size(234, 23);
             this.label1.TabIndex = 5;
             this.label1.Text = "Saturday, November 22, 2025";
             // 
@@ -5405,9 +5611,10 @@
             this.lblTopTitle.BackColor = System.Drawing.Color.White;
             this.lblTopTitle.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTopTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblTopTitle.Location = new System.Drawing.Point(19, 23);
+            this.lblTopTitle.Location = new System.Drawing.Point(14, 19);
+            this.lblTopTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTopTitle.Name = "lblTopTitle";
-            this.lblTopTitle.Size = new System.Drawing.Size(129, 32);
+            this.lblTopTitle.Size = new System.Drawing.Size(102, 25);
             this.lblTopTitle.TabIndex = 4;
             this.lblTopTitle.Text = "Employees";
             // 
@@ -5421,17 +5628,19 @@
             this.pnlMain.BorderColor = System.Drawing.Color.Transparent;
             this.pnlMain.BorderRadius = 0;
             this.pnlMain.BorderThickness = 0;
-            this.pnlMain.Location = new System.Drawing.Point(150, 178);
+            this.pnlMain.Location = new System.Drawing.Point(-32, 69);
+            this.pnlMain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.ShowBorders = true;
-            this.pnlMain.Size = new System.Drawing.Size(1864, 903);
+            this.pnlMain.Size = new System.Drawing.Size(1398, 734);
             this.pnlMain.TabIndex = 9;
             // 
             // DashBoardPage
             // 
             this.DashBoardPage.Location = new System.Drawing.Point(4, 4);
+            this.DashBoardPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DashBoardPage.Name = "DashBoardPage";
-            this.DashBoardPage.Size = new System.Drawing.Size(1895, 1024);
+            this.DashBoardPage.Size = new System.Drawing.Size(1109, 679);
             this.DashBoardPage.TabIndex = 1;
             this.DashBoardPage.Text = "DashBoard";
             this.DashBoardPage.UseVisualStyleBackColor = true;
@@ -5452,14 +5661,15 @@
             this.bunifuPages1.Controls.Add(this.ProfilePage);
             this.bunifuPages1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuPages1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuPages1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPages1.Multiline = true;
             this.bunifuPages1.Name = "bunifuPages1";
-            this.bunifuPages1.Page = this.ProfilePage;
-            this.bunifuPages1.PageIndex = 9;
-            this.bunifuPages1.PageName = "ProfilePage";
-            this.bunifuPages1.PageTitle = "UserProfile";
+            this.bunifuPages1.Page = this.StkAdkPage;
+            this.bunifuPages1.PageIndex = 3;
+            this.bunifuPages1.PageName = "StkAdkPage";
+            this.bunifuPages1.PageTitle = "StkAdjPage";
             this.bunifuPages1.SelectedIndex = 0;
-            this.bunifuPages1.Size = new System.Drawing.Size(1924, 1032);
+            this.bunifuPages1.Size = new System.Drawing.Size(1155, 687);
             this.bunifuPages1.TabIndex = 0;
             animation1.AnimateOnlyDifferences = true;
             animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
@@ -5485,8 +5695,9 @@
             this.PchPage.Controls.Add(this.bunifuPanel34);
             this.PchPage.Controls.Add(this.bunifuPanel35);
             this.PchPage.Location = new System.Drawing.Point(4, 4);
+            this.PchPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PchPage.Name = "PchPage";
-            this.PchPage.Size = new System.Drawing.Size(1895, 1024);
+            this.PchPage.Size = new System.Drawing.Size(1109, 679);
             this.PchPage.TabIndex = 8;
             this.PchPage.Text = "PurPage";
             this.PchPage.UseVisualStyleBackColor = true;
@@ -5503,10 +5714,11 @@
             this.bunifuPanel33.BorderThickness = 1;
             this.bunifuPanel33.Controls.Add(this.label87);
             this.bunifuPanel33.Controls.Add(this.label88);
-            this.bunifuPanel33.Location = new System.Drawing.Point(294, 0);
+            this.bunifuPanel33.Location = new System.Drawing.Point(220, 0);
+            this.bunifuPanel33.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel33.Name = "bunifuPanel33";
             this.bunifuPanel33.ShowBorders = true;
-            this.bunifuPanel33.Size = new System.Drawing.Size(1606, 79);
+            this.bunifuPanel33.Size = new System.Drawing.Size(916, 64);
             this.bunifuPanel33.TabIndex = 26;
             // 
             // label87
@@ -5516,9 +5728,10 @@
             this.label87.BackColor = System.Drawing.Color.White;
             this.label87.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label87.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label87.Location = new System.Drawing.Point(1285, 23);
+            this.label87.Location = new System.Drawing.Point(676, 19);
+            this.label87.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(285, 30);
+            this.label87.Size = new System.Drawing.Size(234, 23);
             this.label87.TabIndex = 5;
             this.label87.Text = "Saturday, November 22, 2025";
             // 
@@ -5528,9 +5741,10 @@
             this.label88.BackColor = System.Drawing.Color.White;
             this.label88.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label88.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label88.Location = new System.Drawing.Point(19, 23);
+            this.label88.Location = new System.Drawing.Point(14, 19);
+            this.label88.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(119, 32);
+            this.label88.Size = new System.Drawing.Size(97, 25);
             this.label88.TabIndex = 4;
             this.label88.Text = "Purchases";
             // 
@@ -5546,10 +5760,11 @@
             this.bunifuPanel34.BorderThickness = 1;
             this.bunifuPanel34.Controls.Add(this.label89);
             this.bunifuPanel34.Controls.Add(this.label90);
-            this.bunifuPanel34.Location = new System.Drawing.Point(-6, 980);
+            this.bunifuPanel34.Location = new System.Drawing.Point(-4, 645);
+            this.bunifuPanel34.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel34.Name = "bunifuPanel34";
             this.bunifuPanel34.ShowBorders = true;
-            this.bunifuPanel34.Size = new System.Drawing.Size(1902, 51);
+            this.bunifuPanel34.Size = new System.Drawing.Size(1138, 41);
             this.bunifuPanel34.TabIndex = 27;
             // 
             // label89
@@ -5558,10 +5773,11 @@
             this.label89.BackColor = System.Drawing.Color.Transparent;
             this.label89.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.label89.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(95)))), ((int)(((byte)(102)))));
-            this.label89.Location = new System.Drawing.Point(1733, 14);
+            this.label89.Location = new System.Drawing.Point(1012, 11);
+            this.label89.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label89.Name = "label89";
             this.label89.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label89.Size = new System.Drawing.Size(157, 21);
+            this.label89.Size = new System.Drawing.Size(118, 17);
             this.label89.TabIndex = 3;
             this.label89.Text = "Status: Connected";
             // 
@@ -5571,10 +5787,11 @@
             this.label90.Cursor = System.Windows.Forms.Cursors.Default;
             this.label90.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label90.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label90.Location = new System.Drawing.Point(8, 7);
+            this.label90.Location = new System.Drawing.Point(6, 6);
+            this.label90.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label90.Name = "label90";
             this.label90.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label90.Size = new System.Drawing.Size(528, 28);
+            this.label90.Size = new System.Drawing.Size(396, 23);
             this.label90.TabIndex = 2;
             this.label90.Text = "User: admin@company.com | Role: Administrator";
             // 
@@ -5589,10 +5806,11 @@
             this.bunifuPanel35.Controls.Add(this.bunifuDataGridView3);
             this.bunifuPanel35.Controls.Add(this.bunifuButton3);
             this.bunifuPanel35.Controls.Add(this.label91);
-            this.bunifuPanel35.Location = new System.Drawing.Point(348, 119);
+            this.bunifuPanel35.Location = new System.Drawing.Point(261, 97);
+            this.bunifuPanel35.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuPanel35.Name = "bunifuPanel35";
             this.bunifuPanel35.ShowBorders = true;
-            this.bunifuPanel35.Size = new System.Drawing.Size(1507, 271);
+            this.bunifuPanel35.Size = new System.Drawing.Size(1130, 220);
             this.bunifuPanel35.TabIndex = 28;
             // 
             // bunifuDataGridView3
@@ -5645,13 +5863,14 @@
             this.bunifuDataGridView3.HeaderBackColor = System.Drawing.Color.DodgerBlue;
             this.bunifuDataGridView3.HeaderBgColor = System.Drawing.Color.Empty;
             this.bunifuDataGridView3.HeaderForeColor = System.Drawing.Color.White;
-            this.bunifuDataGridView3.Location = new System.Drawing.Point(43, 86);
+            this.bunifuDataGridView3.Location = new System.Drawing.Point(32, 70);
+            this.bunifuDataGridView3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuDataGridView3.Name = "bunifuDataGridView3";
             this.bunifuDataGridView3.RowHeadersVisible = false;
             this.bunifuDataGridView3.RowHeadersWidth = 53;
             this.bunifuDataGridView3.RowTemplate.Height = 40;
             this.bunifuDataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.bunifuDataGridView3.Size = new System.Drawing.Size(1438, 150);
+            this.bunifuDataGridView3.Size = new System.Drawing.Size(1078, 122);
             this.bunifuDataGridView3.TabIndex = 17;
             this.bunifuDataGridView3.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
@@ -5705,7 +5924,8 @@
             this.bunifuButton3.IdleIconLeftImage = null;
             this.bunifuButton3.IdleIconRightImage = null;
             this.bunifuButton3.IndicateFocus = false;
-            this.bunifuButton3.Location = new System.Drawing.Point(1331, 29);
+            this.bunifuButton3.Location = new System.Drawing.Point(998, 24);
+            this.bunifuButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuButton3.Name = "bunifuButton3";
             this.bunifuButton3.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton3.OnDisabledState.BorderRadius = 15;
@@ -5739,7 +5959,7 @@
             this.bunifuButton3.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton3.OnPressedState.IconLeftImage = null;
             this.bunifuButton3.OnPressedState.IconRightImage = null;
-            this.bunifuButton3.Size = new System.Drawing.Size(150, 41);
+            this.bunifuButton3.Size = new System.Drawing.Size(112, 33);
             this.bunifuButton3.TabIndex = 15;
             this.bunifuButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton3.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -5752,11 +5972,22 @@
             this.label91.BackColor = System.Drawing.Color.Transparent;
             this.label91.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label91.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label91.Location = new System.Drawing.Point(20, 29);
+            this.label91.Location = new System.Drawing.Point(15, 24);
+            this.label91.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(255, 32);
+            this.label91.Size = new System.Drawing.Size(191, 26);
             this.label91.TabIndex = 14;
             this.label91.Text = "Purchase Orders";
+            // 
+            // ProfilePage
+            // 
+            this.ProfilePage.Location = new System.Drawing.Point(4, 4);
+            this.ProfilePage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ProfilePage.Name = "ProfilePage";
+            this.ProfilePage.Size = new System.Drawing.Size(1109, 679);
+            this.ProfilePage.TabIndex = 10;
+            this.ProfilePage.Text = "UserProfile";
+            this.ProfilePage.UseVisualStyleBackColor = true;
             // 
             // sideNavBar1
             // 
@@ -5764,28 +5995,20 @@
             this.sideNavBar1.Location = new System.Drawing.Point(0, 0);
             this.sideNavBar1.Margin = new System.Windows.Forms.Padding(0);
             this.sideNavBar1.Name = "sideNavBar1";
-            this.sideNavBar1.Size = new System.Drawing.Size(305, 994);
+            this.sideNavBar1.Size = new System.Drawing.Size(229, 656);
             this.sideNavBar1.TabIndex = 1;
             this.sideNavBar1.Load += new System.EventHandler(this.sideNavBar1_Load);
             // 
-            // ProfilePage
-            // 
-            this.ProfilePage.Location = new System.Drawing.Point(4, 4);
-            this.ProfilePage.Name = "ProfilePage";
-            this.ProfilePage.Size = new System.Drawing.Size(1895, 1024);
-            this.ProfilePage.TabIndex = 10;
-            this.ProfilePage.Text = "UserProfile";
-            this.ProfilePage.UseVisualStyleBackColor = true;
-            // 
             // MainPageForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1924, 1032);
+            this.ClientSize = new System.Drawing.Size(1155, 687);
             this.Controls.Add(this.sideNavBar1);
             this.Controls.Add(this.bunifuPanel2);
             this.Controls.Add(this.bunifuPages1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainPageForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainPageForm";
