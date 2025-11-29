@@ -145,6 +145,66 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="GUI\Components\SideNavBar.Designer.cs" />
+    <Compile Include="GUI\Pages\DashboardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\DashboardPage.Designer.cs">
+      <DependentUpon>DashboardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pages\EmployeesPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\EmployeesPage.Designer.cs">
+      <DependentUpon>EmployeesPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pages\ProductPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\ProductPage.Designer.cs">
+      <DependentUpon>ProductPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pages\ProfilePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\ProfilePage.Designer.cs">
+      <DependentUpon>ProfilePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pages\PurchasesPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\PurchasesPage.Designer.cs">
+      <DependentUpon>PurchasesPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pages\ReportsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\ReportsPage.Designer.cs">
+      <DependentUpon>ReportsPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pages\SalesPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\SalesPage.Designer.cs">
+      <DependentUpon>SalesPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pages\StockAdjustmentPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\StockAdjustmentPage.Designer.cs">
+      <DependentUpon>StockAdjustmentPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pages\SuppliersPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\SuppliersPage.Designer.cs">
+      <DependentUpon>SuppliersPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pages\TransactionHistoryPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\TransactionHistoryPage.Designer.cs">
+      <DependentUpon>TransactionHistoryPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\Forms\MainPageForm.resx">
@@ -152,6 +212,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Components\SideNavBar.resx">
       <DependentUpon>SideNavBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pages\EmployeesPage.resx">
+      <DependentUpon>EmployeesPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -177,9 +240,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="GUI\Pages\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Assets\hamburg.png" />
     <Content Include="Assets\Logo.png">
