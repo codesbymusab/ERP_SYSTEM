@@ -23,3 +23,7 @@ Release/
 **/ProjectSettings.json
 **/DocumentLayout.json
 **/DocumentLayout.backup.json
+
+# Package Management
+packages/
+packages.config
