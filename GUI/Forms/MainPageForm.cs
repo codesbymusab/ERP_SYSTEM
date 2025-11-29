@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,18 +8,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Media.Animation;
 
 namespace ERP_System
-{
+{   
+   
     public partial class MainPageForm : Form
     {
+        
         public MainPageForm()
         {
             InitializeComponent();
 
             // Set the reference to this form in the SideNavBar
             this.sideNavBar1.SetMainPageForm(this);
-
+          
             // Attach event handlers for navigation
             this.sideNavBar1.btnDashboard.Click += dashboardBtn_Click;
             this.sideNavBar1.btnProd.Click += productsBtn_Click;
@@ -37,7 +41,7 @@ namespace ERP_System
         }
 
         private void employBtn_Click(object sender, EventArgs e)
-        {
+        {   
             this.bunifuPages1.PageIndex = 1;
         }
 
