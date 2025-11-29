@@ -121,3 +121,42 @@ D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\obj\Debug\ERP_System.exe
 D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\obj\Debug\ERP_System.pdb
 D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\obj\Debug\ERP_System.GUI.SideNavBar.resources
 D:\Web Dev\.NET\GIT_ERP_System\ERP_SYSTEM\obj\Debug\ERP_System.MainPageForm.resources
+D:\GitHub\ERP_SYSTEM\bin\Debug\Assets\Logo.png
+D:\GitHub\ERP_SYSTEM\bin\Debug\GUI\Login\LoginForm.resx
+D:\GitHub\ERP_SYSTEM\bin\Debug\ERP_System.exe.config
+D:\GitHub\ERP_SYSTEM\bin\Debug\ERP_System.exe
+D:\GitHub\ERP_SYSTEM\bin\Debug\ERP_System.pdb
+D:\GitHub\ERP_SYSTEM\bin\Debug\Bunifu.Charts.WinForms.dll
+D:\GitHub\ERP_SYSTEM\bin\Debug\Bunifu.Licensing.dll
+D:\GitHub\ERP_SYSTEM\bin\Debug\Bunifu.UI.WinForms.dll
+D:\GitHub\ERP_SYSTEM\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub\ERP_SYSTEM\bin\Debug\System.CodeDom.dll
+D:\GitHub\ERP_SYSTEM\bin\Debug\TradeWright.TabControlExtra.dll
+D:\GitHub\ERP_SYSTEM\bin\Debug\Bunifu.Charts.WinForms.xml
+D:\GitHub\ERP_SYSTEM\bin\Debug\Bunifu.UI.WinForms.xml
+D:\GitHub\ERP_SYSTEM\bin\Debug\Newtonsoft.Json.xml
+D:\GitHub\ERP_SYSTEM\bin\Debug\System.CodeDom.xml
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.csproj.AssemblyReference.cache
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.exe.config
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.GUI.Administration.ActivityLogForm.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.GUI.Administration.SettingsForm.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.GUI.Administration.UserManagementForm.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.GUI.DashBoard.DashBoardForm.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.GUI.HR.EmployeesForm.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.GUI.Inventory.ProductsForm.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.GUI.Inventory.StockAdjustmentForm.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.GUI.Suppliers.SupplierForm.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.GUI.Login.LoginForm.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.GUI.Profile.UserProfileForm.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.GUI.Reports.ReportsForm.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.GUI.SideNavBar.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.GUI.Transactions.HistoryForm.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.GUI.Transactions.PurchasesForm.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.GUI.Transactions.SalesForm.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.MainPageForm.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.Properties.Resources.resources
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.csproj.GenerateResource.cache
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.csproj.CoreCompileInputs.cache
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.csproj.Up2Date
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.exe
+D:\GitHub\ERP_SYSTEM\obj\Debug\ERP_System.pdb
