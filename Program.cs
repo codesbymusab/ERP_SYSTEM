@@ -1,5 +1,6 @@
 ﻿using ERP_System;
 using ERP_System.GUI;
+using ERP_System.GUI.Forms;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace ERP_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainPageForm());
+            Application.Run(new LoginForm());
         }
     }
 }

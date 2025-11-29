@@ -59,11 +59,13 @@
             this.ucReports = new ERP_System.GUI.Pages.ReportsPage();
             this.userManagementPage1 = new ERP_System.GUI.Pages.UserManagementPage();
             this.activityLogPage1 = new ERP_System.GUI.Pages.ActivityLogPage();
+            this.settingsPage2 = new ERP_System.GUI.Pages.SettingsPage();
             this.settingsPage1 = new ERP_System.GUI.Pages.SettingsPage();
             this.sideNavBar1 = new ERP_System.GUI.SideNavBar();
-            this.settingsPage2 = new ERP_System.GUI.Pages.SettingsPage();
+            this.dashboardPage1 = new ERP_System.GUI.Pages.DashboardPage();
             this.bunifuPages1.SuspendLayout();
             this.tabDashboard.SuspendLayout();
+            this.bunifuPanel1.SuspendLayout();
             this.tabEmployees.SuspendLayout();
             this.tabProducts.SuspendLayout();
             this.tabStockAdj.SuspendLayout();
@@ -101,10 +103,10 @@
             this.bunifuPages1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPages1.Multiline = true;
             this.bunifuPages1.Name = "bunifuPages1";
-            this.bunifuPages1.Page = this.tabSettings;
-            this.bunifuPages1.PageIndex = 12;
-            this.bunifuPages1.PageName = "tabSettings";
-            this.bunifuPages1.PageTitle = "tabSettings";
+            this.bunifuPages1.Page = this.tabDashboard;
+            this.bunifuPages1.PageIndex = 0;
+            this.bunifuPages1.PageName = "tabDashboard";
+            this.bunifuPages1.PageTitle = "DashBoard";
             this.bunifuPages1.SelectedIndex = 0;
             this.bunifuPages1.Size = new System.Drawing.Size(1235, 818);
             this.bunifuPages1.TabIndex = 2;
@@ -145,6 +147,7 @@
             this.bunifuPanel1.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel1.BorderRadius = 3;
             this.bunifuPanel1.BorderThickness = 1;
+            this.bunifuPanel1.Controls.Add(this.dashboardPage1);
             this.bunifuPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuPanel1.Location = new System.Drawing.Point(0, 0);
             this.bunifuPanel1.Name = "bunifuPanel1";
@@ -333,7 +336,7 @@
             this.ucEmployees.Location = new System.Drawing.Point(0, 0);
             this.ucEmployees.Margin = new System.Windows.Forms.Padding(5);
             this.ucEmployees.Name = "ucEmployees";
-            this.ucEmployees.Size = new System.Drawing.Size(1206, 810);
+            this.ucEmployees.Size = new System.Drawing.Size(1185, 810);
             this.ucEmployees.TabIndex = 0;
             // 
             // ucProducts
@@ -342,7 +345,7 @@
             this.ucProducts.Location = new System.Drawing.Point(0, 0);
             this.ucProducts.Margin = new System.Windows.Forms.Padding(5);
             this.ucProducts.Name = "ucProducts";
-            this.ucProducts.Size = new System.Drawing.Size(1206, 810);
+            this.ucProducts.Size = new System.Drawing.Size(1185, 810);
             this.ucProducts.TabIndex = 0;
             // 
             // ucStockAdj
@@ -351,7 +354,7 @@
             this.ucStockAdj.Location = new System.Drawing.Point(0, 0);
             this.ucStockAdj.Margin = new System.Windows.Forms.Padding(5);
             this.ucStockAdj.Name = "ucStockAdj";
-            this.ucStockAdj.Size = new System.Drawing.Size(1206, 810);
+            this.ucStockAdj.Size = new System.Drawing.Size(1185, 810);
             this.ucStockAdj.TabIndex = 0;
             // 
             // ucSuppliers
@@ -360,7 +363,7 @@
             this.ucSuppliers.Location = new System.Drawing.Point(0, 0);
             this.ucSuppliers.Margin = new System.Windows.Forms.Padding(5);
             this.ucSuppliers.Name = "ucSuppliers";
-            this.ucSuppliers.Size = new System.Drawing.Size(1206, 810);
+            this.ucSuppliers.Size = new System.Drawing.Size(1185, 810);
             this.ucSuppliers.TabIndex = 0;
             // 
             // ucHistory
@@ -369,7 +372,7 @@
             this.ucHistory.Location = new System.Drawing.Point(0, 0);
             this.ucHistory.Margin = new System.Windows.Forms.Padding(5);
             this.ucHistory.Name = "ucHistory";
-            this.ucHistory.Size = new System.Drawing.Size(1206, 810);
+            this.ucHistory.Size = new System.Drawing.Size(1185, 810);
             this.ucHistory.TabIndex = 0;
             // 
             // ucPurchases
@@ -378,7 +381,7 @@
             this.ucPurchases.Location = new System.Drawing.Point(0, 0);
             this.ucPurchases.Margin = new System.Windows.Forms.Padding(5);
             this.ucPurchases.Name = "ucPurchases";
-            this.ucPurchases.Size = new System.Drawing.Size(1206, 810);
+            this.ucPurchases.Size = new System.Drawing.Size(1185, 810);
             this.ucPurchases.TabIndex = 0;
             // 
             // ucSales
@@ -387,7 +390,7 @@
             this.ucSales.Location = new System.Drawing.Point(0, 0);
             this.ucSales.Margin = new System.Windows.Forms.Padding(5);
             this.ucSales.Name = "ucSales";
-            this.ucSales.Size = new System.Drawing.Size(1206, 810);
+            this.ucSales.Size = new System.Drawing.Size(1185, 810);
             this.ucSales.TabIndex = 0;
             // 
             // ucProfile
@@ -396,7 +399,7 @@
             this.ucProfile.Location = new System.Drawing.Point(0, 0);
             this.ucProfile.Margin = new System.Windows.Forms.Padding(5);
             this.ucProfile.Name = "ucProfile";
-            this.ucProfile.Size = new System.Drawing.Size(1206, 810);
+            this.ucProfile.Size = new System.Drawing.Size(1185, 810);
             this.ucProfile.TabIndex = 0;
             // 
             // ucReports
@@ -405,7 +408,7 @@
             this.ucReports.Location = new System.Drawing.Point(0, 0);
             this.ucReports.Margin = new System.Windows.Forms.Padding(5);
             this.ucReports.Name = "ucReports";
-            this.ucReports.Size = new System.Drawing.Size(1206, 810);
+            this.ucReports.Size = new System.Drawing.Size(1185, 810);
             this.ucReports.TabIndex = 0;
             // 
             // userManagementPage1
@@ -425,6 +428,13 @@
             this.activityLogPage1.Size = new System.Drawing.Size(1185, 810);
             this.activityLogPage1.TabIndex = 0;
             // 
+            // settingsPage2
+            // 
+            this.settingsPage2.Location = new System.Drawing.Point(3, 3);
+            this.settingsPage2.Name = "settingsPage2";
+            this.settingsPage2.Size = new System.Drawing.Size(1540, 846);
+            this.settingsPage2.TabIndex = 1;
+            // 
             // settingsPage1
             // 
             this.settingsPage1.Location = new System.Drawing.Point(-1, 3);
@@ -441,12 +451,13 @@
             this.sideNavBar1.Size = new System.Drawing.Size(305, 818);
             this.sideNavBar1.TabIndex = 1;
             // 
-            // settingsPage2
+            // dashboardPage1
             // 
-            this.settingsPage2.Location = new System.Drawing.Point(3, 3);
-            this.settingsPage2.Name = "settingsPage2";
-            this.settingsPage2.Size = new System.Drawing.Size(1540, 846);
-            this.settingsPage2.TabIndex = 1;
+            this.dashboardPage1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dashboardPage1.Location = new System.Drawing.Point(0, 0);
+            this.dashboardPage1.Name = "dashboardPage1";
+            this.dashboardPage1.Size = new System.Drawing.Size(1185, 810);
+            this.dashboardPage1.TabIndex = 0;
             // 
             // MainPageForm
             // 
@@ -465,6 +476,7 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.bunifuPages1.ResumeLayout(false);
             this.tabDashboard.ResumeLayout(false);
+            this.bunifuPanel1.ResumeLayout(false);
             this.tabEmployees.ResumeLayout(false);
             this.tabProducts.ResumeLayout(false);
             this.tabStockAdj.ResumeLayout(false);
@@ -518,5 +530,6 @@
         private GUI.Pages.ActivityLogPage activityLogPage1;
         private GUI.Pages.SettingsPage settingsPage1;
         private GUI.Pages.SettingsPage settingsPage2;
+        private GUI.Pages.DashboardPage dashboardPage1;
     }
 }

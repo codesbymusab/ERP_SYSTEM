@@ -17,17 +17,21 @@
 
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardPage));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.pnlMain = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuLineChart1 = new Bunifu.Charts.WinForms.ChartTypes.BunifuLineChart(this.components);
+            this.bunifuPieChart1 = new Bunifu.Charts.WinForms.ChartTypes.BunifuPieChart(this.components);
+            this.bunifuPanel2 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuChartCanvas2 = new Bunifu.Charts.WinForms.BunifuChartCanvas();
+            this.bunifuVScrollBar1 = new Bunifu.UI.WinForms.BunifuVScrollBar();
+            this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuChartCanvas1 = new Bunifu.Charts.WinForms.BunifuChartCanvas();
+            this.bunifuPanel4 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuPanel3 = new Bunifu.UI.WinForms.BunifuPanel();
             this.pnlHeader = new Bunifu.UI.WinForms.BunifuPanel();
             this.lblDate = new System.Windows.Forms.Label();
             this.lblPageTitle = new System.Windows.Forms.Label();
+            this.pnlMain = new Bunifu.UI.WinForms.BunifuPanel();
             this.cardRevenue = new Bunifu.UI.WinForms.BunifuPanel();
             this.lblRevenueChange = new System.Windows.Forms.Label();
             this.lblRevenueValue = new System.Windows.Forms.Label();
@@ -44,58 +48,289 @@
             this.lblProductsChange = new System.Windows.Forms.Label();
             this.lblProductsValue = new System.Windows.Forms.Label();
             this.lblProductsTitle = new System.Windows.Forms.Label();
-            this.pnlBottom = new Bunifu.UI.WinForms.BunifuPanel();
-            this.pnlRecentOrders = new Bunifu.UI.WinForms.BunifuPanel();
-            this.lblRecentOrdersTitle = new System.Windows.Forms.Label();
-            this.dgvRecentOrders = new Bunifu.UI.WinForms.BunifuDataGridView();
-            this.pnlLowStock = new Bunifu.UI.WinForms.BunifuPanel();
-            this.lblLowStockTitle = new System.Windows.Forms.Label();
-            this.dgvLowStock = new Bunifu.UI.WinForms.BunifuDataGridView();
-            this.pnlSalesChart = new Bunifu.UI.WinForms.BunifuPanel();
-            this.chartSales = new LiveCharts.WinForms.PieChart();
-            this.lblSalesChartTitle = new System.Windows.Forms.Label();
-            this.pnlRevenueChart = new Bunifu.UI.WinForms.BunifuPanel();
-            this.chartRevenue = new LiveCharts.WinForms.CartesianChart();
-            this.lblRevenueChartTitle = new System.Windows.Forms.Label();
-            this.pnlCharts = new Bunifu.UI.WinForms.BunifuPanel();
-            this.pnlMain.SuspendLayout();
+            this.bunifuPanel2.SuspendLayout();
+            this.bunifuPanel1.SuspendLayout();
             this.pnlHeader.SuspendLayout();
+            this.pnlMain.SuspendLayout();
             this.cardRevenue.SuspendLayout();
             this.cardOrders.SuspendLayout();
             this.cardCustomers.SuspendLayout();
             this.cardProducts.SuspendLayout();
-            this.pnlBottom.SuspendLayout();
-            this.pnlRecentOrders.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRecentOrders)).BeginInit();
-            this.pnlLowStock.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvLowStock)).BeginInit();
-            this.pnlSalesChart.SuspendLayout();
-            this.pnlRevenueChart.SuspendLayout();
-            this.pnlCharts.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pnlMain
+            // bunifuLineChart1
             // 
-            this.pnlMain.BackgroundColor = System.Drawing.Color.White;
-            this.pnlMain.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlMain.BackgroundImage")));
-            this.pnlMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlMain.BorderColor = System.Drawing.Color.LightGray;
-            this.pnlMain.BorderRadius = 20;
-            this.pnlMain.BorderThickness = 1;
-            this.pnlMain.Controls.Add(this.pnlHeader);
-            this.pnlMain.Controls.Add(this.cardRevenue);
-            this.pnlMain.Controls.Add(this.cardOrders);
-            this.pnlMain.Controls.Add(this.cardCustomers);
-            this.pnlMain.Controls.Add(this.cardProducts);
-            this.pnlMain.Controls.Add(this.pnlCharts);
-            this.pnlMain.Controls.Add(this.pnlBottom);
-            this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlMain.Location = new System.Drawing.Point(0, 0);
-            this.pnlMain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlMain.Name = "pnlMain";
-            this.pnlMain.ShowBorders = true;
-            this.pnlMain.Size = new System.Drawing.Size(1540, 846);
-            this.pnlMain.TabIndex = 0;
+            this.bunifuLineChart1.BackgroundColor = System.Drawing.Color.Indigo;
+            this.bunifuLineChart1.BorderCapStyle = Bunifu.Charts.WinForms.ChartTypes.BunifuLineChart.LineCaps.Butt;
+            this.bunifuLineChart1.BorderColor = System.Drawing.Color.Purple;
+            this.bunifuLineChart1.BorderDash = null;
+            this.bunifuLineChart1.BorderDashOffset = 0D;
+            this.bunifuLineChart1.BorderJoin = Bunifu.Charts.WinForms.ChartTypes.BunifuLineChart.BorderJoinStyles.Miter;
+            this.bunifuLineChart1.BorderWidth = 3;
+            this.bunifuLineChart1.CubicInterpolationMode = Bunifu.Charts.WinForms.ChartTypes.BunifuLineChart.CubicInterpolationModes.Default;
+            this.bunifuLineChart1.Data.Add(10000D);
+            this.bunifuLineChart1.Data.Add(70000D);
+            this.bunifuLineChart1.Data.Add(20000D);
+            this.bunifuLineChart1.Data.Add(30000D);
+            this.bunifuLineChart1.Data.Add(0D);
+            this.bunifuLineChart1.Fill = Bunifu.Charts.WinForms.ChartTypes.BunifuLineChart.FillOptions.Blank;
+            this.bunifuLineChart1.Label = "Revnue vs Expenses";
+            this.bunifuLineChart1.LineTension = 0.4D;
+            this.bunifuLineChart1.Order = 0;
+            this.bunifuLineChart1.PointBackgroundColor = System.Drawing.Color.Empty;
+            this.bunifuLineChart1.PointBorderColor = System.Drawing.Color.Empty;
+            this.bunifuLineChart1.PointBorderWidth = 1;
+            this.bunifuLineChart1.PointHitRadius = 1;
+            this.bunifuLineChart1.PointHoverBackgroundColor = System.Drawing.Color.Empty;
+            this.bunifuLineChart1.PointHoverBorderColor = System.Drawing.Color.Empty;
+            this.bunifuLineChart1.PointHoverBorderWidth = 4;
+            this.bunifuLineChart1.PointHoverRadius = 1;
+            this.bunifuLineChart1.PointRadius = 3;
+            this.bunifuLineChart1.PointRotation = 0;
+            this.bunifuLineChart1.PointStyle = Bunifu.Charts.WinForms.ChartTypes.BunifuLineChart.PointStyles.Circle;
+            this.bunifuLineChart1.ShowLine = true;
+            this.bunifuLineChart1.SpanGaps = false;
+            this.bunifuLineChart1.SteppedLine = Bunifu.Charts.WinForms.ChartTypes.BunifuLineChart.SteppedLineStyles.False;
+            this.bunifuLineChart1.TargetCanvas = this.bunifuChartCanvas1;
+            // 
+            // bunifuPieChart1
+            // 
+            this.bunifuPieChart1.BackgroundColor = ((System.Collections.Generic.List<System.Drawing.Color>)(resources.GetObject("bunifuPieChart1.BackgroundColor")));
+            this.bunifuPieChart1.BorderColor = ((System.Collections.Generic.List<System.Drawing.Color>)(resources.GetObject("bunifuPieChart1.BorderColor")));
+            this.bunifuPieChart1.BorderWidth = 0;
+            this.bunifuPieChart1.Data = ((System.Collections.Generic.List<double>)(resources.GetObject("bunifuPieChart1.Data")));
+            this.bunifuPieChart1.HoverBackgroundColor = System.Drawing.Color.Empty;
+            this.bunifuPieChart1.HoverBorderColor = System.Drawing.Color.Empty;
+            this.bunifuPieChart1.HoverBorderWidth = 0;
+            this.bunifuPieChart1.Label = "Label here";
+            this.bunifuPieChart1.TargetCanvas = this.bunifuChartCanvas2;
+            // 
+            // bunifuPanel2
+            // 
+            this.bunifuPanel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.bunifuPanel2.BackgroundColor = System.Drawing.Color.White;
+            this.bunifuPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel2.BackgroundImage")));
+            this.bunifuPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel2.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel2.BorderRadius = 20;
+            this.bunifuPanel2.BorderThickness = 1;
+            this.bunifuPanel2.Controls.Add(this.bunifuChartCanvas2);
+            this.bunifuPanel2.Location = new System.Drawing.Point(918, 419);
+            this.bunifuPanel2.Name = "bunifuPanel2";
+            this.bunifuPanel2.ShowBorders = true;
+            this.bunifuPanel2.Size = new System.Drawing.Size(464, 295);
+            this.bunifuPanel2.TabIndex = 10;
+            // 
+            // bunifuChartCanvas2
+            // 
+            this.bunifuChartCanvas2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.bunifuChartCanvas2.AnimationDuration = 1000;
+            this.bunifuChartCanvas2.AnimationType = Bunifu.Charts.WinForms.BunifuChartCanvas.AnimationOptions.easeOutQuart;
+            this.bunifuChartCanvas2.AutoRender = true;
+            this.bunifuChartCanvas2.AutoSize = true;
+            this.bunifuChartCanvas2.BackColor = System.Drawing.Color.White;
+            this.bunifuChartCanvas2.CanvasPadding = new System.Windows.Forms.Padding(0);
+            this.bunifuChartCanvas2.Font = new System.Drawing.Font("Segoe UI", 17.856F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuChartCanvas2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuChartCanvas2.Labels = null;
+            this.bunifuChartCanvas2.LegendAlignment = Bunifu.Charts.WinForms.BunifuChartCanvas.LegendAlignmentOptions.center;
+            this.bunifuChartCanvas2.LegendDisplay = true;
+            this.bunifuChartCanvas2.LegendFont = new System.Drawing.Font("Microsoft Sans Serif", 7.488F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuChartCanvas2.LegendForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuChartCanvas2.LegendFullWidth = true;
+            this.bunifuChartCanvas2.LegendPosition = Bunifu.Charts.WinForms.BunifuChartCanvas.PositionOptions.top;
+            this.bunifuChartCanvas2.LegendRevese = false;
+            this.bunifuChartCanvas2.LegendRTL = false;
+            this.bunifuChartCanvas2.Location = new System.Drawing.Point(19, 14);
+            this.bunifuChartCanvas2.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuChartCanvas2.Name = "bunifuChartCanvas2";
+            this.bunifuChartCanvas2.ShowXAxis = true;
+            this.bunifuChartCanvas2.ShowYAxis = true;
+            this.bunifuChartCanvas2.Size = new System.Drawing.Size(323, 238);
+            this.bunifuChartCanvas2.TabIndex = 0;
+            this.bunifuChartCanvas2.Title = "Sales By Category";
+            this.bunifuChartCanvas2.TitleLineHeight = 0.5D;
+            this.bunifuChartCanvas2.TitlePadding = 10;
+            this.bunifuChartCanvas2.TitlePosition = Bunifu.Charts.WinForms.BunifuChartCanvas.PositionOptions.top;
+            this.bunifuChartCanvas2.TooltipBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuChartCanvas2.TooltipFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.bunifuChartCanvas2.TooltipForeColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuChartCanvas2.TooltipMode = Bunifu.Charts.WinForms.BunifuChartCanvas.TooltipModeOptions.nearest;
+            this.bunifuChartCanvas2.TooltipsEnabled = true;
+            this.bunifuChartCanvas2.XAxesBeginAtZero = true;
+            this.bunifuChartCanvas2.XAxesDrawTicks = true;
+            this.bunifuChartCanvas2.XAxesFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.bunifuChartCanvas2.XAxesForeColor = System.Drawing.Color.White;
+            this.bunifuChartCanvas2.XAxesGridColor = System.Drawing.Color.White;
+            this.bunifuChartCanvas2.XAxesGridLines = false;
+            this.bunifuChartCanvas2.XAxesLabel = "";
+            this.bunifuChartCanvas2.XAxesLabelFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.bunifuChartCanvas2.XAxesLabelForeColor = System.Drawing.SystemColors.ControlText;
+            this.bunifuChartCanvas2.XAxesLineWidth = 1;
+            this.bunifuChartCanvas2.XAxesStacked = false;
+            this.bunifuChartCanvas2.XAxesZeroLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuChartCanvas2.XAxesZeroLineWidth = 1;
+            this.bunifuChartCanvas2.YAxesBeginAtZero = true;
+            this.bunifuChartCanvas2.YAxesDrawTicks = true;
+            this.bunifuChartCanvas2.YAxesFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.bunifuChartCanvas2.YAxesForeColor = System.Drawing.Color.White;
+            this.bunifuChartCanvas2.YAxesGridColor = System.Drawing.Color.White;
+            this.bunifuChartCanvas2.YAxesGridLines = false;
+            this.bunifuChartCanvas2.YAxesLabel = "";
+            this.bunifuChartCanvas2.YAxesLabelFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.bunifuChartCanvas2.YAxesLabelForeColor = System.Drawing.SystemColors.ControlText;
+            this.bunifuChartCanvas2.YAxesLineWidth = 1;
+            this.bunifuChartCanvas2.YAxesStacked = false;
+            this.bunifuChartCanvas2.YAxesZeroLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuChartCanvas2.YAxesZeroLineWidth = 1;
+            // 
+            // bunifuVScrollBar1
+            // 
+            this.bunifuVScrollBar1.AllowCursorChanges = true;
+            this.bunifuVScrollBar1.AllowHomeEndKeysDetection = false;
+            this.bunifuVScrollBar1.AllowIncrementalClickMoves = true;
+            this.bunifuVScrollBar1.AllowMouseDownEffects = true;
+            this.bunifuVScrollBar1.AllowMouseHoverEffects = true;
+            this.bunifuVScrollBar1.AllowScrollingAnimations = true;
+            this.bunifuVScrollBar1.AllowScrollKeysDetection = true;
+            this.bunifuVScrollBar1.AllowScrollOptionsMenu = true;
+            this.bunifuVScrollBar1.AllowShrinkingOnFocusLost = false;
+            this.bunifuVScrollBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuVScrollBar1.BackgroundColor = System.Drawing.Color.Silver;
+            this.bunifuVScrollBar1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuVScrollBar1.BackgroundImage")));
+            this.bunifuVScrollBar1.BindingContainer = this;
+            this.bunifuVScrollBar1.BorderColor = System.Drawing.Color.Silver;
+            this.bunifuVScrollBar1.BorderRadius = 14;
+            this.bunifuVScrollBar1.BorderThickness = 1;
+            this.bunifuVScrollBar1.DurationBeforeShrink = 2000;
+            this.bunifuVScrollBar1.LargeChange = 10;
+            this.bunifuVScrollBar1.Location = new System.Drawing.Point(1484, 96);
+            this.bunifuVScrollBar1.Maximum = 100;
+            this.bunifuVScrollBar1.Minimum = 0;
+            this.bunifuVScrollBar1.MinimumThumbLength = 18;
+            this.bunifuVScrollBar1.Name = "bunifuVScrollBar1";
+            this.bunifuVScrollBar1.OnDisable.ScrollBarBorderColor = System.Drawing.Color.Silver;
+            this.bunifuVScrollBar1.OnDisable.ScrollBarColor = System.Drawing.Color.Transparent;
+            this.bunifuVScrollBar1.OnDisable.ThumbColor = System.Drawing.Color.Silver;
+            this.bunifuVScrollBar1.ScrollBarBorderColor = System.Drawing.Color.Silver;
+            this.bunifuVScrollBar1.ScrollBarColor = System.Drawing.Color.Silver;
+            this.bunifuVScrollBar1.ShrinkSizeLimit = 3;
+            this.bunifuVScrollBar1.Size = new System.Drawing.Size(17, 759);
+            this.bunifuVScrollBar1.SmallChange = 1;
+            this.bunifuVScrollBar1.TabIndex = 6;
+            this.bunifuVScrollBar1.ThumbColor = System.Drawing.Color.Gray;
+            this.bunifuVScrollBar1.ThumbLength = 74;
+            this.bunifuVScrollBar1.ThumbMargin = 1;
+            this.bunifuVScrollBar1.ThumbStyle = Bunifu.UI.WinForms.BunifuVScrollBar.ThumbStyles.Inset;
+            this.bunifuVScrollBar1.Value = 0;
+            // 
+            // bunifuPanel1
+            // 
+            this.bunifuPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.bunifuPanel1.BackgroundColor = System.Drawing.Color.White;
+            this.bunifuPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel1.BackgroundImage")));
+            this.bunifuPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel1.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel1.BorderRadius = 20;
+            this.bunifuPanel1.BorderThickness = 1;
+            this.bunifuPanel1.Controls.Add(this.bunifuChartCanvas1);
+            this.bunifuPanel1.Location = new System.Drawing.Point(3, 419);
+            this.bunifuPanel1.Name = "bunifuPanel1";
+            this.bunifuPanel1.ShowBorders = true;
+            this.bunifuPanel1.Size = new System.Drawing.Size(909, 295);
+            this.bunifuPanel1.TabIndex = 9;
+            // 
+            // bunifuChartCanvas1
+            // 
+            this.bunifuChartCanvas1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuChartCanvas1.AnimationDuration = 1000;
+            this.bunifuChartCanvas1.AnimationType = Bunifu.Charts.WinForms.BunifuChartCanvas.AnimationOptions.easeOutQuart;
+            this.bunifuChartCanvas1.AutoRender = true;
+            this.bunifuChartCanvas1.BackColor = System.Drawing.Color.White;
+            this.bunifuChartCanvas1.CanvasPadding = new System.Windows.Forms.Padding(0);
+            this.bunifuChartCanvas1.Font = new System.Drawing.Font("Segoe UI Semibold", 17.856F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuChartCanvas1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.bunifuChartCanvas1.Labels = null;
+            this.bunifuChartCanvas1.LegendAlignment = Bunifu.Charts.WinForms.BunifuChartCanvas.LegendAlignmentOptions.center;
+            this.bunifuChartCanvas1.LegendDisplay = true;
+            this.bunifuChartCanvas1.LegendFont = new System.Drawing.Font("Segoe UI Semibold", 17.856F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuChartCanvas1.LegendForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuChartCanvas1.LegendFullWidth = true;
+            this.bunifuChartCanvas1.LegendPosition = Bunifu.Charts.WinForms.BunifuChartCanvas.PositionOptions.top;
+            this.bunifuChartCanvas1.LegendRevese = false;
+            this.bunifuChartCanvas1.LegendRTL = false;
+            this.bunifuChartCanvas1.Location = new System.Drawing.Point(45, 4);
+            this.bunifuChartCanvas1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuChartCanvas1.Name = "bunifuChartCanvas1";
+            this.bunifuChartCanvas1.ShowXAxis = true;
+            this.bunifuChartCanvas1.ShowYAxis = true;
+            this.bunifuChartCanvas1.Size = new System.Drawing.Size(826, 226);
+            this.bunifuChartCanvas1.TabIndex = 0;
+            this.bunifuChartCanvas1.Title = "";
+            this.bunifuChartCanvas1.TitleLineHeight = 1.2D;
+            this.bunifuChartCanvas1.TitlePadding = 10;
+            this.bunifuChartCanvas1.TitlePosition = Bunifu.Charts.WinForms.BunifuChartCanvas.PositionOptions.top;
+            this.bunifuChartCanvas1.TooltipBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuChartCanvas1.TooltipFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.bunifuChartCanvas1.TooltipForeColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuChartCanvas1.TooltipMode = Bunifu.Charts.WinForms.BunifuChartCanvas.TooltipModeOptions.nearest;
+            this.bunifuChartCanvas1.TooltipsEnabled = true;
+            this.bunifuChartCanvas1.XAxesBeginAtZero = true;
+            this.bunifuChartCanvas1.XAxesDrawTicks = true;
+            this.bunifuChartCanvas1.XAxesFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.bunifuChartCanvas1.XAxesForeColor = System.Drawing.SystemColors.ControlText;
+            this.bunifuChartCanvas1.XAxesGridColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuChartCanvas1.XAxesGridLines = true;
+            this.bunifuChartCanvas1.XAxesLabel = "";
+            this.bunifuChartCanvas1.XAxesLabelFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.bunifuChartCanvas1.XAxesLabelForeColor = System.Drawing.SystemColors.ControlText;
+            this.bunifuChartCanvas1.XAxesLineWidth = 1;
+            this.bunifuChartCanvas1.XAxesStacked = false;
+            this.bunifuChartCanvas1.XAxesZeroLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuChartCanvas1.XAxesZeroLineWidth = 1;
+            this.bunifuChartCanvas1.YAxesBeginAtZero = true;
+            this.bunifuChartCanvas1.YAxesDrawTicks = true;
+            this.bunifuChartCanvas1.YAxesFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.bunifuChartCanvas1.YAxesForeColor = System.Drawing.SystemColors.ControlText;
+            this.bunifuChartCanvas1.YAxesGridColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuChartCanvas1.YAxesGridLines = true;
+            this.bunifuChartCanvas1.YAxesLabel = "";
+            this.bunifuChartCanvas1.YAxesLabelFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.bunifuChartCanvas1.YAxesLabelForeColor = System.Drawing.SystemColors.ControlText;
+            this.bunifuChartCanvas1.YAxesLineWidth = 1;
+            this.bunifuChartCanvas1.YAxesStacked = false;
+            this.bunifuChartCanvas1.YAxesZeroLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuChartCanvas1.YAxesZeroLineWidth = 1;
+            // 
+            // bunifuPanel4
+            // 
+            this.bunifuPanel4.BackgroundColor = System.Drawing.Color.White;
+            this.bunifuPanel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel4.BackgroundImage")));
+            this.bunifuPanel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel4.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel4.BorderRadius = 20;
+            this.bunifuPanel4.BorderThickness = 1;
+            this.bunifuPanel4.Location = new System.Drawing.Point(779, 743);
+            this.bunifuPanel4.Name = "bunifuPanel4";
+            this.bunifuPanel4.ShowBorders = true;
+            this.bunifuPanel4.Size = new System.Drawing.Size(699, 100);
+            this.bunifuPanel4.TabIndex = 8;
+            // 
+            // bunifuPanel3
+            // 
+            this.bunifuPanel3.BackgroundColor = System.Drawing.Color.White;
+            this.bunifuPanel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel3.BackgroundImage")));
+            this.bunifuPanel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel3.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel3.BorderRadius = 20;
+            this.bunifuPanel3.BorderThickness = 1;
+            this.bunifuPanel3.Location = new System.Drawing.Point(57, 743);
+            this.bunifuPanel3.Name = "bunifuPanel3";
+            this.bunifuPanel3.ShowBorders = true;
+            this.bunifuPanel3.Size = new System.Drawing.Size(699, 100);
+            this.bunifuPanel3.TabIndex = 7;
             // 
             // pnlHeader
             // 
@@ -109,11 +344,11 @@
             this.pnlHeader.BorderThickness = 1;
             this.pnlHeader.Controls.Add(this.lblDate);
             this.pnlHeader.Controls.Add(this.lblPageTitle);
-            this.pnlHeader.Location = new System.Drawing.Point(3, 2);
+            this.pnlHeader.Location = new System.Drawing.Point(0, 0);
             this.pnlHeader.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.ShowBorders = true;
-            this.pnlHeader.Size = new System.Drawing.Size(1533, 79);
+            this.pnlHeader.Size = new System.Drawing.Size(1540, 79);
             this.pnlHeader.TabIndex = 0;
             // 
             // lblDate
@@ -123,7 +358,7 @@
             this.lblDate.BackColor = System.Drawing.Color.White;
             this.lblDate.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblDate.Location = new System.Drawing.Point(1213, 23);
+            this.lblDate.Location = new System.Drawing.Point(1220, 23);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(285, 30);
             this.lblDate.TabIndex = 5;
@@ -141,22 +376,41 @@
             this.lblPageTitle.TabIndex = 4;
             this.lblPageTitle.Text = "Dashboard";
             // 
+            // pnlMain
+            // 
+            this.pnlMain.BackgroundColor = System.Drawing.Color.White;
+            this.pnlMain.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlMain.BackgroundImage")));
+            this.pnlMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlMain.BorderColor = System.Drawing.Color.LightGray;
+            this.pnlMain.BorderRadius = 20;
+            this.pnlMain.BorderThickness = 1;
+            this.pnlMain.Controls.Add(this.cardRevenue);
+            this.pnlMain.Controls.Add(this.cardOrders);
+            this.pnlMain.Controls.Add(this.cardCustomers);
+            this.pnlMain.Controls.Add(this.cardProducts);
+            this.pnlMain.Location = new System.Drawing.Point(57, 127);
+            this.pnlMain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlMain.Name = "pnlMain";
+            this.pnlMain.ShowBorders = true;
+            this.pnlMain.Size = new System.Drawing.Size(1421, 264);
+            this.pnlMain.TabIndex = 0;
+            // 
             // cardRevenue
             // 
             this.cardRevenue.BackgroundColor = System.Drawing.Color.White;
             this.cardRevenue.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("cardRevenue.BackgroundImage")));
             this.cardRevenue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cardRevenue.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.cardRevenue.BorderRadius = 8;
+            this.cardRevenue.BorderRadius = 20;
             this.cardRevenue.BorderThickness = 1;
             this.cardRevenue.Controls.Add(this.lblRevenueChange);
             this.cardRevenue.Controls.Add(this.lblRevenueValue);
             this.cardRevenue.Controls.Add(this.lblRevenueTitle);
-            this.cardRevenue.Location = new System.Drawing.Point(35, 95);
+            this.cardRevenue.Location = new System.Drawing.Point(45, 55);
             this.cardRevenue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cardRevenue.Name = "cardRevenue";
             this.cardRevenue.ShowBorders = true;
-            this.cardRevenue.Size = new System.Drawing.Size(240, 170);
+            this.cardRevenue.Size = new System.Drawing.Size(300, 170);
             this.cardRevenue.TabIndex = 1;
             // 
             // lblRevenueChange
@@ -173,7 +427,7 @@
             // lblRevenueValue
             // 
             this.lblRevenueValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblRevenueValue.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold);
+            this.lblRevenueValue.Font = new System.Drawing.Font("Segoe UI", 17.856F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRevenueValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblRevenueValue.Location = new System.Drawing.Point(20, 55);
             this.lblRevenueValue.Name = "lblRevenueValue";
@@ -203,11 +457,11 @@
             this.cardOrders.Controls.Add(this.lblOrdersChange);
             this.cardOrders.Controls.Add(this.lblOrdersValue);
             this.cardOrders.Controls.Add(this.lblOrdersTitle);
-            this.cardOrders.Location = new System.Drawing.Point(310, 95);
+            this.cardOrders.Location = new System.Drawing.Point(387, 55);
             this.cardOrders.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cardOrders.Name = "cardOrders";
             this.cardOrders.ShowBorders = true;
-            this.cardOrders.Size = new System.Drawing.Size(240, 170);
+            this.cardOrders.Size = new System.Drawing.Size(300, 170);
             this.cardOrders.TabIndex = 2;
             // 
             // lblOrdersChange
@@ -224,7 +478,7 @@
             // lblOrdersValue
             // 
             this.lblOrdersValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblOrdersValue.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold);
+            this.lblOrdersValue.Font = new System.Drawing.Font("Segoe UI", 17.856F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOrdersValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblOrdersValue.Location = new System.Drawing.Point(20, 55);
             this.lblOrdersValue.Name = "lblOrdersValue";
@@ -249,16 +503,16 @@
             this.cardCustomers.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("cardCustomers.BackgroundImage")));
             this.cardCustomers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cardCustomers.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.cardCustomers.BorderRadius = 8;
+            this.cardCustomers.BorderRadius = 20;
             this.cardCustomers.BorderThickness = 1;
             this.cardCustomers.Controls.Add(this.lblCustomersChange);
             this.cardCustomers.Controls.Add(this.lblCustomersValue);
             this.cardCustomers.Controls.Add(this.lblCustomersTitle);
-            this.cardCustomers.Location = new System.Drawing.Point(585, 95);
+            this.cardCustomers.Location = new System.Drawing.Point(730, 55);
             this.cardCustomers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cardCustomers.Name = "cardCustomers";
             this.cardCustomers.ShowBorders = true;
-            this.cardCustomers.Size = new System.Drawing.Size(240, 170);
+            this.cardCustomers.Size = new System.Drawing.Size(300, 170);
             this.cardCustomers.TabIndex = 3;
             // 
             // lblCustomersChange
@@ -275,7 +529,7 @@
             // lblCustomersValue
             // 
             this.lblCustomersValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblCustomersValue.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold);
+            this.lblCustomersValue.Font = new System.Drawing.Font("Segoe UI", 17.856F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCustomersValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblCustomersValue.Location = new System.Drawing.Point(20, 55);
             this.lblCustomersValue.Name = "lblCustomersValue";
@@ -300,16 +554,16 @@
             this.cardProducts.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("cardProducts.BackgroundImage")));
             this.cardProducts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cardProducts.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.cardProducts.BorderRadius = 8;
+            this.cardProducts.BorderRadius = 20;
             this.cardProducts.BorderThickness = 1;
             this.cardProducts.Controls.Add(this.lblProductsChange);
             this.cardProducts.Controls.Add(this.lblProductsValue);
             this.cardProducts.Controls.Add(this.lblProductsTitle);
-            this.cardProducts.Location = new System.Drawing.Point(860, 95);
+            this.cardProducts.Location = new System.Drawing.Point(1073, 55);
             this.cardProducts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cardProducts.Name = "cardProducts";
             this.cardProducts.ShowBorders = true;
-            this.cardProducts.Size = new System.Drawing.Size(240, 170);
+            this.cardProducts.Size = new System.Drawing.Size(301, 170);
             this.cardProducts.TabIndex = 4;
             // 
             // lblProductsChange
@@ -326,7 +580,7 @@
             // lblProductsValue
             // 
             this.lblProductsValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblProductsValue.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold);
+            this.lblProductsValue.Font = new System.Drawing.Font("Segoe UI", 17.856F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProductsValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblProductsValue.Location = new System.Drawing.Point(20, 55);
             this.lblProductsValue.Name = "lblProductsValue";
@@ -345,332 +599,40 @@
             this.lblProductsTitle.TabIndex = 0;
             this.lblProductsTitle.Text = "Total Products";
             // 
-            // pnlBottom
-            // 
-            this.pnlBottom.BackgroundColor = System.Drawing.Color.Transparent;
-            this.pnlBottom.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlBottom.BackgroundImage")));
-            this.pnlBottom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlBottom.BorderColor = System.Drawing.Color.Transparent;
-            this.pnlBottom.BorderRadius = 0;
-            this.pnlBottom.BorderThickness = 0;
-            this.pnlBottom.Controls.Add(this.pnlRecentOrders);
-            this.pnlBottom.Controls.Add(this.pnlLowStock);
-            this.pnlBottom.Location = new System.Drawing.Point(35, 595);
-            this.pnlBottom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlBottom.Name = "pnlBottom";
-            this.pnlBottom.ShowBorders = false;
-            this.pnlBottom.Size = new System.Drawing.Size(1065, 230);
-            this.pnlBottom.TabIndex = 6;
-            // 
-            // pnlRecentOrders
-            // 
-            this.pnlRecentOrders.BackgroundColor = System.Drawing.Color.White;
-            this.pnlRecentOrders.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlRecentOrders.BackgroundImage")));
-            this.pnlRecentOrders.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlRecentOrders.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.pnlRecentOrders.BorderRadius = 8;
-            this.pnlRecentOrders.BorderThickness = 1;
-            this.pnlRecentOrders.Controls.Add(this.lblRecentOrdersTitle);
-            this.pnlRecentOrders.Controls.Add(this.dgvRecentOrders);
-            this.pnlRecentOrders.Location = new System.Drawing.Point(0, 0);
-            this.pnlRecentOrders.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlRecentOrders.Name = "pnlRecentOrders";
-            this.pnlRecentOrders.ShowBorders = true;
-            this.pnlRecentOrders.Size = new System.Drawing.Size(520, 230);
-            this.pnlRecentOrders.TabIndex = 0;
-            // 
-            // lblRecentOrdersTitle
-            // 
-            this.lblRecentOrdersTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblRecentOrdersTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblRecentOrdersTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblRecentOrdersTitle.Location = new System.Drawing.Point(20, 12);
-            this.lblRecentOrdersTitle.Name = "lblRecentOrdersTitle";
-            this.lblRecentOrdersTitle.Size = new System.Drawing.Size(200, 30);
-            this.lblRecentOrdersTitle.TabIndex = 0;
-            this.lblRecentOrdersTitle.Text = "Recent Orders";
-            // 
-            // dgvRecentOrders
-            // 
-            this.dgvRecentOrders.AllowCustomTheming = false;
-            this.dgvRecentOrders.AllowUserToAddRows = false;
-            this.dgvRecentOrders.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.dgvRecentOrders.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvRecentOrders.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvRecentOrders.BackgroundColor = System.Drawing.Color.White;
-            this.dgvRecentOrders.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvRecentOrders.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgvRecentOrders.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvRecentOrders.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvRecentOrders.ColumnHeadersHeight = 40;
-            this.dgvRecentOrders.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            this.dgvRecentOrders.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.dgvRecentOrders.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.dgvRecentOrders.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.dgvRecentOrders.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvRecentOrders.CurrentTheme.BackColor = System.Drawing.Color.White;
-            this.dgvRecentOrders.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.dgvRecentOrders.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.DodgerBlue;
-            this.dgvRecentOrders.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            this.dgvRecentOrders.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.dgvRecentOrders.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            this.dgvRecentOrders.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvRecentOrders.CurrentTheme.Name = null;
-            this.dgvRecentOrders.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.dgvRecentOrders.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.dgvRecentOrders.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.dgvRecentOrders.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.dgvRecentOrders.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvRecentOrders.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dgvRecentOrders.EnableHeadersVisualStyles = false;
-            this.dgvRecentOrders.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.dgvRecentOrders.HeaderBackColor = System.Drawing.Color.DodgerBlue;
-            this.dgvRecentOrders.HeaderBgColor = System.Drawing.Color.Empty;
-            this.dgvRecentOrders.HeaderForeColor = System.Drawing.Color.White;
-            this.dgvRecentOrders.Location = new System.Drawing.Point(15, 50);
-            this.dgvRecentOrders.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dgvRecentOrders.Name = "dgvRecentOrders";
-            this.dgvRecentOrders.ReadOnly = true;
-            this.dgvRecentOrders.RowHeadersVisible = false;
-            this.dgvRecentOrders.RowHeadersWidth = 53;
-            this.dgvRecentOrders.RowTemplate.Height = 40;
-            this.dgvRecentOrders.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvRecentOrders.Size = new System.Drawing.Size(490, 165);
-            this.dgvRecentOrders.TabIndex = 1;
-            this.dgvRecentOrders.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
-            // 
-            // pnlLowStock
-            // 
-            this.pnlLowStock.BackgroundColor = System.Drawing.Color.White;
-            this.pnlLowStock.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlLowStock.BackgroundImage")));
-            this.pnlLowStock.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlLowStock.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.pnlLowStock.BorderRadius = 8;
-            this.pnlLowStock.BorderThickness = 1;
-            this.pnlLowStock.Controls.Add(this.lblLowStockTitle);
-            this.pnlLowStock.Controls.Add(this.dgvLowStock);
-            this.pnlLowStock.Location = new System.Drawing.Point(545, 0);
-            this.pnlLowStock.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlLowStock.Name = "pnlLowStock";
-            this.pnlLowStock.ShowBorders = true;
-            this.pnlLowStock.Size = new System.Drawing.Size(520, 230);
-            this.pnlLowStock.TabIndex = 1;
-            // 
-            // lblLowStockTitle
-            // 
-            this.lblLowStockTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblLowStockTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblLowStockTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblLowStockTitle.Location = new System.Drawing.Point(20, 12);
-            this.lblLowStockTitle.Name = "lblLowStockTitle";
-            this.lblLowStockTitle.Size = new System.Drawing.Size(200, 30);
-            this.lblLowStockTitle.TabIndex = 0;
-            this.lblLowStockTitle.Text = "Low Stock Alerts";
-            // 
-            // dgvLowStock
-            // 
-            this.dgvLowStock.AllowCustomTheming = false;
-            this.dgvLowStock.AllowUserToAddRows = false;
-            this.dgvLowStock.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            this.dgvLowStock.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            this.dgvLowStock.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvLowStock.BackgroundColor = System.Drawing.Color.White;
-            this.dgvLowStock.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvLowStock.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgvLowStock.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvLowStock.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.dgvLowStock.ColumnHeadersHeight = 40;
-            this.dgvLowStock.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            this.dgvLowStock.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.dgvLowStock.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.dgvLowStock.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.dgvLowStock.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvLowStock.CurrentTheme.BackColor = System.Drawing.Color.White;
-            this.dgvLowStock.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.dgvLowStock.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.DodgerBlue;
-            this.dgvLowStock.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            this.dgvLowStock.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.dgvLowStock.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            this.dgvLowStock.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvLowStock.CurrentTheme.Name = null;
-            this.dgvLowStock.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.dgvLowStock.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.dgvLowStock.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.dgvLowStock.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.dgvLowStock.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvLowStock.DefaultCellStyle = dataGridViewCellStyle6;
-            this.dgvLowStock.EnableHeadersVisualStyles = false;
-            this.dgvLowStock.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.dgvLowStock.HeaderBackColor = System.Drawing.Color.DodgerBlue;
-            this.dgvLowStock.HeaderBgColor = System.Drawing.Color.Empty;
-            this.dgvLowStock.HeaderForeColor = System.Drawing.Color.White;
-            this.dgvLowStock.Location = new System.Drawing.Point(15, 50);
-            this.dgvLowStock.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dgvLowStock.Name = "dgvLowStock";
-            this.dgvLowStock.ReadOnly = true;
-            this.dgvLowStock.RowHeadersVisible = false;
-            this.dgvLowStock.RowHeadersWidth = 53;
-            this.dgvLowStock.RowTemplate.Height = 40;
-            this.dgvLowStock.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvLowStock.Size = new System.Drawing.Size(490, 165);
-            this.dgvLowStock.TabIndex = 1;
-            this.dgvLowStock.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
-            // 
-            // pnlSalesChart
-            // 
-            this.pnlSalesChart.BackgroundColor = System.Drawing.Color.White;
-            this.pnlSalesChart.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlSalesChart.BackgroundImage")));
-            this.pnlSalesChart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlSalesChart.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.pnlSalesChart.BorderRadius = 8;
-            this.pnlSalesChart.BorderThickness = 1;
-            this.pnlSalesChart.Controls.Add(this.lblSalesChartTitle);
-            this.pnlSalesChart.Controls.Add(this.chartSales);
-            this.pnlSalesChart.Location = new System.Drawing.Point(730, 2);
-            this.pnlSalesChart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlSalesChart.Name = "pnlSalesChart";
-            this.pnlSalesChart.ShowBorders = true;
-            this.pnlSalesChart.Size = new System.Drawing.Size(335, 290);
-            this.pnlSalesChart.TabIndex = 1;
-            // 
-            // chartSales
-            // 
-            this.chartSales.BackColor = System.Drawing.Color.White;
-            this.chartSales.Location = new System.Drawing.Point(15, 50);
-            this.chartSales.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.chartSales.Name = "chartSales";
-            this.chartSales.Size = new System.Drawing.Size(305, 225);
-            this.chartSales.TabIndex = 1;
-            // 
-            // lblSalesChartTitle
-            // 
-            this.lblSalesChartTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblSalesChartTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblSalesChartTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblSalesChartTitle.Location = new System.Drawing.Point(20, 15);
-            this.lblSalesChartTitle.Name = "lblSalesChartTitle";
-            this.lblSalesChartTitle.Size = new System.Drawing.Size(300, 30);
-            this.lblSalesChartTitle.TabIndex = 0;
-            this.lblSalesChartTitle.Text = "Sales by Category";
-            // 
-            // pnlRevenueChart
-            // 
-            this.pnlRevenueChart.BackgroundColor = System.Drawing.Color.White;
-            this.pnlRevenueChart.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlRevenueChart.BackgroundImage")));
-            this.pnlRevenueChart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlRevenueChart.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.pnlRevenueChart.BorderRadius = 8;
-            this.pnlRevenueChart.BorderThickness = 1;
-            this.pnlRevenueChart.Controls.Add(this.lblRevenueChartTitle);
-            this.pnlRevenueChart.Controls.Add(this.chartRevenue);
-            this.pnlRevenueChart.Location = new System.Drawing.Point(0, 2);
-            this.pnlRevenueChart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlRevenueChart.Name = "pnlRevenueChart";
-            this.pnlRevenueChart.ShowBorders = true;
-            this.pnlRevenueChart.Size = new System.Drawing.Size(700, 290);
-            this.pnlRevenueChart.TabIndex = 0;
-            // 
-            // chartRevenue
-            // 
-            this.chartRevenue.BackColor = System.Drawing.Color.White;
-            this.chartRevenue.Location = new System.Drawing.Point(15, 50);
-            this.chartRevenue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.chartRevenue.Name = "chartRevenue";
-            this.chartRevenue.Size = new System.Drawing.Size(670, 225);
-            this.chartRevenue.TabIndex = 1;
-            // 
-            // lblRevenueChartTitle
-            // 
-            this.lblRevenueChartTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblRevenueChartTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblRevenueChartTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblRevenueChartTitle.Location = new System.Drawing.Point(20, 15);
-            this.lblRevenueChartTitle.Name = "lblRevenueChartTitle";
-            this.lblRevenueChartTitle.Size = new System.Drawing.Size(300, 30);
-            this.lblRevenueChartTitle.TabIndex = 0;
-            this.lblRevenueChartTitle.Text = "Revenue vs Expenses";
-            // 
-            // pnlCharts
-            // 
-            this.pnlCharts.BackgroundColor = System.Drawing.Color.Transparent;
-            this.pnlCharts.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlCharts.BackgroundImage")));
-            this.pnlCharts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlCharts.BorderColor = System.Drawing.Color.Transparent;
-            this.pnlCharts.BorderRadius = 0;
-            this.pnlCharts.BorderThickness = 0;
-            this.pnlCharts.Controls.Add(this.pnlRevenueChart);
-            this.pnlCharts.Controls.Add(this.pnlSalesChart);
-            this.pnlCharts.Location = new System.Drawing.Point(35, 285);
-            this.pnlCharts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlCharts.Name = "pnlCharts";
-            this.pnlCharts.ShowBorders = false;
-            this.pnlCharts.Size = new System.Drawing.Size(1065, 290);
-            this.pnlCharts.TabIndex = 5;
-            // 
             // DashboardPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.Controls.Add(this.bunifuPanel2);
+            this.Controls.Add(this.bunifuVScrollBar1);
+            this.Controls.Add(this.bunifuPanel1);
+            this.Controls.Add(this.bunifuPanel4);
+            this.Controls.Add(this.bunifuPanel3);
+            this.Controls.Add(this.pnlHeader);
             this.Controls.Add(this.pnlMain);
             this.Name = "DashboardPage";
-            this.Size = new System.Drawing.Size(1540, 846);
-            this.pnlMain.ResumeLayout(false);
+            this.Size = new System.Drawing.Size(1540, 858);
+            this.bunifuPanel2.ResumeLayout(false);
+            this.bunifuPanel2.PerformLayout();
+            this.bunifuPanel1.ResumeLayout(false);
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
+            this.pnlMain.ResumeLayout(false);
             this.cardRevenue.ResumeLayout(false);
             this.cardOrders.ResumeLayout(false);
             this.cardCustomers.ResumeLayout(false);
             this.cardProducts.ResumeLayout(false);
-            this.pnlBottom.ResumeLayout(false);
-            this.pnlRecentOrders.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRecentOrders)).EndInit();
-            this.pnlLowStock.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvLowStock)).EndInit();
-            this.pnlSalesChart.ResumeLayout(false);
-            this.pnlRevenueChart.ResumeLayout(false);
-            this.pnlCharts.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private Bunifu.UI.WinForms.BunifuPanel pnlMain;
         private Bunifu.UI.WinForms.BunifuPanel pnlHeader;
         private System.Windows.Forms.Label lblDate;
         private System.Windows.Forms.Label lblPageTitle;
+        private Bunifu.UI.WinForms.BunifuPanel pnlMain;
         private Bunifu.UI.WinForms.BunifuPanel cardRevenue;
         private System.Windows.Forms.Label lblRevenueChange;
         private System.Windows.Forms.Label lblRevenueValue;
@@ -687,19 +649,14 @@
         private System.Windows.Forms.Label lblProductsChange;
         private System.Windows.Forms.Label lblProductsValue;
         private System.Windows.Forms.Label lblProductsTitle;
-        private Bunifu.UI.WinForms.BunifuPanel pnlBottom;
-        private Bunifu.UI.WinForms.BunifuPanel pnlRecentOrders;
-        private System.Windows.Forms.Label lblRecentOrdersTitle;
-        private Bunifu.UI.WinForms.BunifuDataGridView dgvRecentOrders;
-        private Bunifu.UI.WinForms.BunifuPanel pnlLowStock;
-        private System.Windows.Forms.Label lblLowStockTitle;
-        private Bunifu.UI.WinForms.BunifuDataGridView dgvLowStock;
-        private Bunifu.UI.WinForms.BunifuPanel pnlCharts;
-        private Bunifu.UI.WinForms.BunifuPanel pnlRevenueChart;
-        private System.Windows.Forms.Label lblRevenueChartTitle;
-        private LiveCharts.WinForms.CartesianChart chartRevenue;
-        private Bunifu.UI.WinForms.BunifuPanel pnlSalesChart;
-        private System.Windows.Forms.Label lblSalesChartTitle;
-        private LiveCharts.WinForms.PieChart chartSales;
+        private Bunifu.UI.WinForms.BunifuVScrollBar bunifuVScrollBar1;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel3;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel4;
+        private Bunifu.Charts.WinForms.ChartTypes.BunifuLineChart bunifuLineChart1;
+        private Bunifu.Charts.WinForms.ChartTypes.BunifuPieChart bunifuPieChart1;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel2;
+        private Bunifu.Charts.WinForms.BunifuChartCanvas bunifuChartCanvas2;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
+        private Bunifu.Charts.WinForms.BunifuChartCanvas bunifuChartCanvas1;
     }
 }
