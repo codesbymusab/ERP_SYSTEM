@@ -181,12 +181,6 @@
         IgakiRiQJmJA2nfElu0BYM/m+hGxV8iu77IB7N46xjz8RMzMrLcHCIQ+sBQTg2wAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuLabel2.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12.096pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(220, 220, 220); text-align: left; }</value>
-  </data>
-  <data name="bunifuLabel1.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 16.128pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(255, 255, 255); text-align: left; }</value>
-  </data>
   <data name="btnUserProfile.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPUAAAAvCAYAAAA7FIwsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -196,9 +190,9 @@
   </data>
   <data name="bunifuSeparator5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAPcAAAANCAYAAAB1hfgsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAAvSURBVGhD7dNBDQAACMQw/Ds5lfBHArTJJKwKAAAAAADe
-        S9KS7rVfBwAAAACAfwYPQ99VQP54BAAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAPgAAAANCAYAAACEjqOhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAAySURBVGhD7dPBCQBACAQx++9kq/Re9xFsQBKYEqYKAAAA
+        AABYJGlJN5u/AwAAAAAA3wPPZuJPavDykwAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="bunifuSeparator4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -296,5 +290,11 @@
   </data>
   <data name="bunifuLabel3.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12.096pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(220, 220, 220); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel2.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 12.096pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(220, 220, 220); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel1.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 16.128pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(255, 255, 255); text-align: left; }</value>
   </data>
 </root>

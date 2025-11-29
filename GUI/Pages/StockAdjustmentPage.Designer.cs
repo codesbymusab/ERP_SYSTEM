@@ -79,6 +79,7 @@
             // pnlMain
             // 
             this.pnlMain.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
+            this.pnlMain.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlMain.BackgroundImage")));
             this.pnlMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlMain.BorderColor = System.Drawing.Color.Transparent;
             this.pnlMain.BorderRadius = 0;
@@ -87,26 +88,27 @@
             this.pnlMain.Controls.Add(this.pnlHeader);
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMain.Location = new System.Drawing.Point(0, 0);
-            this.pnlMain.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlMain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.ShowBorders = true;
-            this.pnlMain.Size = new System.Drawing.Size(1155, 687);
+            this.pnlMain.Size = new System.Drawing.Size(1540, 846);
             this.pnlMain.TabIndex = 1;
             // 
             // pnlContainer
             // 
             this.pnlContainer.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pnlContainer.BackgroundColor = System.Drawing.Color.White;
+            this.pnlContainer.BackgroundColor = System.Drawing.Color.Transparent;
+            this.pnlContainer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlContainer.BackgroundImage")));
             this.pnlContainer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlContainer.BorderColor = System.Drawing.Color.LightGray;
+            this.pnlContainer.BorderColor = System.Drawing.Color.Transparent;
             this.pnlContainer.BorderRadius = 20;
             this.pnlContainer.BorderThickness = 1;
             this.pnlContainer.Controls.Add(this.tabStock);
-            this.pnlContainer.Location = new System.Drawing.Point(86, 36);
-            this.pnlContainer.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlContainer.Location = new System.Drawing.Point(42, 114);
+            this.pnlContainer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlContainer.Name = "pnlContainer";
             this.pnlContainer.ShowBorders = true;
-            this.pnlContainer.Size = new System.Drawing.Size(1150, 615);
+            this.pnlContainer.Size = new System.Drawing.Size(1533, 757);
             this.pnlContainer.TabIndex = 11;
             // 
             // tabStock
@@ -114,14 +116,73 @@
             this.tabStock.Controls.Add(this.tabAdjust);
             this.tabStock.Controls.Add(this.tabLog);
             this.tabStock.DisplayStyle = TradeWright.UI.Forms.TabStyle.Rounded;
-            this.tabStock.Dock = System.Windows.Forms.DockStyle.Fill;
+            // 
+            // 
+            // 
+            this.tabStock.DisplayStyleProvider.BlendStyle = TradeWright.UI.Forms.BlendStyle.Normal;
+            this.tabStock.DisplayStyleProvider.BorderColorDisabled = System.Drawing.SystemColors.ControlLight;
+            this.tabStock.DisplayStyleProvider.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(157)))), ((int)(((byte)(185)))));
+            this.tabStock.DisplayStyleProvider.BorderColorHighlighted = System.Drawing.SystemColors.ControlDark;
+            this.tabStock.DisplayStyleProvider.BorderColorSelected = System.Drawing.SystemColors.ControlDark;
+            this.tabStock.DisplayStyleProvider.BorderColorUnselected = System.Drawing.SystemColors.ControlDark;
+            this.tabStock.DisplayStyleProvider.CloserButtonFillColorFocused = System.Drawing.Color.Empty;
+            this.tabStock.DisplayStyleProvider.CloserButtonFillColorFocusedActive = System.Drawing.Color.Empty;
+            this.tabStock.DisplayStyleProvider.CloserButtonFillColorHighlighted = System.Drawing.Color.Empty;
+            this.tabStock.DisplayStyleProvider.CloserButtonFillColorHighlightedActive = System.Drawing.Color.Empty;
+            this.tabStock.DisplayStyleProvider.CloserButtonFillColorSelected = System.Drawing.Color.Empty;
+            this.tabStock.DisplayStyleProvider.CloserButtonFillColorSelectedActive = System.Drawing.Color.Empty;
+            this.tabStock.DisplayStyleProvider.CloserButtonFillColorUnselected = System.Drawing.Color.Empty;
+            this.tabStock.DisplayStyleProvider.CloserButtonOutlineColorFocused = System.Drawing.Color.Empty;
+            this.tabStock.DisplayStyleProvider.CloserButtonOutlineColorFocusedActive = System.Drawing.Color.Empty;
+            this.tabStock.DisplayStyleProvider.CloserButtonOutlineColorHighlighted = System.Drawing.Color.Empty;
+            this.tabStock.DisplayStyleProvider.CloserButtonOutlineColorHighlightedActive = System.Drawing.Color.Empty;
+            this.tabStock.DisplayStyleProvider.CloserButtonOutlineColorSelected = System.Drawing.Color.Empty;
+            this.tabStock.DisplayStyleProvider.CloserButtonOutlineColorSelectedActive = System.Drawing.Color.Empty;
+            this.tabStock.DisplayStyleProvider.CloserButtonOutlineColorUnselected = System.Drawing.Color.Empty;
+            this.tabStock.DisplayStyleProvider.CloserColorFocused = System.Drawing.SystemColors.ControlDark;
+            this.tabStock.DisplayStyleProvider.CloserColorFocusedActive = System.Drawing.SystemColors.ControlDark;
+            this.tabStock.DisplayStyleProvider.CloserColorHighlighted = System.Drawing.SystemColors.ControlDark;
+            this.tabStock.DisplayStyleProvider.CloserColorHighlightedActive = System.Drawing.SystemColors.ControlDark;
+            this.tabStock.DisplayStyleProvider.CloserColorSelected = System.Drawing.SystemColors.ControlDark;
+            this.tabStock.DisplayStyleProvider.CloserColorSelectedActive = System.Drawing.SystemColors.ControlDark;
+            this.tabStock.DisplayStyleProvider.CloserColorUnselected = System.Drawing.Color.Empty;
+            this.tabStock.DisplayStyleProvider.FocusTrack = false;
+            this.tabStock.DisplayStyleProvider.HotTrack = true;
+            this.tabStock.DisplayStyleProvider.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tabStock.DisplayStyleProvider.Opacity = 1F;
+            this.tabStock.DisplayStyleProvider.Overlap = 0;
+            this.tabStock.DisplayStyleProvider.Padding = new System.Drawing.Point(6, 3);
+            this.tabStock.DisplayStyleProvider.PageBackgroundColorDisabled = System.Drawing.SystemColors.Control;
+            this.tabStock.DisplayStyleProvider.PageBackgroundColorFocused = System.Drawing.SystemColors.ControlLight;
+            this.tabStock.DisplayStyleProvider.PageBackgroundColorHighlighted = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(244)))), ((int)(((byte)(252)))));
+            this.tabStock.DisplayStyleProvider.PageBackgroundColorSelected = System.Drawing.SystemColors.ControlLightLight;
+            this.tabStock.DisplayStyleProvider.PageBackgroundColorUnselected = System.Drawing.SystemColors.Control;
+            this.tabStock.DisplayStyleProvider.Radius = 10;
+            this.tabStock.DisplayStyleProvider.SelectedTabIsLarger = false;
+            this.tabStock.DisplayStyleProvider.ShowTabCloser = false;
+            this.tabStock.DisplayStyleProvider.TabColorDisabled1 = System.Drawing.SystemColors.Control;
+            this.tabStock.DisplayStyleProvider.TabColorDisabled2 = System.Drawing.SystemColors.Control;
+            this.tabStock.DisplayStyleProvider.TabColorFocused1 = System.Drawing.SystemColors.ControlLight;
+            this.tabStock.DisplayStyleProvider.TabColorFocused2 = System.Drawing.SystemColors.ControlLight;
+            this.tabStock.DisplayStyleProvider.TabColorHighLighted1 = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(244)))), ((int)(((byte)(252)))));
+            this.tabStock.DisplayStyleProvider.TabColorHighLighted2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.tabStock.DisplayStyleProvider.TabColorSelected1 = System.Drawing.SystemColors.ControlLightLight;
+            this.tabStock.DisplayStyleProvider.TabColorSelected2 = System.Drawing.SystemColors.ControlLightLight;
+            this.tabStock.DisplayStyleProvider.TabColorUnSelected1 = System.Drawing.SystemColors.Control;
+            this.tabStock.DisplayStyleProvider.TabColorUnSelected2 = System.Drawing.SystemColors.Control;
+            this.tabStock.DisplayStyleProvider.TabPageMargin = new System.Windows.Forms.Padding(1);
+            this.tabStock.DisplayStyleProvider.TextColorDisabled = System.Drawing.SystemColors.ControlDark;
+            this.tabStock.DisplayStyleProvider.TextColorFocused = System.Drawing.SystemColors.ControlText;
+            this.tabStock.DisplayStyleProvider.TextColorHighlighted = System.Drawing.SystemColors.ControlText;
+            this.tabStock.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
+            this.tabStock.DisplayStyleProvider.TextColorUnselected = System.Drawing.SystemColors.ControlText;
             this.tabStock.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabStock.HotTrack = true;
-            this.tabStock.Location = new System.Drawing.Point(0, 0);
-            this.tabStock.Margin = new System.Windows.Forms.Padding(2);
+            this.tabStock.Location = new System.Drawing.Point(6, 2);
+            this.tabStock.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabStock.Name = "tabStock";
             this.tabStock.SelectedIndex = 0;
-            this.tabStock.Size = new System.Drawing.Size(1150, 615);
+            this.tabStock.Size = new System.Drawing.Size(1482, 698);
             this.tabStock.TabIndex = 11;
             // 
             // tabAdjust
@@ -130,21 +191,21 @@
             this.tabAdjust.Controls.Add(this.pnlAdjustForm);
             this.tabAdjust.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabAdjust.ForeColor = System.Drawing.Color.Black;
-            this.tabAdjust.Location = new System.Drawing.Point(4, 26);
-            this.tabAdjust.Margin = new System.Windows.Forms.Padding(2);
+            this.tabAdjust.Location = new System.Drawing.Point(4, 30);
+            this.tabAdjust.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabAdjust.Name = "tabAdjust";
-            this.tabAdjust.Padding = new System.Windows.Forms.Padding(2);
-            this.tabAdjust.Size = new System.Drawing.Size(1142, 585);
+            this.tabAdjust.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabAdjust.Size = new System.Drawing.Size(1474, 664);
             this.tabAdjust.TabIndex = 0;
             this.tabAdjust.Text = "Adjust Stock";
             this.tabAdjust.UseVisualStyleBackColor = true;
             // 
             // pnlAdjustForm
             // 
-            this.pnlAdjustForm.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnlAdjustForm.BackgroundColor = System.Drawing.Color.White;
+            this.pnlAdjustForm.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlAdjustForm.BackgroundImage")));
             this.pnlAdjustForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlAdjustForm.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(238)))));
+            this.pnlAdjustForm.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pnlAdjustForm.BorderRadius = 20;
             this.pnlAdjustForm.BorderThickness = 1;
             this.pnlAdjustForm.Controls.Add(this.txtNotes);
@@ -159,11 +220,12 @@
             this.pnlAdjustForm.Controls.Add(this.lblProduct);
             this.pnlAdjustForm.Controls.Add(this.lblFormTitle);
             this.pnlAdjustForm.Controls.Add(this.btnApplyAdjustment);
-            this.pnlAdjustForm.Location = new System.Drawing.Point(19, 25);
-            this.pnlAdjustForm.Margin = new System.Windows.Forms.Padding(22, 24, 22, 24);
+            this.pnlAdjustForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlAdjustForm.Location = new System.Drawing.Point(3, 2);
+            this.pnlAdjustForm.Margin = new System.Windows.Forms.Padding(29, 30, 29, 30);
             this.pnlAdjustForm.Name = "pnlAdjustForm";
             this.pnlAdjustForm.ShowBorders = true;
-            this.pnlAdjustForm.Size = new System.Drawing.Size(1099, 444);
+            this.pnlAdjustForm.Size = new System.Drawing.Size(1466, 658);
             this.pnlAdjustForm.TabIndex = 13;
             // 
             // txtNotes
@@ -175,6 +237,7 @@
             this.txtNotes.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
             this.txtNotes.AutoSizeHeight = true;
             this.txtNotes.BackColor = System.Drawing.Color.Transparent;
+            this.txtNotes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtNotes.BackgroundImage")));
             this.txtNotes.BorderColorActive = System.Drawing.Color.DodgerBlue;
             this.txtNotes.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.txtNotes.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
@@ -195,8 +258,8 @@
             this.txtNotes.IconRight = null;
             this.txtNotes.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtNotes.Lines = new string[0];
-            this.txtNotes.Location = new System.Drawing.Point(21, 315);
-            this.txtNotes.Margin = new System.Windows.Forms.Padding(2);
+            this.txtNotes.Location = new System.Drawing.Point(28, 388);
+            this.txtNotes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNotes.MaxLength = 32767;
             this.txtNotes.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtNotes.Modified = false;
@@ -222,7 +285,7 @@
             stateProperties4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtNotes.OnIdleState = stateProperties4;
-            this.txtNotes.Padding = new System.Windows.Forms.Padding(2);
+            this.txtNotes.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNotes.PasswordChar = '\0';
             this.txtNotes.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtNotes.PlaceholderText = "Additional Notes...";
@@ -232,7 +295,7 @@
             this.txtNotes.SelectionLength = 0;
             this.txtNotes.SelectionStart = 0;
             this.txtNotes.ShortcutsEnabled = true;
-            this.txtNotes.Size = new System.Drawing.Size(582, 36);
+            this.txtNotes.Size = new System.Drawing.Size(776, 40);
             this.txtNotes.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtNotes.TabIndex = 24;
             this.txtNotes.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -248,10 +311,9 @@
             this.lblNotes.BackColor = System.Drawing.Color.Transparent;
             this.lblNotes.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNotes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.lblNotes.Location = new System.Drawing.Point(17, 285);
-            this.lblNotes.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNotes.Location = new System.Drawing.Point(23, 351);
             this.lblNotes.Name = "lblNotes";
-            this.lblNotes.Size = new System.Drawing.Size(137, 20);
+            this.lblNotes.Size = new System.Drawing.Size(183, 25);
             this.lblNotes.TabIndex = 23;
             this.lblNotes.Text = "Notes";
             // 
@@ -291,10 +353,10 @@
             this.ddlReason.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
             this.ddlReason.ItemHighLightForeColor = System.Drawing.Color.White;
             this.ddlReason.ItemTopMargin = 3;
-            this.ddlReason.Location = new System.Drawing.Point(21, 245);
-            this.ddlReason.Margin = new System.Windows.Forms.Padding(2);
+            this.ddlReason.Location = new System.Drawing.Point(28, 302);
+            this.ddlReason.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ddlReason.Name = "ddlReason";
-            this.ddlReason.Size = new System.Drawing.Size(583, 32);
+            this.ddlReason.Size = new System.Drawing.Size(776, 32);
             this.ddlReason.TabIndex = 22;
             this.ddlReason.Text = "Select Reason";
             this.ddlReason.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
@@ -305,10 +367,9 @@
             this.lblReason.BackColor = System.Drawing.Color.Transparent;
             this.lblReason.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblReason.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.lblReason.Location = new System.Drawing.Point(17, 215);
-            this.lblReason.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblReason.Location = new System.Drawing.Point(23, 265);
             this.lblReason.Name = "lblReason";
-            this.lblReason.Size = new System.Drawing.Size(114, 20);
+            this.lblReason.Size = new System.Drawing.Size(152, 25);
             this.lblReason.TabIndex = 21;
             this.lblReason.Text = "Reason";
             // 
@@ -321,6 +382,7 @@
             this.txtQty.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
             this.txtQty.AutoSizeHeight = true;
             this.txtQty.BackColor = System.Drawing.Color.Transparent;
+            this.txtQty.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtQty.BackgroundImage")));
             this.txtQty.BorderColorActive = System.Drawing.Color.DodgerBlue;
             this.txtQty.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.txtQty.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
@@ -341,8 +403,8 @@
             this.txtQty.IconRight = null;
             this.txtQty.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtQty.Lines = new string[0];
-            this.txtQty.Location = new System.Drawing.Point(308, 176);
-            this.txtQty.Margin = new System.Windows.Forms.Padding(2);
+            this.txtQty.Location = new System.Drawing.Point(411, 217);
+            this.txtQty.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtQty.MaxLength = 32767;
             this.txtQty.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtQty.Modified = false;
@@ -368,7 +430,7 @@
             stateProperties8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtQty.OnIdleState = stateProperties8;
-            this.txtQty.Padding = new System.Windows.Forms.Padding(2);
+            this.txtQty.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtQty.PasswordChar = '\0';
             this.txtQty.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtQty.PlaceholderText = "0";
@@ -378,7 +440,7 @@
             this.txtQty.SelectionLength = 0;
             this.txtQty.SelectionStart = 0;
             this.txtQty.ShortcutsEnabled = true;
-            this.txtQty.Size = new System.Drawing.Size(296, 36);
+            this.txtQty.Size = new System.Drawing.Size(395, 40);
             this.txtQty.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtQty.TabIndex = 20;
             this.txtQty.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -394,10 +456,9 @@
             this.lblQty.BackColor = System.Drawing.Color.Transparent;
             this.lblQty.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.lblQty.Location = new System.Drawing.Point(304, 146);
-            this.lblQty.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblQty.Location = new System.Drawing.Point(405, 180);
             this.lblQty.Name = "lblQty";
-            this.lblQty.Size = new System.Drawing.Size(137, 20);
+            this.lblQty.Size = new System.Drawing.Size(183, 25);
             this.lblQty.TabIndex = 19;
             this.lblQty.Text = "Quantity";
             // 
@@ -437,10 +498,10 @@
             this.ddlType.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
             this.ddlType.ItemHighLightForeColor = System.Drawing.Color.White;
             this.ddlType.ItemTopMargin = 3;
-            this.ddlType.Location = new System.Drawing.Point(21, 176);
-            this.ddlType.Margin = new System.Windows.Forms.Padding(2);
+            this.ddlType.Location = new System.Drawing.Point(28, 217);
+            this.ddlType.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ddlType.Name = "ddlType";
-            this.ddlType.Size = new System.Drawing.Size(275, 32);
+            this.ddlType.Size = new System.Drawing.Size(365, 32);
             this.ddlType.TabIndex = 18;
             this.ddlType.Text = "Select Type";
             this.ddlType.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
@@ -451,10 +512,9 @@
             this.lblType.BackColor = System.Drawing.Color.Transparent;
             this.lblType.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.lblType.Location = new System.Drawing.Point(17, 146);
-            this.lblType.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblType.Location = new System.Drawing.Point(23, 180);
             this.lblType.Name = "lblType";
-            this.lblType.Size = new System.Drawing.Size(137, 20);
+            this.lblType.Size = new System.Drawing.Size(183, 25);
             this.lblType.TabIndex = 17;
             this.lblType.Text = "Adjustment Type";
             // 
@@ -494,10 +554,10 @@
             this.ddlProduct.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
             this.ddlProduct.ItemHighLightForeColor = System.Drawing.Color.White;
             this.ddlProduct.ItemTopMargin = 3;
-            this.ddlProduct.Location = new System.Drawing.Point(21, 106);
-            this.ddlProduct.Margin = new System.Windows.Forms.Padding(2);
+            this.ddlProduct.Location = new System.Drawing.Point(28, 130);
+            this.ddlProduct.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ddlProduct.Name = "ddlProduct";
-            this.ddlProduct.Size = new System.Drawing.Size(583, 32);
+            this.ddlProduct.Size = new System.Drawing.Size(776, 32);
             this.ddlProduct.TabIndex = 16;
             this.ddlProduct.Text = "Choose Product";
             this.ddlProduct.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
@@ -508,10 +568,9 @@
             this.lblProduct.BackColor = System.Drawing.Color.Transparent;
             this.lblProduct.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProduct.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.lblProduct.Location = new System.Drawing.Point(17, 76);
-            this.lblProduct.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblProduct.Location = new System.Drawing.Point(23, 94);
             this.lblProduct.Name = "lblProduct";
-            this.lblProduct.Size = new System.Drawing.Size(114, 20);
+            this.lblProduct.Size = new System.Drawing.Size(152, 25);
             this.lblProduct.TabIndex = 15;
             this.lblProduct.Text = "Select Product";
             // 
@@ -520,10 +579,9 @@
             this.lblFormTitle.AutoSize = true;
             this.lblFormTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFormTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblFormTitle.Location = new System.Drawing.Point(16, 20);
-            this.lblFormTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFormTitle.Location = new System.Drawing.Point(21, 25);
             this.lblFormTitle.Name = "lblFormTitle";
-            this.lblFormTitle.Size = new System.Drawing.Size(233, 25);
+            this.lblFormTitle.Size = new System.Drawing.Size(295, 32);
             this.lblFormTitle.TabIndex = 13;
             this.lblFormTitle.Text = "Manual Stock Adjustment";
             // 
@@ -539,6 +597,7 @@
             this.btnApplyAdjustment.AutoSizeRightIcon = true;
             this.btnApplyAdjustment.BackColor = System.Drawing.Color.Transparent;
             this.btnApplyAdjustment.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
+            this.btnApplyAdjustment.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnApplyAdjustment.BackgroundImage")));
             this.btnApplyAdjustment.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.btnApplyAdjustment.ButtonText = "Apply Adjustment";
             this.btnApplyAdjustment.ButtonTextMarginLeft = 0;
@@ -575,8 +634,8 @@
             this.btnApplyAdjustment.IdleIconLeftImage = null;
             this.btnApplyAdjustment.IdleIconRightImage = null;
             this.btnApplyAdjustment.IndicateFocus = false;
-            this.btnApplyAdjustment.Location = new System.Drawing.Point(21, 396);
-            this.btnApplyAdjustment.Margin = new System.Windows.Forms.Padding(2);
+            this.btnApplyAdjustment.Location = new System.Drawing.Point(28, 487);
+            this.btnApplyAdjustment.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnApplyAdjustment.Name = "btnApplyAdjustment";
             this.btnApplyAdjustment.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnApplyAdjustment.OnDisabledState.BorderRadius = 15;
@@ -610,7 +669,7 @@
             this.btnApplyAdjustment.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnApplyAdjustment.OnPressedState.IconLeftImage = null;
             this.btnApplyAdjustment.OnPressedState.IconRightImage = null;
-            this.btnApplyAdjustment.Size = new System.Drawing.Size(134, 33);
+            this.btnApplyAdjustment.Size = new System.Drawing.Size(179, 41);
             this.btnApplyAdjustment.TabIndex = 10;
             this.btnApplyAdjustment.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnApplyAdjustment.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -622,11 +681,11 @@
             // 
             this.tabLog.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tabLog.Controls.Add(this.pnlLog);
-            this.tabLog.Location = new System.Drawing.Point(4, 26);
-            this.tabLog.Margin = new System.Windows.Forms.Padding(2);
+            this.tabLog.Location = new System.Drawing.Point(4, 30);
+            this.tabLog.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabLog.Name = "tabLog";
-            this.tabLog.Padding = new System.Windows.Forms.Padding(2);
-            this.tabLog.Size = new System.Drawing.Size(1142, 585);
+            this.tabLog.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabLog.Size = new System.Drawing.Size(1474, 664);
             this.tabLog.TabIndex = 1;
             this.tabLog.Text = "Audit Log";
             this.tabLog.UseVisualStyleBackColor = true;
@@ -635,17 +694,18 @@
             // 
             this.pnlLog.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnlLog.BackgroundColor = System.Drawing.Color.White;
+            this.pnlLog.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlLog.BackgroundImage")));
             this.pnlLog.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlLog.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(238)))));
             this.pnlLog.BorderRadius = 20;
             this.pnlLog.BorderThickness = 1;
             this.pnlLog.Controls.Add(this.dgvAuditLog);
             this.pnlLog.Controls.Add(this.lblLogTitle);
-            this.pnlLog.Location = new System.Drawing.Point(22, 25);
-            this.pnlLog.Margin = new System.Windows.Forms.Padding(22, 24, 22, 24);
+            this.pnlLog.Location = new System.Drawing.Point(4, 2);
+            this.pnlLog.Margin = new System.Windows.Forms.Padding(29, 30, 29, 30);
             this.pnlLog.Name = "pnlLog";
             this.pnlLog.ShowBorders = true;
-            this.pnlLog.Size = new System.Drawing.Size(1088, 284);
+            this.pnlLog.Size = new System.Drawing.Size(1451, 350);
             this.pnlLog.TabIndex = 14;
             // 
             // dgvAuditLog
@@ -662,7 +722,7 @@
             this.dgvAuditLog.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
@@ -689,7 +749,7 @@
             this.dgvAuditLog.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
@@ -700,15 +760,15 @@
             this.dgvAuditLog.HeaderBackColor = System.Drawing.Color.DodgerBlue;
             this.dgvAuditLog.HeaderBgColor = System.Drawing.Color.Empty;
             this.dgvAuditLog.HeaderForeColor = System.Drawing.Color.White;
-            this.dgvAuditLog.Location = new System.Drawing.Point(24, 70);
-            this.dgvAuditLog.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvAuditLog.Location = new System.Drawing.Point(32, 86);
+            this.dgvAuditLog.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvAuditLog.Name = "dgvAuditLog";
             this.dgvAuditLog.ReadOnly = true;
             this.dgvAuditLog.RowHeadersVisible = false;
             this.dgvAuditLog.RowHeadersWidth = 53;
             this.dgvAuditLog.RowTemplate.Height = 40;
             this.dgvAuditLog.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvAuditLog.Size = new System.Drawing.Size(1039, 183);
+            this.dgvAuditLog.Size = new System.Drawing.Size(1385, 225);
             this.dgvAuditLog.TabIndex = 15;
             this.dgvAuditLog.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
@@ -717,29 +777,29 @@
             this.lblLogTitle.AutoSize = true;
             this.lblLogTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLogTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblLogTitle.Location = new System.Drawing.Point(14, 23);
-            this.lblLogTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblLogTitle.Location = new System.Drawing.Point(19, 28);
             this.lblLogTitle.Name = "lblLogTitle";
-            this.lblLogTitle.Size = new System.Drawing.Size(206, 23);
+            this.lblLogTitle.Size = new System.Drawing.Size(258, 30);
             this.lblLogTitle.TabIndex = 14;
             this.lblLogTitle.Text = "Stock Adjustment History";
             // 
             // pnlHeader
             // 
-            this.pnlHeader.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.pnlHeader.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlHeader.BackgroundColor = System.Drawing.Color.White;
+            this.pnlHeader.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlHeader.BackgroundImage")));
             this.pnlHeader.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlHeader.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(238)))));
             this.pnlHeader.BorderRadius = 8;
             this.pnlHeader.BorderThickness = 1;
             this.pnlHeader.Controls.Add(this.lblDate);
             this.pnlHeader.Controls.Add(this.lblPageTitle);
-            this.pnlHeader.Location = new System.Drawing.Point(220, 0);
-            this.pnlHeader.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlHeader.Location = new System.Drawing.Point(3, 2);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.ShowBorders = true;
-            this.pnlHeader.Size = new System.Drawing.Size(892, 64);
+            this.pnlHeader.Size = new System.Drawing.Size(1536, 79);
             this.pnlHeader.TabIndex = 3;
             // 
             // lblDate
@@ -749,10 +809,9 @@
             this.lblDate.BackColor = System.Drawing.Color.White;
             this.lblDate.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblDate.Location = new System.Drawing.Point(652, 19);
-            this.lblDate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblDate.Location = new System.Drawing.Point(1216, 23);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(234, 23);
+            this.lblDate.Size = new System.Drawing.Size(285, 30);
             this.lblDate.TabIndex = 5;
             this.lblDate.Text = "Saturday, November 22, 2025";
             // 
@@ -762,25 +821,26 @@
             this.lblPageTitle.BackColor = System.Drawing.Color.White;
             this.lblPageTitle.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPageTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblPageTitle.Location = new System.Drawing.Point(14, 19);
-            this.lblPageTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPageTitle.Location = new System.Drawing.Point(19, 23);
             this.lblPageTitle.Name = "lblPageTitle";
-            this.lblPageTitle.Size = new System.Drawing.Size(157, 25);
+            this.lblPageTitle.Size = new System.Drawing.Size(201, 32);
             this.lblPageTitle.TabIndex = 4;
             this.lblPageTitle.Text = "Stock Adjustment";
             // 
             // StockAdjustmentPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pnlMain);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "StockAdjustmentPage";
-            this.Size = new System.Drawing.Size(1155, 687);
+            this.Size = new System.Drawing.Size(1540, 846);
             this.pnlMain.ResumeLayout(false);
             this.pnlContainer.ResumeLayout(false);
             this.tabStock.ResumeLayout(false);
             this.tabAdjust.ResumeLayout(false);
             this.pnlAdjustForm.ResumeLayout(false);
+            this.pnlAdjustForm.PerformLayout();
             this.tabLog.ResumeLayout(false);
             this.pnlLog.ResumeLayout(false);
             this.pnlLog.PerformLayout();
@@ -794,6 +854,9 @@
         #endregion
 
         private Bunifu.UI.WinForms.BunifuPanel pnlMain;
+        private Bunifu.UI.WinForms.BunifuPanel pnlHeader;
+        private System.Windows.Forms.Label lblDate;
+        private System.Windows.Forms.Label lblPageTitle;
         private Bunifu.UI.WinForms.BunifuPanel pnlContainer;
         private TradeWright.UI.Forms.TabControlExtra tabStock;
         private System.Windows.Forms.TabPage tabAdjust;
@@ -814,8 +877,5 @@
         private Bunifu.UI.WinForms.BunifuPanel pnlLog;
         private Bunifu.UI.WinForms.BunifuDataGridView dgvAuditLog;
         private System.Windows.Forms.Label lblLogTitle;
-        private Bunifu.UI.WinForms.BunifuPanel pnlHeader;
-        private System.Windows.Forms.Label lblDate;
-        private System.Windows.Forms.Label lblPageTitle;
     }
 }

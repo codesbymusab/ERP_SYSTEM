@@ -70,8 +70,6 @@
             this.bunifuPanel1.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel1.BorderRadius = 3;
             this.bunifuPanel1.BorderThickness = 1;
-            this.bunifuPanel1.Controls.Add(this.bunifuLabel2);
-            this.bunifuPanel1.Controls.Add(this.bunifuLabel1);
             this.bunifuPanel1.Controls.Add(this.btnUserProfile);
             this.bunifuPanel1.Controls.Add(this.bunifuSeparator5);
             this.bunifuPanel1.Controls.Add(this.bunifuSeparator4);
@@ -90,6 +88,8 @@
             this.bunifuPanel1.Controls.Add(this.btnDashboard);
             this.bunifuPanel1.Controls.Add(this.bunifuSeparator1);
             this.bunifuPanel1.Controls.Add(this.bunifuLabel3);
+            this.bunifuPanel1.Controls.Add(this.bunifuLabel2);
+            this.bunifuPanel1.Controls.Add(this.bunifuLabel1);
             this.bunifuPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuPanel1.Font = new System.Drawing.Font("Marlett", 8.25F);
             this.bunifuPanel1.Location = new System.Drawing.Point(0, 0);
@@ -147,7 +147,7 @@
             this.btnUserProfile.IdleIconLeftImage = null;
             this.btnUserProfile.IdleIconRightImage = null;
             this.btnUserProfile.IndicateFocus = false;
-            this.btnUserProfile.Location = new System.Drawing.Point(19, 863);
+            this.btnUserProfile.Location = new System.Drawing.Point(3, 854);
             this.btnUserProfile.Name = "btnUserProfile";
             this.btnUserProfile.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnUserProfile.OnDisabledState.BorderRadius = 15;
@@ -202,7 +202,7 @@
             this.bunifuSeparator5.Margin = new System.Windows.Forms.Padding(8, 4, 8, 4);
             this.bunifuSeparator5.Name = "bunifuSeparator5";
             this.bunifuSeparator5.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.bunifuSeparator5.Size = new System.Drawing.Size(247, 13);
+            this.bunifuSeparator5.Size = new System.Drawing.Size(248, 13);
             this.bunifuSeparator5.TabIndex = 18;
             // 
             // bunifuSeparator4

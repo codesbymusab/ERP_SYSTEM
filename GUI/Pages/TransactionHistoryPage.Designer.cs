@@ -93,11 +93,11 @@
             this.pnlHeader.BorderThickness = 1;
             this.pnlHeader.Controls.Add(this.lblDate);
             this.pnlHeader.Controls.Add(this.lblPageTitle);
-            this.pnlHeader.Location = new System.Drawing.Point(293, 0);
+            this.pnlHeader.Location = new System.Drawing.Point(0, 0);
             this.pnlHeader.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.ShowBorders = true;
-            this.pnlHeader.Size = new System.Drawing.Size(1221, 79);
+            this.pnlHeader.Size = new System.Drawing.Size(1537, 79);
             this.pnlHeader.TabIndex = 29;
             // 
             // lblDate
@@ -107,7 +107,7 @@
             this.lblDate.BackColor = System.Drawing.Color.White;
             this.lblDate.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblDate.Location = new System.Drawing.Point(912, 25);
+            this.lblDate.Location = new System.Drawing.Point(1228, 25);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(285, 30);
             this.lblDate.TabIndex = 5;
@@ -135,11 +135,11 @@
             this.pnlContent.BorderThickness = 1;
             this.pnlContent.Controls.Add(this.tabHistory);
             this.pnlContent.Controls.Add(this.lblListHeader);
-            this.pnlContent.Location = new System.Drawing.Point(336, 117);
+            this.pnlContent.Location = new System.Drawing.Point(84, 187);
             this.pnlContent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlContent.Name = "pnlContent";
             this.pnlContent.ShowBorders = true;
-            this.pnlContent.Size = new System.Drawing.Size(1523, 313);
+            this.pnlContent.Size = new System.Drawing.Size(1523, 337);
             this.pnlContent.TabIndex = 31;
             // 
             // tabHistory
@@ -455,7 +455,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pnlMain);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TransactionHistoryPage";
             this.Size = new System.Drawing.Size(1540, 846);
             this.pnlMain.ResumeLayout(false);

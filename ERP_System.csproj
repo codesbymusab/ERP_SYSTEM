@@ -218,6 +218,24 @@
     <EmbeddedResource Include="GUI\Pages\EmployeesPage.resx">
       <DependentUpon>EmployeesPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pages\ProductPage.resx">
+      <DependentUpon>ProductPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pages\PurchasesPage.resx">
+      <DependentUpon>PurchasesPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pages\ReportsPage.resx">
+      <DependentUpon>ReportsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pages\SalesPage.resx">
+      <DependentUpon>SalesPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pages\StockAdjustmentPage.resx">
+      <DependentUpon>StockAdjustmentPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pages\SuppliersPage.resx">
+      <DependentUpon>SuppliersPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Pages\TransactionHistoryPage.resx">
       <DependentUpon>TransactionHistoryPage.cs</DependentUpon>
     </EmbeddedResource>
