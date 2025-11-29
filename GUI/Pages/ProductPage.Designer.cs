@@ -29,19 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductPage));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.pnlMain = new Bunifu.UI.WinForms.BunifuPanel();
-            this.pnlHeader = new Bunifu.UI.WinForms.BunifuPanel();
-            this.lblDate = new System.Windows.Forms.Label();
-            this.lblPageTitle = new System.Windows.Forms.Label();
             this.tabProducts = new TradeWright.UI.Forms.TabControlExtra();
             this.tabAllProducts = new System.Windows.Forms.TabPage();
             this.cardOutOfStock = new Bunifu.UI.WinForms.BunifuPanel();
@@ -84,8 +81,9 @@
             this.supProducts = new System.Windows.Forms.Label();
             this.supName = new System.Windows.Forms.Label();
             this.lblSupplierHeader = new System.Windows.Forms.Label();
-            this.pnlMain.SuspendLayout();
-            this.pnlHeader.SuspendLayout();
+            this.pnlHeader = new Bunifu.UI.WinForms.BunifuPanel();
+            this.lblDate = new System.Windows.Forms.Label();
+            this.lblPageTitle = new System.Windows.Forms.Label();
             this.tabProducts.SuspendLayout();
             this.tabAllProducts.SuspendLayout();
             this.cardOutOfStock.SuspendLayout();
@@ -100,6 +98,7 @@
             this.tabSuppliers.SuspendLayout();
             this.pnlSupplierContainer.SuspendLayout();
             this.pnlSupplierItem.SuspendLayout();
+            this.pnlHeader.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlMain
@@ -110,57 +109,12 @@
             this.pnlMain.BorderColor = System.Drawing.Color.LightGray;
             this.pnlMain.BorderRadius = 20;
             this.pnlMain.BorderThickness = 1;
-            this.pnlMain.Controls.Add(this.tabProducts);
             this.pnlMain.Location = new System.Drawing.Point(93, 115);
             this.pnlMain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.ShowBorders = false;
             this.pnlMain.Size = new System.Drawing.Size(1533, 757);
             this.pnlMain.TabIndex = 11;
-            // 
-            // pnlHeader
-            // 
-            this.pnlHeader.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlHeader.BackgroundColor = System.Drawing.Color.White;
-            this.pnlHeader.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlHeader.BackgroundImage")));
-            this.pnlHeader.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlHeader.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(238)))));
-            this.pnlHeader.BorderRadius = 8;
-            this.pnlHeader.BorderThickness = 1;
-            this.pnlHeader.Controls.Add(this.lblDate);
-            this.pnlHeader.Controls.Add(this.lblPageTitle);
-            this.pnlHeader.Location = new System.Drawing.Point(0, 0);
-            this.pnlHeader.Margin = new System.Windows.Forms.Padding(0);
-            this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.ShowBorders = true;
-            this.pnlHeader.Size = new System.Drawing.Size(1136, 79);
-            this.pnlHeader.TabIndex = 12;
-            // 
-            // lblDate
-            // 
-            this.lblDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblDate.AutoSize = true;
-            this.lblDate.BackColor = System.Drawing.Color.White;
-            this.lblDate.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblDate.Location = new System.Drawing.Point(816, 23);
-            this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(285, 30);
-            this.lblDate.TabIndex = 5;
-            this.lblDate.Text = "Saturday, November 22, 2025";
-            // 
-            // lblPageTitle
-            // 
-            this.lblPageTitle.AutoSize = true;
-            this.lblPageTitle.BackColor = System.Drawing.Color.White;
-            this.lblPageTitle.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPageTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblPageTitle.Location = new System.Drawing.Point(19, 23);
-            this.lblPageTitle.Name = "lblPageTitle";
-            this.lblPageTitle.Size = new System.Drawing.Size(106, 32);
-            this.lblPageTitle.TabIndex = 4;
-            this.lblPageTitle.Text = "Products";
             // 
             // tabProducts
             // 
@@ -228,10 +182,9 @@
             this.tabProducts.DisplayStyleProvider.TextColorHighlighted = System.Drawing.SystemColors.ControlText;
             this.tabProducts.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             this.tabProducts.DisplayStyleProvider.TextColorUnselected = System.Drawing.SystemColors.ControlText;
-            this.tabProducts.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabProducts.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabProducts.HotTrack = true;
-            this.tabProducts.Location = new System.Drawing.Point(0, 0);
+            this.tabProducts.Location = new System.Drawing.Point(51, 117);
             this.tabProducts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabProducts.Name = "tabProducts";
             this.tabProducts.SelectedIndex = 0;
@@ -511,22 +464,22 @@
             this.dgvProducts.AllowCustomTheming = false;
             this.dgvProducts.AllowUserToAddRows = false;
             this.dgvProducts.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.dgvProducts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.dgvProducts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvProducts.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvProducts.BackgroundColor = System.Drawing.Color.DarkGray;
             this.dgvProducts.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvProducts.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvProducts.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvProducts.ColumnHeadersHeight = 40;
             this.dgvProducts.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.dgvProducts.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
@@ -546,14 +499,14 @@
             this.dgvProducts.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.dgvProducts.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.dgvProducts.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvProducts.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvProducts.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvProducts.EnableHeadersVisualStyles = false;
             this.dgvProducts.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.dgvProducts.HeaderBackColor = System.Drawing.Color.DodgerBlue;
@@ -592,11 +545,11 @@
             this.btnAddProduct.ColorContrastOnClick = 45;
             this.btnAddProduct.ColorContrastOnHover = 45;
             this.btnAddProduct.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.btnAddProduct.CustomizableEdges = borderEdges1;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.btnAddProduct.CustomizableEdges = borderEdges3;
             this.btnAddProduct.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnAddProduct.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAddProduct.DisabledFillColor = System.Drawing.Color.Empty;
@@ -703,26 +656,26 @@
             this.txtSearch.Modified = false;
             this.txtSearch.Multiline = false;
             this.txtSearch.Name = "txtSearch";
-            stateProperties1.BorderColor = System.Drawing.Color.LightGray;
-            stateProperties1.FillColor = System.Drawing.Color.Gainsboro;
-            stateProperties1.ForeColor = System.Drawing.Color.Empty;
-            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtSearch.OnActiveState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txtSearch.OnDisabledState = stateProperties2;
-            stateProperties3.BorderColor = System.Drawing.Color.DarkGray;
-            stateProperties3.FillColor = System.Drawing.Color.Silver;
-            stateProperties3.ForeColor = System.Drawing.Color.Empty;
-            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtSearch.OnHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.LightGray;
-            stateProperties4.FillColor = System.Drawing.Color.WhiteSmoke;
-            stateProperties4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
-            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtSearch.OnIdleState = stateProperties4;
+            stateProperties5.BorderColor = System.Drawing.Color.LightGray;
+            stateProperties5.FillColor = System.Drawing.Color.Gainsboro;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtSearch.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txtSearch.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.DarkGray;
+            stateProperties7.FillColor = System.Drawing.Color.Silver;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtSearch.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.LightGray;
+            stateProperties8.FillColor = System.Drawing.Color.WhiteSmoke;
+            stateProperties8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtSearch.OnIdleState = stateProperties8;
             this.txtSearch.Padding = new System.Windows.Forms.Padding(11, 6, 11, 6);
             this.txtSearch.PasswordChar = '\0';
             this.txtSearch.PlaceholderForeColor = System.Drawing.Color.DimGray;
@@ -733,7 +686,7 @@
             this.txtSearch.SelectionLength = 0;
             this.txtSearch.SelectionStart = 0;
             this.txtSearch.ShortcutsEnabled = true;
-            this.txtSearch.Size = new System.Drawing.Size(1400, 62);
+            this.txtSearch.Size = new System.Drawing.Size(1400, 54);
             this.txtSearch.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtSearch.TabIndex = 4;
             this.txtSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -825,7 +778,7 @@
             this.tabLowStock.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabLowStock.Name = "tabLowStock";
             this.tabLowStock.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabLowStock.Size = new System.Drawing.Size(1652, 723);
+            this.tabLowStock.Size = new System.Drawing.Size(1525, 723);
             this.tabLowStock.TabIndex = 1;
             this.tabLowStock.Text = "Low Stock";
             this.tabLowStock.UseVisualStyleBackColor = true;
@@ -873,7 +826,7 @@
             this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label43.Location = new System.Drawing.Point(1469, 59);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(158, 23);
+            this.label43.Size = new System.Drawing.Size(119, 16);
             this.label43.TabIndex = 3;
             this.label43.Text = "Reorder At 20 units";
             // 
@@ -882,7 +835,7 @@
             this.label44.AutoSize = true;
             this.label44.Location = new System.Drawing.Point(1499, 20);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(128, 23);
+            this.label44.Size = new System.Drawing.Size(92, 16);
             this.label44.TabIndex = 2;
             this.label44.Text = "Current: 8 units";
             // 
@@ -892,7 +845,7 @@
             this.itmCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.itmCode.Location = new System.Drawing.Point(81, 59);
             this.itmCode.Name = "itmCode";
-            this.itmCode.Size = new System.Drawing.Size(90, 23);
+            this.itmCode.Size = new System.Drawing.Size(70, 16);
             this.itmCode.TabIndex = 1;
             this.itmCode.Text = "FURN-045";
             // 
@@ -901,7 +854,7 @@
             this.itmName.AutoSize = true;
             this.itmName.Location = new System.Drawing.Point(81, 20);
             this.itmName.Name = "itmName";
-            this.itmName.Size = new System.Drawing.Size(189, 23);
+            this.itmName.Size = new System.Drawing.Size(144, 16);
             this.itmName.TabIndex = 0;
             this.itmName.Text = "Office Chair-Ergonomic";
             // 
@@ -923,7 +876,7 @@
             this.tabSuppliers.Location = new System.Drawing.Point(4, 30);
             this.tabSuppliers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabSuppliers.Name = "tabSuppliers";
-            this.tabSuppliers.Size = new System.Drawing.Size(1652, 723);
+            this.tabSuppliers.Size = new System.Drawing.Size(1525, 723);
             this.tabSuppliers.TabIndex = 2;
             this.tabSuppliers.Text = "Supplier Summary";
             this.tabSuppliers.UseVisualStyleBackColor = true;
@@ -984,11 +937,11 @@
             this.btnViewSupplier.ColorContrastOnClick = 45;
             this.btnViewSupplier.ColorContrastOnHover = 45;
             this.btnViewSupplier.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.btnViewSupplier.CustomizableEdges = borderEdges2;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.btnViewSupplier.CustomizableEdges = borderEdges4;
             this.btnViewSupplier.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnViewSupplier.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnViewSupplier.DisabledFillColor = System.Drawing.Color.Empty;
@@ -1085,18 +1038,60 @@
             this.lblSupplierHeader.TabIndex = 14;
             this.lblSupplierHeader.Text = "Products By Suppllier";
             // 
+            // pnlHeader
+            // 
+            this.pnlHeader.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlHeader.BackgroundColor = System.Drawing.Color.White;
+            this.pnlHeader.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlHeader.BackgroundImage")));
+            this.pnlHeader.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlHeader.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(238)))));
+            this.pnlHeader.BorderRadius = 8;
+            this.pnlHeader.BorderThickness = 1;
+            this.pnlHeader.Controls.Add(this.lblDate);
+            this.pnlHeader.Controls.Add(this.lblPageTitle);
+            this.pnlHeader.Location = new System.Drawing.Point(0, 0);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(0);
+            this.pnlHeader.Name = "pnlHeader";
+            this.pnlHeader.ShowBorders = true;
+            this.pnlHeader.Size = new System.Drawing.Size(1136, 79);
+            this.pnlHeader.TabIndex = 12;
+            // 
+            // lblDate
+            // 
+            this.lblDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblDate.AutoSize = true;
+            this.lblDate.BackColor = System.Drawing.Color.White;
+            this.lblDate.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblDate.Location = new System.Drawing.Point(816, 23);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(285, 30);
+            this.lblDate.TabIndex = 5;
+            this.lblDate.Text = "Saturday, November 22, 2025";
+            // 
+            // lblPageTitle
+            // 
+            this.lblPageTitle.AutoSize = true;
+            this.lblPageTitle.BackColor = System.Drawing.Color.White;
+            this.lblPageTitle.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPageTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblPageTitle.Location = new System.Drawing.Point(19, 23);
+            this.lblPageTitle.Name = "lblPageTitle";
+            this.lblPageTitle.Size = new System.Drawing.Size(106, 32);
+            this.lblPageTitle.TabIndex = 4;
+            this.lblPageTitle.Text = "Products";
+            // 
             // ProductPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.tabProducts);
             this.Controls.Add(this.pnlHeader);
             this.Controls.Add(this.pnlMain);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ProductPage";
             this.Size = new System.Drawing.Size(1540, 846);
-            this.pnlMain.ResumeLayout(false);
-            this.pnlHeader.ResumeLayout(false);
-            this.pnlHeader.PerformLayout();
             this.tabProducts.ResumeLayout(false);
             this.tabAllProducts.ResumeLayout(false);
             this.cardOutOfStock.ResumeLayout(false);
@@ -1115,6 +1110,8 @@
             this.pnlSupplierContainer.ResumeLayout(false);
             this.pnlSupplierContainer.PerformLayout();
             this.pnlSupplierItem.ResumeLayout(false);
+            this.pnlHeader.ResumeLayout(false);
+            this.pnlHeader.PerformLayout();
             this.ResumeLayout(false);
 
         }

@@ -70,7 +70,7 @@
             // bunifuPages1
             // 
             this.bunifuPages1.Alignment = System.Windows.Forms.TabAlignment.Right;
-            this.bunifuPages1.AllowTransitions = true;
+            this.bunifuPages1.AllowTransitions = false;
             this.bunifuPages1.Controls.Add(this.tabDashboard);
             this.bunifuPages1.Controls.Add(this.tabEmployees);
             this.bunifuPages1.Controls.Add(this.tabProducts);
@@ -83,15 +83,15 @@
             this.bunifuPages1.Controls.Add(this.tabProfile);
             this.bunifuPages1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuPages1.Location = new System.Drawing.Point(305, 0);
-            this.bunifuPages1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPages1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPages1.Multiline = true;
             this.bunifuPages1.Name = "bunifuPages1";
-            this.bunifuPages1.Page = this.tabSales;
-            this.bunifuPages1.PageIndex = 7;
-            this.bunifuPages1.PageName = "tabSales";
-            this.bunifuPages1.PageTitle = "SalesPage";
+            this.bunifuPages1.Page = this.tabDashboard;
+            this.bunifuPages1.PageIndex = 0;
+            this.bunifuPages1.PageName = "tabDashboard";
+            this.bunifuPages1.PageTitle = "DashBoard";
             this.bunifuPages1.SelectedIndex = 0;
-            this.bunifuPages1.Size = new System.Drawing.Size(1235, 808);
+            this.bunifuPages1.Size = new System.Drawing.Size(1235, 818);
             this.bunifuPages1.TabIndex = 2;
             animation1.AnimateOnlyDifferences = true;
             animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
@@ -107,16 +107,16 @@
             animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
             animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
             animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
+            animation1.TransparencyCoeff = 1F;
             this.bunifuPages1.Transition = animation1;
-            this.bunifuPages1.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Scale;
+            this.bunifuPages1.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Custom;
             // 
             // tabDashboard
             // 
             this.tabDashboard.Location = new System.Drawing.Point(4, 4);
-            this.tabDashboard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabDashboard.Margin = new System.Windows.Forms.Padding(4);
             this.tabDashboard.Name = "tabDashboard";
-            this.tabDashboard.Size = new System.Drawing.Size(1206, 800);
+            this.tabDashboard.Size = new System.Drawing.Size(1206, 810);
             this.tabDashboard.TabIndex = 0;
             this.tabDashboard.Text = "DashBoard";
             this.tabDashboard.UseVisualStyleBackColor = true;
@@ -125,7 +125,7 @@
             // 
             this.tabEmployees.Controls.Add(this.ucEmployees);
             this.tabEmployees.Location = new System.Drawing.Point(4, 4);
-            this.tabEmployees.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabEmployees.Margin = new System.Windows.Forms.Padding(4);
             this.tabEmployees.Name = "tabEmployees";
             this.tabEmployees.Size = new System.Drawing.Size(1206, 800);
             this.tabEmployees.TabIndex = 1;
@@ -136,7 +136,7 @@
             // 
             this.ucEmployees.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucEmployees.Location = new System.Drawing.Point(0, 0);
-            this.ucEmployees.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucEmployees.Margin = new System.Windows.Forms.Padding(5);
             this.ucEmployees.Name = "ucEmployees";
             this.ucEmployees.Size = new System.Drawing.Size(1206, 800);
             this.ucEmployees.TabIndex = 0;
@@ -145,7 +145,7 @@
             // 
             this.tabProducts.Controls.Add(this.ucProducts);
             this.tabProducts.Location = new System.Drawing.Point(4, 4);
-            this.tabProducts.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabProducts.Margin = new System.Windows.Forms.Padding(4);
             this.tabProducts.Name = "tabProducts";
             this.tabProducts.Size = new System.Drawing.Size(1206, 800);
             this.tabProducts.TabIndex = 2;
@@ -156,7 +156,7 @@
             // 
             this.ucProducts.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucProducts.Location = new System.Drawing.Point(0, 0);
-            this.ucProducts.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucProducts.Margin = new System.Windows.Forms.Padding(5);
             this.ucProducts.Name = "ucProducts";
             this.ucProducts.Size = new System.Drawing.Size(1206, 800);
             this.ucProducts.TabIndex = 0;
@@ -165,7 +165,7 @@
             // 
             this.tabStockAdj.Controls.Add(this.ucStockAdj);
             this.tabStockAdj.Location = new System.Drawing.Point(4, 4);
-            this.tabStockAdj.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabStockAdj.Margin = new System.Windows.Forms.Padding(4);
             this.tabStockAdj.Name = "tabStockAdj";
             this.tabStockAdj.Size = new System.Drawing.Size(1206, 800);
             this.tabStockAdj.TabIndex = 3;
@@ -176,7 +176,7 @@
             // 
             this.ucStockAdj.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucStockAdj.Location = new System.Drawing.Point(0, 0);
-            this.ucStockAdj.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucStockAdj.Margin = new System.Windows.Forms.Padding(5);
             this.ucStockAdj.Name = "ucStockAdj";
             this.ucStockAdj.Size = new System.Drawing.Size(1206, 800);
             this.ucStockAdj.TabIndex = 0;
@@ -185,7 +185,7 @@
             // 
             this.tabSuppliers.Controls.Add(this.ucSuppliers);
             this.tabSuppliers.Location = new System.Drawing.Point(4, 4);
-            this.tabSuppliers.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabSuppliers.Margin = new System.Windows.Forms.Padding(4);
             this.tabSuppliers.Name = "tabSuppliers";
             this.tabSuppliers.Size = new System.Drawing.Size(1206, 800);
             this.tabSuppliers.TabIndex = 4;
@@ -196,7 +196,7 @@
             // 
             this.ucSuppliers.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucSuppliers.Location = new System.Drawing.Point(0, 0);
-            this.ucSuppliers.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucSuppliers.Margin = new System.Windows.Forms.Padding(5);
             this.ucSuppliers.Name = "ucSuppliers";
             this.ucSuppliers.Size = new System.Drawing.Size(1206, 800);
             this.ucSuppliers.TabIndex = 0;
@@ -205,7 +205,7 @@
             // 
             this.tabHistory.Controls.Add(this.ucHistory);
             this.tabHistory.Location = new System.Drawing.Point(4, 4);
-            this.tabHistory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabHistory.Margin = new System.Windows.Forms.Padding(4);
             this.tabHistory.Name = "tabHistory";
             this.tabHistory.Size = new System.Drawing.Size(1206, 800);
             this.tabHistory.TabIndex = 5;
@@ -216,7 +216,7 @@
             // 
             this.ucHistory.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucHistory.Location = new System.Drawing.Point(0, 0);
-            this.ucHistory.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucHistory.Margin = new System.Windows.Forms.Padding(5);
             this.ucHistory.Name = "ucHistory";
             this.ucHistory.Size = new System.Drawing.Size(1206, 800);
             this.ucHistory.TabIndex = 0;
@@ -225,7 +225,7 @@
             // 
             this.tabPurchases.Controls.Add(this.ucPurchases);
             this.tabPurchases.Location = new System.Drawing.Point(4, 4);
-            this.tabPurchases.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPurchases.Margin = new System.Windows.Forms.Padding(4);
             this.tabPurchases.Name = "tabPurchases";
             this.tabPurchases.Size = new System.Drawing.Size(1206, 800);
             this.tabPurchases.TabIndex = 6;
@@ -236,7 +236,7 @@
             // 
             this.ucPurchases.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucPurchases.Location = new System.Drawing.Point(0, 0);
-            this.ucPurchases.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucPurchases.Margin = new System.Windows.Forms.Padding(5);
             this.ucPurchases.Name = "ucPurchases";
             this.ucPurchases.Size = new System.Drawing.Size(1206, 800);
             this.ucPurchases.TabIndex = 0;
@@ -245,7 +245,7 @@
             // 
             this.tabSales.Controls.Add(this.ucSales);
             this.tabSales.Location = new System.Drawing.Point(4, 4);
-            this.tabSales.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabSales.Margin = new System.Windows.Forms.Padding(4);
             this.tabSales.Name = "tabSales";
             this.tabSales.Size = new System.Drawing.Size(1206, 800);
             this.tabSales.TabIndex = 7;
@@ -256,7 +256,7 @@
             // 
             this.ucSales.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucSales.Location = new System.Drawing.Point(0, 0);
-            this.ucSales.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucSales.Margin = new System.Windows.Forms.Padding(5);
             this.ucSales.Name = "ucSales";
             this.ucSales.Size = new System.Drawing.Size(1206, 800);
             this.ucSales.TabIndex = 0;
@@ -265,9 +265,9 @@
             // 
             this.tabReports.Controls.Add(this.ucReports);
             this.tabReports.Location = new System.Drawing.Point(4, 4);
-            this.tabReports.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabReports.Margin = new System.Windows.Forms.Padding(4);
             this.tabReports.Name = "tabReports";
-            this.tabReports.Size = new System.Drawing.Size(1185, 799);
+            this.tabReports.Size = new System.Drawing.Size(1206, 800);
             this.tabReports.TabIndex = 8;
             this.tabReports.Text = "ReportsPage";
             this.tabReports.UseVisualStyleBackColor = true;
@@ -276,18 +276,18 @@
             // 
             this.ucReports.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucReports.Location = new System.Drawing.Point(0, 0);
-            this.ucReports.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucReports.Margin = new System.Windows.Forms.Padding(5);
             this.ucReports.Name = "ucReports";
-            this.ucReports.Size = new System.Drawing.Size(1185, 799);
+            this.ucReports.Size = new System.Drawing.Size(1206, 800);
             this.ucReports.TabIndex = 0;
             // 
             // tabProfile
             // 
             this.tabProfile.Controls.Add(this.ucProfile);
             this.tabProfile.Location = new System.Drawing.Point(4, 4);
-            this.tabProfile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabProfile.Margin = new System.Windows.Forms.Padding(4);
             this.tabProfile.Name = "tabProfile";
-            this.tabProfile.Size = new System.Drawing.Size(1185, 799);
+            this.tabProfile.Size = new System.Drawing.Size(1206, 800);
             this.tabProfile.TabIndex = 9;
             this.tabProfile.Text = "UserProfile";
             this.tabProfile.UseVisualStyleBackColor = true;
@@ -296,9 +296,9 @@
             // 
             this.ucProfile.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucProfile.Location = new System.Drawing.Point(0, 0);
-            this.ucProfile.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ucProfile.Margin = new System.Windows.Forms.Padding(5);
             this.ucProfile.Name = "ucProfile";
-            this.ucProfile.Size = new System.Drawing.Size(1185, 799);
+            this.ucProfile.Size = new System.Drawing.Size(1206, 800);
             this.ucProfile.TabIndex = 0;
             // 
             // pnlFooter
@@ -313,11 +313,11 @@
             this.pnlFooter.Controls.Add(this.lblConnection);
             this.pnlFooter.Controls.Add(this.lblUserInfo);
             this.pnlFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlFooter.Location = new System.Drawing.Point(0, 808);
+            this.pnlFooter.Location = new System.Drawing.Point(0, 818);
             this.pnlFooter.Margin = new System.Windows.Forms.Padding(0);
             this.pnlFooter.Name = "pnlFooter";
             this.pnlFooter.ShowBorders = true;
-            this.pnlFooter.Size = new System.Drawing.Size(1540, 38);
+            this.pnlFooter.Size = new System.Drawing.Size(1540, 28);
             this.pnlFooter.TabIndex = 9;
             // 
             // lblConnection
@@ -326,7 +326,7 @@
             this.lblConnection.BackColor = System.Drawing.Color.Transparent;
             this.lblConnection.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblConnection.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(95)))), ((int)(((byte)(102)))));
-            this.lblConnection.Location = new System.Drawing.Point(1371, 14);
+            this.lblConnection.Location = new System.Drawing.Point(1371, 2);
             this.lblConnection.Name = "lblConnection";
             this.lblConnection.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblConnection.Size = new System.Drawing.Size(157, 21);
@@ -339,7 +339,7 @@
             this.lblUserInfo.Cursor = System.Windows.Forms.Cursors.Default;
             this.lblUserInfo.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUserInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblUserInfo.Location = new System.Drawing.Point(24, 10);
+            this.lblUserInfo.Location = new System.Drawing.Point(12, 0);
             this.lblUserInfo.Name = "lblUserInfo";
             this.lblUserInfo.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblUserInfo.Size = new System.Drawing.Size(528, 28);
@@ -352,7 +352,7 @@
             this.sideNavBar1.Location = new System.Drawing.Point(0, 0);
             this.sideNavBar1.Margin = new System.Windows.Forms.Padding(0);
             this.sideNavBar1.Name = "sideNavBar1";
-            this.sideNavBar1.Size = new System.Drawing.Size(305, 808);
+            this.sideNavBar1.Size = new System.Drawing.Size(305, 818);
             this.sideNavBar1.TabIndex = 1;
             // 
             // MainPageForm
@@ -360,6 +360,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1540, 846);
             this.Controls.Add(this.bunifuPages1);
             this.Controls.Add(this.sideNavBar1);

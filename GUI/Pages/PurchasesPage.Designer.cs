@@ -41,19 +41,15 @@
             this.dgvPurchases = new Bunifu.UI.WinForms.BunifuDataGridView();
             this.btnNewPurchase = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.lblListHeader = new System.Windows.Forms.Label();
-            this.pnlFooter = new Bunifu.UI.WinForms.BunifuPanel();
-            this.lblConnection = new System.Windows.Forms.Label();
-            this.lblUserInfo = new System.Windows.Forms.Label();
             this.pnlMain.SuspendLayout();
             this.pnlHeader.SuspendLayout();
             this.pnlContent.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPurchases)).BeginInit();
-            this.pnlFooter.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlMain
             // 
-            this.pnlMain.BackgroundColor = System.Drawing.Color.White;
+            this.pnlMain.BackgroundColor = System.Drawing.SystemColors.Control;
             this.pnlMain.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlMain.BackgroundImage")));
             this.pnlMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlMain.BorderColor = System.Drawing.Color.LightGray;
@@ -61,7 +57,6 @@
             this.pnlMain.BorderThickness = 1;
             this.pnlMain.Controls.Add(this.pnlHeader);
             this.pnlMain.Controls.Add(this.pnlContent);
-            this.pnlMain.Controls.Add(this.pnlFooter);
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMain.Location = new System.Drawing.Point(0, 0);
             this.pnlMain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -125,7 +120,7 @@
             this.pnlContent.Controls.Add(this.dgvPurchases);
             this.pnlContent.Controls.Add(this.btnNewPurchase);
             this.pnlContent.Controls.Add(this.lblListHeader);
-            this.pnlContent.Location = new System.Drawing.Point(92, 185);
+            this.pnlContent.Location = new System.Drawing.Point(65, 184);
             this.pnlContent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlContent.Name = "pnlContent";
             this.pnlContent.ShowBorders = true;
@@ -276,7 +271,7 @@
             this.btnNewPurchase.OnPressedState.BorderRadius = 15;
             this.btnNewPurchase.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.btnNewPurchase.OnPressedState.BorderThickness = 1;
-            this.btnNewPurchase.OnPressedState.FillColor = System.Drawing.Color.DimGray;
+            this.btnNewPurchase.OnPressedState.FillColor = System.Drawing.Color.Black;
             this.btnNewPurchase.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnNewPurchase.OnPressedState.IconLeftImage = null;
             this.btnNewPurchase.OnPressedState.IconRightImage = null;
@@ -299,57 +294,12 @@
             this.lblListHeader.TabIndex = 14;
             this.lblListHeader.Text = "Purchase Orders";
             // 
-            // pnlFooter
-            // 
-            this.pnlFooter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlFooter.BackgroundColor = System.Drawing.Color.White;
-            this.pnlFooter.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlFooter.BackgroundImage")));
-            this.pnlFooter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlFooter.BorderColor = System.Drawing.Color.LightGray;
-            this.pnlFooter.BorderRadius = 3;
-            this.pnlFooter.BorderThickness = 1;
-            this.pnlFooter.Controls.Add(this.lblConnection);
-            this.pnlFooter.Controls.Add(this.lblUserInfo);
-            this.pnlFooter.Location = new System.Drawing.Point(-5, 794);
-            this.pnlFooter.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlFooter.Name = "pnlFooter";
-            this.pnlFooter.ShowBorders = true;
-            this.pnlFooter.Size = new System.Drawing.Size(1517, 50);
-            this.pnlFooter.TabIndex = 27;
-            // 
-            // lblConnection
-            // 
-            this.lblConnection.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblConnection.BackColor = System.Drawing.Color.Transparent;
-            this.lblConnection.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lblConnection.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(95)))), ((int)(((byte)(102)))));
-            this.lblConnection.Location = new System.Drawing.Point(1349, 14);
-            this.lblConnection.Name = "lblConnection";
-            this.lblConnection.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblConnection.Size = new System.Drawing.Size(157, 21);
-            this.lblConnection.TabIndex = 3;
-            this.lblConnection.Text = "Status: Connected";
-            // 
-            // lblUserInfo
-            // 
-            this.lblUserInfo.BackColor = System.Drawing.Color.Transparent;
-            this.lblUserInfo.Cursor = System.Windows.Forms.Cursors.Default;
-            this.lblUserInfo.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblUserInfo.Location = new System.Drawing.Point(8, 7);
-            this.lblUserInfo.Name = "lblUserInfo";
-            this.lblUserInfo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblUserInfo.Size = new System.Drawing.Size(528, 28);
-            this.lblUserInfo.TabIndex = 2;
-            this.lblUserInfo.Text = "User: admin@company.com | Role: Administrator";
-            // 
             // PurchasesPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pnlMain);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PurchasesPage";
             this.Size = new System.Drawing.Size(1540, 846);
             this.pnlMain.ResumeLayout(false);
@@ -357,7 +307,6 @@
             this.pnlHeader.PerformLayout();
             this.pnlContent.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPurchases)).EndInit();
-            this.pnlFooter.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -372,8 +321,5 @@
         private Bunifu.UI.WinForms.BunifuDataGridView dgvPurchases;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnNewPurchase;
         private System.Windows.Forms.Label lblListHeader;
-        private Bunifu.UI.WinForms.BunifuPanel pnlFooter;
-        private System.Windows.Forms.Label lblConnection;
-        private System.Windows.Forms.Label lblUserInfo;
     }
 }

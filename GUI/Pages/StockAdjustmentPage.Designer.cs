@@ -96,7 +96,6 @@
             // 
             // pnlContainer
             // 
-            this.pnlContainer.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnlContainer.BackgroundColor = System.Drawing.Color.Transparent;
             this.pnlContainer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlContainer.BackgroundImage")));
             this.pnlContainer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -104,7 +103,7 @@
             this.pnlContainer.BorderRadius = 20;
             this.pnlContainer.BorderThickness = 1;
             this.pnlContainer.Controls.Add(this.tabStock);
-            this.pnlContainer.Location = new System.Drawing.Point(42, 114);
+            this.pnlContainer.Location = new System.Drawing.Point(45, 112);
             this.pnlContainer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlContainer.Name = "pnlContainer";
             this.pnlContainer.ShowBorders = true;
@@ -176,13 +175,14 @@
             this.tabStock.DisplayStyleProvider.TextColorHighlighted = System.Drawing.SystemColors.ControlText;
             this.tabStock.DisplayStyleProvider.TextColorSelected = System.Drawing.SystemColors.ControlText;
             this.tabStock.DisplayStyleProvider.TextColorUnselected = System.Drawing.SystemColors.ControlText;
+            this.tabStock.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabStock.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabStock.HotTrack = true;
-            this.tabStock.Location = new System.Drawing.Point(6, 2);
+            this.tabStock.Location = new System.Drawing.Point(0, 0);
             this.tabStock.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabStock.Name = "tabStock";
             this.tabStock.SelectedIndex = 0;
-            this.tabStock.Size = new System.Drawing.Size(1482, 698);
+            this.tabStock.Size = new System.Drawing.Size(1533, 757);
             this.tabStock.TabIndex = 11;
             // 
             // tabAdjust
@@ -195,7 +195,7 @@
             this.tabAdjust.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabAdjust.Name = "tabAdjust";
             this.tabAdjust.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabAdjust.Size = new System.Drawing.Size(1474, 664);
+            this.tabAdjust.Size = new System.Drawing.Size(1525, 723);
             this.tabAdjust.TabIndex = 0;
             this.tabAdjust.Text = "Adjust Stock";
             this.tabAdjust.UseVisualStyleBackColor = true;
@@ -225,7 +225,7 @@
             this.pnlAdjustForm.Margin = new System.Windows.Forms.Padding(29, 30, 29, 30);
             this.pnlAdjustForm.Name = "pnlAdjustForm";
             this.pnlAdjustForm.ShowBorders = true;
-            this.pnlAdjustForm.Size = new System.Drawing.Size(1466, 658);
+            this.pnlAdjustForm.Size = new System.Drawing.Size(1517, 717);
             this.pnlAdjustForm.TabIndex = 13;
             // 
             // txtNotes
@@ -295,7 +295,7 @@
             this.txtNotes.SelectionLength = 0;
             this.txtNotes.SelectionStart = 0;
             this.txtNotes.ShortcutsEnabled = true;
-            this.txtNotes.Size = new System.Drawing.Size(776, 40);
+            this.txtNotes.Size = new System.Drawing.Size(776, 41);
             this.txtNotes.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtNotes.TabIndex = 24;
             this.txtNotes.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -440,7 +440,7 @@
             this.txtQty.SelectionLength = 0;
             this.txtQty.SelectionStart = 0;
             this.txtQty.ShortcutsEnabled = true;
-            this.txtQty.Size = new System.Drawing.Size(395, 40);
+            this.txtQty.Size = new System.Drawing.Size(395, 41);
             this.txtQty.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtQty.TabIndex = 20;
             this.txtQty.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -832,7 +832,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pnlMain);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "StockAdjustmentPage";
             this.Size = new System.Drawing.Size(1540, 846);
             this.pnlMain.ResumeLayout(false);

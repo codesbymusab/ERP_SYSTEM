@@ -35,11 +35,11 @@
             this.flowSupplierCards = new System.Windows.Forms.FlowLayoutPanel();
             this.cardSupplierTemplate = new Bunifu.UI.WinForms.BunifuPanel();
             this.sepSupCard = new Bunifu.UI.WinForms.BunifuSeparator();
-            this.lblSupName = new Bunifu.UI.WinForms.BunifuLabel();
-            this.lblSupContact = new Bunifu.UI.WinForms.BunifuLabel();
-            this.lblSupEmail = new Bunifu.UI.WinForms.BunifuLabel();
-            this.lblSupPhone = new Bunifu.UI.WinForms.BunifuLabel();
-            this.lblSupProductCount = new Bunifu.UI.WinForms.BunifuLabel();
+            this.lblSupName = new System.Windows.Forms.Label();
+            this.lblSupContact = new System.Windows.Forms.Label();
+            this.lblSupEmail = new System.Windows.Forms.Label();
+            this.lblSupPhone = new System.Windows.Forms.Label();
+            this.lblSupProductCount = new System.Windows.Forms.Label();
             this.btnViewProducts = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.pnlDirectoryBackground = new Bunifu.UI.WinForms.BunifuPanel();
             this.lblDirectoryTitle = new System.Windows.Forms.Label();
@@ -83,10 +83,10 @@
             this.flowSupplierCards.AutoScroll = true;
             this.flowSupplierCards.BackColor = System.Drawing.Color.White;
             this.flowSupplierCards.Controls.Add(this.cardSupplierTemplate);
-            this.flowSupplierCards.Location = new System.Drawing.Point(192, 226);
+            this.flowSupplierCards.Location = new System.Drawing.Point(91, 226);
             this.flowSupplierCards.Margin = new System.Windows.Forms.Padding(0);
             this.flowSupplierCards.Name = "flowSupplierCards";
-            this.flowSupplierCards.Size = new System.Drawing.Size(1117, 556);
+            this.flowSupplierCards.Size = new System.Drawing.Size(1364, 556);
             this.flowSupplierCards.TabIndex = 3;
             this.flowSupplierCards.WrapContents = false;
             // 
@@ -111,7 +111,7 @@
             this.cardSupplierTemplate.Name = "cardSupplierTemplate";
             this.cardSupplierTemplate.Padding = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.cardSupplierTemplate.ShowBorders = true;
-            this.cardSupplierTemplate.Size = new System.Drawing.Size(392, 316);
+            this.cardSupplierTemplate.Size = new System.Drawing.Size(436, 316);
             this.cardSupplierTemplate.TabIndex = 3;
             // 
             // sepSupCard
@@ -127,16 +127,12 @@
             this.sepSupCard.Margin = new System.Windows.Forms.Padding(5);
             this.sepSupCard.Name = "sepSupCard";
             this.sepSupCard.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.sepSupCard.Size = new System.Drawing.Size(349, 17);
+            this.sepSupCard.Size = new System.Drawing.Size(389, 17);
             this.sepSupCard.TabIndex = 6;
             // 
             // lblSupName
             // 
-            this.lblSupName.AllowParentOverrides = false;
-            this.lblSupName.AutoEllipsis = false;
-            this.lblSupName.AutoSize = false;
             this.lblSupName.Cursor = System.Windows.Forms.Cursors.Default;
-            this.lblSupName.CursorType = System.Windows.Forms.Cursors.Default;
             this.lblSupName.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSupName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
             this.lblSupName.Location = new System.Drawing.Point(21, 20);
@@ -146,16 +142,10 @@
             this.lblSupName.Size = new System.Drawing.Size(227, 30);
             this.lblSupName.TabIndex = 0;
             this.lblSupName.Text = "Lighting Solutions";
-            this.lblSupName.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lblSupName.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // lblSupContact
             // 
-            this.lblSupContact.AllowParentOverrides = false;
-            this.lblSupContact.AutoEllipsis = false;
-            this.lblSupContact.AutoSize = false;
             this.lblSupContact.Cursor = System.Windows.Forms.Cursors.Default;
-            this.lblSupContact.CursorType = System.Windows.Forms.Cursors.Default;
             this.lblSupContact.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSupContact.ForeColor = System.Drawing.Color.Black;
             this.lblSupContact.Location = new System.Drawing.Point(24, 66);
@@ -165,16 +155,10 @@
             this.lblSupContact.Size = new System.Drawing.Size(225, 30);
             this.lblSupContact.TabIndex = 1;
             this.lblSupContact.Text = "Contact: Mike Davis";
-            this.lblSupContact.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lblSupContact.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // lblSupEmail
             // 
-            this.lblSupEmail.AllowParentOverrides = false;
-            this.lblSupEmail.AutoEllipsis = false;
-            this.lblSupEmail.AutoSize = false;
             this.lblSupEmail.Cursor = System.Windows.Forms.Cursors.Default;
-            this.lblSupEmail.CursorType = System.Windows.Forms.Cursors.Default;
             this.lblSupEmail.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSupEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblSupEmail.Location = new System.Drawing.Point(24, 140);
@@ -184,16 +168,10 @@
             this.lblSupEmail.Size = new System.Drawing.Size(301, 30);
             this.lblSupEmail.TabIndex = 2;
             this.lblSupEmail.Text = "Email: sales@lightingsol.com";
-            this.lblSupEmail.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lblSupEmail.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // lblSupPhone
             // 
-            this.lblSupPhone.AllowParentOverrides = false;
-            this.lblSupPhone.AutoEllipsis = false;
-            this.lblSupPhone.AutoSize = false;
             this.lblSupPhone.Cursor = System.Windows.Forms.Cursors.Default;
-            this.lblSupPhone.CursorType = System.Windows.Forms.Cursors.Default;
             this.lblSupPhone.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSupPhone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblSupPhone.Location = new System.Drawing.Point(24, 102);
@@ -203,16 +181,10 @@
             this.lblSupPhone.Size = new System.Drawing.Size(287, 30);
             this.lblSupPhone.TabIndex = 3;
             this.lblSupPhone.Text = "Phone: +1 (555) 200-2003";
-            this.lblSupPhone.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lblSupPhone.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // lblSupProductCount
             // 
-            this.lblSupProductCount.AllowParentOverrides = false;
-            this.lblSupProductCount.AutoEllipsis = false;
-            this.lblSupProductCount.AutoSize = false;
             this.lblSupProductCount.Cursor = System.Windows.Forms.Cursors.Default;
-            this.lblSupProductCount.CursorType = System.Windows.Forms.Cursors.Default;
             this.lblSupProductCount.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSupProductCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblSupProductCount.Location = new System.Drawing.Point(24, 201);
@@ -222,8 +194,6 @@
             this.lblSupProductCount.Size = new System.Drawing.Size(161, 30);
             this.lblSupProductCount.TabIndex = 4;
             this.lblSupProductCount.Text = "Products: 10";
-            this.lblSupProductCount.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lblSupProductCount.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // btnViewProducts
             // 
@@ -309,7 +279,7 @@
             this.btnViewProducts.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnViewProducts.OnPressedState.IconLeftImage = null;
             this.btnViewProducts.OnPressedState.IconRightImage = null;
-            this.btnViewProducts.Size = new System.Drawing.Size(355, 41);
+            this.btnViewProducts.Size = new System.Drawing.Size(394, 41);
             this.btnViewProducts.TabIndex = 5;
             this.btnViewProducts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnViewProducts.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -330,11 +300,11 @@
             this.pnlDirectoryBackground.BorderThickness = 1;
             this.pnlDirectoryBackground.Controls.Add(this.lblDirectoryTitle);
             this.pnlDirectoryBackground.Controls.Add(this.btnAddSupplier);
-            this.pnlDirectoryBackground.Location = new System.Drawing.Point(182, 123);
+            this.pnlDirectoryBackground.Location = new System.Drawing.Point(46, 124);
             this.pnlDirectoryBackground.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlDirectoryBackground.Name = "pnlDirectoryBackground";
             this.pnlDirectoryBackground.ShowBorders = true;
-            this.pnlDirectoryBackground.Size = new System.Drawing.Size(1148, 673);
+            this.pnlDirectoryBackground.Size = new System.Drawing.Size(1431, 694);
             this.pnlDirectoryBackground.TabIndex = 4;
             // 
             // lblDirectoryTitle
@@ -343,7 +313,7 @@
             this.lblDirectoryTitle.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDirectoryTitle.Location = new System.Drawing.Point(15, 38);
             this.lblDirectoryTitle.Name = "lblDirectoryTitle";
-            this.lblDirectoryTitle.Size = new System.Drawing.Size(205, 32);
+            this.lblDirectoryTitle.Size = new System.Drawing.Size(240, 32);
             this.lblDirectoryTitle.TabIndex = 5;
             this.lblDirectoryTitle.Text = "Supplier Directory";
             // 
@@ -397,7 +367,7 @@
             this.btnAddSupplier.IdleIconLeftImage = null;
             this.btnAddSupplier.IdleIconRightImage = null;
             this.btnAddSupplier.IndicateFocus = false;
-            this.btnAddSupplier.Location = new System.Drawing.Point(939, 27);
+            this.btnAddSupplier.Location = new System.Drawing.Point(1208, 27);
             this.btnAddSupplier.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAddSupplier.Name = "btnAddSupplier";
             this.btnAddSupplier.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
@@ -472,7 +442,7 @@
             this.lblPageTitle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lblPageTitle.Name = "lblPageTitle";
             this.lblPageTitle.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblPageTitle.Size = new System.Drawing.Size(95, 31);
+            this.lblPageTitle.Size = new System.Drawing.Size(98, 32);
             this.lblPageTitle.TabIndex = 0;
             this.lblPageTitle.Text = "Suppliers";
             this.lblPageTitle.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -491,7 +461,7 @@
             this.lblDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lblDate.Name = "lblDate";
             this.lblDate.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblDate.Size = new System.Drawing.Size(260, 28);
+            this.lblDate.Size = new System.Drawing.Size(272, 30);
             this.lblDate.TabIndex = 3;
             this.lblDate.Text = "Saturday, November 22, 2025";
             this.lblDate.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -510,7 +480,7 @@
             this.lblStatus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblStatus.Size = new System.Drawing.Size(118, 20);
+            this.lblStatus.Size = new System.Drawing.Size(124, 21);
             this.lblStatus.TabIndex = 3;
             this.lblStatus.Text = "Status: Connected";
             this.lblStatus.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -541,18 +511,18 @@
         private System.Windows.Forms.FlowLayoutPanel flowSupplierCards;
         private Bunifu.UI.WinForms.BunifuPanel cardSupplierTemplate;
         private Bunifu.UI.WinForms.BunifuSeparator sepSupCard;
-        private Bunifu.UI.WinForms.BunifuLabel lblSupName;
-        private Bunifu.UI.WinForms.BunifuLabel lblSupContact;
-        private Bunifu.UI.WinForms.BunifuLabel lblSupEmail;
-        private Bunifu.UI.WinForms.BunifuLabel lblSupPhone;
-        private Bunifu.UI.WinForms.BunifuLabel lblSupProductCount;
+        private System.Windows.Forms.Label lblSupName;
+        private System.Windows.Forms.Label lblSupContact;
+        private System.Windows.Forms.Label lblSupEmail;
+        private System.Windows.Forms.Label lblSupPhone;
+        private System.Windows.Forms.Label lblSupProductCount;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnViewProducts;
         private Bunifu.UI.WinForms.BunifuPanel pnlDirectoryBackground;
         private System.Windows.Forms.Label lblDirectoryTitle;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnAddSupplier;
         private Bunifu.UI.WinForms.BunifuPanel pnlHeader;
         private Bunifu.UI.WinForms.BunifuLabel lblPageTitle;
-        private Bunifu.UI.WinForms.BunifuLabel lblDate;
+        private Bunifu.UI.WinForms.BunifuLabel lblDate; 
         private Bunifu.UI.WinForms.BunifuLabel lblStatus;
     }
 }

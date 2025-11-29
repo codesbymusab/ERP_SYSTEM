@@ -15,6 +15,9 @@ namespace ERP_System.GUI.Pages
         public PurchasesPage()
         {
             InitializeComponent();
+           
+            this.ActiveControl = dgvPurchases;
+          
         }
     }
 }

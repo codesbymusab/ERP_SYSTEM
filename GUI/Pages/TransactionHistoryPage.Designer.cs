@@ -65,7 +65,7 @@
             // 
             // pnlMain
             // 
-            this.pnlMain.BackgroundColor = System.Drawing.Color.White;
+            this.pnlMain.BackgroundColor = System.Drawing.SystemColors.Control;
             this.pnlMain.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlMain.BackgroundImage")));
             this.pnlMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlMain.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(238)))));
@@ -135,7 +135,7 @@
             this.pnlContent.BorderThickness = 1;
             this.pnlContent.Controls.Add(this.tabHistory);
             this.pnlContent.Controls.Add(this.lblListHeader);
-            this.pnlContent.Location = new System.Drawing.Point(84, 187);
+            this.pnlContent.Location = new System.Drawing.Point(60, 187);
             this.pnlContent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlContent.Name = "pnlContent";
             this.pnlContent.ShowBorders = true;

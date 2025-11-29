@@ -75,7 +75,7 @@
             // 
             // pnlMain
             // 
-            this.pnlMain.BackgroundColor = System.Drawing.Color.White;
+            this.pnlMain.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
             this.pnlMain.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlMain.BackgroundImage")));
             this.pnlMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlMain.BorderColor = System.Drawing.Color.LightGray;
@@ -92,13 +92,11 @@
             this.pnlMain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.ShowBorders = true;
-            this.pnlMain.Size = new System.Drawing.Size(1540, 846);
+            this.pnlMain.Size = new System.Drawing.Size(1680, 845);
             this.pnlMain.TabIndex = 9;
             // 
             // pnlHeader
             // 
-            this.pnlHeader.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlHeader.BackgroundColor = System.Drawing.Color.White;
             this.pnlHeader.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlHeader.BackgroundImage")));
             this.pnlHeader.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -111,7 +109,7 @@
             this.pnlHeader.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.ShowBorders = true;
-            this.pnlHeader.Size = new System.Drawing.Size(1533, 79);
+            this.pnlHeader.Size = new System.Drawing.Size(1674, 79);
             this.pnlHeader.TabIndex = 29;
             // 
             // lblDate
@@ -121,11 +119,12 @@
             this.lblDate.BackColor = System.Drawing.Color.White;
             this.lblDate.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblDate.Location = new System.Drawing.Point(1223, 23);
+            this.lblDate.Location = new System.Drawing.Point(1342, 23);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(285, 30);
             this.lblDate.TabIndex = 5;
             this.lblDate.Text = "Saturday, November 22, 2025";
+            this.lblDate.Click += new System.EventHandler(this.lblDate_Click);
             // 
             // lblPageTitle
             // 
@@ -150,7 +149,7 @@
             this.cardTotalSales.Controls.Add(this.lblTotalSalesValue);
             this.cardTotalSales.Controls.Add(this.lblTotalSalesSub);
             this.cardTotalSales.Controls.Add(this.lblTotalSalesTitle);
-            this.cardTotalSales.Location = new System.Drawing.Point(122, 162);
+            this.cardTotalSales.Location = new System.Drawing.Point(37, 125);
             this.cardTotalSales.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cardTotalSales.Name = "cardTotalSales";
             this.cardTotalSales.ShowBorders = true;
@@ -207,7 +206,7 @@
             this.cardTotalRevenue.Controls.Add(this.lblRevenueValue);
             this.cardTotalRevenue.Controls.Add(this.lblRevenueSub);
             this.cardTotalRevenue.Controls.Add(this.lblRevenueTitle);
-            this.cardTotalRevenue.Location = new System.Drawing.Point(506, 162);
+            this.cardTotalRevenue.Location = new System.Drawing.Point(441, 125);
             this.cardTotalRevenue.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cardTotalRevenue.Name = "cardTotalRevenue";
             this.cardTotalRevenue.ShowBorders = true;
@@ -264,7 +263,7 @@
             this.cardPending.Controls.Add(this.lblPendingValue);
             this.cardPending.Controls.Add(this.lblPendingSub);
             this.cardPending.Controls.Add(this.lblPendingTitle);
-            this.cardPending.Location = new System.Drawing.Point(892, 162);
+            this.cardPending.Location = new System.Drawing.Point(855, 125);
             this.cardPending.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cardPending.Name = "cardPending";
             this.cardPending.ShowBorders = true;
@@ -321,7 +320,7 @@
             this.cardDrafts.Controls.Add(this.lblDraftsValue);
             this.cardDrafts.Controls.Add(this.lblDraftsSub);
             this.cardDrafts.Controls.Add(this.lblDraftsTitle);
-            this.cardDrafts.Location = new System.Drawing.Point(1280, 159);
+            this.cardDrafts.Location = new System.Drawing.Point(1264, 125);
             this.cardDrafts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cardDrafts.Name = "cardDrafts";
             this.cardDrafts.ShowBorders = true;
@@ -360,7 +359,7 @@
             this.lblDraftsTitle.Cursor = System.Windows.Forms.Cursors.Default;
             this.lblDraftsTitle.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDraftsTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblDraftsTitle.Location = new System.Drawing.Point(21, 22);
+            this.lblDraftsTitle.Location = new System.Drawing.Point(22, 22);
             this.lblDraftsTitle.Name = "lblDraftsTitle";
             this.lblDraftsTitle.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblDraftsTitle.Size = new System.Drawing.Size(184, 23);
@@ -380,11 +379,11 @@
             this.pnlContent.Controls.Add(this.dgvInvoices);
             this.pnlContent.Controls.Add(this.btnNewSale);
             this.pnlContent.Controls.Add(this.txtSearch);
-            this.pnlContent.Location = new System.Drawing.Point(122, 336);
+            this.pnlContent.Location = new System.Drawing.Point(37, 299);
             this.pnlContent.Margin = new System.Windows.Forms.Padding(29, 30, 29, 30);
             this.pnlContent.Name = "pnlContent";
             this.pnlContent.ShowBorders = true;
-            this.pnlContent.Size = new System.Drawing.Size(1507, 543);
+            this.pnlContent.Size = new System.Drawing.Size(1576, 555);
             this.pnlContent.TabIndex = 32;
             // 
             // ddlFilter
@@ -423,10 +422,10 @@
             this.ddlFilter.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
             this.ddlFilter.ItemHighLightForeColor = System.Drawing.Color.White;
             this.ddlFilter.ItemTopMargin = 3;
-            this.ddlFilter.Location = new System.Drawing.Point(1581, 84);
+            this.ddlFilter.Location = new System.Drawing.Point(1397, 84);
             this.ddlFilter.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ddlFilter.Name = "ddlFilter";
-            this.ddlFilter.Size = new System.Drawing.Size(151, 46);
+            this.ddlFilter.Size = new System.Drawing.Size(145, 46);
             this.ddlFilter.TabIndex = 19;
             this.ddlFilter.Text = "All";
             this.ddlFilter.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
@@ -504,7 +503,7 @@
             this.dgvInvoices.RowHeadersWidth = 53;
             this.dgvInvoices.RowTemplate.Height = 40;
             this.dgvInvoices.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvInvoices.Size = new System.Drawing.Size(1451, 370);
+            this.dgvInvoices.Size = new System.Drawing.Size(1513, 377);
             this.dgvInvoices.TabIndex = 12;
             this.dgvInvoices.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
@@ -558,7 +557,7 @@
             this.btnNewSale.IdleIconLeftImage = null;
             this.btnNewSale.IdleIconRightImage = null;
             this.btnNewSale.IndicateFocus = false;
-            this.btnNewSale.Location = new System.Drawing.Point(1324, 25);
+            this.btnNewSale.Location = new System.Drawing.Point(1393, 25);
             this.btnNewSale.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnNewSale.Name = "btnNewSale";
             this.btnNewSale.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
@@ -668,7 +667,7 @@
             this.txtSearch.SelectionLength = 0;
             this.txtSearch.SelectionStart = 0;
             this.txtSearch.ShortcutsEnabled = true;
-            this.txtSearch.Size = new System.Drawing.Size(1444, 54);
+            this.txtSearch.Size = new System.Drawing.Size(1362, 54);
             this.txtSearch.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtSearch.TabIndex = 4;
             this.txtSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -684,9 +683,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pnlMain);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SalesPage";
-            this.Size = new System.Drawing.Size(1540, 846);
+            this.Size = new System.Drawing.Size(1680, 845);
             this.pnlMain.ResumeLayout(false);
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
