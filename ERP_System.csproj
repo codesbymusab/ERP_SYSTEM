@@ -135,136 +135,109 @@
     <Compile Include="DTO\SaleItemDTO.cs" />
     <Compile Include="DTO\SupplierDTO.cs" />
     <Compile Include="DTO\USerDTO.cs" />
-    <Compile Include="GUI\Administration\ActivityLogForm.cs">
+    <Compile Include="GUI\Forms\MainPageForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\Administration\ActivityLogForm.Designer.cs">
-      <DependentUpon>ActivityLogForm.cs</DependentUpon>
+    <Compile Include="GUI\Forms\MainPageForm.Designer.cs">
+      <DependentUpon>MainPageForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Administration\SettingsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\Administration\SettingsForm.Designer.cs">
-      <DependentUpon>SettingsForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\Administration\UserManagementForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\Administration\UserManagementForm.Designer.cs">
-      <DependentUpon>UserManagementForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\DashBoard\DashBoardForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\DashBoard\DashBoardForm.Designer.cs">
-      <DependentUpon>DashBoardForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\HR\EmployeesForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\HR\EmployeesForm.Designer.cs">
-      <DependentUpon>EmployeesForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\Inventory\ProductsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\Inventory\ProductsForm.Designer.cs">
-      <DependentUpon>ProductsForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\Inventory\StockAdjustmentForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\Inventory\StockAdjustmentForm.Designer.cs">
-      <DependentUpon>StockAdjustmentForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\Login\LoginForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\Login\LoginForm.Designer.cs">
-      <DependentUpon>LoginForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\Inventory\SupplierForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\Inventory\SupplierForm.Designer.cs">
-      <DependentUpon>SupplierForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\Profile\UserProfileForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\Profile\UserProfileForm.Designer.cs">
-      <DependentUpon>UserProfileForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\Reports\ReportsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\Reports\ReportsForm.Designer.cs">
-      <DependentUpon>ReportsForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\SideNavBar.cs">
+    <Compile Include="GUI\Components\SideNavBar.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\SideNavBar.Designer.cs">
+    <Compile Include="GUI\Components\SideNavBar.Designer.cs">
       <DependentUpon>SideNavBar.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Transactions\HistoryForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\Pages\DashboardPage.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\Transactions\HistoryForm.Designer.cs">
-      <DependentUpon>HistoryForm.cs</DependentUpon>
+    <Compile Include="GUI\Pages\DashboardPage.Designer.cs">
+      <DependentUpon>DashboardPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Transactions\PurchasesForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\Pages\EmployeesPage.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\Transactions\PurchasesForm.Designer.cs">
-      <DependentUpon>PurchasesForm.cs</DependentUpon>
+    <Compile Include="GUI\Pages\EmployeesPage.Designer.cs">
+      <DependentUpon>EmployeesPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Transactions\SalesForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\Pages\ProductPage.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\Transactions\SalesForm.Designer.cs">
-      <DependentUpon>SalesForm.cs</DependentUpon>
+    <Compile Include="GUI\Pages\ProductPage.Designer.cs">
+      <DependentUpon>ProductPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainPageForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="GUI\Pages\ProfilePage.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MainPageForm.Designer.cs">
-      <DependentUpon>MainPageForm.cs</DependentUpon>
+    <Compile Include="GUI\Pages\ProfilePage.Designer.cs">
+      <DependentUpon>ProfilePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pages\PurchasesPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\PurchasesPage.Designer.cs">
+      <DependentUpon>PurchasesPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pages\ReportsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\ReportsPage.Designer.cs">
+      <DependentUpon>ReportsPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pages\SalesPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\SalesPage.Designer.cs">
+      <DependentUpon>SalesPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pages\StockAdjustmentPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\StockAdjustmentPage.Designer.cs">
+      <DependentUpon>StockAdjustmentPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pages\SuppliersPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\SuppliersPage.Designer.cs">
+      <DependentUpon>SuppliersPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pages\TransactionHistoryPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Pages\TransactionHistoryPage.Designer.cs">
+      <DependentUpon>TransactionHistoryPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="GUI\Administration\ActivityLogForm.resx" />
-    <EmbeddedResource Include="GUI\Administration\SettingsForm.resx" />
-    <EmbeddedResource Include="GUI\Administration\UserManagementForm.resx" />
-    <EmbeddedResource Include="GUI\DashBoard\DashBoardForm.resx">
-      <DependentUpon>DashBoardForm.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\Forms\MainPageForm.resx">
+      <DependentUpon>MainPageForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\HR\EmployeesForm.resx">
-      <DependentUpon>EmployeesForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Inventory\ProductsForm.resx" />
-    <EmbeddedResource Include="GUI\Inventory\StockAdjustmentForm.resx" />
-    <EmbeddedResource Include="GUI\Inventory\SupplierForm.resx">
-      <DependentUpon>SupplierForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Login\LoginForm.resx">
-      <DependentUpon>LoginForm.cs</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Profile\UserProfileForm.resx">
-      <DependentUpon>UserProfileForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Reports\ReportsForm.resx">
-      <DependentUpon>ReportsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\SideNavBar.resx">
+    <EmbeddedResource Include="GUI\Components\SideNavBar.resx">
       <DependentUpon>SideNavBar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Transactions\HistoryForm.resx" />
-    <EmbeddedResource Include="GUI\Transactions\PurchasesForm.resx" />
-    <EmbeddedResource Include="GUI\Transactions\SalesForm.resx" />
-    <EmbeddedResource Include="MainPageForm.resx">
-      <DependentUpon>MainPageForm.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\Pages\EmployeesPage.resx">
+      <DependentUpon>EmployeesPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pages\ProductPage.resx">
+      <DependentUpon>ProductPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pages\PurchasesPage.resx">
+      <DependentUpon>PurchasesPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pages\ReportsPage.resx">
+      <DependentUpon>ReportsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pages\SalesPage.resx">
+      <DependentUpon>SalesPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pages\StockAdjustmentPage.resx">
+      <DependentUpon>StockAdjustmentPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pages\SuppliersPage.resx">
+      <DependentUpon>SuppliersPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pages\TransactionHistoryPage.resx">
+      <DependentUpon>TransactionHistoryPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
