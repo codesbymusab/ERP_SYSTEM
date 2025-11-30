@@ -151,6 +151,18 @@
     <Compile Include="DTO\SaleItemDTO.cs" />
     <Compile Include="DTO\SupplierDTO.cs" />
     <Compile Include="DTO\USerDTO.cs" />
+    <Compile Include="GUI\Administration\ActivityLogForm.cs" />
+    <Compile Include="GUI\Administration\ActivityLogForm.Designer.cs">
+      <DependentUpon>ActivityLogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Administration\SettingsForm.cs" />
+    <Compile Include="GUI\Administration\SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Administration\UserManagementForm.cs" />
+    <Compile Include="GUI\Administration\UserManagementForm.Designer.cs">
+      <DependentUpon>UserManagementForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Forms\ForgetPasswordForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -163,17 +175,37 @@
     <Compile Include="GUI\Forms\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Components\SideNavBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Components\SideNavBar.Designer.cs">
+      <DependentUpon>SideNavBar.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Forms\MainPageForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\Forms\MainPageForm.Designer.cs">
       <DependentUpon>MainPageForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Components\SideNavBar.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="GUI\HR\EmployeesForm.cs" />
+    <Compile Include="GUI\HR\EmployeesForm.Designer.cs">
+      <DependentUpon>EmployeesForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Components\SideNavBar.Designer.cs">
-      <DependentUpon>SideNavBar.cs</DependentUpon>
+    <Compile Include="GUI\Inventory\ProductsForm.cs" />
+    <Compile Include="GUI\Inventory\ProductsForm.Designer.cs">
+      <DependentUpon>ProductsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Inventory\StockAdjustmentForm.cs" />
+    <Compile Include="GUI\Inventory\StockAdjustmentForm.Designer.cs">
+      <DependentUpon>StockAdjustmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Inventory\SupplierForm.cs" />
+    <Compile Include="GUI\Inventory\SupplierForm.Designer.cs">
+      <DependentUpon>SupplierForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Login\LoginForm.cs" />
+    <Compile Include="GUI\Login\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\Pages\ActivityLogPage.cs">
       <SubType>UserControl</SubType>
@@ -181,9 +213,7 @@
     <Compile Include="GUI\Pages\ActivityLogPage.Designer.cs">
       <DependentUpon>ActivityLogPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Pages\DashboardPage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Include="GUI\Pages\DashboardPage.cs" />
     <Compile Include="GUI\Pages\DashboardPage.Designer.cs">
       <DependentUpon>DashboardPage.cs</DependentUpon>
     </Compile>
@@ -255,14 +285,38 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\Administration\ActivityLogForm.resx">
+      <DependentUpon>ActivityLogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Administration\SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Administration\UserManagementForm.resx">
+      <DependentUpon>UserManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Components\SideNavBar.resx">
+      <DependentUpon>SideNavBar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Forms\MainPageForm.resx">
       <DependentUpon>MainPageForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Components\SideNavBar.resx">
-      <DependentUpon>SideNavBar.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\HR\EmployeesForm.resx">
+      <DependentUpon>EmployeesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Inventory\ProductsForm.resx">
+      <DependentUpon>ProductsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Inventory\StockAdjustmentForm.resx">
+      <DependentUpon>StockAdjustmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Inventory\SupplierForm.resx">
+      <DependentUpon>SupplierForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Login\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Pages\ActivityLogPage.resx">
       <DependentUpon>ActivityLogPage.cs</DependentUpon>
@@ -329,10 +383,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="Assets\hamburg.png" />
+    <Content Include="Assets\hamburg.png" />
     <Content Include="Assets\Logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\LogoIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

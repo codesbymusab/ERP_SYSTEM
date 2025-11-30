@@ -34,8 +34,8 @@
             this.lblConnection = new System.Windows.Forms.Label();
             this.lblUserInfo = new System.Windows.Forms.Label();
             this.tabSettings = new System.Windows.Forms.TabPage();
-            this.settingsPage1 = new ERP_System.GUI.Pages.SettingsPage();
             this.settingsPage2 = new ERP_System.GUI.Pages.SettingsPage();
+            this.settingsPage1 = new ERP_System.GUI.Pages.SettingsPage();
             this.tabActivity = new System.Windows.Forms.TabPage();
             this.activityLogPage1 = new ERP_System.GUI.Pages.ActivityLogPage();
             this.tabUserMgt = new System.Windows.Forms.TabPage();
@@ -137,19 +137,19 @@
             this.tabSettings.Text = "tabSettings";
             this.tabSettings.UseVisualStyleBackColor = true;
             // 
-            // settingsPage1
-            // 
-            this.settingsPage1.Location = new System.Drawing.Point(-1, 3);
-            this.settingsPage1.Name = "settingsPage1";
-            this.settingsPage1.Size = new System.Drawing.Size(1540, 846);
-            this.settingsPage1.TabIndex = 0;
-            // 
             // settingsPage2
             // 
             this.settingsPage2.Location = new System.Drawing.Point(3, 3);
             this.settingsPage2.Name = "settingsPage2";
             this.settingsPage2.Size = new System.Drawing.Size(1540, 846);
             this.settingsPage2.TabIndex = 1;
+            // 
+            // settingsPage1
+            // 
+            this.settingsPage1.Location = new System.Drawing.Point(-1, 3);
+            this.settingsPage1.Name = "settingsPage1";
+            this.settingsPage1.Size = new System.Drawing.Size(1540, 846);
+            this.settingsPage1.TabIndex = 0;
             // 
             // tabActivity
             // 
@@ -474,6 +474,7 @@
             this.Controls.Add(this.bunifuPages1);
             this.Controls.Add(this.sideNavBar1);
             this.Controls.Add(this.pnlFooter);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "MainPageForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
