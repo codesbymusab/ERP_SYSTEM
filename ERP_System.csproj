@@ -119,6 +119,7 @@
     <Compile Include="BL\ActivityLogBL.cs" />
     <Compile Include="BL\AttendanceBL.cs" />
     <Compile Include="BL\EmployeeBL.cs" />
+    <Compile Include="BL\LoginBL.cs" />
     <Compile Include="BL\ProductBL.cs" />
     <Compile Include="BL\PurchaseBL.cs" />
     <Compile Include="BL\PurhaseItemBL.cs" />
@@ -130,6 +131,7 @@
     <Compile Include="DL\AttendanceDL.cs" />
     <Compile Include="DL\DBConnection.cs" />
     <Compile Include="DL\EmployeeDL.cs" />
+    <Compile Include="DL\LoginDL.cs" />
     <Compile Include="DL\ProductDL.cs" />
     <Compile Include="DL\PurchaseDL.cs" />
     <Compile Include="DL\PurchaseItemDL.cs" />
@@ -149,6 +151,12 @@
     <Compile Include="DTO\SaleItemDTO.cs" />
     <Compile Include="DTO\SupplierDTO.cs" />
     <Compile Include="DTO\USerDTO.cs" />
+    <Compile Include="GUI\Forms\ForgetPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\ForgetPasswordForm.Designer.cs">
+      <DependentUpon>ForgetPasswordForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Forms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -321,10 +329,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="Assets\hamburg.png" />
+    <Content Include="Assets\hamburg.png" />
     <Content Include="Assets\Logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\LogoIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
