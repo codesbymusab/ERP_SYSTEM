@@ -1,4 +1,5 @@
 ﻿
+using ERP_System.GUI.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,11 +16,29 @@ namespace ERP_System
    
     public partial class MainPageForm : Form
     {
-        
+     
         public MainPageForm()
         {
             InitializeComponent();
 
+
+            // ADDED: Enable double buffering to reduce flickering
+            this.DoubleBuffered = true;
+            this.SetStyle(ControlStyles.OptimizedDoubleBuffer |
+                         ControlStyles.AllPaintingInWmPaint |
+                         ControlStyles.UserPaint, true);
+            this.UpdateStyles();
+
+            // Enable double buffering for bunifuPages if possible
+            if (this.bunifuPages1 != null)
+            {
+                typeof(Control).GetProperty("DoubleBuffered",
+                    System.Reflection.BindingFlags.NonPublic |
+                    System.Reflection.BindingFlags.Instance)
+                    ?.SetValue(this.bunifuPages1, true, null);
+            }
+
+          
             // Set the reference to this form in the SideNavBar
             this.sideNavBar1.SetMainPageForm(this);
           
@@ -32,8 +51,17 @@ namespace ERP_System
             this.sideNavBar1.btnSales.Click += salesBtn_Click;
             this.sideNavBar1.btnPurchases.Click += purchasesBtn_Click;
             this.sideNavBar1.btnHistory.Click += historyBtn_Click;
-            this.sideNavBar1.btnUserProfile.Click += profileBtn_Click;
+            this.sideNavBar1.btnActLog.Click += activityLogBtn_Click;
+            this.sideNavBar1.btnSettings.Click += settingsBtn_Click;
+            this.sideNavBar1.btnUsermgt.Click += userMgtBtn_Click;
+            this.sideNavBar1.btnReports.Click += reportsBtn_Click;
+            this.sideNavBar1.btnSignOut.Click += signoutBtn_Click;
+            this.sideNavBar1.btnProfile.Click += profileBtn_Click;
+            //this.sideNavBar1.btnUserProfile.Click += profileBtn_Click;
+           
         }
+
+       
 
         private void dashboardBtn_Click(object sender, EventArgs e)
         {
@@ -78,6 +106,32 @@ namespace ERP_System
         private void profileBtn_Click(object sender, EventArgs e)
         {
             this.bunifuPages1.PageIndex = 8;
+        }
+        private void reportsBtn_Click(object sender, EventArgs e)
+        {
+            this.bunifuPages1.PageIndex = 9;
+        }
+
+        private void userMgtBtn_Click(object sender, EventArgs e)
+        {
+            this.bunifuPages1.PageIndex = 10;
+        }
+
+        private void settingsBtn_Click(object sender, EventArgs e)
+        {
+            this.bunifuPages1.PageIndex = 12;
+        }
+
+        private void activityLogBtn_Click(object sender, EventArgs e)
+        {
+            this.bunifuPages1.PageIndex = 11;
+        }
+
+        private void signoutBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+           
+           
         }
 
         private void EmployPage_Click(object sender, EventArgs e)

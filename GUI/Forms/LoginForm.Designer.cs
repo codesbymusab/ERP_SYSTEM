@@ -40,6 +40,7 @@
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.pnlMain = new Bunifu.UI.WinForms.BunifuPanel();
             this.cardLogin = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.lblPasswordLabel = new System.Windows.Forms.Label();
             this.lblEmailLabel = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
@@ -54,11 +55,10 @@
             this.lblDemoManager = new System.Windows.Forms.Label();
             this.lblDemoUser = new System.Windows.Forms.Label();
             this.lblVersion = new System.Windows.Forms.Label();
-            this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.pnlMain.SuspendLayout();
             this.cardLogin.SuspendLayout();
-            this.pnlDemo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
+            this.pnlDemo.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlMain
@@ -102,6 +102,22 @@
             this.cardLogin.ShowBorders = true;
             this.cardLogin.Size = new System.Drawing.Size(584, 685);
             this.cardLogin.TabIndex = 0;
+            // 
+            // bunifuPictureBox1
+            // 
+            this.bunifuPictureBox1.AllowFocused = false;
+            this.bunifuPictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bunifuPictureBox1.AutoSizeHeight = true;
+            this.bunifuPictureBox1.BorderRadius = 63;
+            this.bunifuPictureBox1.Image = global::ERP_System.Properties.Resources.Logo;
+            this.bunifuPictureBox1.IsCircle = true;
+            this.bunifuPictureBox1.Location = new System.Drawing.Point(223, 17);
+            this.bunifuPictureBox1.Name = "bunifuPictureBox1";
+            this.bunifuPictureBox1.Size = new System.Drawing.Size(126, 126);
+            this.bunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuPictureBox1.TabIndex = 8;
+            this.bunifuPictureBox1.TabStop = false;
+            this.bunifuPictureBox1.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
             // 
             // lblPasswordLabel
             // 
@@ -483,22 +499,6 @@
             this.lblVersion.TabIndex = 5;
             this.lblVersion.Text = "Demo: admin@company.com | Role: Administrator";
             // 
-            // bunifuPictureBox1
-            // 
-            this.bunifuPictureBox1.AllowFocused = false;
-            this.bunifuPictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuPictureBox1.AutoSizeHeight = true;
-            this.bunifuPictureBox1.BorderRadius = 63;
-            this.bunifuPictureBox1.Image = global::ERP_System.Properties.Resources.Logo;
-            this.bunifuPictureBox1.IsCircle = true;
-            this.bunifuPictureBox1.Location = new System.Drawing.Point(223, 17);
-            this.bunifuPictureBox1.Name = "bunifuPictureBox1";
-            this.bunifuPictureBox1.Size = new System.Drawing.Size(126, 126);
-            this.bunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuPictureBox1.TabIndex = 8;
-            this.bunifuPictureBox1.TabStop = false;
-            this.bunifuPictureBox1.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
-            // 
             // LoginForm
             // 
             this.AcceptButton = this.btnSignIn;
@@ -516,8 +516,8 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnlMain.ResumeLayout(false);
             this.cardLogin.ResumeLayout(false);
-            this.pnlDemo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();
+            this.pnlDemo.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

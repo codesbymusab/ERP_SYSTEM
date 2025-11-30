@@ -16,5 +16,10 @@ namespace ERP_System.GUI.Pages
         {
             InitializeComponent();
         }
+
+        private void l_thres4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
