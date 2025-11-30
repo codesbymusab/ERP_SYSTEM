@@ -151,6 +151,30 @@
     <Compile Include="DTO\SaleItemDTO.cs" />
     <Compile Include="DTO\SupplierDTO.cs" />
     <Compile Include="DTO\USerDTO.cs" />
+    <Compile Include="GUI\Components\AddEditEmpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Components\AddEditEmpForm.Designer.cs">
+      <DependentUpon>AddEditEmpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Components\AddEditProdForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Components\AddEditProdForm.Designer.cs">
+      <DependentUpon>AddEditProdForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Components\LowStockCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Components\LowStockCard.Designer.cs">
+      <DependentUpon>LowStockCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Components\SupplierProductsCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Components\SupplierProductsCard.Designer.cs">
+      <DependentUpon>SupplierProductsCard.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Forms\ForgetPasswordForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -255,6 +279,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\Components\AddEditEmpForm.resx">
+      <DependentUpon>AddEditEmpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Components\AddEditProdForm.resx">
+      <DependentUpon>AddEditProdForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Components\LowStockCard.resx">
+      <DependentUpon>LowStockCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Components\SupplierProductsCard.resx">
+      <DependentUpon>SupplierProductsCard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>

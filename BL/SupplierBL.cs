@@ -25,5 +25,11 @@ namespace ERP_System.BL
         public void UpdateSupplier(SupplierDTO dto) => supDL.UpdateSupplier(dto);
 
         public void DeleteSupplier(int id) => supDL.DeleteSupplier(id);
+
+        public SupplierDTO GetSupplier(int id) => supDL.GetById(id);
+
+        public int GetSupplierProductCount(int supplierId) =>supDL.GetSupplierProductCount(supplierId);
     }
+
+
 }

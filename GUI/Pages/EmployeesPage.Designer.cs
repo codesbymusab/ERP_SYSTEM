@@ -29,9 +29,10 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmployeesPage));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
@@ -39,25 +40,25 @@
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            this.bunifuPanel3 = new Bunifu.UI.WinForms.BunifuPanel();
             this.tabControlExtra1 = new TradeWright.UI.Forms.TabControlExtra();
             this.employeesPageTab = new System.Windows.Forms.TabPage();
-            this.outofStockCard = new Bunifu.UI.WinForms.BunifuPanel();
-            this.label11 = new System.Windows.Forms.Label();
+            this.attendancePageTab = new System.Windows.Forms.TabPage();
+            this.departmentCard = new Bunifu.UI.WinForms.BunifuPanel();
+            this.lblDept = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.lowstockCard = new Bunifu.UI.WinForms.BunifuPanel();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblOnLeave = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.valueCard = new Bunifu.UI.WinForms.BunifuPanel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.leaveCard = new System.Windows.Forms.Label();
+            this.activeCard = new Bunifu.UI.WinForms.BunifuPanel();
+            this.lblActive = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -67,11 +68,10 @@
             this.btnAddEmployee = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.txtSearch = new Bunifu.UI.WinForms.BunifuTextBox();
             this.totalCard = new Bunifu.UI.WinForms.BunifuPanel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
             this.bunifuLabel5 = new System.Windows.Forms.Label();
             this.bunifuLabel4 = new System.Windows.Forms.Label();
             this.lbl1 = new System.Windows.Forms.Label();
-            this.attendancePageTab = new System.Windows.Forms.TabPage();
             this.bunifuVScrollBar1 = new Bunifu.UI.WinForms.BunifuVScrollBar();
             this.bunifuPanel9 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuPanel10 = new Bunifu.UI.WinForms.BunifuPanel();
@@ -86,7 +86,7 @@
             this.lblEmailLabel = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.attRateCard = new Bunifu.UI.WinForms.BunifuPanel();
-            this.label15 = new System.Windows.Forms.Label();
+            this.lblAttRate = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
@@ -94,34 +94,36 @@
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
+            this.lblLate = new System.Windows.Forms.Label();
             this.absentsCard = new Bunifu.UI.WinForms.BunifuPanel();
-            this.label23 = new System.Windows.Forms.Label();
+            this.lblAbsent = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.bunifuPanel7 = new Bunifu.UI.WinForms.BunifuPanel();
-            this.bunifuDatePicker1 = new Bunifu.UI.WinForms.BunifuDatePicker();
+            this.datePicker = new Bunifu.UI.WinForms.BunifuDatePicker();
             this.label27 = new System.Windows.Forms.Label();
             this.attDgv = new Bunifu.UI.WinForms.BunifuDataGridView();
             this.btnExport = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.presentsCard = new Bunifu.UI.WinForms.BunifuPanel();
-            this.label28 = new System.Windows.Forms.Label();
+            this.lblTotalEmp = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
+            this.bunifuPanel3 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.lblTopTitle = new System.Windows.Forms.Label();
+           
             this.tabControlExtra1.SuspendLayout();
             this.employeesPageTab.SuspendLayout();
-            this.outofStockCard.SuspendLayout();
+            this.attendancePageTab.SuspendLayout();
+            this.departmentCard.SuspendLayout();
             this.lowstockCard.SuspendLayout();
-            this.valueCard.SuspendLayout();
+            this.activeCard.SuspendLayout();
             this.pnlDirectory.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployees)).BeginInit();
             this.totalCard.SuspendLayout();
-            this.attendancePageTab.SuspendLayout();
             this.bunifuPanel9.SuspendLayout();
             this.bunifuPanel10.SuspendLayout();
             this.attRateCard.SuspendLayout();
@@ -132,24 +134,6 @@
             this.presentsCard.SuspendLayout();
             this.bunifuPanel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // bunifuPanel3
-            // 
-            this.bunifuPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuPanel3.BackgroundColor = System.Drawing.Color.Transparent;
-            this.bunifuPanel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel3.BackgroundImage")));
-            this.bunifuPanel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuPanel3.BorderColor = System.Drawing.Color.LightGray;
-            this.bunifuPanel3.BorderRadius = 20;
-            this.bunifuPanel3.BorderThickness = 1;
-            this.bunifuPanel3.Location = new System.Drawing.Point(115, 115);
-            this.bunifuPanel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.bunifuPanel3.Name = "bunifuPanel3";
-            this.bunifuPanel3.ShowBorders = false;
-            this.bunifuPanel3.Size = new System.Drawing.Size(1533, 757);
-            this.bunifuPanel3.TabIndex = 11;
             // 
             // tabControlExtra1
             // 
@@ -228,9 +212,9 @@
             // employeesPageTab
             // 
             this.employeesPageTab.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.employeesPageTab.Controls.Add(this.outofStockCard);
+            this.employeesPageTab.Controls.Add(this.departmentCard);
             this.employeesPageTab.Controls.Add(this.lowstockCard);
-            this.employeesPageTab.Controls.Add(this.valueCard);
+            this.employeesPageTab.Controls.Add(this.activeCard);
             this.employeesPageTab.Controls.Add(this.pnlDirectory);
             this.employeesPageTab.Controls.Add(this.totalCard);
             this.employeesPageTab.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -244,36 +228,55 @@
             this.employeesPageTab.Text = "Employees";
             this.employeesPageTab.UseVisualStyleBackColor = true;
             // 
-            // outofStockCard
+            // attendancePageTab
             // 
-            this.outofStockCard.BackgroundColor = System.Drawing.Color.White;
-            this.outofStockCard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("outofStockCard.BackgroundImage")));
-            this.outofStockCard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.outofStockCard.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.outofStockCard.BorderRadius = 20;
-            this.outofStockCard.BorderThickness = 1;
-            this.outofStockCard.Controls.Add(this.label11);
-            this.outofStockCard.Controls.Add(this.label12);
-            this.outofStockCard.Controls.Add(this.label13);
-            this.outofStockCard.Controls.Add(this.label14);
-            this.outofStockCard.Location = new System.Drawing.Point(1148, 17);
-            this.outofStockCard.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.outofStockCard.Name = "outofStockCard";
-            this.outofStockCard.ShowBorders = true;
-            this.outofStockCard.Size = new System.Drawing.Size(349, 156);
-            this.outofStockCard.TabIndex = 16;
+            this.attendancePageTab.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.attendancePageTab.Controls.Add(this.bunifuVScrollBar1);
+            this.attendancePageTab.Controls.Add(this.bunifuPanel9);
+            this.attendancePageTab.Controls.Add(this.attRateCard);
+            this.attendancePageTab.Controls.Add(this.latesCard);
+            this.attendancePageTab.Controls.Add(this.absentsCard);
+            this.attendancePageTab.Controls.Add(this.bunifuPanel7);
+            this.attendancePageTab.Controls.Add(this.presentsCard);
+            this.attendancePageTab.Location = new System.Drawing.Point(4, 30);
+            this.attendancePageTab.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.attendancePageTab.Name = "attendancePageTab";
+            this.attendancePageTab.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.attendancePageTab.Size = new System.Drawing.Size(1525, 723);
+            this.attendancePageTab.TabIndex = 1;
+            this.attendancePageTab.Text = "Attendance Summary";
+            this.attendancePageTab.UseVisualStyleBackColor = true;
             // 
-            // label11
+            // departmentCard
             // 
-            this.label11.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label11.Location = new System.Drawing.Point(25, 85);
-            this.label11.Name = "label11";
-            this.label11.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label11.Size = new System.Drawing.Size(128, 23);
-            this.label11.TabIndex = 4;
-            this.label11.Text = "5";
+            this.departmentCard.BackgroundColor = System.Drawing.Color.White;
+            this.departmentCard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("departmentCard.BackgroundImage")));
+            this.departmentCard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.departmentCard.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.departmentCard.BorderRadius = 20;
+            this.departmentCard.BorderThickness = 1;
+            this.departmentCard.Controls.Add(this.lblDept);
+            this.departmentCard.Controls.Add(this.label12);
+            this.departmentCard.Controls.Add(this.label13);
+            this.departmentCard.Controls.Add(this.label14);
+            this.departmentCard.Location = new System.Drawing.Point(1148, 17);
+            this.departmentCard.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.departmentCard.Name = "departmentCard";
+            this.departmentCard.ShowBorders = true;
+            this.departmentCard.Size = new System.Drawing.Size(349, 156);
+            this.departmentCard.TabIndex = 16;
+            // 
+            // lblDept
+            // 
+            this.lblDept.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblDept.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDept.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblDept.Location = new System.Drawing.Point(25, 85);
+            this.lblDept.Name = "lblDept";
+            this.lblDept.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblDept.Size = new System.Drawing.Size(128, 23);
+            this.lblDept.TabIndex = 4;
+            this.lblDept.Text = "5";
             // 
             // label12
             // 
@@ -319,10 +322,11 @@
             this.lowstockCard.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.lowstockCard.BorderRadius = 20;
             this.lowstockCard.BorderThickness = 1;
-            this.lowstockCard.Controls.Add(this.label7);
+        
+            this.lowstockCard.Controls.Add(this.lblOnLeave);
             this.lowstockCard.Controls.Add(this.label8);
             this.lowstockCard.Controls.Add(this.label9);
-            this.lowstockCard.Controls.Add(this.label10);
+            this.lowstockCard.Controls.Add(this.leaveCard);
             this.lowstockCard.Location = new System.Drawing.Point(773, 17);
             this.lowstockCard.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lowstockCard.Name = "lowstockCard";
@@ -330,17 +334,17 @@
             this.lowstockCard.Size = new System.Drawing.Size(349, 156);
             this.lowstockCard.TabIndex = 15;
             // 
-            // label7
+            // lblOnLeave
             // 
-            this.label7.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label7.Location = new System.Drawing.Point(25, 85);
-            this.label7.Name = "label7";
-            this.label7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label7.Size = new System.Drawing.Size(128, 23);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "1";
+            this.lblOnLeave.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblOnLeave.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOnLeave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblOnLeave.Location = new System.Drawing.Point(25, 85);
+            this.lblOnLeave.Name = "lblOnLeave";
+            this.lblOnLeave.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblOnLeave.Size = new System.Drawing.Size(128, 23);
+            this.lblOnLeave.TabIndex = 4;
+            this.lblOnLeave.Text = "1";
             // 
             // label8
             // 
@@ -352,7 +356,7 @@
             this.label8.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label8.Size = new System.Drawing.Size(168, 27);
             this.label8.TabIndex = 3;
-            this.label8.Text = "Cuurently";
+            this.label8.Text = "Currently";
             // 
             // label9
             // 
@@ -366,48 +370,48 @@
             this.label9.TabIndex = 2;
             this.label9.Text = "5";
             // 
-            // label10
+            // leaveCard
             // 
-            this.label10.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label10.Location = new System.Drawing.Point(24, 22);
-            this.label10.Name = "label10";
-            this.label10.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label10.Size = new System.Drawing.Size(143, 23);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "On Leave";
+            this.leaveCard.Cursor = System.Windows.Forms.Cursors.Default;
+            this.leaveCard.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.leaveCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.leaveCard.Location = new System.Drawing.Point(24, 22);
+            this.leaveCard.Name = "leaveCard";
+            this.leaveCard.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.leaveCard.Size = new System.Drawing.Size(143, 23);
+            this.leaveCard.TabIndex = 1;
+            this.leaveCard.Text = "On Leave";
             // 
-            // valueCard
+            // activeCard
             // 
-            this.valueCard.BackgroundColor = System.Drawing.Color.White;
-            this.valueCard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("valueCard.BackgroundImage")));
-            this.valueCard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.valueCard.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.valueCard.BorderRadius = 20;
-            this.valueCard.BorderThickness = 1;
-            this.valueCard.Controls.Add(this.label3);
-            this.valueCard.Controls.Add(this.label4);
-            this.valueCard.Controls.Add(this.label5);
-            this.valueCard.Controls.Add(this.label6);
-            this.valueCard.Location = new System.Drawing.Point(395, 17);
-            this.valueCard.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.valueCard.Name = "valueCard";
-            this.valueCard.ShowBorders = true;
-            this.valueCard.Size = new System.Drawing.Size(349, 156);
-            this.valueCard.TabIndex = 14;
+            this.activeCard.BackgroundColor = System.Drawing.Color.White;
+            this.activeCard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("activeCard.BackgroundImage")));
+            this.activeCard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.activeCard.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.activeCard.BorderRadius = 20;
+            this.activeCard.BorderThickness = 1;
+            this.activeCard.Controls.Add(this.lblActive);
+            this.activeCard.Controls.Add(this.label4);
+            this.activeCard.Controls.Add(this.label5);
+            this.activeCard.Controls.Add(this.label6);
+            this.activeCard.Location = new System.Drawing.Point(395, 17);
+            this.activeCard.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.activeCard.Name = "activeCard";
+            this.activeCard.ShowBorders = true;
+            this.activeCard.Size = new System.Drawing.Size(349, 156);
+            this.activeCard.TabIndex = 14;
             // 
-            // label3
+            // lblActive
             // 
-            this.label3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label3.Location = new System.Drawing.Point(25, 85);
-            this.label3.Name = "label3";
-            this.label3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label3.Size = new System.Drawing.Size(128, 23);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "4";
+            this.lblActive.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblActive.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblActive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblActive.Location = new System.Drawing.Point(25, 85);
+            this.lblActive.Name = "lblActive";
+            this.lblActive.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblActive.Size = new System.Drawing.Size(128, 23);
+            this.lblActive.TabIndex = 4;
+            this.lblActive.Text = "4";
             // 
             // label4
             // 
@@ -481,65 +485,76 @@
             this.dgvEmployees.AllowCustomTheming = false;
             this.dgvEmployees.AllowUserToAddRows = false;
             this.dgvEmployees.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            this.dgvEmployees.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            this.dgvEmployees.AllowUserToResizeColumns = false;
+            this.dgvEmployees.AllowUserToResizeRows = false;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            this.dgvEmployees.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvEmployees.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvEmployees.BackgroundColor = System.Drawing.Color.DarkGray;
+            this.dgvEmployees.BackgroundColor = System.Drawing.Color.White;
             this.dgvEmployees.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvEmployees.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvEmployees.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEmployees.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEmployees.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dgvEmployees.ColumnHeadersHeight = 40;
-            this.dgvEmployees.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.dgvEmployees.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
             this.dgvEmployees.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.dgvEmployees.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.dgvEmployees.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.dgvEmployees.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvEmployees.CurrentTheme.BackColor = System.Drawing.Color.White;
-            this.dgvEmployees.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.dgvEmployees.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.DodgerBlue;
+            this.dgvEmployees.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.White;
+            this.dgvEmployees.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            this.dgvEmployees.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            this.dgvEmployees.CurrentTheme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            this.dgvEmployees.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
+            this.dgvEmployees.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
             this.dgvEmployees.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
             this.dgvEmployees.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.dgvEmployees.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            this.dgvEmployees.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
             this.dgvEmployees.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White;
             this.dgvEmployees.CurrentTheme.Name = null;
-            this.dgvEmployees.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgvEmployees.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
             this.dgvEmployees.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.dgvEmployees.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.dgvEmployees.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.dgvEmployees.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvEmployees.DefaultCellStyle = dataGridViewCellStyle9;
+            this.dgvEmployees.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.White;
+            this.dgvEmployees.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            this.dgvEmployees.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvEmployees.DefaultCellStyle = dataGridViewCellStyle10;
             this.dgvEmployees.EnableHeadersVisualStyles = false;
-            this.dgvEmployees.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.dgvEmployees.HeaderBackColor = System.Drawing.Color.DodgerBlue;
+            this.dgvEmployees.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
+            this.dgvEmployees.HeaderBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
             this.dgvEmployees.HeaderBgColor = System.Drawing.Color.Empty;
             this.dgvEmployees.HeaderForeColor = System.Drawing.Color.White;
             this.dgvEmployees.Location = new System.Drawing.Point(29, 161);
             this.dgvEmployees.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvEmployees.MultiSelect = false;
             this.dgvEmployees.Name = "dgvEmployees";
             this.dgvEmployees.ReadOnly = true;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEmployees.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dgvEmployees.RowHeadersVisible = false;
             this.dgvEmployees.RowHeadersWidth = 53;
             this.dgvEmployees.RowTemplate.Height = 40;
             this.dgvEmployees.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvEmployees.Size = new System.Drawing.Size(1417, 320);
             this.dgvEmployees.TabIndex = 12;
-            this.dgvEmployees.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
+            this.dgvEmployees.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Dark;
             // 
             // btnAddEmployee
             // 
@@ -720,7 +735,7 @@
             this.totalCard.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.totalCard.BorderRadius = 20;
             this.totalCard.BorderThickness = 1;
-            this.totalCard.Controls.Add(this.label2);
+            this.totalCard.Controls.Add(this.lblTotal);
             this.totalCard.Controls.Add(this.bunifuLabel5);
             this.totalCard.Controls.Add(this.bunifuLabel4);
             this.totalCard.Controls.Add(this.lbl1);
@@ -731,17 +746,17 @@
             this.totalCard.Size = new System.Drawing.Size(349, 156);
             this.totalCard.TabIndex = 12;
             // 
-            // label2
+            // lblTotal
             // 
-            this.label2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(25, 85);
-            this.label2.Name = "label2";
-            this.label2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label2.Size = new System.Drawing.Size(128, 23);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "5";
+            this.lblTotal.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblTotal.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblTotal.Location = new System.Drawing.Point(25, 85);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblTotal.Size = new System.Drawing.Size(128, 23);
+            this.lblTotal.TabIndex = 4;
+            this.lblTotal.Text = "5";
             // 
             // bunifuLabel5
             // 
@@ -779,25 +794,6 @@
             this.lbl1.TabIndex = 1;
             this.lbl1.Text = "Total Employees";
             // 
-            // attendancePageTab
-            // 
-            this.attendancePageTab.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.attendancePageTab.Controls.Add(this.bunifuVScrollBar1);
-            this.attendancePageTab.Controls.Add(this.bunifuPanel9);
-            this.attendancePageTab.Controls.Add(this.attRateCard);
-            this.attendancePageTab.Controls.Add(this.latesCard);
-            this.attendancePageTab.Controls.Add(this.absentsCard);
-            this.attendancePageTab.Controls.Add(this.bunifuPanel7);
-            this.attendancePageTab.Controls.Add(this.presentsCard);
-            this.attendancePageTab.Location = new System.Drawing.Point(4, 30);
-            this.attendancePageTab.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.attendancePageTab.Name = "attendancePageTab";
-            this.attendancePageTab.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.attendancePageTab.Size = new System.Drawing.Size(1098, 607);
-            this.attendancePageTab.TabIndex = 1;
-            this.attendancePageTab.Text = "Attendance Summary";
-            this.attendancePageTab.UseVisualStyleBackColor = true;
-            // 
             // bunifuVScrollBar1
             // 
             this.bunifuVScrollBar1.AllowCursorChanges = true;
@@ -818,7 +814,7 @@
             this.bunifuVScrollBar1.Dock = System.Windows.Forms.DockStyle.Right;
             this.bunifuVScrollBar1.DurationBeforeShrink = 2000;
             this.bunifuVScrollBar1.LargeChange = 10;
-            this.bunifuVScrollBar1.Location = new System.Drawing.Point(1074, 2);
+            this.bunifuVScrollBar1.Location = new System.Drawing.Point(1501, 2);
             this.bunifuVScrollBar1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuVScrollBar1.Maximum = 100;
             this.bunifuVScrollBar1.Minimum = 0;
@@ -830,11 +826,11 @@
             this.bunifuVScrollBar1.ScrollBarBorderColor = System.Drawing.Color.Silver;
             this.bunifuVScrollBar1.ScrollBarColor = System.Drawing.Color.Silver;
             this.bunifuVScrollBar1.ShrinkSizeLimit = 3;
-            this.bunifuVScrollBar1.Size = new System.Drawing.Size(19, 601);
+            this.bunifuVScrollBar1.Size = new System.Drawing.Size(19, 717);
             this.bunifuVScrollBar1.SmallChange = 1;
             this.bunifuVScrollBar1.TabIndex = 23;
             this.bunifuVScrollBar1.ThumbColor = System.Drawing.Color.Gray;
-            this.bunifuVScrollBar1.ThumbLength = 59;
+            this.bunifuVScrollBar1.ThumbLength = 70;
             this.bunifuVScrollBar1.ThumbMargin = 1;
             this.bunifuVScrollBar1.ThumbStyle = Bunifu.UI.WinForms.BunifuVScrollBar.ThumbStyles.Inset;
             this.bunifuVScrollBar1.Value = 0;
@@ -1027,6 +1023,7 @@
             this.btnChkOut.TextMarginLeft = 0;
             this.btnChkOut.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnChkOut.UseDefaultRadiusAndThickness = true;
+            this.btnChkOut.Click += new System.EventHandler(this.btnChkOut_Click);
             // 
             // btnChkIn
             // 
@@ -1120,6 +1117,7 @@
             this.btnChkIn.TextMarginLeft = 0;
             this.btnChkIn.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnChkIn.UseDefaultRadiusAndThickness = true;
+            this.btnChkIn.Click += new System.EventHandler(this.btnChkIn_Click);
             // 
             // employeeDropdown
             // 
@@ -1154,7 +1152,7 @@
             this.employeeDropdown.ItemBorderColor = System.Drawing.Color.White;
             this.employeeDropdown.ItemForeColor = System.Drawing.Color.Black;
             this.employeeDropdown.ItemHeight = 26;
-            this.employeeDropdown.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.employeeDropdown.ItemHighLightColor = System.Drawing.Color.Silver;
             this.employeeDropdown.ItemHighLightForeColor = System.Drawing.Color.White;
             this.employeeDropdown.ItemTopMargin = 3;
             this.employeeDropdown.Location = new System.Drawing.Point(25, 89);
@@ -1196,7 +1194,7 @@
             this.attRateCard.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.attRateCard.BorderRadius = 20;
             this.attRateCard.BorderThickness = 1;
-            this.attRateCard.Controls.Add(this.label15);
+            this.attRateCard.Controls.Add(this.lblAttRate);
             this.attRateCard.Controls.Add(this.label16);
             this.attRateCard.Controls.Add(this.label17);
             this.attRateCard.Controls.Add(this.label18);
@@ -1207,17 +1205,17 @@
             this.attRateCard.Size = new System.Drawing.Size(349, 156);
             this.attRateCard.TabIndex = 21;
             // 
-            // label15
+            // lblAttRate
             // 
-            this.label15.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label15.Location = new System.Drawing.Point(25, 85);
-            this.label15.Name = "label15";
-            this.label15.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label15.Size = new System.Drawing.Size(128, 23);
-            this.label15.TabIndex = 4;
-            this.label15.Text = "5";
+            this.lblAttRate.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblAttRate.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAttRate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblAttRate.Location = new System.Drawing.Point(25, 85);
+            this.lblAttRate.Name = "lblAttRate";
+            this.lblAttRate.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblAttRate.Size = new System.Drawing.Size(128, 23);
+            this.lblAttRate.TabIndex = 4;
+            this.lblAttRate.Text = "5";
             // 
             // label16
             // 
@@ -1266,7 +1264,7 @@
             this.latesCard.Controls.Add(this.label19);
             this.latesCard.Controls.Add(this.label20);
             this.latesCard.Controls.Add(this.label21);
-            this.latesCard.Controls.Add(this.label22);
+            this.latesCard.Controls.Add(this.lblLate);
             this.latesCard.Location = new System.Drawing.Point(752, 17);
             this.latesCard.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.latesCard.Name = "latesCard";
@@ -1310,17 +1308,17 @@
             this.label21.TabIndex = 2;
             this.label21.Text = "5";
             // 
-            // label22
+            // lblLate
             // 
-            this.label22.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label22.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label22.Location = new System.Drawing.Point(24, 22);
-            this.label22.Name = "label22";
-            this.label22.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label22.Size = new System.Drawing.Size(143, 23);
-            this.label22.TabIndex = 1;
-            this.label22.Text = "Late";
+            this.lblLate.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblLate.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblLate.Location = new System.Drawing.Point(24, 22);
+            this.lblLate.Name = "lblLate";
+            this.lblLate.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblLate.Size = new System.Drawing.Size(143, 23);
+            this.lblLate.TabIndex = 1;
+            this.lblLate.Text = "Late";
             // 
             // absentsCard
             // 
@@ -1330,7 +1328,7 @@
             this.absentsCard.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.absentsCard.BorderRadius = 20;
             this.absentsCard.BorderThickness = 1;
-            this.absentsCard.Controls.Add(this.label23);
+            this.absentsCard.Controls.Add(this.lblAbsent);
             this.absentsCard.Controls.Add(this.label24);
             this.absentsCard.Controls.Add(this.label25);
             this.absentsCard.Controls.Add(this.label26);
@@ -1341,17 +1339,17 @@
             this.absentsCard.Size = new System.Drawing.Size(349, 156);
             this.absentsCard.TabIndex = 19;
             // 
-            // label23
+            // lblAbsent
             // 
-            this.label23.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label23.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label23.Location = new System.Drawing.Point(25, 85);
-            this.label23.Name = "label23";
-            this.label23.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label23.Size = new System.Drawing.Size(128, 23);
-            this.label23.TabIndex = 4;
-            this.label23.Text = "4";
+            this.lblAbsent.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblAbsent.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAbsent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblAbsent.Location = new System.Drawing.Point(25, 85);
+            this.lblAbsent.Name = "lblAbsent";
+            this.lblAbsent.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblAbsent.Size = new System.Drawing.Size(128, 23);
+            this.lblAbsent.TabIndex = 4;
+            this.lblAbsent.Text = "4";
             // 
             // label24
             // 
@@ -1397,7 +1395,7 @@
             this.bunifuPanel7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(238)))));
             this.bunifuPanel7.BorderRadius = 20;
             this.bunifuPanel7.BorderThickness = 1;
-            this.bunifuPanel7.Controls.Add(this.bunifuDatePicker1);
+            this.bunifuPanel7.Controls.Add(this.datePicker);
             this.bunifuPanel7.Controls.Add(this.label27);
             this.bunifuPanel7.Controls.Add(this.attDgv);
             this.bunifuPanel7.Controls.Add(this.btnExport);
@@ -1408,32 +1406,33 @@
             this.bunifuPanel7.Size = new System.Drawing.Size(1447, 340);
             this.bunifuPanel7.TabIndex = 18;
             // 
-            // bunifuDatePicker1
+            // datePicker
             // 
-            this.bunifuDatePicker1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuDatePicker1.BorderColor = System.Drawing.Color.Silver;
-            this.bunifuDatePicker1.BorderRadius = 10;
-            this.bunifuDatePicker1.CalendarFont = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuDatePicker1.Color = System.Drawing.Color.Silver;
-            this.bunifuDatePicker1.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
-            this.bunifuDatePicker1.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
-            this.bunifuDatePicker1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker1.DisplayWeekNumbers = false;
-            this.bunifuDatePicker1.DPHeight = 0;
-            this.bunifuDatePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.bunifuDatePicker1.FillDatePicker = false;
-            this.bunifuDatePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuDatePicker1.ForeColor = System.Drawing.Color.Black;
-            this.bunifuDatePicker1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker1.Icon")));
-            this.bunifuDatePicker1.IconColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker1.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
-            this.bunifuDatePicker1.LeftTextMargin = 5;
-            this.bunifuDatePicker1.Location = new System.Drawing.Point(981, 16);
-            this.bunifuDatePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.bunifuDatePicker1.MinimumSize = new System.Drawing.Size(4, 32);
-            this.bunifuDatePicker1.Name = "bunifuDatePicker1";
-            this.bunifuDatePicker1.Size = new System.Drawing.Size(257, 32);
-            this.bunifuDatePicker1.TabIndex = 14;
+            this.datePicker.BackColor = System.Drawing.Color.Transparent;
+            this.datePicker.BorderColor = System.Drawing.Color.Silver;
+            this.datePicker.BorderRadius = 10;
+            this.datePicker.CalendarFont = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.datePicker.Color = System.Drawing.Color.Silver;
+            this.datePicker.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
+            this.datePicker.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
+            this.datePicker.DisabledColor = System.Drawing.Color.Gray;
+            this.datePicker.DisplayWeekNumbers = false;
+            this.datePicker.DPHeight = 0;
+            this.datePicker.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.datePicker.FillDatePicker = false;
+            this.datePicker.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.datePicker.ForeColor = System.Drawing.Color.Black;
+            this.datePicker.Icon = ((System.Drawing.Image)(resources.GetObject("datePicker.Icon")));
+            this.datePicker.IconColor = System.Drawing.Color.Gray;
+            this.datePicker.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
+            this.datePicker.LeftTextMargin = 5;
+            this.datePicker.Location = new System.Drawing.Point(981, 16);
+            this.datePicker.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.datePicker.MinimumSize = new System.Drawing.Size(4, 32);
+            this.datePicker.Name = "datePicker";
+            this.datePicker.Size = new System.Drawing.Size(257, 32);
+            this.datePicker.TabIndex = 14;
+            this.datePicker.ValueChanged += new System.EventHandler(this.datePicker_ValueChanged);
             // 
             // label27
             // 
@@ -1451,52 +1450,52 @@
             this.attDgv.AllowCustomTheming = false;
             this.attDgv.AllowUserToAddRows = false;
             this.attDgv.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black;
-            this.attDgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
+            this.attDgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle12;
             this.attDgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.attDgv.BackgroundColor = System.Drawing.Color.DarkGray;
+            this.attDgv.BackgroundColor = System.Drawing.Color.White;
             this.attDgv.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.attDgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.attDgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.attDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.attDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
             this.attDgv.ColumnHeadersHeight = 40;
-            this.attDgv.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.attDgv.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
             this.attDgv.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.attDgv.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.attDgv.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.attDgv.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.attDgv.CurrentTheme.BackColor = System.Drawing.Color.White;
-            this.attDgv.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.attDgv.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.DodgerBlue;
+            this.attDgv.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.White;
+            this.attDgv.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            this.attDgv.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            this.attDgv.CurrentTheme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            this.attDgv.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
+            this.attDgv.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
             this.attDgv.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
             this.attDgv.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.attDgv.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            this.attDgv.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
             this.attDgv.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White;
             this.attDgv.CurrentTheme.Name = null;
-            this.attDgv.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.attDgv.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
             this.attDgv.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.attDgv.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.attDgv.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.attDgv.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.attDgv.DefaultCellStyle = dataGridViewCellStyle12;
+            this.attDgv.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.White;
+            this.attDgv.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            this.attDgv.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.attDgv.DefaultCellStyle = dataGridViewCellStyle14;
             this.attDgv.EnableHeadersVisualStyles = false;
-            this.attDgv.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.attDgv.HeaderBackColor = System.Drawing.Color.DodgerBlue;
+            this.attDgv.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
+            this.attDgv.HeaderBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
             this.attDgv.HeaderBgColor = System.Drawing.Color.Empty;
             this.attDgv.HeaderForeColor = System.Drawing.Color.White;
             this.attDgv.Location = new System.Drawing.Point(29, 71);
@@ -1509,7 +1508,7 @@
             this.attDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.attDgv.Size = new System.Drawing.Size(1384, 242);
             this.attDgv.TabIndex = 12;
-            this.attDgv.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
+            this.attDgv.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Dark;
             // 
             // btnExport
             // 
@@ -1612,7 +1611,7 @@
             this.presentsCard.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.presentsCard.BorderRadius = 20;
             this.presentsCard.BorderThickness = 1;
-            this.presentsCard.Controls.Add(this.label28);
+            this.presentsCard.Controls.Add(this.lblTotalEmp);
             this.presentsCard.Controls.Add(this.label29);
             this.presentsCard.Controls.Add(this.label30);
             this.presentsCard.Controls.Add(this.label31);
@@ -1623,17 +1622,17 @@
             this.presentsCard.Size = new System.Drawing.Size(349, 156);
             this.presentsCard.TabIndex = 17;
             // 
-            // label28
+            // lblTotalEmp
             // 
-            this.label28.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label28.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label28.Location = new System.Drawing.Point(25, 85);
-            this.label28.Name = "label28";
-            this.label28.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label28.Size = new System.Drawing.Size(128, 23);
-            this.label28.TabIndex = 4;
-            this.label28.Text = "5";
+            this.lblTotalEmp.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblTotalEmp.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalEmp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblTotalEmp.Location = new System.Drawing.Point(25, 85);
+            this.lblTotalEmp.Name = "lblTotalEmp";
+            this.lblTotalEmp.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblTotalEmp.Size = new System.Drawing.Size(128, 23);
+            this.lblTotalEmp.TabIndex = 4;
+            this.lblTotalEmp.Text = "5";
             // 
             // label29
             // 
@@ -1670,6 +1669,24 @@
             this.label31.Size = new System.Drawing.Size(172, 23);
             this.label31.TabIndex = 1;
             this.label31.Text = "Present";
+            // 
+            // bunifuPanel3
+            // 
+            this.bunifuPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuPanel3.BackgroundColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel3.BackgroundImage")));
+            this.bunifuPanel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel3.BorderColor = System.Drawing.Color.LightGray;
+            this.bunifuPanel3.BorderRadius = 20;
+            this.bunifuPanel3.BorderThickness = 1;
+            this.bunifuPanel3.Location = new System.Drawing.Point(115, 115);
+            this.bunifuPanel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bunifuPanel3.Name = "bunifuPanel3";
+            this.bunifuPanel3.ShowBorders = false;
+            this.bunifuPanel3.Size = new System.Drawing.Size(1533, 757);
+            this.bunifuPanel3.TabIndex = 11;
             // 
             // bunifuPanel1
             // 
@@ -1713,6 +1730,10 @@
             this.lblTopTitle.TabIndex = 4;
             this.lblTopTitle.Text = "Employees";
             // 
+            // addEditEmpDialouge1
+            // 
+            
+            // 
             // EmployeesPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1723,16 +1744,17 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EmployeesPage";
             this.Size = new System.Drawing.Size(1540, 846);
+            this.Load += new System.EventHandler(this.EmployeesPage_Load);
             this.tabControlExtra1.ResumeLayout(false);
             this.employeesPageTab.ResumeLayout(false);
-            this.outofStockCard.ResumeLayout(false);
+            this.attendancePageTab.ResumeLayout(false);
+            this.departmentCard.ResumeLayout(false);
             this.lowstockCard.ResumeLayout(false);
-            this.valueCard.ResumeLayout(false);
+            this.activeCard.ResumeLayout(false);
             this.pnlDirectory.ResumeLayout(false);
             this.pnlDirectory.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployees)).EndInit();
             this.totalCard.ResumeLayout(false);
-            this.attendancePageTab.ResumeLayout(false);
             this.bunifuPanel9.ResumeLayout(false);
             this.bunifuPanel9.PerformLayout();
             this.bunifuPanel10.ResumeLayout(false);
@@ -1755,18 +1777,15 @@
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel3;
         private TradeWright.UI.Forms.TabControlExtra tabControlExtra1;
         private System.Windows.Forms.TabPage employeesPageTab;
-        private Bunifu.UI.WinForms.BunifuPanel outofStockCard;
-        private System.Windows.Forms.Label label11;
+        private Bunifu.UI.WinForms.BunifuPanel departmentCard;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private Bunifu.UI.WinForms.BunifuPanel lowstockCard;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private Bunifu.UI.WinForms.BunifuPanel valueCard;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label leaveCard;
+        private Bunifu.UI.WinForms.BunifuPanel activeCard;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
@@ -1776,7 +1795,6 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnAddEmployee;
         private Bunifu.UI.WinForms.BunifuTextBox txtSearch;
         private Bunifu.UI.WinForms.BunifuPanel totalCard;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label bunifuLabel5;
         private System.Windows.Forms.Label bunifuLabel4;
         private System.Windows.Forms.Label lbl1;
@@ -1795,7 +1813,6 @@
         private System.Windows.Forms.Label lblEmailLabel;
         private System.Windows.Forms.Label label32;
         private Bunifu.UI.WinForms.BunifuPanel attRateCard;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
@@ -1803,24 +1820,30 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
         private Bunifu.UI.WinForms.BunifuPanel absentsCard;
-        private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel7;
-        private Bunifu.UI.WinForms.BunifuDatePicker bunifuDatePicker1;
+        private Bunifu.UI.WinForms.BunifuDatePicker datePicker;
         private System.Windows.Forms.Label label27;
         private Bunifu.UI.WinForms.BunifuDataGridView attDgv;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnExport;
         private Bunifu.UI.WinForms.BunifuPanel presentsCard;
-        private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblTopTitle;
+        public System.Windows.Forms.Label lblDept;
+        public System.Windows.Forms.Label lblOnLeave;
+        public System.Windows.Forms.Label lblActive;
+        public System.Windows.Forms.Label lblTotal;
+        public System.Windows.Forms.Label lblTotalEmp;
+        public System.Windows.Forms.Label lblAbsent;
+        public System.Windows.Forms.Label lblLate;
+        public System.Windows.Forms.Label lblAttRate;
+        
     }
 }

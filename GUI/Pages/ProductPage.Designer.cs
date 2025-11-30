@@ -28,31 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductPage));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            this.pnlMain = new Bunifu.UI.WinForms.BunifuPanel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductPage));
             this.tabProducts = new TradeWright.UI.Forms.TabControlExtra();
             this.tabAllProducts = new System.Windows.Forms.TabPage();
+            this.tabLowStock = new System.Windows.Forms.TabPage();
+            this.tabSuppliers = new System.Windows.Forms.TabPage();
             this.cardOutOfStock = new Bunifu.UI.WinForms.BunifuPanel();
-            this.label49 = new System.Windows.Forms.Label();
+            this.lblOutofStck = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.cardLowStock = new Bunifu.UI.WinForms.BunifuPanel();
-            this.label53 = new System.Windows.Forms.Label();
+            this.lblLowStk = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
             this.cardInventoryValue = new Bunifu.UI.WinForms.BunifuPanel();
-            this.label57 = new System.Windows.Forms.Label();
+            this.lblValue = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
@@ -62,59 +62,36 @@
             this.btnAddProduct = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.txtSearch = new Bunifu.UI.WinForms.BunifuTextBox();
             this.cardTotalProducts = new Bunifu.UI.WinForms.BunifuPanel();
-            this.label39 = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
-            this.tabLowStock = new System.Windows.Forms.TabPage();
             this.pnlLowStockContainer = new Bunifu.UI.WinForms.BunifuPanel();
-            this.pnlLowStockItem = new Bunifu.UI.WinForms.BunifuPanel();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.itmCode = new System.Windows.Forms.Label();
-            this.itmName = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.lblLowStockHeader = new System.Windows.Forms.Label();
-            this.tabSuppliers = new System.Windows.Forms.TabPage();
             this.pnlSupplierContainer = new Bunifu.UI.WinForms.BunifuPanel();
-            this.pnlSupplierItem = new Bunifu.UI.WinForms.BunifuPanel();
-            this.btnViewSupplier = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.supProducts = new System.Windows.Forms.Label();
-            this.supName = new System.Windows.Forms.Label();
             this.lblSupplierHeader = new System.Windows.Forms.Label();
             this.pnlHeader = new Bunifu.UI.WinForms.BunifuPanel();
             this.lblDate = new System.Windows.Forms.Label();
             this.lblPageTitle = new System.Windows.Forms.Label();
+            this.pnlMain = new Bunifu.UI.WinForms.BunifuPanel();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.supplierProductsCard1 = new ERP_System.GUI.Components.SupplierProductsCard();
             this.tabProducts.SuspendLayout();
             this.tabAllProducts.SuspendLayout();
+            this.tabLowStock.SuspendLayout();
+            this.tabSuppliers.SuspendLayout();
             this.cardOutOfStock.SuspendLayout();
             this.cardLowStock.SuspendLayout();
             this.cardInventoryValue.SuspendLayout();
             this.pnlGridContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProducts)).BeginInit();
             this.cardTotalProducts.SuspendLayout();
-            this.tabLowStock.SuspendLayout();
             this.pnlLowStockContainer.SuspendLayout();
-            this.pnlLowStockItem.SuspendLayout();
-            this.tabSuppliers.SuspendLayout();
             this.pnlSupplierContainer.SuspendLayout();
-            this.pnlSupplierItem.SuspendLayout();
             this.pnlHeader.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // pnlMain
-            // 
-            this.pnlMain.BackgroundColor = System.Drawing.Color.Transparent;
-            this.pnlMain.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlMain.BackgroundImage")));
-            this.pnlMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlMain.BorderColor = System.Drawing.Color.LightGray;
-            this.pnlMain.BorderRadius = 20;
-            this.pnlMain.BorderThickness = 1;
-            this.pnlMain.Location = new System.Drawing.Point(93, 115);
-            this.pnlMain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlMain.Name = "pnlMain";
-            this.pnlMain.ShowBorders = false;
-            this.pnlMain.Size = new System.Drawing.Size(1533, 757);
-            this.pnlMain.TabIndex = 11;
             // 
             // tabProducts
             // 
@@ -211,6 +188,31 @@
             this.tabAllProducts.UseVisualStyleBackColor = true;
             this.tabAllProducts.UseWaitCursor = true;
             // 
+            // tabLowStock
+            // 
+            this.tabLowStock.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tabLowStock.Controls.Add(this.pnlLowStockContainer);
+            this.tabLowStock.Location = new System.Drawing.Point(4, 30);
+            this.tabLowStock.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabLowStock.Name = "tabLowStock";
+            this.tabLowStock.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabLowStock.Size = new System.Drawing.Size(1525, 723);
+            this.tabLowStock.TabIndex = 1;
+            this.tabLowStock.Text = "Low Stock";
+            this.tabLowStock.UseVisualStyleBackColor = true;
+            // 
+            // tabSuppliers
+            // 
+            this.tabSuppliers.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tabSuppliers.Controls.Add(this.pnlSupplierContainer);
+            this.tabSuppliers.Location = new System.Drawing.Point(4, 30);
+            this.tabSuppliers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabSuppliers.Name = "tabSuppliers";
+            this.tabSuppliers.Size = new System.Drawing.Size(1525, 723);
+            this.tabSuppliers.TabIndex = 2;
+            this.tabSuppliers.Text = "Supplier Summary";
+            this.tabSuppliers.UseVisualStyleBackColor = true;
+            // 
             // cardOutOfStock
             // 
             this.cardOutOfStock.BackgroundColor = System.Drawing.Color.White;
@@ -219,7 +221,7 @@
             this.cardOutOfStock.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.cardOutOfStock.BorderRadius = 20;
             this.cardOutOfStock.BorderThickness = 1;
-            this.cardOutOfStock.Controls.Add(this.label49);
+            this.cardOutOfStock.Controls.Add(this.lblOutofStck);
             this.cardOutOfStock.Controls.Add(this.label50);
             this.cardOutOfStock.Controls.Add(this.label51);
             this.cardOutOfStock.Controls.Add(this.label52);
@@ -231,18 +233,18 @@
             this.cardOutOfStock.TabIndex = 16;
             this.cardOutOfStock.UseWaitCursor = true;
             // 
-            // label49
+            // lblOutofStck
             // 
-            this.label49.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.label49.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label49.Location = new System.Drawing.Point(25, 85);
-            this.label49.Name = "label49";
-            this.label49.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label49.Size = new System.Drawing.Size(128, 23);
-            this.label49.TabIndex = 4;
-            this.label49.Text = "5";
-            this.label49.UseWaitCursor = true;
+            this.lblOutofStck.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.lblOutofStck.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutofStck.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblOutofStck.Location = new System.Drawing.Point(24, 85);
+            this.lblOutofStck.Name = "lblOutofStck";
+            this.lblOutofStck.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblOutofStck.Size = new System.Drawing.Size(134, 34);
+            this.lblOutofStck.TabIndex = 4;
+            this.lblOutofStck.Text = "5";
+            this.lblOutofStck.UseWaitCursor = true;
             // 
             // label50
             // 
@@ -291,7 +293,7 @@
             this.cardLowStock.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.cardLowStock.BorderRadius = 20;
             this.cardLowStock.BorderThickness = 1;
-            this.cardLowStock.Controls.Add(this.label53);
+            this.cardLowStock.Controls.Add(this.lblLowStk);
             this.cardLowStock.Controls.Add(this.label54);
             this.cardLowStock.Controls.Add(this.label55);
             this.cardLowStock.Controls.Add(this.label56);
@@ -303,18 +305,18 @@
             this.cardLowStock.TabIndex = 15;
             this.cardLowStock.UseWaitCursor = true;
             // 
-            // label53
+            // lblLowStk
             // 
-            this.label53.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.label53.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label53.Location = new System.Drawing.Point(25, 85);
-            this.label53.Name = "label53";
-            this.label53.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label53.Size = new System.Drawing.Size(128, 23);
-            this.label53.TabIndex = 4;
-            this.label53.Text = "1";
-            this.label53.UseWaitCursor = true;
+            this.lblLowStk.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.lblLowStk.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLowStk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblLowStk.Location = new System.Drawing.Point(24, 85);
+            this.lblLowStk.Name = "lblLowStk";
+            this.lblLowStk.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblLowStk.Size = new System.Drawing.Size(143, 34);
+            this.lblLowStk.TabIndex = 4;
+            this.lblLowStk.Text = "1";
+            this.lblLowStk.UseWaitCursor = true;
             // 
             // label54
             // 
@@ -363,7 +365,7 @@
             this.cardInventoryValue.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.cardInventoryValue.BorderRadius = 20;
             this.cardInventoryValue.BorderThickness = 1;
-            this.cardInventoryValue.Controls.Add(this.label57);
+            this.cardInventoryValue.Controls.Add(this.lblValue);
             this.cardInventoryValue.Controls.Add(this.label58);
             this.cardInventoryValue.Controls.Add(this.label59);
             this.cardInventoryValue.Controls.Add(this.label60);
@@ -375,18 +377,18 @@
             this.cardInventoryValue.TabIndex = 14;
             this.cardInventoryValue.UseWaitCursor = true;
             // 
-            // label57
+            // lblValue
             // 
-            this.label57.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.label57.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label57.Location = new System.Drawing.Point(25, 85);
-            this.label57.Name = "label57";
-            this.label57.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label57.Size = new System.Drawing.Size(128, 23);
-            this.label57.TabIndex = 4;
-            this.label57.Text = "$44108.27";
-            this.label57.UseWaitCursor = true;
+            this.lblValue.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.lblValue.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblValue.Location = new System.Drawing.Point(25, 85);
+            this.lblValue.Name = "lblValue";
+            this.lblValue.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblValue.Size = new System.Drawing.Size(131, 34);
+            this.lblValue.TabIndex = 4;
+            this.lblValue.Text = "$44108.27";
+            this.lblValue.UseWaitCursor = true;
             // 
             // label58
             // 
@@ -464,8 +466,8 @@
             this.dgvProducts.AllowCustomTheming = false;
             this.dgvProducts.AllowUserToAddRows = false;
             this.dgvProducts.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
             this.dgvProducts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvProducts.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvProducts.BackgroundColor = System.Drawing.Color.DarkGray;
@@ -473,43 +475,43 @@
             this.dgvProducts.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvProducts.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvProducts.ColumnHeadersHeight = 40;
-            this.dgvProducts.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.dgvProducts.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
             this.dgvProducts.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.dgvProducts.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.dgvProducts.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.dgvProducts.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvProducts.CurrentTheme.BackColor = System.Drawing.Color.White;
-            this.dgvProducts.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.dgvProducts.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.DodgerBlue;
+            this.dgvProducts.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.White;
+            this.dgvProducts.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            this.dgvProducts.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            this.dgvProducts.CurrentTheme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            this.dgvProducts.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
+            this.dgvProducts.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
             this.dgvProducts.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
             this.dgvProducts.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.dgvProducts.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            this.dgvProducts.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
             this.dgvProducts.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White;
             this.dgvProducts.CurrentTheme.Name = null;
-            this.dgvProducts.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgvProducts.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
             this.dgvProducts.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.dgvProducts.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.dgvProducts.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.dgvProducts.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvProducts.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.White;
+            this.dgvProducts.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            this.dgvProducts.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvProducts.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvProducts.EnableHeadersVisualStyles = false;
-            this.dgvProducts.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.dgvProducts.HeaderBackColor = System.Drawing.Color.DodgerBlue;
+            this.dgvProducts.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
+            this.dgvProducts.HeaderBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
             this.dgvProducts.HeaderBgColor = System.Drawing.Color.Empty;
             this.dgvProducts.HeaderForeColor = System.Drawing.Color.White;
             this.dgvProducts.Location = new System.Drawing.Point(29, 162);
@@ -522,7 +524,7 @@
             this.dgvProducts.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvProducts.Size = new System.Drawing.Size(1400, 309);
             this.dgvProducts.TabIndex = 12;
-            this.dgvProducts.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
+            this.dgvProducts.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Dark;
             this.dgvProducts.UseWaitCursor = true;
             // 
             // btnAddProduct
@@ -545,11 +547,11 @@
             this.btnAddProduct.ColorContrastOnClick = 45;
             this.btnAddProduct.ColorContrastOnHover = 45;
             this.btnAddProduct.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            borderEdges3.BottomLeft = true;
-            borderEdges3.BottomRight = true;
-            borderEdges3.TopLeft = true;
-            borderEdges3.TopRight = true;
-            this.btnAddProduct.CustomizableEdges = borderEdges3;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.btnAddProduct.CustomizableEdges = borderEdges2;
             this.btnAddProduct.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnAddProduct.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAddProduct.DisabledFillColor = System.Drawing.Color.Empty;
@@ -706,7 +708,7 @@
             this.cardTotalProducts.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.cardTotalProducts.BorderRadius = 20;
             this.cardTotalProducts.BorderThickness = 1;
-            this.cardTotalProducts.Controls.Add(this.label39);
+            this.cardTotalProducts.Controls.Add(this.lblTotal);
             this.cardTotalProducts.Controls.Add(this.label40);
             this.cardTotalProducts.Controls.Add(this.label41);
             this.cardTotalProducts.Controls.Add(this.label42);
@@ -718,18 +720,18 @@
             this.cardTotalProducts.TabIndex = 12;
             this.cardTotalProducts.UseWaitCursor = true;
             // 
-            // label39
+            // lblTotal
             // 
-            this.label39.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.label39.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label39.Location = new System.Drawing.Point(25, 85);
-            this.label39.Name = "label39";
-            this.label39.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label39.Size = new System.Drawing.Size(128, 23);
-            this.label39.TabIndex = 4;
-            this.label39.Text = "5";
-            this.label39.UseWaitCursor = true;
+            this.lblTotal.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.lblTotal.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblTotal.Location = new System.Drawing.Point(25, 85);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblTotal.Size = new System.Drawing.Size(132, 34);
+            this.lblTotal.TabIndex = 4;
+            this.lblTotal.Text = "5";
+            this.lblTotal.UseWaitCursor = true;
             // 
             // label40
             // 
@@ -770,19 +772,6 @@
             this.label42.Text = "Total Products";
             this.label42.UseWaitCursor = true;
             // 
-            // tabLowStock
-            // 
-            this.tabLowStock.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tabLowStock.Controls.Add(this.pnlLowStockContainer);
-            this.tabLowStock.Location = new System.Drawing.Point(4, 30);
-            this.tabLowStock.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabLowStock.Name = "tabLowStock";
-            this.tabLowStock.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabLowStock.Size = new System.Drawing.Size(1525, 723);
-            this.tabLowStock.TabIndex = 1;
-            this.tabLowStock.Text = "Low Stock";
-            this.tabLowStock.UseVisualStyleBackColor = true;
-            // 
             // pnlLowStockContainer
             // 
             this.pnlLowStockContainer.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -792,7 +781,7 @@
             this.pnlLowStockContainer.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(238)))));
             this.pnlLowStockContainer.BorderRadius = 20;
             this.pnlLowStockContainer.BorderThickness = 1;
-            this.pnlLowStockContainer.Controls.Add(this.pnlLowStockItem);
+            this.pnlLowStockContainer.Controls.Add(this.flowLayoutPanel1);
             this.pnlLowStockContainer.Controls.Add(this.lblLowStockHeader);
             this.pnlLowStockContainer.Location = new System.Drawing.Point(33, 31);
             this.pnlLowStockContainer.Margin = new System.Windows.Forms.Padding(29, 30, 29, 30);
@@ -801,62 +790,12 @@
             this.pnlLowStockContainer.Size = new System.Drawing.Size(1451, 519);
             this.pnlLowStockContainer.TabIndex = 14;
             // 
-            // pnlLowStockItem
+            // flowLayoutPanel1
             // 
-            this.pnlLowStockItem.BackgroundColor = System.Drawing.Color.Transparent;
-            this.pnlLowStockItem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlLowStockItem.BackgroundImage")));
-            this.pnlLowStockItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlLowStockItem.BorderColor = System.Drawing.Color.LightGray;
-            this.pnlLowStockItem.BorderRadius = 20;
-            this.pnlLowStockItem.BorderThickness = 2;
-            this.pnlLowStockItem.Controls.Add(this.label43);
-            this.pnlLowStockItem.Controls.Add(this.label44);
-            this.pnlLowStockItem.Controls.Add(this.itmCode);
-            this.pnlLowStockItem.Controls.Add(this.itmName);
-            this.pnlLowStockItem.Location = new System.Drawing.Point(35, 81);
-            this.pnlLowStockItem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlLowStockItem.Name = "pnlLowStockItem";
-            this.pnlLowStockItem.ShowBorders = true;
-            this.pnlLowStockItem.Size = new System.Drawing.Size(1379, 100);
-            this.pnlLowStockItem.TabIndex = 15;
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label43.Location = new System.Drawing.Point(1469, 59);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(119, 16);
-            this.label43.TabIndex = 3;
-            this.label43.Text = "Reorder At 20 units";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(1499, 20);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(92, 16);
-            this.label44.TabIndex = 2;
-            this.label44.Text = "Current: 8 units";
-            // 
-            // itmCode
-            // 
-            this.itmCode.AutoSize = true;
-            this.itmCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.itmCode.Location = new System.Drawing.Point(81, 59);
-            this.itmCode.Name = "itmCode";
-            this.itmCode.Size = new System.Drawing.Size(70, 16);
-            this.itmCode.TabIndex = 1;
-            this.itmCode.Text = "FURN-045";
-            // 
-            // itmName
-            // 
-            this.itmName.AutoSize = true;
-            this.itmName.Location = new System.Drawing.Point(81, 20);
-            this.itmName.Name = "itmName";
-            this.itmName.Size = new System.Drawing.Size(144, 16);
-            this.itmName.TabIndex = 0;
-            this.itmName.Text = "Office Chair-Ergonomic";
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(35, 85);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1379, 388);
+            this.flowLayoutPanel1.TabIndex = 16;
             // 
             // lblLowStockHeader
             // 
@@ -869,18 +808,6 @@
             this.lblLowStockHeader.TabIndex = 14;
             this.lblLowStockHeader.Text = "Low Stock Items-Reorder Required";
             // 
-            // tabSuppliers
-            // 
-            this.tabSuppliers.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tabSuppliers.Controls.Add(this.pnlSupplierContainer);
-            this.tabSuppliers.Location = new System.Drawing.Point(4, 30);
-            this.tabSuppliers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabSuppliers.Name = "tabSuppliers";
-            this.tabSuppliers.Size = new System.Drawing.Size(1525, 723);
-            this.tabSuppliers.TabIndex = 2;
-            this.tabSuppliers.Text = "Supplier Summary";
-            this.tabSuppliers.UseVisualStyleBackColor = true;
-            // 
             // pnlSupplierContainer
             // 
             this.pnlSupplierContainer.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -890,7 +817,7 @@
             this.pnlSupplierContainer.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(238)))));
             this.pnlSupplierContainer.BorderRadius = 20;
             this.pnlSupplierContainer.BorderThickness = 1;
-            this.pnlSupplierContainer.Controls.Add(this.pnlSupplierItem);
+            this.pnlSupplierContainer.Controls.Add(this.flowLayoutPanel2);
             this.pnlSupplierContainer.Controls.Add(this.lblSupplierHeader);
             this.pnlSupplierContainer.Location = new System.Drawing.Point(29, 31);
             this.pnlSupplierContainer.Margin = new System.Windows.Forms.Padding(29, 30, 29, 30);
@@ -898,134 +825,6 @@
             this.pnlSupplierContainer.ShowBorders = true;
             this.pnlSupplierContainer.Size = new System.Drawing.Size(1451, 526);
             this.pnlSupplierContainer.TabIndex = 15;
-            // 
-            // pnlSupplierItem
-            // 
-            this.pnlSupplierItem.BackgroundColor = System.Drawing.Color.Transparent;
-            this.pnlSupplierItem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlSupplierItem.BackgroundImage")));
-            this.pnlSupplierItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlSupplierItem.BorderColor = System.Drawing.Color.LightGray;
-            this.pnlSupplierItem.BorderRadius = 20;
-            this.pnlSupplierItem.BorderThickness = 2;
-            this.pnlSupplierItem.Controls.Add(this.btnViewSupplier);
-            this.pnlSupplierItem.Controls.Add(this.supProducts);
-            this.pnlSupplierItem.Controls.Add(this.supName);
-            this.pnlSupplierItem.Location = new System.Drawing.Point(29, 74);
-            this.pnlSupplierItem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlSupplierItem.Name = "pnlSupplierItem";
-            this.pnlSupplierItem.ShowBorders = true;
-            this.pnlSupplierItem.Size = new System.Drawing.Size(1389, 100);
-            this.pnlSupplierItem.TabIndex = 15;
-            // 
-            // btnViewSupplier
-            // 
-            this.btnViewSupplier.AllowAnimations = true;
-            this.btnViewSupplier.AllowMouseEffects = true;
-            this.btnViewSupplier.AllowToggling = false;
-            this.btnViewSupplier.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnViewSupplier.AnimationSpeed = 200;
-            this.btnViewSupplier.AutoGenerateColors = false;
-            this.btnViewSupplier.AutoRoundBorders = false;
-            this.btnViewSupplier.AutoSizeLeftIcon = true;
-            this.btnViewSupplier.AutoSizeRightIcon = true;
-            this.btnViewSupplier.BackColor = System.Drawing.Color.Transparent;
-            this.btnViewSupplier.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
-            this.btnViewSupplier.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnViewSupplier.BackgroundImage")));
-            this.btnViewSupplier.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnViewSupplier.ButtonText = "View Products";
-            this.btnViewSupplier.ButtonTextMarginLeft = 0;
-            this.btnViewSupplier.ColorContrastOnClick = 45;
-            this.btnViewSupplier.ColorContrastOnHover = 45;
-            this.btnViewSupplier.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges4.BottomLeft = true;
-            borderEdges4.BottomRight = true;
-            borderEdges4.TopLeft = true;
-            borderEdges4.TopRight = true;
-            this.btnViewSupplier.CustomizableEdges = borderEdges4;
-            this.btnViewSupplier.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnViewSupplier.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnViewSupplier.DisabledFillColor = System.Drawing.Color.Empty;
-            this.btnViewSupplier.DisabledForecolor = System.Drawing.Color.Empty;
-            this.btnViewSupplier.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btnViewSupplier.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnViewSupplier.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnViewSupplier.IconLeft = null;
-            this.btnViewSupplier.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnViewSupplier.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnViewSupplier.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
-            this.btnViewSupplier.IconMarginLeft = 11;
-            this.btnViewSupplier.IconPadding = 10;
-            this.btnViewSupplier.IconRight = null;
-            this.btnViewSupplier.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnViewSupplier.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.btnViewSupplier.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
-            this.btnViewSupplier.IconSize = 25;
-            this.btnViewSupplier.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
-            this.btnViewSupplier.IdleBorderRadius = 6;
-            this.btnViewSupplier.IdleBorderThickness = 1;
-            this.btnViewSupplier.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(215)))));
-            this.btnViewSupplier.IdleIconLeftImage = null;
-            this.btnViewSupplier.IdleIconRightImage = null;
-            this.btnViewSupplier.IndicateFocus = false;
-            this.btnViewSupplier.Location = new System.Drawing.Point(1209, 28);
-            this.btnViewSupplier.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnViewSupplier.Name = "btnViewSupplier";
-            this.btnViewSupplier.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnViewSupplier.OnDisabledState.BorderRadius = 10;
-            this.btnViewSupplier.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnViewSupplier.OnDisabledState.BorderThickness = 2;
-            this.btnViewSupplier.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnViewSupplier.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnViewSupplier.OnDisabledState.IconLeftImage = null;
-            this.btnViewSupplier.OnDisabledState.IconRightImage = null;
-            this.btnViewSupplier.onHoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnViewSupplier.onHoverState.BorderRadius = 10;
-            this.btnViewSupplier.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnViewSupplier.onHoverState.BorderThickness = 2;
-            this.btnViewSupplier.onHoverState.FillColor = System.Drawing.Color.DimGray;
-            this.btnViewSupplier.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.btnViewSupplier.onHoverState.IconLeftImage = null;
-            this.btnViewSupplier.onHoverState.IconRightImage = null;
-            this.btnViewSupplier.OnIdleState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnViewSupplier.OnIdleState.BorderRadius = 10;
-            this.btnViewSupplier.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnViewSupplier.OnIdleState.BorderThickness = 2;
-            this.btnViewSupplier.OnIdleState.FillColor = System.Drawing.Color.Transparent;
-            this.btnViewSupplier.OnIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnViewSupplier.OnIdleState.IconLeftImage = null;
-            this.btnViewSupplier.OnIdleState.IconRightImage = null;
-            this.btnViewSupplier.OnPressedState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnViewSupplier.OnPressedState.BorderRadius = 10;
-            this.btnViewSupplier.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnViewSupplier.OnPressedState.BorderThickness = 2;
-            this.btnViewSupplier.OnPressedState.FillColor = System.Drawing.Color.DimGray;
-            this.btnViewSupplier.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.btnViewSupplier.OnPressedState.IconLeftImage = null;
-            this.btnViewSupplier.OnPressedState.IconRightImage = null;
-            this.btnViewSupplier.Size = new System.Drawing.Size(149, 41);
-            this.btnViewSupplier.TabIndex = 11;
-            this.btnViewSupplier.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnViewSupplier.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btnViewSupplier.TextMarginLeft = 0;
-            this.btnViewSupplier.TextPadding = new System.Windows.Forms.Padding(0);
-            this.btnViewSupplier.UseDefaultRadiusAndThickness = true;
-            // 
-            // supProducts
-            // 
-            this.supProducts.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.supProducts.Location = new System.Drawing.Point(20, 57);
-            this.supProducts.Name = "supProducts";
-            this.supProducts.Size = new System.Drawing.Size(117, 23);
-            this.supProducts.TabIndex = 1;
-            this.supProducts.Text = "2 products";
-            // 
-            // supName
-            // 
-            this.supName.Location = new System.Drawing.Point(20, 17);
-            this.supName.Name = "supName";
-            this.supName.Size = new System.Drawing.Size(183, 23);
-            this.supName.TabIndex = 0;
-            this.supName.Text = "Tech Supplies Inc";
             // 
             // lblSupplierHeader
             // 
@@ -1082,6 +881,38 @@
             this.lblPageTitle.TabIndex = 4;
             this.lblPageTitle.Text = "Products";
             // 
+            // pnlMain
+            // 
+            this.pnlMain.BackgroundColor = System.Drawing.Color.Transparent;
+            this.pnlMain.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlMain.BackgroundImage")));
+            this.pnlMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlMain.BorderColor = System.Drawing.Color.LightGray;
+            this.pnlMain.BorderRadius = 20;
+            this.pnlMain.BorderThickness = 1;
+            this.pnlMain.Location = new System.Drawing.Point(93, 115);
+            this.pnlMain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlMain.Name = "pnlMain";
+            this.pnlMain.ShowBorders = false;
+            this.pnlMain.Size = new System.Drawing.Size(1533, 757);
+            this.pnlMain.TabIndex = 11;
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Controls.Add(this.supplierProductsCard1);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(37, 92);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1377, 398);
+            this.flowLayoutPanel2.TabIndex = 15;
+            // 
+            // supplierProductsCard1
+            // 
+            this.supplierProductsCard1.BackColor = System.Drawing.Color.White;
+            this.supplierProductsCard1.Location = new System.Drawing.Point(4, 4);
+            this.supplierProductsCard1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.supplierProductsCard1.Name = "supplierProductsCard1";
+            this.supplierProductsCard1.Size = new System.Drawing.Size(1392, 100);
+            this.supplierProductsCard1.TabIndex = 0;
+            // 
             // ProductPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1092,8 +923,11 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ProductPage";
             this.Size = new System.Drawing.Size(1540, 846);
+            this.Load += new System.EventHandler(this.ProductPage_Load);
             this.tabProducts.ResumeLayout(false);
             this.tabAllProducts.ResumeLayout(false);
+            this.tabLowStock.ResumeLayout(false);
+            this.tabSuppliers.ResumeLayout(false);
             this.cardOutOfStock.ResumeLayout(false);
             this.cardLowStock.ResumeLayout(false);
             this.cardInventoryValue.ResumeLayout(false);
@@ -1101,17 +935,13 @@
             this.pnlGridContainer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProducts)).EndInit();
             this.cardTotalProducts.ResumeLayout(false);
-            this.tabLowStock.ResumeLayout(false);
             this.pnlLowStockContainer.ResumeLayout(false);
             this.pnlLowStockContainer.PerformLayout();
-            this.pnlLowStockItem.ResumeLayout(false);
-            this.pnlLowStockItem.PerformLayout();
-            this.tabSuppliers.ResumeLayout(false);
             this.pnlSupplierContainer.ResumeLayout(false);
             this.pnlSupplierContainer.PerformLayout();
-            this.pnlSupplierItem.ResumeLayout(false);
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
+            this.flowLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1125,17 +955,15 @@
         private TradeWright.UI.Forms.TabControlExtra tabProducts;
         private System.Windows.Forms.TabPage tabAllProducts;
         private Bunifu.UI.WinForms.BunifuPanel cardOutOfStock;
-        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label lblOutofStck;
         private System.Windows.Forms.Label label50;
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label52;
         private Bunifu.UI.WinForms.BunifuPanel cardLowStock;
-        private System.Windows.Forms.Label label53;
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label label55;
         private System.Windows.Forms.Label label56;
         private Bunifu.UI.WinForms.BunifuPanel cardInventoryValue;
-        private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Label label60;
@@ -1145,24 +973,20 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnAddProduct;
         private Bunifu.UI.WinForms.BunifuTextBox txtSearch;
         private Bunifu.UI.WinForms.BunifuPanel cardTotalProducts;
-        private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.TabPage tabLowStock;
         private Bunifu.UI.WinForms.BunifuPanel pnlLowStockContainer;
-        private Bunifu.UI.WinForms.BunifuPanel pnlLowStockItem;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label itmCode;
-        private System.Windows.Forms.Label itmName;
         private System.Windows.Forms.Label lblLowStockHeader;
         private System.Windows.Forms.TabPage tabSuppliers;
         private Bunifu.UI.WinForms.BunifuPanel pnlSupplierContainer;
-        private Bunifu.UI.WinForms.BunifuPanel pnlSupplierItem;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnViewSupplier;
-        private System.Windows.Forms.Label supProducts;
-        private System.Windows.Forms.Label supName;
         private System.Windows.Forms.Label lblSupplierHeader;
+        public System.Windows.Forms.Label lblTotal;
+        public System.Windows.Forms.Label lblValue;
+        public System.Windows.Forms.Label lblLowStk;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private Components.SupplierProductsCard supplierProductsCard1;
     }
 }

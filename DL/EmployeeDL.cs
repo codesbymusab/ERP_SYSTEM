@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Windows;
 using ERP_System.DTO;
 
 namespace ERP_System.DL
@@ -18,8 +19,34 @@ namespace ERP_System.DL
                 string q = @"SELECT e.id, e.name, e.department, e.role_title, e.salary,
                                     e.status, e.user_id, u.name AS user_name
                              FROM employees e
-                             LEFT JOIN users u ON e.user_id = u.id";
+                             LEFT JOIN users u ON e.user_id = u.id
+                             ORDER BY e.name";
                 new SqlDataAdapter(q, db.Con).Fill(dt);
+            }
+            finally { db.Con.Close(); }
+            return dt;
+        }
+
+        public DataTable Search(string qText)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                db.Con.Open();
+                string q = @"SELECT e.id, e.name, e.department, e.role_title, e.salary,
+                                    e.status, e.user_id, u.name AS user_name
+                             FROM employees e
+                             LEFT JOIN users u ON e.user_id = u.id
+                             WHERE e.name LIKE @q OR e.department LIKE @q OR e.role_title LIKE @q
+                             ORDER BY e.name";
+                using (SqlCommand cmd = new SqlCommand(q, db.Con))
+                {
+                    cmd.Parameters.AddWithValue("@q", "%" + (qText ?? string.Empty) + "%");
+                    using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+                    {
+                        da.Fill(dt);
+                    }
+                }
             }
             finally { db.Con.Close(); }
             return dt;
@@ -70,6 +97,11 @@ namespace ERP_System.DL
                 cmd.Parameters.AddWithValue("@st", dto.Status);
                 return Convert.ToInt32(cmd.ExecuteScalar());
             }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+                return -1;
+            }
             finally { db.Con.Close(); }
         }
 
@@ -100,9 +132,93 @@ namespace ERP_System.DL
             try
             {
                 db.Con.Open();
-                new SqlCommand("DELETE FROM employees WHERE id=" + id, db.Con).ExecuteNonQuery();
+                using (SqlCommand cmd = new SqlCommand("DELETE FROM employees WHERE id=@id", db.Con))
+                {
+                    cmd.Parameters.AddWithValue("@id", id);
+                    cmd.ExecuteNonQuery();
+                }
             }
             finally { db.Con.Close(); }
         }
+
+        public int GetCount()
+        {
+            try
+            {
+                db.Con.Open();
+                using (SqlCommand cmd = new SqlCommand("SELECT COUNT(1) FROM employees", db.Con))
+                {
+                    return Convert.ToInt32(cmd.ExecuteScalar());
+                }
+            }
+            finally { db.Con.Close(); }
+        }
+        
+        public int GetTotalCount()
+        {
+            try
+            {
+                db.Con.Open();
+                using (SqlCommand cmd = new SqlCommand("SELECT COUNT(1) FROM employees", db.Con))
+                {
+                    return Convert.ToInt32(cmd.ExecuteScalar());
+                }
+            }
+            finally { db.Con.Close(); }
+        }
+
+      
+        public int GetActiveCount()
+        {
+            try
+            {
+                db.Con.Open();
+                using (SqlCommand cmd = new SqlCommand("SELECT COUNT(1) FROM employees WHERE status = @status", db.Con))
+                {
+                    cmd.Parameters.AddWithValue("@status", "active");
+                    return Convert.ToInt32(cmd.ExecuteScalar());
+                }
+            }
+            finally { db.Con.Close(); }
+        }
+
+       
+        public int GetOnLeaveCount()
+        {
+            try
+            {
+                db.Con.Open();
+                string q = @"SELECT COUNT(DISTINCT e.id)
+                     FROM employees e
+                     WHERE e.status = @status";
+                using (SqlCommand cmd = new SqlCommand(q, db.Con))
+                {
+                    
+                    cmd.Parameters.AddWithValue("@status", "on Leave");
+                    return Convert.ToInt32(cmd.ExecuteScalar());
+                }
+            }
+            finally { db.Con.Close(); }
+        }
+
+        
+        public int GetDepartmentsCount()
+        {
+            try
+            {
+                db.Con.Open();
+                string q = @"SELECT COUNT(DISTINCT RTRIM(LTRIM(department)))
+                     FROM employees
+                     WHERE department IS NOT NULL AND LTRIM(RTRIM(department)) <> ''";
+                using (SqlCommand cmd = new SqlCommand(q, db.Con))
+                {
+                    return Convert.ToInt32(cmd.ExecuteScalar());
+                }
+            }
+            finally { db.Con.Close(); }
+        }
+        
+        
+
     }
 }

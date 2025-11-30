@@ -34,5 +34,23 @@ namespace ERP_System.BL
         public void DeleteProduct(int id) => prodDL.DeleteProduct(id);
 
         public DataTable GetLowStockProducts() => prodDL.GetLowStockProducts();
+
+        private readonly ProductDL dl = new ProductDL();
+
+        public int GetTotalProductCount() => prodDL.GetTotalProductCount();
+
+        public decimal GetTotalInventoryValue() => prodDL.GetTotalInventoryValue();
+
+        public int GetLowStockCount() => prodDL.GetLowStockCount();
+
+        public int GetOutOfStockCount() => prodDL.GetOutOfStockCount();
+
+       
+        public ProductDTO GetProduct(int id) => prodDL.GetProductById(id);
+
+       
+        public DataTable SearchProducts(string queryText) => prodDL.SearchProducts(queryText);
+
+
     }
 }
