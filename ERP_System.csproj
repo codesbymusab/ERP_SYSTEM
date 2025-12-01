@@ -118,6 +118,7 @@
   <ItemGroup>
     <Compile Include="BL\ActivityLogBL.cs" />
     <Compile Include="BL\AttendanceBL.cs" />
+    <Compile Include="BL\AuditLogBL.cs" />
     <Compile Include="BL\EmployeeBL.cs" />
     <Compile Include="BL\LoginBL.cs" />
     <Compile Include="BL\ProductBL.cs" />
@@ -126,9 +127,11 @@
     <Compile Include="BL\SaleBL.cs" />
     <Compile Include="BL\SaleItemBL.cs" />
     <Compile Include="BL\SupplierBL.cs" />
+    <Compile Include="BL\TransHistBL.cs" />
     <Compile Include="BL\UserBL.cs" />
     <Compile Include="DL\ActivityLogDL.cs" />
     <Compile Include="DL\AttendanceDL.cs" />
+    <Compile Include="DL\AuditLogDL.cs" />
     <Compile Include="DL\DBConnection.cs" />
     <Compile Include="DL\EmployeeDL.cs" />
     <Compile Include="DL\LoginDL.cs" />
@@ -138,9 +141,11 @@
     <Compile Include="DL\SaleDL.cs" />
     <Compile Include="DL\SaleItemDL.cs" />
     <Compile Include="DL\SupplierDL.cs" />
+    <Compile Include="DL\TransHistDL.cs" />
     <Compile Include="DL\UserDL.cs" />
     <Compile Include="DTO\ActivityLogDTO.cs" />
     <Compile Include="DTO\AttendanceDTO.cs" />
+    <Compile Include="DTO\AuditLogDTO.cs" />
     <Compile Include="DTO\EmployeeDTO.cs" />
     <Compile Include="DTO\LoginDTO.cs" />
     <Compile Include="DTO\ProductDTO.cs" />
@@ -150,17 +155,18 @@
     <Compile Include="DTO\SaleDTO.cs" />
     <Compile Include="DTO\SaleItemDTO.cs" />
     <Compile Include="DTO\SupplierDTO.cs" />
+    <Compile Include="DTO\TransHistDTO.cs" />
     <Compile Include="DTO\USerDTO.cs" />
-    <Compile Include="GUI\Components\AddEditEmpForm.cs">
+    <Compile Include="GUI\Forms\AddEditEmpForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\Components\AddEditEmpForm.Designer.cs">
+    <Compile Include="GUI\Forms\AddEditEmpForm.Designer.cs">
       <DependentUpon>AddEditEmpForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Components\AddEditProdForm.cs">
+    <Compile Include="GUI\Forms\AddEditProdForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\Components\AddEditProdForm.Designer.cs">
+    <Compile Include="GUI\Forms\AddEditProdForm.Designer.cs">
       <DependentUpon>AddEditProdForm.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\Components\LowStockCard.cs">
@@ -169,11 +175,41 @@
     <Compile Include="GUI\Components\LowStockCard.Designer.cs">
       <DependentUpon>LowStockCard.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Components\SalesAddProductCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Components\SalesAddProductCard.Designer.cs">
+      <DependentUpon>SalesAddProductCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Components\SupplierDetailsCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Components\SupplierDetailsCard.Designer.cs">
+      <DependentUpon>SupplierDetailsCard.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Components\SupplierProductsCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="GUI\Components\SupplierProductsCard.Designer.cs">
       <DependentUpon>SupplierProductsCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\SupplierProdViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\SupplierProdViewForm.Designer.cs">
+      <DependentUpon>SupplierProdViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\AddSaleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\AddSaleForm.Designer.cs">
+      <DependentUpon>AddSaleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\AddSuppplierForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\AddSuppplierForm.Designer.cs">
+      <DependentUpon>AddSuppplierForm.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\Forms\ForgetPasswordForm.cs">
       <SubType>Form</SubType>
@@ -279,17 +315,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="GUI\Components\AddEditEmpForm.resx">
+    <EmbeddedResource Include="GUI\Forms\AddEditEmpForm.resx">
       <DependentUpon>AddEditEmpForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Components\AddEditProdForm.resx">
+    <EmbeddedResource Include="GUI\Forms\AddEditProdForm.resx">
       <DependentUpon>AddEditProdForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Components\LowStockCard.resx">
       <DependentUpon>LowStockCard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Components\SalesAddProductCard.resx">
+      <DependentUpon>SalesAddProductCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Components\SupplierDetailsCard.resx">
+      <DependentUpon>SupplierDetailsCard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Components\SupplierProductsCard.resx">
       <DependentUpon>SupplierProductsCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\SupplierProdViewForm.resx">
+      <DependentUpon>SupplierProdViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\AddSaleForm.resx">
+      <DependentUpon>AddSaleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\AddSuppplierForm.resx">
+      <DependentUpon>AddSuppplierForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SalesPage));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlMain = new Bunifu.UI.WinForms.BunifuPanel();
             this.pnlHeader = new Bunifu.UI.WinForms.BunifuPanel();
             this.lblDate = new System.Windows.Forms.Label();
@@ -50,7 +50,7 @@
             this.lblRevenueSub = new System.Windows.Forms.Label();
             this.lblRevenueTitle = new System.Windows.Forms.Label();
             this.cardPending = new Bunifu.UI.WinForms.BunifuPanel();
-            this.lblPendingValue = new System.Windows.Forms.Label();
+            this.lblCancelledValue = new System.Windows.Forms.Label();
             this.lblPendingSub = new System.Windows.Forms.Label();
             this.lblPendingTitle = new System.Windows.Forms.Label();
             this.cardDrafts = new Bunifu.UI.WinForms.BunifuPanel();
@@ -60,9 +60,9 @@
             this.pnlContent = new Bunifu.UI.WinForms.BunifuPanel();
             this.ddlFilter = new Bunifu.UI.WinForms.BunifuDropdown();
             this.lblListHeader = new System.Windows.Forms.Label();
-            this.dgvInvoices = new Bunifu.UI.WinForms.BunifuDataGridView();
             this.btnNewSale = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.txtSearch = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.dgvInvoices = new Bunifu.UI.WinForms.BunifuDataGridView();
             this.pnlMain.SuspendLayout();
             this.pnlHeader.SuspendLayout();
             this.cardTotalSales.SuspendLayout();
@@ -124,7 +124,6 @@
             this.lblDate.Size = new System.Drawing.Size(285, 30);
             this.lblDate.TabIndex = 5;
             this.lblDate.Text = "Saturday, November 22, 2025";
-            this.lblDate.Click += new System.EventHandler(this.lblDate_Click);
             // 
             // lblPageTitle
             // 
@@ -260,7 +259,7 @@
             this.cardPending.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.cardPending.BorderRadius = 20;
             this.cardPending.BorderThickness = 1;
-            this.cardPending.Controls.Add(this.lblPendingValue);
+            this.cardPending.Controls.Add(this.lblCancelledValue);
             this.cardPending.Controls.Add(this.lblPendingSub);
             this.cardPending.Controls.Add(this.lblPendingTitle);
             this.cardPending.Location = new System.Drawing.Point(855, 125);
@@ -270,18 +269,18 @@
             this.cardPending.Size = new System.Drawing.Size(349, 156);
             this.cardPending.TabIndex = 34;
             // 
-            // lblPendingValue
+            // lblCancelledValue
             // 
-            this.lblPendingValue.BackColor = System.Drawing.Color.White;
-            this.lblPendingValue.Cursor = System.Windows.Forms.Cursors.Default;
-            this.lblPendingValue.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPendingValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblPendingValue.Location = new System.Drawing.Point(25, 85);
-            this.lblPendingValue.Name = "lblPendingValue";
-            this.lblPendingValue.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblPendingValue.Size = new System.Drawing.Size(128, 23);
-            this.lblPendingValue.TabIndex = 4;
-            this.lblPendingValue.Text = "1";
+            this.lblCancelledValue.BackColor = System.Drawing.Color.White;
+            this.lblCancelledValue.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblCancelledValue.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCancelledValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblCancelledValue.Location = new System.Drawing.Point(25, 85);
+            this.lblCancelledValue.Name = "lblCancelledValue";
+            this.lblCancelledValue.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCancelledValue.Size = new System.Drawing.Size(128, 23);
+            this.lblCancelledValue.TabIndex = 4;
+            this.lblCancelledValue.Text = "1";
             // 
             // lblPendingSub
             // 
@@ -294,7 +293,7 @@
             this.lblPendingSub.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblPendingSub.Size = new System.Drawing.Size(168, 27);
             this.lblPendingSub.TabIndex = 3;
-            this.lblPendingSub.Text = "Awaiting Paymnet";
+            this.lblPendingSub.Text = "Cancelled";
             // 
             // lblPendingTitle
             // 
@@ -307,7 +306,7 @@
             this.lblPendingTitle.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblPendingTitle.Size = new System.Drawing.Size(143, 23);
             this.lblPendingTitle.TabIndex = 1;
-            this.lblPendingTitle.Text = "Pending";
+            this.lblPendingTitle.Text = "Cancelled";
             // 
             // cardDrafts
             // 
@@ -349,7 +348,7 @@
             this.lblDraftsSub.Location = new System.Drawing.Point(23, 119);
             this.lblDraftsSub.Name = "lblDraftsSub";
             this.lblDraftsSub.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblDraftsSub.Size = new System.Drawing.Size(101, 27);
+            this.lblDraftsSub.Size = new System.Drawing.Size(116, 27);
             this.lblDraftsSub.TabIndex = 3;
             this.lblDraftsSub.Text = "Incomplete";
             // 
@@ -364,7 +363,7 @@
             this.lblDraftsTitle.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblDraftsTitle.Size = new System.Drawing.Size(184, 23);
             this.lblDraftsTitle.TabIndex = 1;
-            this.lblDraftsTitle.Text = "Darfts";
+            this.lblDraftsTitle.Text = "Drafts";
             // 
             // pnlContent
             // 
@@ -421,6 +420,11 @@
             this.ddlFilter.ItemHeight = 40;
             this.ddlFilter.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
             this.ddlFilter.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.ddlFilter.Items.AddRange(new object[] {
+            "All",
+            "Draft",
+            "Paid",
+            "Cancelled"});
             this.ddlFilter.ItemTopMargin = 3;
             this.ddlFilter.Location = new System.Drawing.Point(1397, 84);
             this.ddlFilter.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -441,71 +445,6 @@
             this.lblListHeader.Size = new System.Drawing.Size(193, 32);
             this.lblListHeader.TabIndex = 13;
             this.lblListHeader.Text = "Sales && Invoices";
-            // 
-            // dgvInvoices
-            // 
-            this.dgvInvoices.AllowCustomTheming = false;
-            this.dgvInvoices.AllowUserToAddRows = false;
-            this.dgvInvoices.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.dgvInvoices.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvInvoices.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvInvoices.BackgroundColor = System.Drawing.Color.DarkGray;
-            this.dgvInvoices.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvInvoices.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgvInvoices.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvInvoices.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvInvoices.ColumnHeadersHeight = 40;
-            this.dgvInvoices.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            this.dgvInvoices.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.dgvInvoices.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.dgvInvoices.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.dgvInvoices.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvInvoices.CurrentTheme.BackColor = System.Drawing.Color.White;
-            this.dgvInvoices.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.dgvInvoices.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.DodgerBlue;
-            this.dgvInvoices.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            this.dgvInvoices.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.dgvInvoices.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            this.dgvInvoices.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvInvoices.CurrentTheme.Name = null;
-            this.dgvInvoices.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.dgvInvoices.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.dgvInvoices.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.dgvInvoices.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.dgvInvoices.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvInvoices.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dgvInvoices.EnableHeadersVisualStyles = false;
-            this.dgvInvoices.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.dgvInvoices.HeaderBackColor = System.Drawing.Color.DodgerBlue;
-            this.dgvInvoices.HeaderBgColor = System.Drawing.Color.Empty;
-            this.dgvInvoices.HeaderForeColor = System.Drawing.Color.White;
-            this.dgvInvoices.Location = new System.Drawing.Point(29, 146);
-            this.dgvInvoices.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dgvInvoices.Name = "dgvInvoices";
-            this.dgvInvoices.ReadOnly = true;
-            this.dgvInvoices.RowHeadersVisible = false;
-            this.dgvInvoices.RowHeadersWidth = 53;
-            this.dgvInvoices.RowTemplate.Height = 40;
-            this.dgvInvoices.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvInvoices.Size = new System.Drawing.Size(1513, 377);
-            this.dgvInvoices.TabIndex = 12;
-            this.dgvInvoices.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
             // btnNewSale
             // 
@@ -678,6 +617,71 @@
             this.txtSearch.UseSystemPasswordChar = false;
             this.txtSearch.WordWrap = true;
             // 
+            // dgvInvoices
+            // 
+            this.dgvInvoices.AllowCustomTheming = false;
+            this.dgvInvoices.AllowUserToAddRows = false;
+            this.dgvInvoices.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            this.dgvInvoices.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvInvoices.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvInvoices.BackgroundColor = System.Drawing.Color.White;
+            this.dgvInvoices.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvInvoices.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgvInvoices.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvInvoices.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvInvoices.ColumnHeadersHeight = 40;
+            this.dgvInvoices.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
+            this.dgvInvoices.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.dgvInvoices.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.White;
+            this.dgvInvoices.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            this.dgvInvoices.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            this.dgvInvoices.CurrentTheme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            this.dgvInvoices.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
+            this.dgvInvoices.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            this.dgvInvoices.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            this.dgvInvoices.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.dgvInvoices.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.dgvInvoices.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.dgvInvoices.CurrentTheme.Name = null;
+            this.dgvInvoices.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
+            this.dgvInvoices.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.dgvInvoices.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.White;
+            this.dgvInvoices.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            this.dgvInvoices.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvInvoices.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvInvoices.EnableHeadersVisualStyles = false;
+            this.dgvInvoices.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
+            this.dgvInvoices.HeaderBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            this.dgvInvoices.HeaderBgColor = System.Drawing.Color.Empty;
+            this.dgvInvoices.HeaderForeColor = System.Drawing.Color.White;
+            this.dgvInvoices.Location = new System.Drawing.Point(29, 146);
+            this.dgvInvoices.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvInvoices.Name = "dgvInvoices";
+            this.dgvInvoices.ReadOnly = true;
+            this.dgvInvoices.RowHeadersVisible = false;
+            this.dgvInvoices.RowHeadersWidth = 53;
+            this.dgvInvoices.RowTemplate.Height = 40;
+            this.dgvInvoices.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvInvoices.Size = new System.Drawing.Size(1513, 377);
+            this.dgvInvoices.TabIndex = 12;
+            this.dgvInvoices.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Dark;
+            // 
             // SalesPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -714,7 +718,7 @@
         private System.Windows.Forms.Label lblRevenueSub;
         private System.Windows.Forms.Label lblRevenueTitle;
         private Bunifu.UI.WinForms.BunifuPanel cardPending;
-        private System.Windows.Forms.Label lblPendingValue;
+        private System.Windows.Forms.Label lblCancelledValue;
         private System.Windows.Forms.Label lblPendingSub;
         private System.Windows.Forms.Label lblPendingTitle;
         private Bunifu.UI.WinForms.BunifuPanel cardDrafts;
@@ -722,10 +726,10 @@
         private System.Windows.Forms.Label lblDraftsSub;
         private System.Windows.Forms.Label lblDraftsTitle;
         private Bunifu.UI.WinForms.BunifuPanel pnlContent;
-        private Bunifu.UI.WinForms.BunifuDropdown ddlFilter;
         private System.Windows.Forms.Label lblListHeader;
-        private Bunifu.UI.WinForms.BunifuDataGridView dgvInvoices;
+        private Bunifu.UI.WinForms.BunifuDropdown ddlFilter;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnNewSale;
         private Bunifu.UI.WinForms.BunifuTextBox txtSearch;
+        private Bunifu.UI.WinForms.BunifuDataGridView dgvInvoices;
     }
 }

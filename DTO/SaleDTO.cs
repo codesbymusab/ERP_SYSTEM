@@ -14,5 +14,7 @@ namespace ERP_System.DTO
         public DateTime Date { get; set; }
         public decimal TotalAmount { get; set; }
         public string Status { get; set; }
+
+        public List<SaleItemDTO> Items{get; set;  } = new List<SaleItemDTO>();
     }
 }

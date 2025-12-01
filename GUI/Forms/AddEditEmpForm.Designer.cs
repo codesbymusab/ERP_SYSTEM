@@ -56,7 +56,6 @@
             this.btnSearch = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnAddEdit = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.ddlStatus = new Bunifu.UI.WinForms.BunifuDropdown();
             this.label1 = new System.Windows.Forms.Label();
             this.txtUserID = new Bunifu.UI.WinForms.BunifuTextBox();
             this.lblTitle = new System.Windows.Forms.Label();
@@ -69,6 +68,7 @@
             this.lblSalary = new System.Windows.Forms.Label();
             this.txtSalary = new Bunifu.UI.WinForms.BunifuTextBox();
             this.lblStatus = new System.Windows.Forms.Label();
+            this.ddlStatus = new Bunifu.UI.WinForms.BunifuDropdown();
             this.pnlDialog.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -384,52 +384,6 @@
             this.btnAddEdit.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnAddEdit.UseDefaultRadiusAndThickness = true;
             this.btnAddEdit.Click += new System.EventHandler(this.AddEmployee_Click);
-            // 
-            // ddlStatus
-            // 
-            this.ddlStatus.BackColor = System.Drawing.Color.Gainsboro;
-            this.ddlStatus.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.ddlStatus.BorderColor = System.Drawing.Color.Gainsboro;
-            this.ddlStatus.BorderRadius = 5;
-            this.ddlStatus.Color = System.Drawing.Color.Gainsboro;
-            this.ddlStatus.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
-            this.ddlStatus.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.ddlStatus.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.ddlStatus.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.ddlStatus.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.ddlStatus.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
-            this.ddlStatus.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.ddlStatus.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
-            this.ddlStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ddlStatus.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.ddlStatus.FillDropDown = true;
-            this.ddlStatus.FillIndicator = false;
-            this.ddlStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ddlStatus.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.ddlStatus.ForeColor = System.Drawing.Color.Black;
-            this.ddlStatus.Icon = null;
-            this.ddlStatus.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.ddlStatus.IndicatorColor = System.Drawing.Color.DarkGray;
-            this.ddlStatus.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.ddlStatus.IndicatorThickness = 2;
-            this.ddlStatus.IsDropdownOpened = false;
-            this.ddlStatus.ItemBackColor = System.Drawing.Color.White;
-            this.ddlStatus.ItemBorderColor = System.Drawing.Color.White;
-            this.ddlStatus.ItemForeColor = System.Drawing.Color.Black;
-            this.ddlStatus.ItemHeight = 26;
-            this.ddlStatus.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
-            this.ddlStatus.ItemHighLightForeColor = System.Drawing.Color.White;
-            this.ddlStatus.Items.AddRange(new object[] {
-            "active",
-            "inactive"});
-            this.ddlStatus.ItemTopMargin = 3;
-            this.ddlStatus.Location = new System.Drawing.Point(231, 442);
-            this.ddlStatus.Name = "ddlStatus";
-            this.ddlStatus.Size = new System.Drawing.Size(200, 32);
-            this.ddlStatus.TabIndex = 17;
-            this.ddlStatus.Text = null;
-            this.ddlStatus.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.ddlStatus.TextLeftMargin = 5;
             // 
             // label1
             // 
@@ -887,6 +841,52 @@
             this.lblStatus.Size = new System.Drawing.Size(100, 23);
             this.lblStatus.TabIndex = 9;
             this.lblStatus.Text = "Status";
+            // 
+            // ddlStatus
+            // 
+            this.ddlStatus.BackColor = System.Drawing.Color.Gainsboro;
+            this.ddlStatus.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.ddlStatus.BorderColor = System.Drawing.Color.Gainsboro;
+            this.ddlStatus.BorderRadius = 5;
+            this.ddlStatus.Color = System.Drawing.Color.Gainsboro;
+            this.ddlStatus.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.ddlStatus.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.ddlStatus.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.ddlStatus.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.ddlStatus.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.ddlStatus.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.ddlStatus.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.ddlStatus.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.ddlStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ddlStatus.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.ddlStatus.FillDropDown = true;
+            this.ddlStatus.FillIndicator = false;
+            this.ddlStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ddlStatus.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ddlStatus.ForeColor = System.Drawing.Color.Black;
+            this.ddlStatus.Icon = null;
+            this.ddlStatus.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.ddlStatus.IndicatorColor = System.Drawing.Color.DarkGray;
+            this.ddlStatus.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.ddlStatus.IndicatorThickness = 2;
+            this.ddlStatus.IsDropdownOpened = false;
+            this.ddlStatus.ItemBackColor = System.Drawing.Color.White;
+            this.ddlStatus.ItemBorderColor = System.Drawing.Color.White;
+            this.ddlStatus.ItemForeColor = System.Drawing.Color.Black;
+            this.ddlStatus.ItemHeight = 26;
+            this.ddlStatus.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.ddlStatus.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.ddlStatus.Items.AddRange(new object[] {
+            "active",
+            "inactive"});
+            this.ddlStatus.ItemTopMargin = 3;
+            this.ddlStatus.Location = new System.Drawing.Point(231, 442);
+            this.ddlStatus.Name = "ddlStatus";
+            this.ddlStatus.Size = new System.Drawing.Size(200, 32);
+            this.ddlStatus.TabIndex = 17;
+            this.ddlStatus.Text = null;
+            this.ddlStatus.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.ddlStatus.TextLeftMargin = 5;
             // 
             // AddEditEmpForm
             // 

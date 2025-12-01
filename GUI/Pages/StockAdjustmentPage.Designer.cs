@@ -29,51 +29,51 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StockAdjustmentPage));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlMain = new Bunifu.UI.WinForms.BunifuPanel();
             this.pnlContainer = new Bunifu.UI.WinForms.BunifuPanel();
             this.tabStock = new TradeWright.UI.Forms.TabControlExtra();
-            this.tabAdjust = new System.Windows.Forms.TabPage();
-            this.pnlAdjustForm = new Bunifu.UI.WinForms.BunifuPanel();
-            this.txtNotes = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.lblNotes = new System.Windows.Forms.Label();
-            this.ddlReason = new Bunifu.UI.WinForms.BunifuDropdown();
-            this.lblReason = new System.Windows.Forms.Label();
-            this.txtQty = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.lblQty = new System.Windows.Forms.Label();
-            this.ddlType = new Bunifu.UI.WinForms.BunifuDropdown();
-            this.lblType = new System.Windows.Forms.Label();
-            this.ddlProduct = new Bunifu.UI.WinForms.BunifuDropdown();
-            this.lblProduct = new System.Windows.Forms.Label();
-            this.lblFormTitle = new System.Windows.Forms.Label();
-            this.btnApplyAdjustment = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.tabLog = new System.Windows.Forms.TabPage();
-            this.pnlLog = new Bunifu.UI.WinForms.BunifuPanel();
-            this.dgvAuditLog = new Bunifu.UI.WinForms.BunifuDataGridView();
-            this.lblLogTitle = new System.Windows.Forms.Label();
             this.pnlHeader = new Bunifu.UI.WinForms.BunifuPanel();
             this.lblDate = new System.Windows.Forms.Label();
             this.lblPageTitle = new System.Windows.Forms.Label();
+            this.pnlAdjustForm = new Bunifu.UI.WinForms.BunifuPanel();
+            this.btnApplyAdjustment = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.lblFormTitle = new System.Windows.Forms.Label();
+            this.lblProduct = new System.Windows.Forms.Label();
+            this.ddlProduct = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.lblType = new System.Windows.Forms.Label();
+            this.ddlType = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.lblQty = new System.Windows.Forms.Label();
+            this.txtQty = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.lblReason = new System.Windows.Forms.Label();
+            this.ddlReason = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.lblNotes = new System.Windows.Forms.Label();
+            this.txtNotes = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.tabAdjust = new System.Windows.Forms.TabPage();
+            this.pnlLog = new Bunifu.UI.WinForms.BunifuPanel();
+            this.lblLogTitle = new System.Windows.Forms.Label();
+            this.dgvAuditLog = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.tabLog = new System.Windows.Forms.TabPage();
             this.pnlMain.SuspendLayout();
             this.pnlContainer.SuspendLayout();
             this.tabStock.SuspendLayout();
-            this.tabAdjust.SuspendLayout();
+            this.pnlHeader.SuspendLayout();
             this.pnlAdjustForm.SuspendLayout();
-            this.tabLog.SuspendLayout();
+            this.tabAdjust.SuspendLayout();
             this.pnlLog.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAuditLog)).BeginInit();
-            this.pnlHeader.SuspendLayout();
+            this.tabLog.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlMain
@@ -185,20 +185,49 @@
             this.tabStock.Size = new System.Drawing.Size(1533, 757);
             this.tabStock.TabIndex = 11;
             // 
-            // tabAdjust
+            // pnlHeader
             // 
-            this.tabAdjust.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tabAdjust.Controls.Add(this.pnlAdjustForm);
-            this.tabAdjust.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabAdjust.ForeColor = System.Drawing.Color.Black;
-            this.tabAdjust.Location = new System.Drawing.Point(4, 30);
-            this.tabAdjust.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabAdjust.Name = "tabAdjust";
-            this.tabAdjust.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabAdjust.Size = new System.Drawing.Size(1525, 723);
-            this.tabAdjust.TabIndex = 0;
-            this.tabAdjust.Text = "Adjust Stock";
-            this.tabAdjust.UseVisualStyleBackColor = true;
+            this.pnlHeader.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlHeader.BackgroundColor = System.Drawing.Color.White;
+            this.pnlHeader.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlHeader.BackgroundImage")));
+            this.pnlHeader.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlHeader.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(238)))));
+            this.pnlHeader.BorderRadius = 8;
+            this.pnlHeader.BorderThickness = 1;
+            this.pnlHeader.Controls.Add(this.lblDate);
+            this.pnlHeader.Controls.Add(this.lblPageTitle);
+            this.pnlHeader.Location = new System.Drawing.Point(3, 2);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlHeader.Name = "pnlHeader";
+            this.pnlHeader.ShowBorders = true;
+            this.pnlHeader.Size = new System.Drawing.Size(1536, 79);
+            this.pnlHeader.TabIndex = 3;
+            // 
+            // lblDate
+            // 
+            this.lblDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblDate.AutoSize = true;
+            this.lblDate.BackColor = System.Drawing.Color.White;
+            this.lblDate.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblDate.Location = new System.Drawing.Point(1216, 23);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(285, 30);
+            this.lblDate.TabIndex = 5;
+            this.lblDate.Text = "Saturday, November 22, 2025";
+            // 
+            // lblPageTitle
+            // 
+            this.lblPageTitle.AutoSize = true;
+            this.lblPageTitle.BackColor = System.Drawing.Color.White;
+            this.lblPageTitle.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPageTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblPageTitle.Location = new System.Drawing.Point(19, 23);
+            this.lblPageTitle.Name = "lblPageTitle";
+            this.lblPageTitle.Size = new System.Drawing.Size(201, 32);
+            this.lblPageTitle.TabIndex = 4;
+            this.lblPageTitle.Text = "Stock Adjustment";
             // 
             // pnlAdjustForm
             // 
@@ -227,363 +256,6 @@
             this.pnlAdjustForm.ShowBorders = true;
             this.pnlAdjustForm.Size = new System.Drawing.Size(1517, 717);
             this.pnlAdjustForm.TabIndex = 13;
-            // 
-            // txtNotes
-            // 
-            this.txtNotes.AcceptsReturn = false;
-            this.txtNotes.AcceptsTab = false;
-            this.txtNotes.AnimationSpeed = 200;
-            this.txtNotes.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txtNotes.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txtNotes.AutoSizeHeight = true;
-            this.txtNotes.BackColor = System.Drawing.Color.Transparent;
-            this.txtNotes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtNotes.BackgroundImage")));
-            this.txtNotes.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.txtNotes.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txtNotes.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.txtNotes.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txtNotes.BorderRadius = 5;
-            this.txtNotes.BorderThickness = 1;
-            this.txtNotes.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
-            this.txtNotes.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txtNotes.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtNotes.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.txtNotes.DefaultText = "";
-            this.txtNotes.FillColor = System.Drawing.Color.Gainsboro;
-            this.txtNotes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtNotes.HideSelection = true;
-            this.txtNotes.IconLeft = null;
-            this.txtNotes.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtNotes.IconPadding = 10;
-            this.txtNotes.IconRight = null;
-            this.txtNotes.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtNotes.Lines = new string[0];
-            this.txtNotes.Location = new System.Drawing.Point(28, 388);
-            this.txtNotes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtNotes.MaxLength = 32767;
-            this.txtNotes.MinimumSize = new System.Drawing.Size(1, 1);
-            this.txtNotes.Modified = false;
-            this.txtNotes.Multiline = false;
-            this.txtNotes.Name = "txtNotes";
-            stateProperties1.BorderColor = System.Drawing.Color.LightGray;
-            stateProperties1.FillColor = System.Drawing.Color.Empty;
-            stateProperties1.ForeColor = System.Drawing.Color.Empty;
-            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtNotes.OnActiveState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txtNotes.OnDisabledState = stateProperties2;
-            stateProperties3.BorderColor = System.Drawing.Color.Silver;
-            stateProperties3.FillColor = System.Drawing.Color.LightGray;
-            stateProperties3.ForeColor = System.Drawing.Color.Empty;
-            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtNotes.OnHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.Silver;
-            stateProperties4.FillColor = System.Drawing.Color.Gainsboro;
-            stateProperties4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtNotes.OnIdleState = stateProperties4;
-            this.txtNotes.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtNotes.PasswordChar = '\0';
-            this.txtNotes.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtNotes.PlaceholderText = "Additional Notes...";
-            this.txtNotes.ReadOnly = false;
-            this.txtNotes.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtNotes.SelectedText = "";
-            this.txtNotes.SelectionLength = 0;
-            this.txtNotes.SelectionStart = 0;
-            this.txtNotes.ShortcutsEnabled = true;
-            this.txtNotes.Size = new System.Drawing.Size(776, 41);
-            this.txtNotes.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.txtNotes.TabIndex = 24;
-            this.txtNotes.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtNotes.TextMarginBottom = 0;
-            this.txtNotes.TextMarginLeft = 3;
-            this.txtNotes.TextMarginTop = 1;
-            this.txtNotes.TextPlaceholder = "Additional Notes...";
-            this.txtNotes.UseSystemPasswordChar = false;
-            this.txtNotes.WordWrap = true;
-            // 
-            // lblNotes
-            // 
-            this.lblNotes.BackColor = System.Drawing.Color.Transparent;
-            this.lblNotes.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNotes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.lblNotes.Location = new System.Drawing.Point(23, 351);
-            this.lblNotes.Name = "lblNotes";
-            this.lblNotes.Size = new System.Drawing.Size(183, 25);
-            this.lblNotes.TabIndex = 23;
-            this.lblNotes.Text = "Notes";
-            // 
-            // ddlReason
-            // 
-            this.ddlReason.BackColor = System.Drawing.Color.Transparent;
-            this.ddlReason.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.ddlReason.BorderColor = System.Drawing.Color.Gainsboro;
-            this.ddlReason.BorderRadius = 5;
-            this.ddlReason.Color = System.Drawing.Color.Gainsboro;
-            this.ddlReason.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
-            this.ddlReason.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.ddlReason.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.ddlReason.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.ddlReason.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.ddlReason.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
-            this.ddlReason.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.ddlReason.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
-            this.ddlReason.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ddlReason.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.ddlReason.FillDropDown = true;
-            this.ddlReason.FillIndicator = false;
-            this.ddlReason.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ddlReason.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ddlReason.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ddlReason.FormattingEnabled = true;
-            this.ddlReason.Icon = null;
-            this.ddlReason.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.ddlReason.IndicatorColor = System.Drawing.Color.DarkGray;
-            this.ddlReason.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.ddlReason.IndicatorThickness = 2;
-            this.ddlReason.IsDropdownOpened = false;
-            this.ddlReason.ItemBackColor = System.Drawing.Color.White;
-            this.ddlReason.ItemBorderColor = System.Drawing.Color.White;
-            this.ddlReason.ItemForeColor = System.Drawing.Color.Black;
-            this.ddlReason.ItemHeight = 26;
-            this.ddlReason.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
-            this.ddlReason.ItemHighLightForeColor = System.Drawing.Color.White;
-            this.ddlReason.ItemTopMargin = 3;
-            this.ddlReason.Location = new System.Drawing.Point(28, 302);
-            this.ddlReason.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ddlReason.Name = "ddlReason";
-            this.ddlReason.Size = new System.Drawing.Size(776, 32);
-            this.ddlReason.TabIndex = 22;
-            this.ddlReason.Text = "Select Reason";
-            this.ddlReason.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.ddlReason.TextLeftMargin = 5;
-            // 
-            // lblReason
-            // 
-            this.lblReason.BackColor = System.Drawing.Color.Transparent;
-            this.lblReason.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReason.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.lblReason.Location = new System.Drawing.Point(23, 265);
-            this.lblReason.Name = "lblReason";
-            this.lblReason.Size = new System.Drawing.Size(152, 25);
-            this.lblReason.TabIndex = 21;
-            this.lblReason.Text = "Reason";
-            // 
-            // txtQty
-            // 
-            this.txtQty.AcceptsReturn = false;
-            this.txtQty.AcceptsTab = false;
-            this.txtQty.AnimationSpeed = 200;
-            this.txtQty.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txtQty.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txtQty.AutoSizeHeight = true;
-            this.txtQty.BackColor = System.Drawing.Color.Transparent;
-            this.txtQty.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtQty.BackgroundImage")));
-            this.txtQty.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.txtQty.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txtQty.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.txtQty.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txtQty.BorderRadius = 5;
-            this.txtQty.BorderThickness = 1;
-            this.txtQty.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
-            this.txtQty.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txtQty.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtQty.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.txtQty.DefaultText = "";
-            this.txtQty.FillColor = System.Drawing.Color.Gainsboro;
-            this.txtQty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtQty.HideSelection = true;
-            this.txtQty.IconLeft = null;
-            this.txtQty.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtQty.IconPadding = 10;
-            this.txtQty.IconRight = null;
-            this.txtQty.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtQty.Lines = new string[0];
-            this.txtQty.Location = new System.Drawing.Point(411, 217);
-            this.txtQty.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtQty.MaxLength = 32767;
-            this.txtQty.MinimumSize = new System.Drawing.Size(1, 1);
-            this.txtQty.Modified = false;
-            this.txtQty.Multiline = false;
-            this.txtQty.Name = "txtQty";
-            stateProperties5.BorderColor = System.Drawing.Color.LightGray;
-            stateProperties5.FillColor = System.Drawing.Color.Empty;
-            stateProperties5.ForeColor = System.Drawing.Color.Empty;
-            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtQty.OnActiveState = stateProperties5;
-            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txtQty.OnDisabledState = stateProperties6;
-            stateProperties7.BorderColor = System.Drawing.Color.Silver;
-            stateProperties7.FillColor = System.Drawing.Color.LightGray;
-            stateProperties7.ForeColor = System.Drawing.Color.Empty;
-            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtQty.OnHoverState = stateProperties7;
-            stateProperties8.BorderColor = System.Drawing.Color.Silver;
-            stateProperties8.FillColor = System.Drawing.Color.Gainsboro;
-            stateProperties8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtQty.OnIdleState = stateProperties8;
-            this.txtQty.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtQty.PasswordChar = '\0';
-            this.txtQty.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtQty.PlaceholderText = "0";
-            this.txtQty.ReadOnly = false;
-            this.txtQty.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtQty.SelectedText = "";
-            this.txtQty.SelectionLength = 0;
-            this.txtQty.SelectionStart = 0;
-            this.txtQty.ShortcutsEnabled = true;
-            this.txtQty.Size = new System.Drawing.Size(395, 41);
-            this.txtQty.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.txtQty.TabIndex = 20;
-            this.txtQty.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtQty.TextMarginBottom = 0;
-            this.txtQty.TextMarginLeft = 3;
-            this.txtQty.TextMarginTop = 1;
-            this.txtQty.TextPlaceholder = "0";
-            this.txtQty.UseSystemPasswordChar = false;
-            this.txtQty.WordWrap = true;
-            // 
-            // lblQty
-            // 
-            this.lblQty.BackColor = System.Drawing.Color.Transparent;
-            this.lblQty.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.lblQty.Location = new System.Drawing.Point(405, 180);
-            this.lblQty.Name = "lblQty";
-            this.lblQty.Size = new System.Drawing.Size(183, 25);
-            this.lblQty.TabIndex = 19;
-            this.lblQty.Text = "Quantity";
-            // 
-            // ddlType
-            // 
-            this.ddlType.BackColor = System.Drawing.Color.Transparent;
-            this.ddlType.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.ddlType.BorderColor = System.Drawing.Color.Gainsboro;
-            this.ddlType.BorderRadius = 5;
-            this.ddlType.Color = System.Drawing.Color.Gainsboro;
-            this.ddlType.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
-            this.ddlType.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.ddlType.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.ddlType.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.ddlType.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.ddlType.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
-            this.ddlType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.ddlType.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
-            this.ddlType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ddlType.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.ddlType.FillDropDown = true;
-            this.ddlType.FillIndicator = false;
-            this.ddlType.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ddlType.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ddlType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ddlType.FormattingEnabled = true;
-            this.ddlType.Icon = null;
-            this.ddlType.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.ddlType.IndicatorColor = System.Drawing.Color.DarkGray;
-            this.ddlType.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.ddlType.IndicatorThickness = 2;
-            this.ddlType.IsDropdownOpened = false;
-            this.ddlType.ItemBackColor = System.Drawing.Color.White;
-            this.ddlType.ItemBorderColor = System.Drawing.Color.White;
-            this.ddlType.ItemForeColor = System.Drawing.Color.Black;
-            this.ddlType.ItemHeight = 26;
-            this.ddlType.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
-            this.ddlType.ItemHighLightForeColor = System.Drawing.Color.White;
-            this.ddlType.ItemTopMargin = 3;
-            this.ddlType.Location = new System.Drawing.Point(28, 217);
-            this.ddlType.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ddlType.Name = "ddlType";
-            this.ddlType.Size = new System.Drawing.Size(365, 32);
-            this.ddlType.TabIndex = 18;
-            this.ddlType.Text = "Select Type";
-            this.ddlType.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.ddlType.TextLeftMargin = 5;
-            // 
-            // lblType
-            // 
-            this.lblType.BackColor = System.Drawing.Color.Transparent;
-            this.lblType.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.lblType.Location = new System.Drawing.Point(23, 180);
-            this.lblType.Name = "lblType";
-            this.lblType.Size = new System.Drawing.Size(183, 25);
-            this.lblType.TabIndex = 17;
-            this.lblType.Text = "Adjustment Type";
-            // 
-            // ddlProduct
-            // 
-            this.ddlProduct.BackColor = System.Drawing.Color.Transparent;
-            this.ddlProduct.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.ddlProduct.BorderColor = System.Drawing.Color.Gainsboro;
-            this.ddlProduct.BorderRadius = 5;
-            this.ddlProduct.Color = System.Drawing.Color.Gainsboro;
-            this.ddlProduct.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
-            this.ddlProduct.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.ddlProduct.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.ddlProduct.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.ddlProduct.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.ddlProduct.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
-            this.ddlProduct.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.ddlProduct.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
-            this.ddlProduct.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ddlProduct.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.ddlProduct.FillDropDown = true;
-            this.ddlProduct.FillIndicator = false;
-            this.ddlProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ddlProduct.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ddlProduct.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ddlProduct.FormattingEnabled = true;
-            this.ddlProduct.Icon = null;
-            this.ddlProduct.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.ddlProduct.IndicatorColor = System.Drawing.Color.DarkGray;
-            this.ddlProduct.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.ddlProduct.IndicatorThickness = 2;
-            this.ddlProduct.IsDropdownOpened = false;
-            this.ddlProduct.ItemBackColor = System.Drawing.Color.White;
-            this.ddlProduct.ItemBorderColor = System.Drawing.Color.White;
-            this.ddlProduct.ItemForeColor = System.Drawing.Color.Black;
-            this.ddlProduct.ItemHeight = 26;
-            this.ddlProduct.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
-            this.ddlProduct.ItemHighLightForeColor = System.Drawing.Color.White;
-            this.ddlProduct.ItemTopMargin = 3;
-            this.ddlProduct.Location = new System.Drawing.Point(28, 130);
-            this.ddlProduct.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ddlProduct.Name = "ddlProduct";
-            this.ddlProduct.Size = new System.Drawing.Size(776, 32);
-            this.ddlProduct.TabIndex = 16;
-            this.ddlProduct.Text = "Choose Product";
-            this.ddlProduct.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.ddlProduct.TextLeftMargin = 5;
-            // 
-            // lblProduct
-            // 
-            this.lblProduct.BackColor = System.Drawing.Color.Transparent;
-            this.lblProduct.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProduct.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
-            this.lblProduct.Location = new System.Drawing.Point(23, 94);
-            this.lblProduct.Name = "lblProduct";
-            this.lblProduct.Size = new System.Drawing.Size(152, 25);
-            this.lblProduct.TabIndex = 15;
-            this.lblProduct.Text = "Select Product";
-            // 
-            // lblFormTitle
-            // 
-            this.lblFormTitle.AutoSize = true;
-            this.lblFormTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFormTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblFormTitle.Location = new System.Drawing.Point(21, 25);
-            this.lblFormTitle.Name = "lblFormTitle";
-            this.lblFormTitle.Size = new System.Drawing.Size(295, 32);
-            this.lblFormTitle.TabIndex = 13;
-            this.lblFormTitle.Text = "Manual Stock Adjustment";
             // 
             // btnApplyAdjustment
             // 
@@ -677,18 +349,385 @@
             this.btnApplyAdjustment.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnApplyAdjustment.UseDefaultRadiusAndThickness = true;
             // 
-            // tabLog
+            // lblFormTitle
             // 
-            this.tabLog.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tabLog.Controls.Add(this.pnlLog);
-            this.tabLog.Location = new System.Drawing.Point(4, 30);
-            this.tabLog.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabLog.Name = "tabLog";
-            this.tabLog.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabLog.Size = new System.Drawing.Size(1474, 664);
-            this.tabLog.TabIndex = 1;
-            this.tabLog.Text = "Audit Log";
-            this.tabLog.UseVisualStyleBackColor = true;
+            this.lblFormTitle.AutoSize = true;
+            this.lblFormTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFormTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblFormTitle.Location = new System.Drawing.Point(21, 25);
+            this.lblFormTitle.Name = "lblFormTitle";
+            this.lblFormTitle.Size = new System.Drawing.Size(295, 32);
+            this.lblFormTitle.TabIndex = 13;
+            this.lblFormTitle.Text = "Manual Stock Adjustment";
+            // 
+            // lblProduct
+            // 
+            this.lblProduct.BackColor = System.Drawing.Color.Transparent;
+            this.lblProduct.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProduct.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.lblProduct.Location = new System.Drawing.Point(23, 94);
+            this.lblProduct.Name = "lblProduct";
+            this.lblProduct.Size = new System.Drawing.Size(152, 25);
+            this.lblProduct.TabIndex = 15;
+            this.lblProduct.Text = "Select Product";
+            // 
+            // ddlProduct
+            // 
+            this.ddlProduct.BackColor = System.Drawing.Color.Transparent;
+            this.ddlProduct.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.ddlProduct.BorderColor = System.Drawing.Color.Gainsboro;
+            this.ddlProduct.BorderRadius = 5;
+            this.ddlProduct.Color = System.Drawing.Color.Gainsboro;
+            this.ddlProduct.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.ddlProduct.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.ddlProduct.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.ddlProduct.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.ddlProduct.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.ddlProduct.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.ddlProduct.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.ddlProduct.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.ddlProduct.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ddlProduct.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.ddlProduct.FillDropDown = true;
+            this.ddlProduct.FillIndicator = false;
+            this.ddlProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ddlProduct.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ddlProduct.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ddlProduct.FormattingEnabled = true;
+            this.ddlProduct.Icon = null;
+            this.ddlProduct.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.ddlProduct.IndicatorColor = System.Drawing.Color.DarkGray;
+            this.ddlProduct.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.ddlProduct.IndicatorThickness = 2;
+            this.ddlProduct.IsDropdownOpened = false;
+            this.ddlProduct.ItemBackColor = System.Drawing.Color.White;
+            this.ddlProduct.ItemBorderColor = System.Drawing.Color.White;
+            this.ddlProduct.ItemForeColor = System.Drawing.Color.Black;
+            this.ddlProduct.ItemHeight = 26;
+            this.ddlProduct.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.ddlProduct.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.ddlProduct.ItemTopMargin = 3;
+            this.ddlProduct.Location = new System.Drawing.Point(28, 130);
+            this.ddlProduct.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ddlProduct.Name = "ddlProduct";
+            this.ddlProduct.Size = new System.Drawing.Size(776, 32);
+            this.ddlProduct.TabIndex = 16;
+            this.ddlProduct.Text = "Choose Product";
+            this.ddlProduct.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.ddlProduct.TextLeftMargin = 5;
+            // 
+            // lblType
+            // 
+            this.lblType.BackColor = System.Drawing.Color.Transparent;
+            this.lblType.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.lblType.Location = new System.Drawing.Point(23, 180);
+            this.lblType.Name = "lblType";
+            this.lblType.Size = new System.Drawing.Size(183, 25);
+            this.lblType.TabIndex = 17;
+            this.lblType.Text = "Adjustment Type";
+            // 
+            // ddlType
+            // 
+            this.ddlType.BackColor = System.Drawing.Color.Transparent;
+            this.ddlType.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.ddlType.BorderColor = System.Drawing.Color.Gainsboro;
+            this.ddlType.BorderRadius = 5;
+            this.ddlType.Color = System.Drawing.Color.Gainsboro;
+            this.ddlType.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.ddlType.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.ddlType.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.ddlType.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.ddlType.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.ddlType.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.ddlType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.ddlType.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.ddlType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ddlType.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.ddlType.FillDropDown = true;
+            this.ddlType.FillIndicator = false;
+            this.ddlType.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ddlType.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ddlType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ddlType.FormattingEnabled = true;
+            this.ddlType.Icon = null;
+            this.ddlType.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.ddlType.IndicatorColor = System.Drawing.Color.DarkGray;
+            this.ddlType.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.ddlType.IndicatorThickness = 2;
+            this.ddlType.IsDropdownOpened = false;
+            this.ddlType.ItemBackColor = System.Drawing.Color.White;
+            this.ddlType.ItemBorderColor = System.Drawing.Color.White;
+            this.ddlType.ItemForeColor = System.Drawing.Color.Black;
+            this.ddlType.ItemHeight = 26;
+            this.ddlType.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.ddlType.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.ddlType.Items.AddRange(new object[] {
+            "Add Stock",
+            "Remove Stock"});
+            this.ddlType.ItemTopMargin = 3;
+            this.ddlType.Location = new System.Drawing.Point(28, 217);
+            this.ddlType.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ddlType.Name = "ddlType";
+            this.ddlType.Size = new System.Drawing.Size(365, 32);
+            this.ddlType.TabIndex = 18;
+            this.ddlType.Text = "Select Type";
+            this.ddlType.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.ddlType.TextLeftMargin = 5;
+            // 
+            // lblQty
+            // 
+            this.lblQty.BackColor = System.Drawing.Color.Transparent;
+            this.lblQty.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.lblQty.Location = new System.Drawing.Point(405, 180);
+            this.lblQty.Name = "lblQty";
+            this.lblQty.Size = new System.Drawing.Size(183, 25);
+            this.lblQty.TabIndex = 19;
+            this.lblQty.Text = "Quantity";
+            // 
+            // txtQty
+            // 
+            this.txtQty.AcceptsReturn = false;
+            this.txtQty.AcceptsTab = false;
+            this.txtQty.AnimationSpeed = 200;
+            this.txtQty.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.txtQty.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.txtQty.AutoSizeHeight = true;
+            this.txtQty.BackColor = System.Drawing.Color.Transparent;
+            this.txtQty.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtQty.BackgroundImage")));
+            this.txtQty.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.txtQty.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txtQty.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.txtQty.BorderColorIdle = System.Drawing.Color.Silver;
+            this.txtQty.BorderRadius = 5;
+            this.txtQty.BorderThickness = 1;
+            this.txtQty.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
+            this.txtQty.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txtQty.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtQty.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.txtQty.DefaultText = "";
+            this.txtQty.FillColor = System.Drawing.Color.Gainsboro;
+            this.txtQty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtQty.HideSelection = true;
+            this.txtQty.IconLeft = null;
+            this.txtQty.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtQty.IconPadding = 10;
+            this.txtQty.IconRight = null;
+            this.txtQty.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtQty.Lines = new string[0];
+            this.txtQty.Location = new System.Drawing.Point(411, 217);
+            this.txtQty.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtQty.MaxLength = 32767;
+            this.txtQty.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txtQty.Modified = false;
+            this.txtQty.Multiline = false;
+            this.txtQty.Name = "txtQty";
+            stateProperties5.BorderColor = System.Drawing.Color.LightGray;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtQty.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txtQty.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.Silver;
+            stateProperties7.FillColor = System.Drawing.Color.LightGray;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtQty.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.Silver;
+            stateProperties8.FillColor = System.Drawing.Color.Gainsboro;
+            stateProperties8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtQty.OnIdleState = stateProperties8;
+            this.txtQty.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtQty.PasswordChar = '\0';
+            this.txtQty.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtQty.PlaceholderText = "0";
+            this.txtQty.ReadOnly = false;
+            this.txtQty.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtQty.SelectedText = "";
+            this.txtQty.SelectionLength = 0;
+            this.txtQty.SelectionStart = 0;
+            this.txtQty.ShortcutsEnabled = true;
+            this.txtQty.Size = new System.Drawing.Size(395, 41);
+            this.txtQty.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.txtQty.TabIndex = 20;
+            this.txtQty.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtQty.TextMarginBottom = 0;
+            this.txtQty.TextMarginLeft = 3;
+            this.txtQty.TextMarginTop = 1;
+            this.txtQty.TextPlaceholder = "0";
+            this.txtQty.UseSystemPasswordChar = false;
+            this.txtQty.WordWrap = true;
+            // 
+            // lblReason
+            // 
+            this.lblReason.BackColor = System.Drawing.Color.Transparent;
+            this.lblReason.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReason.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.lblReason.Location = new System.Drawing.Point(23, 265);
+            this.lblReason.Name = "lblReason";
+            this.lblReason.Size = new System.Drawing.Size(152, 25);
+            this.lblReason.TabIndex = 21;
+            this.lblReason.Text = "Reason";
+            // 
+            // ddlReason
+            // 
+            this.ddlReason.BackColor = System.Drawing.Color.Transparent;
+            this.ddlReason.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.ddlReason.BorderColor = System.Drawing.Color.Gainsboro;
+            this.ddlReason.BorderRadius = 5;
+            this.ddlReason.Color = System.Drawing.Color.Gainsboro;
+            this.ddlReason.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.ddlReason.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.ddlReason.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.ddlReason.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.ddlReason.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.ddlReason.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.ddlReason.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.ddlReason.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.ddlReason.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ddlReason.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.ddlReason.FillDropDown = true;
+            this.ddlReason.FillIndicator = false;
+            this.ddlReason.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ddlReason.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ddlReason.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ddlReason.FormattingEnabled = true;
+            this.ddlReason.Icon = null;
+            this.ddlReason.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.ddlReason.IndicatorColor = System.Drawing.Color.DarkGray;
+            this.ddlReason.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.ddlReason.IndicatorThickness = 2;
+            this.ddlReason.IsDropdownOpened = false;
+            this.ddlReason.ItemBackColor = System.Drawing.Color.White;
+            this.ddlReason.ItemBorderColor = System.Drawing.Color.White;
+            this.ddlReason.ItemForeColor = System.Drawing.Color.Black;
+            this.ddlReason.ItemHeight = 26;
+            this.ddlReason.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.ddlReason.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.ddlReason.Items.AddRange(new object[] {
+            "Stock Received",
+            "Damaged Items",
+            "Customer Return",
+            "Inventory Correction"});
+            this.ddlReason.ItemTopMargin = 3;
+            this.ddlReason.Location = new System.Drawing.Point(28, 302);
+            this.ddlReason.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ddlReason.Name = "ddlReason";
+            this.ddlReason.Size = new System.Drawing.Size(776, 32);
+            this.ddlReason.TabIndex = 22;
+            this.ddlReason.Text = "Select Reason";
+            this.ddlReason.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.ddlReason.TextLeftMargin = 5;
+            // 
+            // lblNotes
+            // 
+            this.lblNotes.BackColor = System.Drawing.Color.Transparent;
+            this.lblNotes.Font = new System.Drawing.Font("Segoe UI", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNotes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.lblNotes.Location = new System.Drawing.Point(23, 351);
+            this.lblNotes.Name = "lblNotes";
+            this.lblNotes.Size = new System.Drawing.Size(183, 25);
+            this.lblNotes.TabIndex = 23;
+            this.lblNotes.Text = "Notes";
+            // 
+            // txtNotes
+            // 
+            this.txtNotes.AcceptsReturn = false;
+            this.txtNotes.AcceptsTab = false;
+            this.txtNotes.AnimationSpeed = 200;
+            this.txtNotes.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.txtNotes.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.txtNotes.AutoSizeHeight = true;
+            this.txtNotes.BackColor = System.Drawing.Color.Transparent;
+            this.txtNotes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtNotes.BackgroundImage")));
+            this.txtNotes.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.txtNotes.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txtNotes.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.txtNotes.BorderColorIdle = System.Drawing.Color.Silver;
+            this.txtNotes.BorderRadius = 5;
+            this.txtNotes.BorderThickness = 1;
+            this.txtNotes.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
+            this.txtNotes.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txtNotes.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNotes.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.txtNotes.DefaultText = "";
+            this.txtNotes.FillColor = System.Drawing.Color.Gainsboro;
+            this.txtNotes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtNotes.HideSelection = true;
+            this.txtNotes.IconLeft = null;
+            this.txtNotes.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNotes.IconPadding = 10;
+            this.txtNotes.IconRight = null;
+            this.txtNotes.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNotes.Lines = new string[0];
+            this.txtNotes.Location = new System.Drawing.Point(28, 388);
+            this.txtNotes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtNotes.MaxLength = 32767;
+            this.txtNotes.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txtNotes.Modified = false;
+            this.txtNotes.Multiline = false;
+            this.txtNotes.Name = "txtNotes";
+            stateProperties1.BorderColor = System.Drawing.Color.LightGray;
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtNotes.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txtNotes.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.Silver;
+            stateProperties3.FillColor = System.Drawing.Color.LightGray;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtNotes.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.Silver;
+            stateProperties4.FillColor = System.Drawing.Color.Gainsboro;
+            stateProperties4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtNotes.OnIdleState = stateProperties4;
+            this.txtNotes.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtNotes.PasswordChar = '\0';
+            this.txtNotes.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtNotes.PlaceholderText = "Additional Notes...";
+            this.txtNotes.ReadOnly = false;
+            this.txtNotes.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtNotes.SelectedText = "";
+            this.txtNotes.SelectionLength = 0;
+            this.txtNotes.SelectionStart = 0;
+            this.txtNotes.ShortcutsEnabled = true;
+            this.txtNotes.Size = new System.Drawing.Size(776, 41);
+            this.txtNotes.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.txtNotes.TabIndex = 24;
+            this.txtNotes.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtNotes.TextMarginBottom = 0;
+            this.txtNotes.TextMarginLeft = 3;
+            this.txtNotes.TextMarginTop = 1;
+            this.txtNotes.TextPlaceholder = "Additional Notes...";
+            this.txtNotes.UseSystemPasswordChar = false;
+            this.txtNotes.WordWrap = true;
+            // 
+            // tabAdjust
+            // 
+            this.tabAdjust.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tabAdjust.Controls.Add(this.pnlAdjustForm);
+            this.tabAdjust.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabAdjust.ForeColor = System.Drawing.Color.Black;
+            this.tabAdjust.Location = new System.Drawing.Point(4, 30);
+            this.tabAdjust.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabAdjust.Name = "tabAdjust";
+            this.tabAdjust.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabAdjust.Size = new System.Drawing.Size(1525, 723);
+            this.tabAdjust.TabIndex = 0;
+            this.tabAdjust.Text = "Adjust Stock";
+            this.tabAdjust.UseVisualStyleBackColor = true;
             // 
             // pnlLog
             // 
@@ -705,72 +744,8 @@
             this.pnlLog.Margin = new System.Windows.Forms.Padding(29, 30, 29, 30);
             this.pnlLog.Name = "pnlLog";
             this.pnlLog.ShowBorders = true;
-            this.pnlLog.Size = new System.Drawing.Size(1451, 350);
+            this.pnlLog.Size = new System.Drawing.Size(1451, 535);
             this.pnlLog.TabIndex = 14;
-            // 
-            // dgvAuditLog
-            // 
-            this.dgvAuditLog.AllowCustomTheming = false;
-            this.dgvAuditLog.AllowUserToAddRows = false;
-            this.dgvAuditLog.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.dgvAuditLog.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvAuditLog.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvAuditLog.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvAuditLog.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgvAuditLog.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvAuditLog.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvAuditLog.ColumnHeadersHeight = 40;
-            this.dgvAuditLog.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            this.dgvAuditLog.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.dgvAuditLog.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.dgvAuditLog.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.dgvAuditLog.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvAuditLog.CurrentTheme.BackColor = System.Drawing.Color.White;
-            this.dgvAuditLog.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.dgvAuditLog.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.DodgerBlue;
-            this.dgvAuditLog.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            this.dgvAuditLog.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.dgvAuditLog.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            this.dgvAuditLog.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvAuditLog.CurrentTheme.Name = null;
-            this.dgvAuditLog.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.dgvAuditLog.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.dgvAuditLog.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.dgvAuditLog.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.dgvAuditLog.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvAuditLog.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dgvAuditLog.EnableHeadersVisualStyles = false;
-            this.dgvAuditLog.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.dgvAuditLog.HeaderBackColor = System.Drawing.Color.DodgerBlue;
-            this.dgvAuditLog.HeaderBgColor = System.Drawing.Color.Empty;
-            this.dgvAuditLog.HeaderForeColor = System.Drawing.Color.White;
-            this.dgvAuditLog.Location = new System.Drawing.Point(32, 86);
-            this.dgvAuditLog.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dgvAuditLog.Name = "dgvAuditLog";
-            this.dgvAuditLog.ReadOnly = true;
-            this.dgvAuditLog.RowHeadersVisible = false;
-            this.dgvAuditLog.RowHeadersWidth = 53;
-            this.dgvAuditLog.RowTemplate.Height = 40;
-            this.dgvAuditLog.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvAuditLog.Size = new System.Drawing.Size(1385, 225);
-            this.dgvAuditLog.TabIndex = 15;
-            this.dgvAuditLog.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             // 
             // lblLogTitle
             // 
@@ -783,49 +758,83 @@
             this.lblLogTitle.TabIndex = 14;
             this.lblLogTitle.Text = "Stock Adjustment History";
             // 
-            // pnlHeader
+            // dgvAuditLog
             // 
-            this.pnlHeader.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlHeader.BackgroundColor = System.Drawing.Color.White;
-            this.pnlHeader.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlHeader.BackgroundImage")));
-            this.pnlHeader.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlHeader.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(238)))));
-            this.pnlHeader.BorderRadius = 8;
-            this.pnlHeader.BorderThickness = 1;
-            this.pnlHeader.Controls.Add(this.lblDate);
-            this.pnlHeader.Controls.Add(this.lblPageTitle);
-            this.pnlHeader.Location = new System.Drawing.Point(3, 2);
-            this.pnlHeader.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.ShowBorders = true;
-            this.pnlHeader.Size = new System.Drawing.Size(1536, 79);
-            this.pnlHeader.TabIndex = 3;
+            this.dgvAuditLog.AllowCustomTheming = false;
+            this.dgvAuditLog.AllowUserToAddRows = false;
+            this.dgvAuditLog.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            this.dgvAuditLog.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvAuditLog.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvAuditLog.BackgroundColor = System.Drawing.Color.White;
+            this.dgvAuditLog.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvAuditLog.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgvAuditLog.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvAuditLog.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvAuditLog.ColumnHeadersHeight = 40;
+            this.dgvAuditLog.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
+            this.dgvAuditLog.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.dgvAuditLog.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.White;
+            this.dgvAuditLog.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            this.dgvAuditLog.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            this.dgvAuditLog.CurrentTheme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            this.dgvAuditLog.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
+            this.dgvAuditLog.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            this.dgvAuditLog.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            this.dgvAuditLog.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.dgvAuditLog.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.dgvAuditLog.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.dgvAuditLog.CurrentTheme.Name = null;
+            this.dgvAuditLog.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
+            this.dgvAuditLog.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.dgvAuditLog.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.White;
+            this.dgvAuditLog.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            this.dgvAuditLog.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvAuditLog.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvAuditLog.EnableHeadersVisualStyles = false;
+            this.dgvAuditLog.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
+            this.dgvAuditLog.HeaderBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            this.dgvAuditLog.HeaderBgColor = System.Drawing.Color.Empty;
+            this.dgvAuditLog.HeaderForeColor = System.Drawing.Color.White;
+            this.dgvAuditLog.Location = new System.Drawing.Point(3, 86);
+            this.dgvAuditLog.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvAuditLog.Name = "dgvAuditLog";
+            this.dgvAuditLog.ReadOnly = true;
+            this.dgvAuditLog.RowHeadersVisible = false;
+            this.dgvAuditLog.RowHeadersWidth = 53;
+            this.dgvAuditLog.RowTemplate.Height = 40;
+            this.dgvAuditLog.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvAuditLog.Size = new System.Drawing.Size(1445, 447);
+            this.dgvAuditLog.TabIndex = 15;
+            this.dgvAuditLog.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Dark;
             // 
-            // lblDate
+            // tabLog
             // 
-            this.lblDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblDate.AutoSize = true;
-            this.lblDate.BackColor = System.Drawing.Color.White;
-            this.lblDate.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblDate.Location = new System.Drawing.Point(1216, 23);
-            this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(285, 30);
-            this.lblDate.TabIndex = 5;
-            this.lblDate.Text = "Saturday, November 22, 2025";
-            // 
-            // lblPageTitle
-            // 
-            this.lblPageTitle.AutoSize = true;
-            this.lblPageTitle.BackColor = System.Drawing.Color.White;
-            this.lblPageTitle.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPageTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblPageTitle.Location = new System.Drawing.Point(19, 23);
-            this.lblPageTitle.Name = "lblPageTitle";
-            this.lblPageTitle.Size = new System.Drawing.Size(201, 32);
-            this.lblPageTitle.TabIndex = 4;
-            this.lblPageTitle.Text = "Stock Adjustment";
+            this.tabLog.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tabLog.Controls.Add(this.pnlLog);
+            this.tabLog.Location = new System.Drawing.Point(4, 30);
+            this.tabLog.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabLog.Name = "tabLog";
+            this.tabLog.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabLog.Size = new System.Drawing.Size(1525, 723);
+            this.tabLog.TabIndex = 1;
+            this.tabLog.Text = "Audit Log";
+            this.tabLog.UseVisualStyleBackColor = true;
             // 
             // StockAdjustmentPage
             // 
@@ -838,15 +847,15 @@
             this.pnlMain.ResumeLayout(false);
             this.pnlContainer.ResumeLayout(false);
             this.tabStock.ResumeLayout(false);
-            this.tabAdjust.ResumeLayout(false);
+            this.pnlHeader.ResumeLayout(false);
+            this.pnlHeader.PerformLayout();
             this.pnlAdjustForm.ResumeLayout(false);
             this.pnlAdjustForm.PerformLayout();
-            this.tabLog.ResumeLayout(false);
+            this.tabAdjust.ResumeLayout(false);
             this.pnlLog.ResumeLayout(false);
             this.pnlLog.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAuditLog)).EndInit();
-            this.pnlHeader.ResumeLayout(false);
-            this.pnlHeader.PerformLayout();
+            this.tabLog.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

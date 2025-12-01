@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SupplierProductsCard));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.pnlSupplierItem = new Bunifu.UI.WinForms.BunifuPanel();
+            this.btnViewSupplier = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.supProducts = new System.Windows.Forms.Label();
             this.supName = new System.Windows.Forms.Label();
-            this.btnViewSupplier = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.pnlSupplierItem.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,27 +55,6 @@
             this.pnlSupplierItem.ShowBorders = true;
             this.pnlSupplierItem.Size = new System.Drawing.Size(1370, 100);
             this.pnlSupplierItem.TabIndex = 16;
-            // 
-            // supProducts
-            // 
-            this.supProducts.AutoSize = true;
-            this.supProducts.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.supProducts.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.supProducts.Location = new System.Drawing.Point(21, 39);
-            this.supProducts.Name = "supProducts";
-            this.supProducts.Size = new System.Drawing.Size(91, 23);
-            this.supProducts.TabIndex = 1;
-            this.supProducts.Text = "2 products";
-            // 
-            // supName
-            // 
-            this.supName.AutoSize = true;
-            this.supName.Font = new System.Drawing.Font("Segoe UI Semibold", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.supName.Location = new System.Drawing.Point(20, 14);
-            this.supName.Name = "supName";
-            this.supName.Size = new System.Drawing.Size(157, 25);
-            this.supName.TabIndex = 0;
-            this.supName.Text = "Tech Supplies Inc";
             // 
             // btnViewSupplier
             // 
@@ -169,6 +148,28 @@
             this.btnViewSupplier.TextMarginLeft = 0;
             this.btnViewSupplier.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnViewSupplier.UseDefaultRadiusAndThickness = true;
+            this.btnViewSupplier.Click += new System.EventHandler(this.btnViewSupplier_Click);
+            // 
+            // supProducts
+            // 
+            this.supProducts.AutoSize = true;
+            this.supProducts.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.supProducts.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.supProducts.Location = new System.Drawing.Point(21, 39);
+            this.supProducts.Name = "supProducts";
+            this.supProducts.Size = new System.Drawing.Size(91, 23);
+            this.supProducts.TabIndex = 1;
+            this.supProducts.Text = "2 products";
+            // 
+            // supName
+            // 
+            this.supName.AutoSize = true;
+            this.supName.Font = new System.Drawing.Font("Segoe UI Semibold", 10.944F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.supName.Location = new System.Drawing.Point(20, 14);
+            this.supName.Name = "supName";
+            this.supName.Size = new System.Drawing.Size(157, 25);
+            this.supName.TabIndex = 0;
+            this.supName.Text = "Tech Supplies Inc";
             // 
             // SupplierProductsCard
             // 

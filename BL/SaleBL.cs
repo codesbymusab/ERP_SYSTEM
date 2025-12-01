@@ -11,6 +11,8 @@ namespace ERP_System.BL
 
         public DataTable GetAllSales() => dl.GetAll();
 
+        public DataTable GetAllSalesByStatus(string status) => dl.GetAllByStatus(status);
+
         public SaleDTO GetSale(int id) => dl.GetById(id);
 
         public int AddSale(SaleDTO dto)
@@ -26,5 +28,19 @@ namespace ERP_System.BL
         public void UpdateSale(SaleDTO dto) => dl.Update(dto);
 
         public void DeleteSale(int id) => dl.Delete(id);
+
+        public int GetTotalSalesCount(string status) => dl.GetTotalSalesCount(status);
+
+      
+
+        public decimal GetTotalRevenue() => dl.GetTotalRevenue();
+
+        
+        public decimal GetTotalRevenue(DateTime from, DateTime to) => dl.GetTotalRevenue(from, to);
+
+        public decimal GetTotalRevenue(DateTime? from, DateTime? to) => dl.GetTotalRevenue(from, to);
+    
+    
+    
     }
 }

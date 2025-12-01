@@ -23,7 +23,47 @@
             this.bunifuChartCanvas1 = new Bunifu.Charts.WinForms.BunifuChartCanvas();
             this.bunifuVScrollBar1 = new Bunifu.UI.WinForms.BunifuVScrollBar();
             this.bunifuPanel4 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.l_thres4 = new System.Windows.Forms.Label();
+            this.l_qty4 = new System.Windows.Forms.Label();
+            this.l_icode4 = new System.Windows.Forms.Label();
+            this.l_iname4 = new System.Windows.Forms.Label();
+            this.bunifuSeparator4 = new Bunifu.UI.WinForms.BunifuSeparator();
+            this.l_thres3 = new System.Windows.Forms.Label();
+            this.l_qty3 = new System.Windows.Forms.Label();
+            this.l_icode3 = new System.Windows.Forms.Label();
+            this.l_iname3 = new System.Windows.Forms.Label();
+            this.bunifuSeparator5 = new Bunifu.UI.WinForms.BunifuSeparator();
+            this.l_thres2 = new System.Windows.Forms.Label();
+            this.l_qty2 = new System.Windows.Forms.Label();
+            this.l_icode2 = new System.Windows.Forms.Label();
+            this.l_iname2 = new System.Windows.Forms.Label();
+            this.bunifuSeparator6 = new Bunifu.UI.WinForms.BunifuSeparator();
+            this.l_thres1 = new System.Windows.Forms.Label();
+            this.l_qty1 = new System.Windows.Forms.Label();
+            this.l_icode1 = new System.Windows.Forms.Label();
+            this.l_iname1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.bunifuPanel3 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.l_status4 = new System.Windows.Forms.Label();
+            this.l_t4 = new System.Windows.Forms.Label();
+            this.l_cname4 = new System.Windows.Forms.Label();
+            this.l_sid4 = new System.Windows.Forms.Label();
+            this.bunifuSeparator3 = new Bunifu.UI.WinForms.BunifuSeparator();
+            this.l_status3 = new System.Windows.Forms.Label();
+            this.l_t3 = new System.Windows.Forms.Label();
+            this.l_cname3 = new System.Windows.Forms.Label();
+            this.l_sid3 = new System.Windows.Forms.Label();
+            this.bunifuSeparator2 = new Bunifu.UI.WinForms.BunifuSeparator();
+            this.l_status2 = new System.Windows.Forms.Label();
+            this.l_t2 = new System.Windows.Forms.Label();
+            this.l_cname2 = new System.Windows.Forms.Label();
+            this.l_sid2 = new System.Windows.Forms.Label();
+            this.bunifuSeparator1 = new Bunifu.UI.WinForms.BunifuSeparator();
+            this.l_status1 = new System.Windows.Forms.Label();
+            this.l_t1 = new System.Windows.Forms.Label();
+            this.l_cname1 = new System.Windows.Forms.Label();
+            this.l_sid1 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.pnlHeader = new Bunifu.UI.WinForms.BunifuPanel();
             this.lblDate = new System.Windows.Forms.Label();
             this.lblPageTitle = new System.Windows.Forms.Label();
@@ -48,46 +88,6 @@
             this.bunifuChartCanvas2 = new Bunifu.Charts.WinForms.BunifuChartCanvas();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuPanel2 = new Bunifu.UI.WinForms.BunifuPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.l_sid1 = new System.Windows.Forms.Label();
-            this.l_cname1 = new System.Windows.Forms.Label();
-            this.l_t1 = new System.Windows.Forms.Label();
-            this.l_status1 = new System.Windows.Forms.Label();
-            this.bunifuSeparator1 = new Bunifu.UI.WinForms.BunifuSeparator();
-            this.bunifuSeparator2 = new Bunifu.UI.WinForms.BunifuSeparator();
-            this.l_status2 = new System.Windows.Forms.Label();
-            this.l_t2 = new System.Windows.Forms.Label();
-            this.l_cname2 = new System.Windows.Forms.Label();
-            this.l_sid2 = new System.Windows.Forms.Label();
-            this.bunifuSeparator3 = new Bunifu.UI.WinForms.BunifuSeparator();
-            this.l_status3 = new System.Windows.Forms.Label();
-            this.l_t3 = new System.Windows.Forms.Label();
-            this.l_cname3 = new System.Windows.Forms.Label();
-            this.l_sid3 = new System.Windows.Forms.Label();
-            this.l_status4 = new System.Windows.Forms.Label();
-            this.l_t4 = new System.Windows.Forms.Label();
-            this.l_cname4 = new System.Windows.Forms.Label();
-            this.l_sid4 = new System.Windows.Forms.Label();
-            this.l_thres4 = new System.Windows.Forms.Label();
-            this.l_qty4 = new System.Windows.Forms.Label();
-            this.l_icode4 = new System.Windows.Forms.Label();
-            this.l_iname4 = new System.Windows.Forms.Label();
-            this.bunifuSeparator4 = new Bunifu.UI.WinForms.BunifuSeparator();
-            this.l_thres3 = new System.Windows.Forms.Label();
-            this.l_qty3 = new System.Windows.Forms.Label();
-            this.l_icode3 = new System.Windows.Forms.Label();
-            this.l_iname3 = new System.Windows.Forms.Label();
-            this.bunifuSeparator5 = new Bunifu.UI.WinForms.BunifuSeparator();
-            this.l_thres2 = new System.Windows.Forms.Label();
-            this.l_qty2 = new System.Windows.Forms.Label();
-            this.l_icode2 = new System.Windows.Forms.Label();
-            this.l_iname2 = new System.Windows.Forms.Label();
-            this.bunifuSeparator6 = new Bunifu.UI.WinForms.BunifuSeparator();
-            this.l_thres1 = new System.Windows.Forms.Label();
-            this.l_qty1 = new System.Windows.Forms.Label();
-            this.l_icode1 = new System.Windows.Forms.Label();
-            this.l_iname1 = new System.Windows.Forms.Label();
             this.bunifuPanel4.SuspendLayout();
             this.bunifuPanel3.SuspendLayout();
             this.pnlHeader.SuspendLayout();
@@ -275,6 +275,259 @@
             this.bunifuPanel4.Size = new System.Drawing.Size(676, 448);
             this.bunifuPanel4.TabIndex = 8;
             // 
+            // l_thres4
+            // 
+            this.l_thres4.AutoSize = true;
+            this.l_thres4.BackColor = System.Drawing.Color.Transparent;
+            this.l_thres4.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_thres4.ForeColor = System.Drawing.Color.Gray;
+            this.l_thres4.Location = new System.Drawing.Point(556, 382);
+            this.l_thres4.Name = "l_thres4";
+            this.l_thres4.Size = new System.Drawing.Size(95, 32);
+            this.l_thres4.TabIndex = 38;
+            this.l_thres4.Text = "Min: 20";
+            this.l_thres4.Click += new System.EventHandler(this.l_thres4_Click);
+            // 
+            // l_qty4
+            // 
+            this.l_qty4.AutoSize = true;
+            this.l_qty4.BackColor = System.Drawing.Color.Transparent;
+            this.l_qty4.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_qty4.ForeColor = System.Drawing.Color.Crimson;
+            this.l_qty4.Location = new System.Drawing.Point(562, 352);
+            this.l_qty4.Name = "l_qty4";
+            this.l_qty4.Size = new System.Drawing.Size(85, 30);
+            this.l_qty4.TabIndex = 37;
+            this.l_qty4.Text = "10 units";
+            // 
+            // l_icode4
+            // 
+            this.l_icode4.AutoSize = true;
+            this.l_icode4.BackColor = System.Drawing.Color.Transparent;
+            this.l_icode4.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_icode4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.l_icode4.Location = new System.Drawing.Point(18, 395);
+            this.l_icode4.Name = "l_icode4";
+            this.l_icode4.Size = new System.Drawing.Size(95, 23);
+            this.l_icode4.TabIndex = 36;
+            this.l_icode4.Text = "John Smith";
+            // 
+            // l_iname4
+            // 
+            this.l_iname4.AutoSize = true;
+            this.l_iname4.BackColor = System.Drawing.Color.Transparent;
+            this.l_iname4.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_iname4.ForeColor = System.Drawing.Color.Black;
+            this.l_iname4.Location = new System.Drawing.Point(17, 365);
+            this.l_iname4.Name = "l_iname4";
+            this.l_iname4.Size = new System.Drawing.Size(100, 30);
+            this.l_iname4.TabIndex = 35;
+            this.l_iname4.Text = "SAL-1234";
+            // 
+            // bunifuSeparator4
+            // 
+            this.bunifuSeparator4.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuSeparator4.BackgroundImage")));
+            this.bunifuSeparator4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuSeparator4.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Round;
+            this.bunifuSeparator4.LineColor = System.Drawing.Color.Gainsboro;
+            this.bunifuSeparator4.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
+            this.bunifuSeparator4.LineThickness = 2;
+            this.bunifuSeparator4.Location = new System.Drawing.Point(12, 331);
+            this.bunifuSeparator4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuSeparator4.Name = "bunifuSeparator4";
+            this.bunifuSeparator4.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
+            this.bunifuSeparator4.Size = new System.Drawing.Size(643, 17);
+            this.bunifuSeparator4.TabIndex = 34;
+            // 
+            // l_thres3
+            // 
+            this.l_thres3.AutoSize = true;
+            this.l_thres3.BackColor = System.Drawing.Color.Transparent;
+            this.l_thres3.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_thres3.ForeColor = System.Drawing.Color.Gray;
+            this.l_thres3.Location = new System.Drawing.Point(561, 294);
+            this.l_thres3.Name = "l_thres3";
+            this.l_thres3.Size = new System.Drawing.Size(82, 32);
+            this.l_thres3.TabIndex = 33;
+            this.l_thres3.Text = "Min: 2";
+            // 
+            // l_qty3
+            // 
+            this.l_qty3.AutoSize = true;
+            this.l_qty3.BackColor = System.Drawing.Color.Transparent;
+            this.l_qty3.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_qty3.ForeColor = System.Drawing.Color.Crimson;
+            this.l_qty3.Location = new System.Drawing.Point(562, 265);
+            this.l_qty3.Name = "l_qty3";
+            this.l_qty3.Size = new System.Drawing.Size(77, 30);
+            this.l_qty3.TabIndex = 32;
+            this.l_qty3.Text = "4 units";
+            // 
+            // l_icode3
+            // 
+            this.l_icode3.AutoSize = true;
+            this.l_icode3.BackColor = System.Drawing.Color.Transparent;
+            this.l_icode3.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_icode3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.l_icode3.Location = new System.Drawing.Point(18, 303);
+            this.l_icode3.Name = "l_icode3";
+            this.l_icode3.Size = new System.Drawing.Size(95, 23);
+            this.l_icode3.TabIndex = 31;
+            this.l_icode3.Text = "John Smith";
+            // 
+            // l_iname3
+            // 
+            this.l_iname3.AutoSize = true;
+            this.l_iname3.BackColor = System.Drawing.Color.Transparent;
+            this.l_iname3.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_iname3.ForeColor = System.Drawing.Color.Black;
+            this.l_iname3.Location = new System.Drawing.Point(17, 273);
+            this.l_iname3.Name = "l_iname3";
+            this.l_iname3.Size = new System.Drawing.Size(100, 30);
+            this.l_iname3.TabIndex = 30;
+            this.l_iname3.Text = "SAL-1234";
+            // 
+            // bunifuSeparator5
+            // 
+            this.bunifuSeparator5.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuSeparator5.BackgroundImage")));
+            this.bunifuSeparator5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuSeparator5.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Round;
+            this.bunifuSeparator5.LineColor = System.Drawing.Color.Gainsboro;
+            this.bunifuSeparator5.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
+            this.bunifuSeparator5.LineThickness = 2;
+            this.bunifuSeparator5.Location = new System.Drawing.Point(22, 239);
+            this.bunifuSeparator5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuSeparator5.Name = "bunifuSeparator5";
+            this.bunifuSeparator5.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
+            this.bunifuSeparator5.Size = new System.Drawing.Size(629, 17);
+            this.bunifuSeparator5.TabIndex = 29;
+            // 
+            // l_thres2
+            // 
+            this.l_thres2.AutoSize = true;
+            this.l_thres2.BackColor = System.Drawing.Color.Transparent;
+            this.l_thres2.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_thres2.ForeColor = System.Drawing.Color.Gray;
+            this.l_thres2.Location = new System.Drawing.Point(556, 202);
+            this.l_thres2.Name = "l_thres2";
+            this.l_thres2.Size = new System.Drawing.Size(89, 32);
+            this.l_thres2.TabIndex = 28;
+            this.l_thres2.Text = "Min: 5 ";
+            // 
+            // l_qty2
+            // 
+            this.l_qty2.AutoSize = true;
+            this.l_qty2.BackColor = System.Drawing.Color.Transparent;
+            this.l_qty2.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_qty2.ForeColor = System.Drawing.Color.Crimson;
+            this.l_qty2.Location = new System.Drawing.Point(557, 173);
+            this.l_qty2.Name = "l_qty2";
+            this.l_qty2.Size = new System.Drawing.Size(77, 30);
+            this.l_qty2.TabIndex = 27;
+            this.l_qty2.Text = "3 units";
+            // 
+            // l_icode2
+            // 
+            this.l_icode2.AutoSize = true;
+            this.l_icode2.BackColor = System.Drawing.Color.Transparent;
+            this.l_icode2.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_icode2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.l_icode2.Location = new System.Drawing.Point(18, 211);
+            this.l_icode2.Name = "l_icode2";
+            this.l_icode2.Size = new System.Drawing.Size(95, 23);
+            this.l_icode2.TabIndex = 26;
+            this.l_icode2.Text = "John Smith";
+            // 
+            // l_iname2
+            // 
+            this.l_iname2.AutoSize = true;
+            this.l_iname2.BackColor = System.Drawing.Color.Transparent;
+            this.l_iname2.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_iname2.ForeColor = System.Drawing.Color.Black;
+            this.l_iname2.Location = new System.Drawing.Point(17, 181);
+            this.l_iname2.Name = "l_iname2";
+            this.l_iname2.Size = new System.Drawing.Size(100, 30);
+            this.l_iname2.TabIndex = 25;
+            this.l_iname2.Text = "SAL-1234";
+            // 
+            // bunifuSeparator6
+            // 
+            this.bunifuSeparator6.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuSeparator6.BackgroundImage")));
+            this.bunifuSeparator6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuSeparator6.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Round;
+            this.bunifuSeparator6.LineColor = System.Drawing.Color.Gainsboro;
+            this.bunifuSeparator6.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
+            this.bunifuSeparator6.LineThickness = 2;
+            this.bunifuSeparator6.Location = new System.Drawing.Point(22, 147);
+            this.bunifuSeparator6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuSeparator6.Name = "bunifuSeparator6";
+            this.bunifuSeparator6.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
+            this.bunifuSeparator6.Size = new System.Drawing.Size(629, 17);
+            this.bunifuSeparator6.TabIndex = 24;
+            // 
+            // l_thres1
+            // 
+            this.l_thres1.AutoSize = true;
+            this.l_thres1.BackColor = System.Drawing.Color.Transparent;
+            this.l_thres1.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_thres1.ForeColor = System.Drawing.Color.Gray;
+            this.l_thres1.Location = new System.Drawing.Point(556, 110);
+            this.l_thres1.Name = "l_thres1";
+            this.l_thres1.Size = new System.Drawing.Size(92, 32);
+            this.l_thres1.TabIndex = 23;
+            this.l_thres1.Text = "Min: 10";
+            // 
+            // l_qty1
+            // 
+            this.l_qty1.AutoSize = true;
+            this.l_qty1.BackColor = System.Drawing.Color.Transparent;
+            this.l_qty1.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_qty1.ForeColor = System.Drawing.Color.Crimson;
+            this.l_qty1.Location = new System.Drawing.Point(557, 81);
+            this.l_qty1.Name = "l_qty1";
+            this.l_qty1.Size = new System.Drawing.Size(77, 30);
+            this.l_qty1.TabIndex = 22;
+            this.l_qty1.Text = "5 units";
+            // 
+            // l_icode1
+            // 
+            this.l_icode1.AutoSize = true;
+            this.l_icode1.BackColor = System.Drawing.Color.Transparent;
+            this.l_icode1.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_icode1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.l_icode1.Location = new System.Drawing.Point(18, 119);
+            this.l_icode1.Name = "l_icode1";
+            this.l_icode1.Size = new System.Drawing.Size(95, 23);
+            this.l_icode1.TabIndex = 21;
+            this.l_icode1.Text = "John Smith";
+            // 
+            // l_iname1
+            // 
+            this.l_iname1.AutoSize = true;
+            this.l_iname1.BackColor = System.Drawing.Color.Transparent;
+            this.l_iname1.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_iname1.ForeColor = System.Drawing.Color.Black;
+            this.l_iname1.Location = new System.Drawing.Point(17, 89);
+            this.l_iname1.Name = "l_iname1";
+            this.l_iname1.Size = new System.Drawing.Size(100, 30);
+            this.l_iname1.TabIndex = 20;
+            this.l_iname1.Text = "SAL-1234";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label2.Location = new System.Drawing.Point(16, 40);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(195, 32);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Low Stock Alerts";
+            // 
             // bunifuPanel3
             // 
             this.bunifuPanel3.BackgroundColor = System.Drawing.Color.White;
@@ -310,6 +563,258 @@
             this.bunifuPanel3.ShowBorders = true;
             this.bunifuPanel3.Size = new System.Drawing.Size(712, 448);
             this.bunifuPanel3.TabIndex = 7;
+            // 
+            // l_status4
+            // 
+            this.l_status4.AutoSize = true;
+            this.l_status4.BackColor = System.Drawing.Color.Transparent;
+            this.l_status4.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_status4.ForeColor = System.Drawing.Color.LawnGreen;
+            this.l_status4.Location = new System.Drawing.Point(577, 382);
+            this.l_status4.Name = "l_status4";
+            this.l_status4.Size = new System.Drawing.Size(110, 32);
+            this.l_status4.TabIndex = 19;
+            this.l_status4.Text = "Received";
+            // 
+            // l_t4
+            // 
+            this.l_t4.AutoSize = true;
+            this.l_t4.BackColor = System.Drawing.Color.Transparent;
+            this.l_t4.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_t4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.l_t4.Location = new System.Drawing.Point(612, 352);
+            this.l_t4.Name = "l_t4";
+            this.l_t4.Size = new System.Drawing.Size(75, 30);
+            this.l_t4.TabIndex = 18;
+            this.l_t4.Text = "1250 $";
+            // 
+            // l_cname4
+            // 
+            this.l_cname4.AutoSize = true;
+            this.l_cname4.BackColor = System.Drawing.Color.Transparent;
+            this.l_cname4.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_cname4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.l_cname4.Location = new System.Drawing.Point(22, 395);
+            this.l_cname4.Name = "l_cname4";
+            this.l_cname4.Size = new System.Drawing.Size(95, 23);
+            this.l_cname4.TabIndex = 17;
+            this.l_cname4.Text = "John Smith";
+            // 
+            // l_sid4
+            // 
+            this.l_sid4.AutoSize = true;
+            this.l_sid4.BackColor = System.Drawing.Color.Transparent;
+            this.l_sid4.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_sid4.ForeColor = System.Drawing.Color.Black;
+            this.l_sid4.Location = new System.Drawing.Point(21, 365);
+            this.l_sid4.Name = "l_sid4";
+            this.l_sid4.Size = new System.Drawing.Size(100, 30);
+            this.l_sid4.TabIndex = 16;
+            this.l_sid4.Text = "SAL-1234";
+            // 
+            // bunifuSeparator3
+            // 
+            this.bunifuSeparator3.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuSeparator3.BackgroundImage")));
+            this.bunifuSeparator3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuSeparator3.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Round;
+            this.bunifuSeparator3.LineColor = System.Drawing.Color.Gainsboro;
+            this.bunifuSeparator3.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
+            this.bunifuSeparator3.LineThickness = 2;
+            this.bunifuSeparator3.Location = new System.Drawing.Point(26, 331);
+            this.bunifuSeparator3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuSeparator3.Name = "bunifuSeparator3";
+            this.bunifuSeparator3.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
+            this.bunifuSeparator3.Size = new System.Drawing.Size(661, 17);
+            this.bunifuSeparator3.TabIndex = 15;
+            // 
+            // l_status3
+            // 
+            this.l_status3.AutoSize = true;
+            this.l_status3.BackColor = System.Drawing.Color.Transparent;
+            this.l_status3.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_status3.ForeColor = System.Drawing.Color.Crimson;
+            this.l_status3.Location = new System.Drawing.Point(585, 294);
+            this.l_status3.Name = "l_status3";
+            this.l_status3.Size = new System.Drawing.Size(102, 32);
+            this.l_status3.TabIndex = 14;
+            this.l_status3.Text = "Pending";
+            // 
+            // l_t3
+            // 
+            this.l_t3.AutoSize = true;
+            this.l_t3.BackColor = System.Drawing.Color.Transparent;
+            this.l_t3.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_t3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.l_t3.Location = new System.Drawing.Point(612, 265);
+            this.l_t3.Name = "l_t3";
+            this.l_t3.Size = new System.Drawing.Size(75, 30);
+            this.l_t3.TabIndex = 13;
+            this.l_t3.Text = "1250 $";
+            // 
+            // l_cname3
+            // 
+            this.l_cname3.AutoSize = true;
+            this.l_cname3.BackColor = System.Drawing.Color.Transparent;
+            this.l_cname3.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_cname3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.l_cname3.Location = new System.Drawing.Point(22, 303);
+            this.l_cname3.Name = "l_cname3";
+            this.l_cname3.Size = new System.Drawing.Size(95, 23);
+            this.l_cname3.TabIndex = 12;
+            this.l_cname3.Text = "John Smith";
+            // 
+            // l_sid3
+            // 
+            this.l_sid3.AutoSize = true;
+            this.l_sid3.BackColor = System.Drawing.Color.Transparent;
+            this.l_sid3.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_sid3.ForeColor = System.Drawing.Color.Black;
+            this.l_sid3.Location = new System.Drawing.Point(21, 273);
+            this.l_sid3.Name = "l_sid3";
+            this.l_sid3.Size = new System.Drawing.Size(100, 30);
+            this.l_sid3.TabIndex = 11;
+            this.l_sid3.Text = "SAL-1234";
+            // 
+            // bunifuSeparator2
+            // 
+            this.bunifuSeparator2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuSeparator2.BackgroundImage")));
+            this.bunifuSeparator2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuSeparator2.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Round;
+            this.bunifuSeparator2.LineColor = System.Drawing.Color.Gainsboro;
+            this.bunifuSeparator2.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
+            this.bunifuSeparator2.LineThickness = 2;
+            this.bunifuSeparator2.Location = new System.Drawing.Point(26, 239);
+            this.bunifuSeparator2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuSeparator2.Name = "bunifuSeparator2";
+            this.bunifuSeparator2.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
+            this.bunifuSeparator2.Size = new System.Drawing.Size(661, 17);
+            this.bunifuSeparator2.TabIndex = 10;
+            // 
+            // l_status2
+            // 
+            this.l_status2.AutoSize = true;
+            this.l_status2.BackColor = System.Drawing.Color.Transparent;
+            this.l_status2.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_status2.ForeColor = System.Drawing.Color.LawnGreen;
+            this.l_status2.Location = new System.Drawing.Point(577, 203);
+            this.l_status2.Name = "l_status2";
+            this.l_status2.Size = new System.Drawing.Size(110, 32);
+            this.l_status2.TabIndex = 9;
+            this.l_status2.Text = "Received";
+            // 
+            // l_t2
+            // 
+            this.l_t2.AutoSize = true;
+            this.l_t2.BackColor = System.Drawing.Color.Transparent;
+            this.l_t2.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_t2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.l_t2.Location = new System.Drawing.Point(612, 173);
+            this.l_t2.Name = "l_t2";
+            this.l_t2.Size = new System.Drawing.Size(75, 30);
+            this.l_t2.TabIndex = 8;
+            this.l_t2.Text = "1250 $";
+            // 
+            // l_cname2
+            // 
+            this.l_cname2.AutoSize = true;
+            this.l_cname2.BackColor = System.Drawing.Color.Transparent;
+            this.l_cname2.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_cname2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.l_cname2.Location = new System.Drawing.Point(22, 211);
+            this.l_cname2.Name = "l_cname2";
+            this.l_cname2.Size = new System.Drawing.Size(95, 23);
+            this.l_cname2.TabIndex = 7;
+            this.l_cname2.Text = "John Smith";
+            // 
+            // l_sid2
+            // 
+            this.l_sid2.AutoSize = true;
+            this.l_sid2.BackColor = System.Drawing.Color.Transparent;
+            this.l_sid2.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_sid2.ForeColor = System.Drawing.Color.Black;
+            this.l_sid2.Location = new System.Drawing.Point(21, 181);
+            this.l_sid2.Name = "l_sid2";
+            this.l_sid2.Size = new System.Drawing.Size(100, 30);
+            this.l_sid2.TabIndex = 6;
+            this.l_sid2.Text = "SAL-1234";
+            // 
+            // bunifuSeparator1
+            // 
+            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuSeparator1.BackgroundImage")));
+            this.bunifuSeparator1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuSeparator1.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Round;
+            this.bunifuSeparator1.LineColor = System.Drawing.Color.Gainsboro;
+            this.bunifuSeparator1.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
+            this.bunifuSeparator1.LineThickness = 2;
+            this.bunifuSeparator1.Location = new System.Drawing.Point(26, 147);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuSeparator1.Name = "bunifuSeparator1";
+            this.bunifuSeparator1.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
+            this.bunifuSeparator1.Size = new System.Drawing.Size(661, 17);
+            this.bunifuSeparator1.TabIndex = 5;
+            // 
+            // l_status1
+            // 
+            this.l_status1.AutoSize = true;
+            this.l_status1.BackColor = System.Drawing.Color.Transparent;
+            this.l_status1.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_status1.ForeColor = System.Drawing.Color.LawnGreen;
+            this.l_status1.Location = new System.Drawing.Point(577, 111);
+            this.l_status1.Name = "l_status1";
+            this.l_status1.Size = new System.Drawing.Size(110, 32);
+            this.l_status1.TabIndex = 4;
+            this.l_status1.Text = "Received";
+            // 
+            // l_t1
+            // 
+            this.l_t1.AutoSize = true;
+            this.l_t1.BackColor = System.Drawing.Color.Transparent;
+            this.l_t1.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_t1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.l_t1.Location = new System.Drawing.Point(612, 81);
+            this.l_t1.Name = "l_t1";
+            this.l_t1.Size = new System.Drawing.Size(75, 30);
+            this.l_t1.TabIndex = 3;
+            this.l_t1.Text = "1250 $";
+            // 
+            // l_cname1
+            // 
+            this.l_cname1.AutoSize = true;
+            this.l_cname1.BackColor = System.Drawing.Color.Transparent;
+            this.l_cname1.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_cname1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.l_cname1.Location = new System.Drawing.Point(22, 119);
+            this.l_cname1.Name = "l_cname1";
+            this.l_cname1.Size = new System.Drawing.Size(95, 23);
+            this.l_cname1.TabIndex = 2;
+            this.l_cname1.Text = "John Smith";
+            // 
+            // l_sid1
+            // 
+            this.l_sid1.AutoSize = true;
+            this.l_sid1.BackColor = System.Drawing.Color.Transparent;
+            this.l_sid1.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l_sid1.ForeColor = System.Drawing.Color.Black;
+            this.l_sid1.Location = new System.Drawing.Point(21, 89);
+            this.l_sid1.Name = "l_sid1";
+            this.l_sid1.Size = new System.Drawing.Size(100, 30);
+            this.l_sid1.TabIndex = 1;
+            this.l_sid1.Text = "SAL-1234";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.Location = new System.Drawing.Point(20, 27);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(150, 32);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Recent Sales";
             // 
             // pnlHeader
             // 
@@ -688,511 +1193,6 @@
             this.bunifuPanel2.ShowBorders = true;
             this.bunifuPanel2.Size = new System.Drawing.Size(544, 329);
             this.bunifuPanel2.TabIndex = 10;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(20, 27);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 32);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Recent Sales";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(16, 40);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(195, 32);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Low Stock Alerts";
-            // 
-            // l_sid1
-            // 
-            this.l_sid1.AutoSize = true;
-            this.l_sid1.BackColor = System.Drawing.Color.Transparent;
-            this.l_sid1.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_sid1.ForeColor = System.Drawing.Color.Black;
-            this.l_sid1.Location = new System.Drawing.Point(21, 89);
-            this.l_sid1.Name = "l_sid1";
-            this.l_sid1.Size = new System.Drawing.Size(100, 30);
-            this.l_sid1.TabIndex = 1;
-            this.l_sid1.Text = "SAL-1234";
-            // 
-            // l_cname1
-            // 
-            this.l_cname1.AutoSize = true;
-            this.l_cname1.BackColor = System.Drawing.Color.Transparent;
-            this.l_cname1.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_cname1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.l_cname1.Location = new System.Drawing.Point(22, 119);
-            this.l_cname1.Name = "l_cname1";
-            this.l_cname1.Size = new System.Drawing.Size(95, 23);
-            this.l_cname1.TabIndex = 2;
-            this.l_cname1.Text = "John Smith";
-            // 
-            // l_t1
-            // 
-            this.l_t1.AutoSize = true;
-            this.l_t1.BackColor = System.Drawing.Color.Transparent;
-            this.l_t1.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_t1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.l_t1.Location = new System.Drawing.Point(612, 81);
-            this.l_t1.Name = "l_t1";
-            this.l_t1.Size = new System.Drawing.Size(75, 30);
-            this.l_t1.TabIndex = 3;
-            this.l_t1.Text = "1250 $";
-            // 
-            // l_status1
-            // 
-            this.l_status1.AutoSize = true;
-            this.l_status1.BackColor = System.Drawing.Color.Transparent;
-            this.l_status1.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_status1.ForeColor = System.Drawing.Color.LawnGreen;
-            this.l_status1.Location = new System.Drawing.Point(577, 111);
-            this.l_status1.Name = "l_status1";
-            this.l_status1.Size = new System.Drawing.Size(110, 32);
-            this.l_status1.TabIndex = 4;
-            this.l_status1.Text = "Received";
-            // 
-            // bunifuSeparator1
-            // 
-            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuSeparator1.BackgroundImage")));
-            this.bunifuSeparator1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuSeparator1.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Round;
-            this.bunifuSeparator1.LineColor = System.Drawing.Color.Gainsboro;
-            this.bunifuSeparator1.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
-            this.bunifuSeparator1.LineThickness = 2;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(26, 147);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.bunifuSeparator1.Size = new System.Drawing.Size(661, 17);
-            this.bunifuSeparator1.TabIndex = 5;
-            // 
-            // bunifuSeparator2
-            // 
-            this.bunifuSeparator2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuSeparator2.BackgroundImage")));
-            this.bunifuSeparator2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuSeparator2.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Round;
-            this.bunifuSeparator2.LineColor = System.Drawing.Color.Gainsboro;
-            this.bunifuSeparator2.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
-            this.bunifuSeparator2.LineThickness = 2;
-            this.bunifuSeparator2.Location = new System.Drawing.Point(26, 239);
-            this.bunifuSeparator2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuSeparator2.Name = "bunifuSeparator2";
-            this.bunifuSeparator2.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.bunifuSeparator2.Size = new System.Drawing.Size(661, 17);
-            this.bunifuSeparator2.TabIndex = 10;
-            // 
-            // l_status2
-            // 
-            this.l_status2.AutoSize = true;
-            this.l_status2.BackColor = System.Drawing.Color.Transparent;
-            this.l_status2.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_status2.ForeColor = System.Drawing.Color.LawnGreen;
-            this.l_status2.Location = new System.Drawing.Point(577, 203);
-            this.l_status2.Name = "l_status2";
-            this.l_status2.Size = new System.Drawing.Size(110, 32);
-            this.l_status2.TabIndex = 9;
-            this.l_status2.Text = "Received";
-            // 
-            // l_t2
-            // 
-            this.l_t2.AutoSize = true;
-            this.l_t2.BackColor = System.Drawing.Color.Transparent;
-            this.l_t2.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_t2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.l_t2.Location = new System.Drawing.Point(612, 173);
-            this.l_t2.Name = "l_t2";
-            this.l_t2.Size = new System.Drawing.Size(75, 30);
-            this.l_t2.TabIndex = 8;
-            this.l_t2.Text = "1250 $";
-            // 
-            // l_cname2
-            // 
-            this.l_cname2.AutoSize = true;
-            this.l_cname2.BackColor = System.Drawing.Color.Transparent;
-            this.l_cname2.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_cname2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.l_cname2.Location = new System.Drawing.Point(22, 211);
-            this.l_cname2.Name = "l_cname2";
-            this.l_cname2.Size = new System.Drawing.Size(95, 23);
-            this.l_cname2.TabIndex = 7;
-            this.l_cname2.Text = "John Smith";
-            // 
-            // l_sid2
-            // 
-            this.l_sid2.AutoSize = true;
-            this.l_sid2.BackColor = System.Drawing.Color.Transparent;
-            this.l_sid2.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_sid2.ForeColor = System.Drawing.Color.Black;
-            this.l_sid2.Location = new System.Drawing.Point(21, 181);
-            this.l_sid2.Name = "l_sid2";
-            this.l_sid2.Size = new System.Drawing.Size(100, 30);
-            this.l_sid2.TabIndex = 6;
-            this.l_sid2.Text = "SAL-1234";
-            // 
-            // bunifuSeparator3
-            // 
-            this.bunifuSeparator3.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuSeparator3.BackgroundImage")));
-            this.bunifuSeparator3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuSeparator3.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Round;
-            this.bunifuSeparator3.LineColor = System.Drawing.Color.Gainsboro;
-            this.bunifuSeparator3.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
-            this.bunifuSeparator3.LineThickness = 2;
-            this.bunifuSeparator3.Location = new System.Drawing.Point(26, 331);
-            this.bunifuSeparator3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuSeparator3.Name = "bunifuSeparator3";
-            this.bunifuSeparator3.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.bunifuSeparator3.Size = new System.Drawing.Size(661, 17);
-            this.bunifuSeparator3.TabIndex = 15;
-            // 
-            // l_status3
-            // 
-            this.l_status3.AutoSize = true;
-            this.l_status3.BackColor = System.Drawing.Color.Transparent;
-            this.l_status3.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_status3.ForeColor = System.Drawing.Color.Crimson;
-            this.l_status3.Location = new System.Drawing.Point(585, 294);
-            this.l_status3.Name = "l_status3";
-            this.l_status3.Size = new System.Drawing.Size(102, 32);
-            this.l_status3.TabIndex = 14;
-            this.l_status3.Text = "Pending";
-            // 
-            // l_t3
-            // 
-            this.l_t3.AutoSize = true;
-            this.l_t3.BackColor = System.Drawing.Color.Transparent;
-            this.l_t3.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_t3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.l_t3.Location = new System.Drawing.Point(612, 265);
-            this.l_t3.Name = "l_t3";
-            this.l_t3.Size = new System.Drawing.Size(75, 30);
-            this.l_t3.TabIndex = 13;
-            this.l_t3.Text = "1250 $";
-            // 
-            // l_cname3
-            // 
-            this.l_cname3.AutoSize = true;
-            this.l_cname3.BackColor = System.Drawing.Color.Transparent;
-            this.l_cname3.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_cname3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.l_cname3.Location = new System.Drawing.Point(22, 303);
-            this.l_cname3.Name = "l_cname3";
-            this.l_cname3.Size = new System.Drawing.Size(95, 23);
-            this.l_cname3.TabIndex = 12;
-            this.l_cname3.Text = "John Smith";
-            // 
-            // l_sid3
-            // 
-            this.l_sid3.AutoSize = true;
-            this.l_sid3.BackColor = System.Drawing.Color.Transparent;
-            this.l_sid3.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_sid3.ForeColor = System.Drawing.Color.Black;
-            this.l_sid3.Location = new System.Drawing.Point(21, 273);
-            this.l_sid3.Name = "l_sid3";
-            this.l_sid3.Size = new System.Drawing.Size(100, 30);
-            this.l_sid3.TabIndex = 11;
-            this.l_sid3.Text = "SAL-1234";
-            // 
-            // l_status4
-            // 
-            this.l_status4.AutoSize = true;
-            this.l_status4.BackColor = System.Drawing.Color.Transparent;
-            this.l_status4.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_status4.ForeColor = System.Drawing.Color.LawnGreen;
-            this.l_status4.Location = new System.Drawing.Point(577, 382);
-            this.l_status4.Name = "l_status4";
-            this.l_status4.Size = new System.Drawing.Size(110, 32);
-            this.l_status4.TabIndex = 19;
-            this.l_status4.Text = "Received";
-            // 
-            // l_t4
-            // 
-            this.l_t4.AutoSize = true;
-            this.l_t4.BackColor = System.Drawing.Color.Transparent;
-            this.l_t4.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_t4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.l_t4.Location = new System.Drawing.Point(612, 352);
-            this.l_t4.Name = "l_t4";
-            this.l_t4.Size = new System.Drawing.Size(75, 30);
-            this.l_t4.TabIndex = 18;
-            this.l_t4.Text = "1250 $";
-            // 
-            // l_cname4
-            // 
-            this.l_cname4.AutoSize = true;
-            this.l_cname4.BackColor = System.Drawing.Color.Transparent;
-            this.l_cname4.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_cname4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.l_cname4.Location = new System.Drawing.Point(22, 395);
-            this.l_cname4.Name = "l_cname4";
-            this.l_cname4.Size = new System.Drawing.Size(95, 23);
-            this.l_cname4.TabIndex = 17;
-            this.l_cname4.Text = "John Smith";
-            // 
-            // l_sid4
-            // 
-            this.l_sid4.AutoSize = true;
-            this.l_sid4.BackColor = System.Drawing.Color.Transparent;
-            this.l_sid4.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_sid4.ForeColor = System.Drawing.Color.Black;
-            this.l_sid4.Location = new System.Drawing.Point(21, 365);
-            this.l_sid4.Name = "l_sid4";
-            this.l_sid4.Size = new System.Drawing.Size(100, 30);
-            this.l_sid4.TabIndex = 16;
-            this.l_sid4.Text = "SAL-1234";
-            // 
-            // l_thres4
-            // 
-            this.l_thres4.AutoSize = true;
-            this.l_thres4.BackColor = System.Drawing.Color.Transparent;
-            this.l_thres4.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_thres4.ForeColor = System.Drawing.Color.Gray;
-            this.l_thres4.Location = new System.Drawing.Point(556, 382);
-            this.l_thres4.Name = "l_thres4";
-            this.l_thres4.Size = new System.Drawing.Size(95, 32);
-            this.l_thres4.TabIndex = 38;
-            this.l_thres4.Text = "Min: 20";
-            this.l_thres4.Click += new System.EventHandler(this.l_thres4_Click);
-            // 
-            // l_qty4
-            // 
-            this.l_qty4.AutoSize = true;
-            this.l_qty4.BackColor = System.Drawing.Color.Transparent;
-            this.l_qty4.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_qty4.ForeColor = System.Drawing.Color.Crimson;
-            this.l_qty4.Location = new System.Drawing.Point(562, 352);
-            this.l_qty4.Name = "l_qty4";
-            this.l_qty4.Size = new System.Drawing.Size(85, 30);
-            this.l_qty4.TabIndex = 37;
-            this.l_qty4.Text = "10 units";
-            // 
-            // l_icode4
-            // 
-            this.l_icode4.AutoSize = true;
-            this.l_icode4.BackColor = System.Drawing.Color.Transparent;
-            this.l_icode4.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_icode4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.l_icode4.Location = new System.Drawing.Point(18, 395);
-            this.l_icode4.Name = "l_icode4";
-            this.l_icode4.Size = new System.Drawing.Size(95, 23);
-            this.l_icode4.TabIndex = 36;
-            this.l_icode4.Text = "John Smith";
-            // 
-            // l_iname4
-            // 
-            this.l_iname4.AutoSize = true;
-            this.l_iname4.BackColor = System.Drawing.Color.Transparent;
-            this.l_iname4.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_iname4.ForeColor = System.Drawing.Color.Black;
-            this.l_iname4.Location = new System.Drawing.Point(17, 365);
-            this.l_iname4.Name = "l_iname4";
-            this.l_iname4.Size = new System.Drawing.Size(100, 30);
-            this.l_iname4.TabIndex = 35;
-            this.l_iname4.Text = "SAL-1234";
-            // 
-            // bunifuSeparator4
-            // 
-            this.bunifuSeparator4.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuSeparator4.BackgroundImage")));
-            this.bunifuSeparator4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuSeparator4.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Round;
-            this.bunifuSeparator4.LineColor = System.Drawing.Color.Gainsboro;
-            this.bunifuSeparator4.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
-            this.bunifuSeparator4.LineThickness = 2;
-            this.bunifuSeparator4.Location = new System.Drawing.Point(12, 331);
-            this.bunifuSeparator4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuSeparator4.Name = "bunifuSeparator4";
-            this.bunifuSeparator4.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.bunifuSeparator4.Size = new System.Drawing.Size(643, 17);
-            this.bunifuSeparator4.TabIndex = 34;
-            // 
-            // l_thres3
-            // 
-            this.l_thres3.AutoSize = true;
-            this.l_thres3.BackColor = System.Drawing.Color.Transparent;
-            this.l_thres3.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_thres3.ForeColor = System.Drawing.Color.Gray;
-            this.l_thres3.Location = new System.Drawing.Point(561, 294);
-            this.l_thres3.Name = "l_thres3";
-            this.l_thres3.Size = new System.Drawing.Size(82, 32);
-            this.l_thres3.TabIndex = 33;
-            this.l_thres3.Text = "Min: 2";
-            // 
-            // l_qty3
-            // 
-            this.l_qty3.AutoSize = true;
-            this.l_qty3.BackColor = System.Drawing.Color.Transparent;
-            this.l_qty3.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_qty3.ForeColor = System.Drawing.Color.Crimson;
-            this.l_qty3.Location = new System.Drawing.Point(562, 265);
-            this.l_qty3.Name = "l_qty3";
-            this.l_qty3.Size = new System.Drawing.Size(77, 30);
-            this.l_qty3.TabIndex = 32;
-            this.l_qty3.Text = "4 units";
-            // 
-            // l_icode3
-            // 
-            this.l_icode3.AutoSize = true;
-            this.l_icode3.BackColor = System.Drawing.Color.Transparent;
-            this.l_icode3.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_icode3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.l_icode3.Location = new System.Drawing.Point(18, 303);
-            this.l_icode3.Name = "l_icode3";
-            this.l_icode3.Size = new System.Drawing.Size(95, 23);
-            this.l_icode3.TabIndex = 31;
-            this.l_icode3.Text = "John Smith";
-            // 
-            // l_iname3
-            // 
-            this.l_iname3.AutoSize = true;
-            this.l_iname3.BackColor = System.Drawing.Color.Transparent;
-            this.l_iname3.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_iname3.ForeColor = System.Drawing.Color.Black;
-            this.l_iname3.Location = new System.Drawing.Point(17, 273);
-            this.l_iname3.Name = "l_iname3";
-            this.l_iname3.Size = new System.Drawing.Size(100, 30);
-            this.l_iname3.TabIndex = 30;
-            this.l_iname3.Text = "SAL-1234";
-            // 
-            // bunifuSeparator5
-            // 
-            this.bunifuSeparator5.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuSeparator5.BackgroundImage")));
-            this.bunifuSeparator5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuSeparator5.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Round;
-            this.bunifuSeparator5.LineColor = System.Drawing.Color.Gainsboro;
-            this.bunifuSeparator5.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
-            this.bunifuSeparator5.LineThickness = 2;
-            this.bunifuSeparator5.Location = new System.Drawing.Point(22, 239);
-            this.bunifuSeparator5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuSeparator5.Name = "bunifuSeparator5";
-            this.bunifuSeparator5.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.bunifuSeparator5.Size = new System.Drawing.Size(629, 17);
-            this.bunifuSeparator5.TabIndex = 29;
-            // 
-            // l_thres2
-            // 
-            this.l_thres2.AutoSize = true;
-            this.l_thres2.BackColor = System.Drawing.Color.Transparent;
-            this.l_thres2.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_thres2.ForeColor = System.Drawing.Color.Gray;
-            this.l_thres2.Location = new System.Drawing.Point(556, 202);
-            this.l_thres2.Name = "l_thres2";
-            this.l_thres2.Size = new System.Drawing.Size(89, 32);
-            this.l_thres2.TabIndex = 28;
-            this.l_thres2.Text = "Min: 5 ";
-            // 
-            // l_qty2
-            // 
-            this.l_qty2.AutoSize = true;
-            this.l_qty2.BackColor = System.Drawing.Color.Transparent;
-            this.l_qty2.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_qty2.ForeColor = System.Drawing.Color.Crimson;
-            this.l_qty2.Location = new System.Drawing.Point(557, 173);
-            this.l_qty2.Name = "l_qty2";
-            this.l_qty2.Size = new System.Drawing.Size(77, 30);
-            this.l_qty2.TabIndex = 27;
-            this.l_qty2.Text = "3 units";
-            // 
-            // l_icode2
-            // 
-            this.l_icode2.AutoSize = true;
-            this.l_icode2.BackColor = System.Drawing.Color.Transparent;
-            this.l_icode2.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_icode2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.l_icode2.Location = new System.Drawing.Point(18, 211);
-            this.l_icode2.Name = "l_icode2";
-            this.l_icode2.Size = new System.Drawing.Size(95, 23);
-            this.l_icode2.TabIndex = 26;
-            this.l_icode2.Text = "John Smith";
-            // 
-            // l_iname2
-            // 
-            this.l_iname2.AutoSize = true;
-            this.l_iname2.BackColor = System.Drawing.Color.Transparent;
-            this.l_iname2.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_iname2.ForeColor = System.Drawing.Color.Black;
-            this.l_iname2.Location = new System.Drawing.Point(17, 181);
-            this.l_iname2.Name = "l_iname2";
-            this.l_iname2.Size = new System.Drawing.Size(100, 30);
-            this.l_iname2.TabIndex = 25;
-            this.l_iname2.Text = "SAL-1234";
-            // 
-            // bunifuSeparator6
-            // 
-            this.bunifuSeparator6.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuSeparator6.BackgroundImage")));
-            this.bunifuSeparator6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuSeparator6.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Round;
-            this.bunifuSeparator6.LineColor = System.Drawing.Color.Gainsboro;
-            this.bunifuSeparator6.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
-            this.bunifuSeparator6.LineThickness = 2;
-            this.bunifuSeparator6.Location = new System.Drawing.Point(22, 147);
-            this.bunifuSeparator6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuSeparator6.Name = "bunifuSeparator6";
-            this.bunifuSeparator6.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.bunifuSeparator6.Size = new System.Drawing.Size(629, 17);
-            this.bunifuSeparator6.TabIndex = 24;
-            // 
-            // l_thres1
-            // 
-            this.l_thres1.AutoSize = true;
-            this.l_thres1.BackColor = System.Drawing.Color.Transparent;
-            this.l_thres1.Font = new System.Drawing.Font("Segoe UI Semibold", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_thres1.ForeColor = System.Drawing.Color.Gray;
-            this.l_thres1.Location = new System.Drawing.Point(556, 110);
-            this.l_thres1.Name = "l_thres1";
-            this.l_thres1.Size = new System.Drawing.Size(92, 32);
-            this.l_thres1.TabIndex = 23;
-            this.l_thres1.Text = "Min: 10";
-            // 
-            // l_qty1
-            // 
-            this.l_qty1.AutoSize = true;
-            this.l_qty1.BackColor = System.Drawing.Color.Transparent;
-            this.l_qty1.Font = new System.Drawing.Font("Segoe UI Semibold", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_qty1.ForeColor = System.Drawing.Color.Crimson;
-            this.l_qty1.Location = new System.Drawing.Point(557, 81);
-            this.l_qty1.Name = "l_qty1";
-            this.l_qty1.Size = new System.Drawing.Size(77, 30);
-            this.l_qty1.TabIndex = 22;
-            this.l_qty1.Text = "5 units";
-            // 
-            // l_icode1
-            // 
-            this.l_icode1.AutoSize = true;
-            this.l_icode1.BackColor = System.Drawing.Color.Transparent;
-            this.l_icode1.Font = new System.Drawing.Font("Segoe UI", 9.792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_icode1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.l_icode1.Location = new System.Drawing.Point(18, 119);
-            this.l_icode1.Name = "l_icode1";
-            this.l_icode1.Size = new System.Drawing.Size(95, 23);
-            this.l_icode1.TabIndex = 21;
-            this.l_icode1.Text = "John Smith";
-            // 
-            // l_iname1
-            // 
-            this.l_iname1.AutoSize = true;
-            this.l_iname1.BackColor = System.Drawing.Color.Transparent;
-            this.l_iname1.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l_iname1.ForeColor = System.Drawing.Color.Black;
-            this.l_iname1.Location = new System.Drawing.Point(17, 89);
-            this.l_iname1.Name = "l_iname1";
-            this.l_iname1.Size = new System.Drawing.Size(100, 30);
-            this.l_iname1.TabIndex = 20;
-            this.l_iname1.Text = "SAL-1234";
             // 
             // DashboardPage
             // 

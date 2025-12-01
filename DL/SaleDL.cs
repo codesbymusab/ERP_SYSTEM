@@ -25,6 +25,38 @@ namespace ERP_System.DL
             finally { db.Con.Close(); }
             return dt;
         }
+        public DataTable GetAllByStatus(string status)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                db.Con.Open();
+                string q = @"
+                    SELECT s.id,
+                           s.customer_name,
+                           s.date,
+                           s.total_amount,
+                           s.status,
+                           u.name AS created_by
+                    FROM sales s
+                    LEFT JOIN users u ON s.user_id = u.id
+                    WHERE s.status = @status
+                    ORDER BY s.date DESC";
+                using (var cmd = new SqlCommand(q, db.Con))
+                {
+                    cmd.Parameters.AddWithValue("@status", status ?? (object)DBNull.Value);
+                    using (var da = new SqlDataAdapter(cmd))
+                    {
+                        da.Fill(dt);
+                    }
+                }
+            }
+            finally
+            {
+                db.Con.Close();
+            }
+            return dt;
+        }
 
         public SaleDTO GetById(int id)
         {
@@ -101,6 +133,72 @@ namespace ERP_System.DL
                 new SqlCommand("DELETE FROM sales WHERE id=" + id, db.Con).ExecuteNonQuery();
             }
             finally { db.Con.Close(); }
+        }
+
+        public int GetTotalSalesCount(string status = "paid")
+        {
+            try
+            {
+                db.Con.Open();
+                const string q = "SELECT COUNT(*) FROM sales WHERE status = @status";
+                using (var cmd = new SqlCommand(q, db.Con))
+                {
+                    cmd.Parameters.AddWithValue("@status", status);
+                    return Convert.ToInt32(cmd.ExecuteScalar());
+                }
+            }
+            finally
+            {
+                db.Con.Close();
+            }
+        }
+
+       
+        public decimal GetTotalRevenue(string completedStatus = "paid")
+        {
+            try
+            {
+                db.Con.Open();
+                const string q = @"SELECT SUM(CAST(total_amount AS DECIMAL(18,2))) 
+                                   FROM sales 
+                                   WHERE status = @status AND total_amount IS NOT NULL";
+                using (var cmd = new SqlCommand(q, db.Con))
+                {
+                    cmd.Parameters.AddWithValue("@status", completedStatus);
+                    object result = cmd.ExecuteScalar();
+                    return result != DBNull.Value && result != null ? Convert.ToDecimal(result) : 0m;
+                }
+            }
+            finally
+            {
+                db.Con.Close();
+            }
+        }
+
+        public decimal GetTotalRevenue(DateTime? from, DateTime? to, string completedStatus = "paid")
+        {
+            try
+            {
+                db.Con.Open();
+                var sb = new System.Text.StringBuilder();
+                sb.Append("SELECT SUM(CAST(total_amount AS DECIMAL(18,2))) FROM sales WHERE status = @status AND total_amount IS NOT NULL");
+
+                if (from.HasValue) sb.Append(" AND adjusted_at >= @from"); // or sale_date column name
+                if (to.HasValue) sb.Append(" AND adjusted_at <= @to");
+
+                using (var cmd = new SqlCommand(sb.ToString(), db.Con))
+                {
+                    cmd.Parameters.AddWithValue("@status", completedStatus);
+                    if (from.HasValue) cmd.Parameters.AddWithValue("@from", from.Value);
+                    if (to.HasValue) cmd.Parameters.AddWithValue("@to", to.Value);
+                    object result = cmd.ExecuteScalar();
+                    return result != DBNull.Value && result != null ? Convert.ToDecimal(result) : 0m;
+                }
+            }
+            finally
+            {
+                db.Con.Close();
+            }
         }
     }
 }
