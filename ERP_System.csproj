@@ -119,6 +119,7 @@
     <Compile Include="BL\ActivityLogBL.cs" />
     <Compile Include="BL\AttendanceBL.cs" />
     <Compile Include="BL\AuditLogBL.cs" />
+    <Compile Include="BL\DashboardBL.cs" />
     <Compile Include="BL\EmployeeBL.cs" />
     <Compile Include="BL\LoginBL.cs" />
     <Compile Include="BL\ProductBL.cs" />
@@ -132,6 +133,7 @@
     <Compile Include="DL\ActivityLogDL.cs" />
     <Compile Include="DL\AttendanceDL.cs" />
     <Compile Include="DL\AuditLogDL.cs" />
+    <Compile Include="DL\DashboardDL.cs" />
     <Compile Include="DL\DBConnection.cs" />
     <Compile Include="DL\EmployeeDL.cs" />
     <Compile Include="DL\LoginDL.cs" />
@@ -146,6 +148,7 @@
     <Compile Include="DTO\ActivityLogDTO.cs" />
     <Compile Include="DTO\AttendanceDTO.cs" />
     <Compile Include="DTO\AuditLogDTO.cs" />
+    <Compile Include="DTO\DashboardDTO.cs" />
     <Compile Include="DTO\EmployeeDTO.cs" />
     <Compile Include="DTO\LoginDTO.cs" />
     <Compile Include="DTO\ProductDTO.cs" />
