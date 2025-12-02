@@ -88,6 +88,7 @@
             this.bunifuChartCanvas2 = new Bunifu.Charts.WinForms.BunifuChartCanvas();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuPanel2 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.button1 = new System.Windows.Forms.Button();
             this.bunifuPanel4.SuspendLayout();
             this.bunifuPanel3.SuspendLayout();
             this.pnlHeader.SuspendLayout();
@@ -286,7 +287,6 @@
             this.l_thres4.Size = new System.Drawing.Size(95, 32);
             this.l_thres4.TabIndex = 38;
             this.l_thres4.Text = "Min: 20";
-            this.l_thres4.Click += new System.EventHandler(this.l_thres4_Click);
             // 
             // l_qty4
             // 
@@ -1194,6 +1194,16 @@
             this.bunifuPanel2.Size = new System.Drawing.Size(544, 329);
             this.bunifuPanel2.TabIndex = 10;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(57, 84);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(182, 38);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Refresh";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // DashboardPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1201,6 +1211,7 @@
             this.AutoScroll = true;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.bunifuPanel2);
             this.Controls.Add(this.bunifuPanel1);
             this.Controls.Add(this.bunifuVScrollBar1);
@@ -1299,5 +1310,6 @@
         private System.Windows.Forms.Label l_qty1;
         private System.Windows.Forms.Label l_icode1;
         private System.Windows.Forms.Label l_iname1;
+        private System.Windows.Forms.Button button1;
     }
 }

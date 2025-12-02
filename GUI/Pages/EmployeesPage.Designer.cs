@@ -112,7 +112,7 @@
             this.label31 = new System.Windows.Forms.Label();
             this.bunifuPanel3 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblDate = new System.Windows.Forms.Label();
             this.lblTopTitle = new System.Windows.Forms.Label();
             this.tabControlExtra1.SuspendLayout();
             this.employeesPageTab.SuspendLayout();
@@ -1694,7 +1694,7 @@
             this.bunifuPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(233)))), ((int)(((byte)(238)))));
             this.bunifuPanel1.BorderRadius = 8;
             this.bunifuPanel1.BorderThickness = 1;
-            this.bunifuPanel1.Controls.Add(this.label1);
+            this.bunifuPanel1.Controls.Add(this.lblDate);
             this.bunifuPanel1.Controls.Add(this.lblTopTitle);
             this.bunifuPanel1.Location = new System.Drawing.Point(0, 0);
             this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(0);
@@ -1703,18 +1703,18 @@
             this.bunifuPanel1.Size = new System.Drawing.Size(1742, 79);
             this.bunifuPanel1.TabIndex = 10;
             // 
-            // label1
+            // lblDate
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(1289, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(285, 30);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Saturday, November 22, 2025";
+            this.lblDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblDate.AutoSize = true;
+            this.lblDate.BackColor = System.Drawing.Color.White;
+            this.lblDate.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblDate.Location = new System.Drawing.Point(1289, 25);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(285, 30);
+            this.lblDate.TabIndex = 5;
+            this.lblDate.Text = "Saturday, November 22, 2025";
             // 
             // lblTopTitle
             // 
@@ -1828,7 +1828,7 @@
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblDate;
         private System.Windows.Forms.Label lblTopTitle;
         public System.Windows.Forms.Label lblDept;
         public System.Windows.Forms.Label lblOnLeave;

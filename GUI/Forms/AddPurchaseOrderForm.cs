@@ -231,7 +231,13 @@ namespace ERP_System.GUI.Forms
                 };
                 _transBL.AddTransaction(transDTO);
 
-                MessageBox.Show($"Purchase saved (ID: {newPurchaseId}).\nTotal: {total:C2}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                foreach (var it in items)
+                {   
+                    ProductDTO p=_productBL.GetProduct(it.productId);
+                    p.Stock += it.qty;
+                    _productBL.UpdateProduct(p);
+                }
+                    MessageBox.Show($"Purchase saved (ID: {newPurchaseId}).\nTotal: {total:C2}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 ClearForm();
                 this.Hide();

@@ -3,6 +3,7 @@ using ERP_System.DTO;
 using ERP_System.GUI.Components;
 using System;
 using System.Data;
+using System.Globalization;
 using System.Linq;
 using System.Windows.Forms;
 using System.Xml.Linq;
@@ -18,7 +19,7 @@ namespace ERP_System.GUI.Pages
         public EmployeesPage()
         {
             InitializeComponent();
-            
+            this.lblDate.Text = DateTime.Now.ToString("dddd, MMMM d, yyyy", CultureInfo.InvariantCulture);
             WireEvents();
         }
 

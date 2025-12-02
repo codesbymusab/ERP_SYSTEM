@@ -1,7 +1,8 @@
-﻿using System;
-using System.Windows.Forms;
-using ERP_System.BL;
+﻿using ERP_System.BL;
 using ERP_System.DTO;
+using System;
+using System.Globalization;
+using System.Windows.Forms;
 
 namespace ERP_System.GUI.Pages
 {
@@ -16,7 +17,7 @@ namespace ERP_System.GUI.Pages
             InitializeComponent();
             LoadUserProfile();
             InitializeSessionTimer();
-
+            this.lblDate.Text = DateTime.Now.ToString("dddd, MMMM d, yyyy", CultureInfo.InvariantCulture);
             // Wire up event handlers
             this.btnUpdateProfile.Click += new System.EventHandler(this.btnUpdateProfile_Click);
             this.btnChangePassword.Click += new System.EventHandler(this.btnChangePassword_Click);

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,6 +19,7 @@ namespace ERP_System.GUI.Pages
         public SuppliersPage()
         {
             InitializeComponent();
+            this.lblDate.Text = DateTime.Now.ToString("dddd, MMMM d, yyyy", CultureInfo.InvariantCulture);
             SupplierDetailsCard.LoadSupplierCards(this.flowSupplierCards);
             addForm.FormClosing += Refresh_Suppliers;
         }

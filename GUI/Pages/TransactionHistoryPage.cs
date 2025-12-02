@@ -1,6 +1,7 @@
 ﻿using ERP_System.BL;
 using System;
 using System.Data;
+using System.Globalization;
 using System.Windows.Forms;
 
 namespace ERP_System.GUI.Pages
@@ -12,6 +13,7 @@ namespace ERP_System.GUI.Pages
         public TransactionHistoryPage()
         {
             InitializeComponent();
+            this.lblDate.Text = DateTime.Now.ToString("dddd, MMMM d, yyyy", CultureInfo.InvariantCulture);
             _txBl = new TransHistBL();
 
             TransactionHistoryPage_Load();

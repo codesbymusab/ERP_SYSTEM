@@ -48,7 +48,8 @@ namespace ERP_System.BL
        
         public ProductDTO GetProduct(int id) => prodDL.GetProductById(id);
 
-       
+        public DataTable GetProductsBySupplier(int sid) => prodDL.GetProductBySupplier(sid);
+
         public DataTable SearchProducts(string queryText) => prodDL.SearchProducts(queryText);
 
 

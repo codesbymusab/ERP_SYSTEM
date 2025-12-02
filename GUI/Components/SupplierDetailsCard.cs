@@ -18,7 +18,7 @@ namespace ERP_System.GUI.Components
         }
 
       
-        public SupplierDetailsCard(int supplierId, string address,string name, string contact, string phone, string email, int productCount)
+        public SupplierDetailsCard(int supplierId,string name, string contact, string phone, string email,string address, int productCount)
         {
             InitializeComponent();
             SupplierId = supplierId;
@@ -26,7 +26,7 @@ namespace ERP_System.GUI.Components
             lblSupContact.Text = $"Contact: {contact}";
             lblSupPhone.Text = $"Phone: {phone}";
             lblSupEmail.Text = $"Email: {email}";
-            label1.Text= $"Address: {address}";
+            lblAddress.Text= $"Address: {address}";
             lblSupProductCount.Text = $"Products: {productCount}";
         }
 
@@ -38,7 +38,7 @@ namespace ERP_System.GUI.Components
             lblSupContact.Text = $"Contact: {dto.ContactName}";
             lblSupPhone.Text = $"Phone: {dto.Phone}";
             lblSupEmail.Text = $"Email: {dto.Email}";
-            label1.Text = $"Address: {dto.Address}";
+            lblAddress.Text = $"Address: {dto.Address}";
             lblSupProductCount.Text = $"Products: {productCount}";
         }
 
@@ -61,16 +61,12 @@ namespace ERP_System.GUI.Components
 
                 int productCount = bl.GetSupplierProductCount(id);
 
-                var card = new SupplierDetailsCard(id, address,name, contact, phone, email, productCount);
+                var card = new SupplierDetailsCard(id,name, contact, phone, email,address, productCount);
             
+                
                 panel.Controls.Add(card);
 
-                //// Optional: wire up the "View Products" button
-                //card.Controls["btnViewProducts"].Click += (s, e) =>
-                //{
-                //    MessageBox.Show($"Supplier {name} has {productCount} products.", "Info");
-                //    // Or open a detailed supplier products page
-                //};
+              
             }
         }
 
@@ -87,7 +83,7 @@ namespace ERP_System.GUI.Components
             {
                 var dto = bl.GetSupplier(SupplierId);
                 ProductBL productBL=new ProductBL();
-                var st = productBL.SearchProducts(SupplierId.ToString());
+                var st = productBL.GetProductsBySupplier(SupplierId);
                 supplierProdViewForm.SetSupplierDetails(dto, st);
                 supplierProdViewForm.ShowDialog();
                 

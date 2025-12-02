@@ -1,4 +1,5 @@
-﻿using ERP_System.DTO;
+﻿using ERP_System.BL;
+using ERP_System.DTO;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -209,9 +210,30 @@ namespace ERP_System.DL
             return dto;
         }
 
-        /// <summary>
-        /// Search products by name, category, or SKU.
-        /// </summary>
+        public DataTable GetProductBySupplier(int sid)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                dbCon.Con.Open();
+                string q = @"SELECT p.id, p.sku, p.name, p.category, p.stock,
+                                    p.purchase_price, p.selling_price, p.supplier_id,
+                                    p.low_stock_threshold, s.name AS supplier_name
+                             FROM products p
+                             LEFT JOIN suppliers s ON p.supplier_id = s.id
+                             WHERE supplier_id=@sid";
+                SqlCommand cmd = new SqlCommand(q, dbCon.Con);
+
+
+                cmd.Parameters.AddWithValue("@sid", sid);
+                new SqlDataAdapter(cmd).Fill(dt);
+            }
+
+            finally { dbCon.Con.Close(); }
+            return dt;
+        }
+
+       
         public DataTable SearchProducts(string queryText)
         {
             DataTable dt = new DataTable();

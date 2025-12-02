@@ -11,29 +11,30 @@ namespace ERP_System.GUI.Pages
     public partial class SalesPage : UserControl
     {
         private readonly SaleBL _salesBL;
-        private AddSaleForm _saleForm=new AddSaleForm();
+        private AddSaleForm _saleForm = new AddSaleForm();
         public SalesPage()
         {
             InitializeComponent();
             _salesBL = new SaleBL();
 
-        
+            this.lblDate.Text = DateTime.Now.ToString("dddd, MMMM d, yyyy", CultureInfo.InvariantCulture);
             ddlFilter.SelectedIndexChanged += DdlFilter_SelectedIndexChanged;
             txtSearch.TextChanged += TxtSearch_TextChanged;
             btnNewSale.Click += BtnNewSale_Click;
+            _saleForm.FormClosing += SaleForm_Closing;
             SalesPage_Load();
-           
+
         }
 
         private void SalesPage_Load()
         {
             try
             {
-               
+
 
                 RefreshSummary();
                 dgvInvoices.DataSource = _salesBL.GetAllSales();
-               
+
             }
             catch (Exception ex)
             {
@@ -41,7 +42,7 @@ namespace ERP_System.GUI.Pages
             }
         }
 
-       
+
         private void RefreshSummary()
         {
             try
@@ -50,8 +51,8 @@ namespace ERP_System.GUI.Pages
 
                 lblTotalSalesValue.Text = _salesBL.GetTotalSalesCount("paid").ToString(CultureInfo.InvariantCulture);
                 lblDraftsValue.Text = _salesBL.GetTotalSalesCount("draft").ToString(CultureInfo.InvariantCulture);
-                lblCancelledValue.Text = _salesBL.GetTotalSalesCount("cancelled").ToString(CultureInfo.InvariantCulture); 
-               
+                lblCancelledValue.Text = _salesBL.GetTotalSalesCount("cancelled").ToString(CultureInfo.InvariantCulture);
+
                 lblRevenueValue.Text = _salesBL.GetTotalRevenue().ToString("C2", CultureInfo.CurrentCulture);
             }
             catch (Exception ex)
@@ -60,7 +61,7 @@ namespace ERP_System.GUI.Pages
             }
         }
 
-      
+
         private void LoadInvoicesGrid(string status)
         {
             try
@@ -68,7 +69,7 @@ namespace ERP_System.GUI.Pages
                 DataTable dt;
                 if (string.IsNullOrWhiteSpace(status) || status.Equals("all", StringComparison.OrdinalIgnoreCase))
                 {
-                   
+
                     dt = _salesBL.GetAllSales();
                 }
                 else
@@ -78,7 +79,7 @@ namespace ERP_System.GUI.Pages
 
                 dgvInvoices.DataSource = dt;
 
-                
+
                 if (dgvInvoices.Columns.Contains("date"))
                 {
                     dgvInvoices.Columns["date"].DefaultCellStyle.Format = "yyyy-MM-dd HH:mm";
@@ -102,9 +103,9 @@ namespace ERP_System.GUI.Pages
 
         private void TxtSearch_TextChanged(object sender, EventArgs e)
         {
-            
+
             try
-            {   
+            {
                 var dt = dgvInvoices.DataSource as DataTable;
                 if (dt == null) return;
 
@@ -115,7 +116,7 @@ namespace ERP_System.GUI.Pages
                     return;
                 }
 
-               
+
                 string rowFilter = $"Convert(id, 'System.String') LIKE '%{filter}%' OR customer_name LIKE '%{filter}%'";
                 var dv = dt.DefaultView;
                 dv.RowFilter = rowFilter;
@@ -130,9 +131,13 @@ namespace ERP_System.GUI.Pages
         private void BtnNewSale_Click(object sender, EventArgs e)
         {
             _saleForm.ShowDialog();
-            SalesPage_Load();
+
 
         }
 
+        private void SaleForm_Closing(object sender, EventArgs e)
+        {
+            SalesPage_Load();
+        }
     }
 }

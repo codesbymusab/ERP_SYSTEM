@@ -371,7 +371,7 @@
             this.btnSignIn.IdleIconLeftImage = null;
             this.btnSignIn.IdleIconRightImage = null;
             this.btnSignIn.IndicateFocus = false;
-            this.btnSignIn.Location = new System.Drawing.Point(61, 459);
+            this.btnSignIn.Location = new System.Drawing.Point(68, 461);
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnSignIn.OnDisabledState.BorderRadius = 15;
@@ -438,7 +438,7 @@
             this.pnlDemo.Controls.Add(this.lblDemoAdmin);
             this.pnlDemo.Controls.Add(this.lblDemoManager);
             this.pnlDemo.Controls.Add(this.lblDemoUser);
-            this.pnlDemo.Location = new System.Drawing.Point(61, 511);
+            this.pnlDemo.Location = new System.Drawing.Point(59, 511);
             this.pnlDemo.Name = "pnlDemo";
             this.pnlDemo.ShowBorders = true;
             this.pnlDemo.Size = new System.Drawing.Size(457, 110);
@@ -546,8 +546,7 @@
         private System.Windows.Forms.Label lblDemoAdmin;
         private System.Windows.Forms.Label lblDemoManager;
         private System.Windows.Forms.Label lblDemoUser;
-
-        private System.Windows.Forms.Label lblVersion;
         private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox1;
+        private System.Windows.Forms.Label lblVersion;
     }
 }

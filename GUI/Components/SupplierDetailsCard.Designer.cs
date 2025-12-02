@@ -31,14 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SupplierDetailsCard));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.cardSupplierTemplate = new Bunifu.UI.WinForms.BunifuPanel();
+            this.lblAddress = new System.Windows.Forms.Label();
+            this.btnViewProducts = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.sepSupCard = new Bunifu.UI.WinForms.BunifuSeparator();
             this.lblSupName = new System.Windows.Forms.Label();
             this.lblSupContact = new System.Windows.Forms.Label();
             this.lblSupEmail = new System.Windows.Forms.Label();
             this.lblSupPhone = new System.Windows.Forms.Label();
             this.lblSupProductCount = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnViewProducts = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.cardSupplierTemplate.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +50,7 @@
             this.cardSupplierTemplate.BorderColor = System.Drawing.Color.LightGray;
             this.cardSupplierTemplate.BorderRadius = 20;
             this.cardSupplierTemplate.BorderThickness = 1;
-            this.cardSupplierTemplate.Controls.Add(this.label1);
+            this.cardSupplierTemplate.Controls.Add(this.lblAddress);
             this.cardSupplierTemplate.Controls.Add(this.btnViewProducts);
             this.cardSupplierTemplate.Controls.Add(this.sepSupCard);
             this.cardSupplierTemplate.Controls.Add(this.lblSupName);
@@ -68,99 +68,18 @@
             this.cardSupplierTemplate.TabIndex = 4;
             this.cardSupplierTemplate.Click += new System.EventHandler(this.cardSupplierTemplate_Click);
             // 
-            // sepSupCard
+            // lblAddress
             // 
-            this.sepSupCard.BackColor = System.Drawing.Color.Transparent;
-            this.sepSupCard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("sepSupCard.BackgroundImage")));
-            this.sepSupCard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.sepSupCard.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Flat;
-            this.sepSupCard.LineColor = System.Drawing.Color.Silver;
-            this.sepSupCard.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
-            this.sepSupCard.LineThickness = 1;
-            this.sepSupCard.Location = new System.Drawing.Point(23, 250);
-            this.sepSupCard.Margin = new System.Windows.Forms.Padding(5);
-            this.sepSupCard.Name = "sepSupCard";
-            this.sepSupCard.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.sepSupCard.Size = new System.Drawing.Size(389, 17);
-            this.sepSupCard.TabIndex = 6;
-            // 
-            // lblSupName
-            // 
-            this.lblSupName.Cursor = System.Windows.Forms.Cursors.Default;
-            this.lblSupName.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSupName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
-            this.lblSupName.Location = new System.Drawing.Point(23, 34);
-            this.lblSupName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.lblSupName.Name = "lblSupName";
-            this.lblSupName.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblSupName.Size = new System.Drawing.Size(227, 30);
-            this.lblSupName.TabIndex = 0;
-            this.lblSupName.Text = "Lighting Solutions";
-            // 
-            // lblSupContact
-            // 
-            this.lblSupContact.Cursor = System.Windows.Forms.Cursors.Default;
-            this.lblSupContact.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSupContact.ForeColor = System.Drawing.Color.Black;
-            this.lblSupContact.Location = new System.Drawing.Point(26, 80);
-            this.lblSupContact.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.lblSupContact.Name = "lblSupContact";
-            this.lblSupContact.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblSupContact.Size = new System.Drawing.Size(225, 30);
-            this.lblSupContact.TabIndex = 1;
-            this.lblSupContact.Text = "Contact: Mike Davis";
-            // 
-            // lblSupEmail
-            // 
-            this.lblSupEmail.Cursor = System.Windows.Forms.Cursors.Default;
-            this.lblSupEmail.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSupEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblSupEmail.Location = new System.Drawing.Point(26, 154);
-            this.lblSupEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.lblSupEmail.Name = "lblSupEmail";
-            this.lblSupEmail.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblSupEmail.Size = new System.Drawing.Size(301, 30);
-            this.lblSupEmail.TabIndex = 2;
-            this.lblSupEmail.Text = "Email: sales@lightingsol.com";
-            // 
-            // lblSupPhone
-            // 
-            this.lblSupPhone.Cursor = System.Windows.Forms.Cursors.Default;
-            this.lblSupPhone.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSupPhone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblSupPhone.Location = new System.Drawing.Point(26, 116);
-            this.lblSupPhone.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.lblSupPhone.Name = "lblSupPhone";
-            this.lblSupPhone.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblSupPhone.Size = new System.Drawing.Size(287, 30);
-            this.lblSupPhone.TabIndex = 3;
-            this.lblSupPhone.Text = "Phone: +1 (555) 200-2003";
-            // 
-            // lblSupProductCount
-            // 
-            this.lblSupProductCount.Cursor = System.Windows.Forms.Cursors.Default;
-            this.lblSupProductCount.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSupProductCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblSupProductCount.Location = new System.Drawing.Point(23, 274);
-            this.lblSupProductCount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.lblSupProductCount.Name = "lblSupProductCount";
-            this.lblSupProductCount.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblSupProductCount.Size = new System.Drawing.Size(161, 30);
-            this.lblSupProductCount.TabIndex = 4;
-            this.lblSupProductCount.Text = "Products: 10";
-            // 
-            // label1
-            // 
-            this.label1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(26, 188);
-            this.label1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.label1.Name = "label1";
-            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(301, 30);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Address: Lahore";
+            this.lblAddress.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblAddress.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblAddress.Location = new System.Drawing.Point(26, 188);
+            this.lblAddress.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lblAddress.Name = "lblAddress";
+            this.lblAddress.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblAddress.Size = new System.Drawing.Size(301, 30);
+            this.lblAddress.TabIndex = 8;
+            this.lblAddress.Text = "Address: Lahore";
             // 
             // btnViewProducts
             // 
@@ -255,6 +174,87 @@
             this.btnViewProducts.UseDefaultRadiusAndThickness = true;
             this.btnViewProducts.Click += new System.EventHandler(this.btnViewProducts_Click);
             // 
+            // sepSupCard
+            // 
+            this.sepSupCard.BackColor = System.Drawing.Color.Transparent;
+            this.sepSupCard.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("sepSupCard.BackgroundImage")));
+            this.sepSupCard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.sepSupCard.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Flat;
+            this.sepSupCard.LineColor = System.Drawing.Color.Silver;
+            this.sepSupCard.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
+            this.sepSupCard.LineThickness = 1;
+            this.sepSupCard.Location = new System.Drawing.Point(23, 250);
+            this.sepSupCard.Margin = new System.Windows.Forms.Padding(5);
+            this.sepSupCard.Name = "sepSupCard";
+            this.sepSupCard.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
+            this.sepSupCard.Size = new System.Drawing.Size(389, 17);
+            this.sepSupCard.TabIndex = 6;
+            // 
+            // lblSupName
+            // 
+            this.lblSupName.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblSupName.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSupName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(40)))), ((int)(((byte)(49)))));
+            this.lblSupName.Location = new System.Drawing.Point(23, 34);
+            this.lblSupName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lblSupName.Name = "lblSupName";
+            this.lblSupName.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblSupName.Size = new System.Drawing.Size(227, 30);
+            this.lblSupName.TabIndex = 0;
+            this.lblSupName.Text = "Lighting Solutions";
+            // 
+            // lblSupContact
+            // 
+            this.lblSupContact.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblSupContact.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSupContact.ForeColor = System.Drawing.Color.Black;
+            this.lblSupContact.Location = new System.Drawing.Point(26, 80);
+            this.lblSupContact.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lblSupContact.Name = "lblSupContact";
+            this.lblSupContact.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblSupContact.Size = new System.Drawing.Size(225, 30);
+            this.lblSupContact.TabIndex = 1;
+            this.lblSupContact.Text = "Contact: Mike Davis";
+            // 
+            // lblSupEmail
+            // 
+            this.lblSupEmail.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblSupEmail.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSupEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblSupEmail.Location = new System.Drawing.Point(26, 154);
+            this.lblSupEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lblSupEmail.Name = "lblSupEmail";
+            this.lblSupEmail.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblSupEmail.Size = new System.Drawing.Size(301, 30);
+            this.lblSupEmail.TabIndex = 2;
+            this.lblSupEmail.Text = "Email: sales@lightingsol.com";
+            // 
+            // lblSupPhone
+            // 
+            this.lblSupPhone.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblSupPhone.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSupPhone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblSupPhone.Location = new System.Drawing.Point(26, 116);
+            this.lblSupPhone.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lblSupPhone.Name = "lblSupPhone";
+            this.lblSupPhone.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblSupPhone.Size = new System.Drawing.Size(287, 30);
+            this.lblSupPhone.TabIndex = 3;
+            this.lblSupPhone.Text = "Phone: +1 (555) 200-2003";
+            // 
+            // lblSupProductCount
+            // 
+            this.lblSupProductCount.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblSupProductCount.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSupProductCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblSupProductCount.Location = new System.Drawing.Point(23, 274);
+            this.lblSupProductCount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lblSupProductCount.Name = "lblSupProductCount";
+            this.lblSupProductCount.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblSupProductCount.Size = new System.Drawing.Size(161, 30);
+            this.lblSupProductCount.TabIndex = 4;
+            this.lblSupProductCount.Text = "Products: 10";
+            // 
             // SupplierDetailsCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -277,7 +277,7 @@
         private System.Windows.Forms.Label lblSupEmail;
         private System.Windows.Forms.Label lblSupPhone;
         private System.Windows.Forms.Label lblSupProductCount;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblAddress;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnViewProducts;
     }
 }

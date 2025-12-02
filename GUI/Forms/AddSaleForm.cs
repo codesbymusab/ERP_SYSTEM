@@ -17,6 +17,7 @@ namespace ERP_System.GUI.Forms
         private readonly SaleBL _salesBL;
         private readonly UserBL _userBL;
         private readonly TransHistBL _transBL;
+        private readonly GmailEmailService _emailBL;
         public AddSaleForm()
         {
             InitializeComponent();
@@ -24,6 +25,7 @@ namespace ERP_System.GUI.Forms
             _salesBL = new SaleBL();
             _userBL = new UserBL();
             _transBL = new TransHistBL();
+            _emailBL = new GmailEmailService();
 
            
 
@@ -124,7 +126,7 @@ namespace ERP_System.GUI.Forms
 
        
 
-        private void BtnSave_Click(object sender, EventArgs e)
+        private async void BtnSave_Click(object sender, EventArgs e)
         {
             try
             {
@@ -162,6 +164,7 @@ namespace ERP_System.GUI.Forms
                     });
                 }
 
+
                 // Persist via BL (this will validate stock and update it inside a transaction)
                 int newSaleId = _salesBL.AddSale(sale);
                 var transDTO= new TransHistDTO { 
@@ -174,7 +177,25 @@ namespace ERP_System.GUI.Forms
 
 
                 };
+
+              
+
                 _transBL.AddTransaction(transDTO);
+
+
+                List<ProductDTO> lowStockProd = new List<ProductDTO>();
+                foreach (var item in sale.Items) {
+                    
+                    ProductDTO p = _productBL.GetProduct(item.ProductId);
+                    p.Stock -= item.Quantity;
+                    _productBL.UpdateProduct(p);
+                    if (p.Stock <= p.LowStockThreshold) { 
+                    lowStockProd.Add(p);
+                    }
+                    
+                }
+                if(lowStockProd.Count>0)
+                await _emailBL.SendLowStockAlertAsync(lowStockProd);
 
                 MessageBox.Show($"Sale saved (ID: {newSaleId}).\nTotal: {total:C2}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 

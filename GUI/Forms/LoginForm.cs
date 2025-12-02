@@ -25,7 +25,7 @@ namespace ERP_System.GUI.Forms
             }
         }
 
-        private void btnSignIn_Click(object sender, EventArgs e)
+        private async void btnSignIn_Click(object sender, EventArgs e)
         {
             try
             {
@@ -85,7 +85,7 @@ namespace ERP_System.GUI.Forms
                         MessageBoxIcon.Information);
 
                     // Open main form
-                    
+                    GmailEmailService emailService = new GmailEmailService();
                     mainPageForm.Show();
                     this.Hide();
                 }

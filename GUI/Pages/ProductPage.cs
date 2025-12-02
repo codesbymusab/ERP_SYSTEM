@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +22,7 @@ namespace ERP_System.GUI.Pages
         {
             InitializeComponent();
             WireEvents();
+            this.lblDate.Text = DateTime.Now.ToString("dddd, MMMM d, yyyy", CultureInfo.InvariantCulture);
         }
 
         private void WireEvents()
@@ -55,7 +57,7 @@ namespace ERP_System.GUI.Pages
             this.lblValue.Text=_productBL.GetTotalInventoryValue().ToString();
             this.lblLowStk.Text=_productBL.GetLowStockCount().ToString();
             this.lblOutofStck.Text=_productBL.GetOutOfStockCount().ToString();
-
+            
             RefreshGrid();
             LoadLowStockCards();
             LoadSupplierCards();
@@ -64,10 +66,10 @@ namespace ERP_System.GUI.Pages
 
         }
 
-        private void LoadLowStockCards()
+        private async void LoadLowStockCards()
         {
             var dt = _productBL.GetLowStockProducts();
-
+           
             // Convert DataTable to ProductDTO list
             var products = new List<ProductDTO>();
             foreach (System.Data.DataRow row in dt.Rows)

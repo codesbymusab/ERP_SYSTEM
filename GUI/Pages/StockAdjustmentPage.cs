@@ -2,6 +2,7 @@
 using ERP_System.DTO;
 using System;
 using System.Data;
+using System.Globalization;
 using System.Windows.Forms;
 
 namespace ERP_System.GUI.Pages
@@ -22,7 +23,7 @@ namespace ERP_System.GUI.Pages
           
             btnApplyAdjustment.Click += BtnApplyAdjustment_Click;
 
-            
+            this.lblDate.Text = DateTime.Now.ToString("dddd, MMMM d, yyyy", CultureInfo.InvariantCulture);
             LoadProductsDropdown();
             LoadAuditLogGrid();
         }
