@@ -23,11 +23,7 @@ namespace ERP_System.GUI
             mainPageForm = form;
         }
 
-        private void bunifuPanel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void btnSettings_Click(object sender, EventArgs e)
         {
 

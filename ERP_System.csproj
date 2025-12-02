@@ -193,6 +193,12 @@
     <Compile Include="GUI\Components\SupplierProductsCard.Designer.cs">
       <DependentUpon>SupplierProductsCard.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Forms\AddPurchaseOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\AddPurchaseOrderForm.Designer.cs">
+      <DependentUpon>AddPurchaseOrderForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Forms\SupplierProdViewForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -333,6 +339,9 @@
     <EmbeddedResource Include="GUI\Components\SupplierProductsCard.resx">
       <DependentUpon>SupplierProductsCard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\AddPurchaseOrderForm.resx">
+      <DependentUpon>AddPurchaseOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Forms\SupplierProdViewForm.resx">
       <DependentUpon>SupplierProdViewForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -416,7 +425,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Resources\Copilot_20251202_095233.png" />
     <None Include="Assets\hamburg.png" />
+    <None Include="Assets\dashboard_icon.png" />
+    <Content Include="Assets\db.png" />
     <Content Include="Assets\Logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

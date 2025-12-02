@@ -21,7 +21,7 @@ namespace ERP_System.BL
                 throw new Exception("Customer name required.");
             if (dto.TotalAmount < 0)
                 throw new Exception("Negative total amount.");
-            dto.Status = "draft";
+            
             return dl.Add(dto);
         }
 

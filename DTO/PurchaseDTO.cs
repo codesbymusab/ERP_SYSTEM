@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ERP_System.DTO
 {
@@ -12,5 +13,8 @@ namespace ERP_System.DTO
         public string Notes { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+
+        public List<PurchaseItemDTO> Items{ get; set; } = new List<PurchaseItemDTO>();
+
     }
 }

@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SideNavBar));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
@@ -41,8 +40,9 @@
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges10 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges11 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges12 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges13 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges14 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges13 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuPanel2 = new Bunifu.UI.WinForms.BunifuPanel();
             this.labelRole = new System.Windows.Forms.Label();
@@ -50,7 +50,6 @@
             this.btnProfile = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuSeparator8 = new Bunifu.UI.WinForms.BunifuSeparator();
             this.bunifuSeparator7 = new Bunifu.UI.WinForms.BunifuSeparator();
-            this.btnSignOut = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnReports = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.label2 = new System.Windows.Forms.Label();
             this.bunifuSeparator6 = new Bunifu.UI.WinForms.BunifuSeparator();
@@ -70,13 +69,14 @@
             this.btnSup = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnProd = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuLabel5 = new System.Windows.Forms.Label();
-            this.btnEmp = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuLabel4 = new System.Windows.Forms.Label();
-            this.btnDashboard = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuSeparator1 = new Bunifu.UI.WinForms.BunifuSeparator();
             this.bunifuLabel3 = new System.Windows.Forms.Label();
             this.bunifuLabel2 = new System.Windows.Forms.Label();
             this.bunifuLabel1 = new System.Windows.Forms.Label();
+            this.btnDashboard = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.btnEmp = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.btnSignOut = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuPanel1.SuspendLayout();
             this.bunifuPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -126,7 +126,6 @@
             this.bunifuPanel1.ShowBorders = true;
             this.bunifuPanel1.Size = new System.Drawing.Size(278, 1408);
             this.bunifuPanel1.TabIndex = 1;
-            this.bunifuPanel1.Click += new System.EventHandler(this.bunifuPanel1_Click);
             // 
             // bunifuPanel2
             // 
@@ -156,7 +155,6 @@
             this.labelRole.Size = new System.Drawing.Size(143, 23);
             this.labelRole.TabIndex = 36;
             this.labelRole.Text = "Administrator";
-          
             // 
             // labelusername
             // 
@@ -286,104 +284,12 @@
             this.bunifuSeparator7.LineColor = System.Drawing.Color.DarkGray;
             this.bunifuSeparator7.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
             this.bunifuSeparator7.LineThickness = 1;
-            this.bunifuSeparator7.Location = new System.Drawing.Point(23, 1162);
+            this.bunifuSeparator7.Location = new System.Drawing.Point(22, 1162);
             this.bunifuSeparator7.Margin = new System.Windows.Forms.Padding(12, 4, 12, 4);
             this.bunifuSeparator7.Name = "bunifuSeparator7";
             this.bunifuSeparator7.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
             this.bunifuSeparator7.Size = new System.Drawing.Size(242, 10);
             this.bunifuSeparator7.TabIndex = 30;
-            // 
-            // btnSignOut
-            // 
-            this.btnSignOut.AllowAnimations = true;
-            this.btnSignOut.AllowMouseEffects = true;
-            this.btnSignOut.AllowToggling = false;
-            this.btnSignOut.AnimationSpeed = 200;
-            this.btnSignOut.AutoGenerateColors = false;
-            this.btnSignOut.AutoRoundBorders = false;
-            this.btnSignOut.AutoSizeLeftIcon = true;
-            this.btnSignOut.AutoSizeRightIcon = true;
-            this.btnSignOut.BackColor = System.Drawing.Color.Transparent;
-            this.btnSignOut.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(183)))));
-            this.btnSignOut.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSignOut.BackgroundImage")));
-            this.btnSignOut.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnSignOut.ButtonText = "SignOut   ";
-            this.btnSignOut.ButtonTextMarginLeft = 0;
-            this.btnSignOut.ColorContrastOnClick = 45;
-            this.btnSignOut.ColorContrastOnHover = 45;
-            this.btnSignOut.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.btnSignOut.CustomizableEdges = borderEdges2;
-            this.btnSignOut.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnSignOut.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnSignOut.DisabledFillColor = System.Drawing.Color.Empty;
-            this.btnSignOut.DisabledForecolor = System.Drawing.Color.Empty;
-            this.btnSignOut.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btnSignOut.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSignOut.ForeColor = System.Drawing.Color.White;
-            this.btnSignOut.IconLeft = null;
-            this.btnSignOut.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSignOut.IconLeftCursor = System.Windows.Forms.Cursors.Default;
-            this.btnSignOut.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
-            this.btnSignOut.IconMarginLeft = 11;
-            this.btnSignOut.IconPadding = 10;
-            this.btnSignOut.IconRight = null;
-            this.btnSignOut.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSignOut.IconRightCursor = System.Windows.Forms.Cursors.Default;
-            this.btnSignOut.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
-            this.btnSignOut.IconSize = 25;
-            this.btnSignOut.IdleBorderColor = System.Drawing.Color.Empty;
-            this.btnSignOut.IdleBorderRadius = 0;
-            this.btnSignOut.IdleBorderThickness = 0;
-            this.btnSignOut.IdleFillColor = System.Drawing.Color.Empty;
-            this.btnSignOut.IdleIconLeftImage = null;
-            this.btnSignOut.IdleIconRightImage = null;
-            this.btnSignOut.IndicateFocus = false;
-            this.btnSignOut.Location = new System.Drawing.Point(34, 1336);
-            this.btnSignOut.Name = "btnSignOut";
-            this.btnSignOut.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnSignOut.OnDisabledState.BorderRadius = 15;
-            this.btnSignOut.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnSignOut.OnDisabledState.BorderThickness = 1;
-            this.btnSignOut.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnSignOut.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnSignOut.OnDisabledState.IconLeftImage = null;
-            this.btnSignOut.OnDisabledState.IconRightImage = null;
-            this.btnSignOut.onHoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnSignOut.onHoverState.BorderRadius = 15;
-            this.btnSignOut.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnSignOut.onHoverState.BorderThickness = 1;
-            this.btnSignOut.onHoverState.FillColor = System.Drawing.Color.DodgerBlue;
-            this.btnSignOut.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.btnSignOut.onHoverState.IconLeftImage = null;
-            this.btnSignOut.onHoverState.IconRightImage = null;
-            this.btnSignOut.OnIdleState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnSignOut.OnIdleState.BorderRadius = 15;
-            this.btnSignOut.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnSignOut.OnIdleState.BorderThickness = 1;
-            this.btnSignOut.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnSignOut.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.btnSignOut.OnIdleState.IconLeftImage = null;
-            this.btnSignOut.OnIdleState.IconRightImage = null;
-            this.btnSignOut.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.btnSignOut.OnPressedState.BorderRadius = 15;
-            this.btnSignOut.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnSignOut.OnPressedState.BorderThickness = 1;
-            this.btnSignOut.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.btnSignOut.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.btnSignOut.OnPressedState.IconLeftImage = null;
-            this.btnSignOut.OnPressedState.IconRightImage = null;
-            this.btnSignOut.Size = new System.Drawing.Size(214, 46);
-            this.btnSignOut.TabIndex = 28;
-            this.btnSignOut.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnSignOut.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btnSignOut.TextMarginLeft = 0;
-            this.btnSignOut.TextPadding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnSignOut.UseDefaultRadiusAndThickness = true;
-            this.btnSignOut.Click += new System.EventHandler(this.btnSignOut_Click);
             // 
             // btnReports
             // 
@@ -1442,98 +1348,6 @@
             this.bunifuLabel5.Text = "Inventory";
             this.bunifuLabel5.Click += new System.EventHandler(this.bunifuLabel5_Click);
             // 
-            // btnEmp
-            // 
-            this.btnEmp.AllowAnimations = true;
-            this.btnEmp.AllowMouseEffects = true;
-            this.btnEmp.AllowToggling = false;
-            this.btnEmp.AnimationSpeed = 200;
-            this.btnEmp.AutoGenerateColors = false;
-            this.btnEmp.AutoRoundBorders = false;
-            this.btnEmp.AutoSizeLeftIcon = true;
-            this.btnEmp.AutoSizeRightIcon = true;
-            this.btnEmp.BackColor = System.Drawing.Color.Transparent;
-            this.btnEmp.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(183)))));
-            this.btnEmp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEmp.BackgroundImage")));
-            this.btnEmp.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnEmp.ButtonText = "Employees";
-            this.btnEmp.ButtonTextMarginLeft = 0;
-            this.btnEmp.ColorContrastOnClick = 45;
-            this.btnEmp.ColorContrastOnHover = 45;
-            this.btnEmp.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges13.BottomLeft = true;
-            borderEdges13.BottomRight = true;
-            borderEdges13.TopLeft = true;
-            borderEdges13.TopRight = true;
-            this.btnEmp.CustomizableEdges = borderEdges13;
-            this.btnEmp.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnEmp.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnEmp.DisabledFillColor = System.Drawing.Color.Empty;
-            this.btnEmp.DisabledForecolor = System.Drawing.Color.Empty;
-            this.btnEmp.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btnEmp.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEmp.ForeColor = System.Drawing.Color.White;
-            this.btnEmp.IconLeft = null;
-            this.btnEmp.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmp.IconLeftCursor = System.Windows.Forms.Cursors.Default;
-            this.btnEmp.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
-            this.btnEmp.IconMarginLeft = 11;
-            this.btnEmp.IconPadding = 10;
-            this.btnEmp.IconRight = null;
-            this.btnEmp.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnEmp.IconRightCursor = System.Windows.Forms.Cursors.Default;
-            this.btnEmp.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
-            this.btnEmp.IconSize = 25;
-            this.btnEmp.IdleBorderColor = System.Drawing.Color.Empty;
-            this.btnEmp.IdleBorderRadius = 0;
-            this.btnEmp.IdleBorderThickness = 0;
-            this.btnEmp.IdleFillColor = System.Drawing.Color.Empty;
-            this.btnEmp.IdleIconLeftImage = null;
-            this.btnEmp.IdleIconRightImage = null;
-            this.btnEmp.IndicateFocus = false;
-            this.btnEmp.Location = new System.Drawing.Point(23, 304);
-            this.btnEmp.Name = "btnEmp";
-            this.btnEmp.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnEmp.OnDisabledState.BorderRadius = 15;
-            this.btnEmp.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnEmp.OnDisabledState.BorderThickness = 1;
-            this.btnEmp.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnEmp.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnEmp.OnDisabledState.IconLeftImage = null;
-            this.btnEmp.OnDisabledState.IconRightImage = null;
-            this.btnEmp.onHoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnEmp.onHoverState.BorderRadius = 15;
-            this.btnEmp.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnEmp.onHoverState.BorderThickness = 1;
-            this.btnEmp.onHoverState.FillColor = System.Drawing.Color.DodgerBlue;
-            this.btnEmp.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.btnEmp.onHoverState.IconLeftImage = null;
-            this.btnEmp.onHoverState.IconRightImage = null;
-            this.btnEmp.OnIdleState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnEmp.OnIdleState.BorderRadius = 15;
-            this.btnEmp.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnEmp.OnIdleState.BorderThickness = 1;
-            this.btnEmp.OnIdleState.FillColor = System.Drawing.Color.Transparent;
-            this.btnEmp.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.btnEmp.OnIdleState.IconLeftImage = null;
-            this.btnEmp.OnIdleState.IconRightImage = null;
-            this.btnEmp.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.btnEmp.OnPressedState.BorderRadius = 15;
-            this.btnEmp.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnEmp.OnPressedState.BorderThickness = 1;
-            this.btnEmp.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.btnEmp.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.btnEmp.OnPressedState.IconLeftImage = null;
-            this.btnEmp.OnPressedState.IconRightImage = null;
-            this.btnEmp.Size = new System.Drawing.Size(217, 42);
-            this.btnEmp.TabIndex = 6;
-            this.btnEmp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmp.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btnEmp.TextMarginLeft = 0;
-            this.btnEmp.TextPadding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnEmp.UseDefaultRadiusAndThickness = true;
-            this.btnEmp.Click += new System.EventHandler(this.btnEmp_Click);
-            // 
             // bunifuLabel4
             // 
             this.bunifuLabel4.BackColor = System.Drawing.Color.Transparent;
@@ -1546,6 +1360,63 @@
             this.bunifuLabel4.TabIndex = 5;
             this.bunifuLabel4.Text = "Human Resources";
             this.bunifuLabel4.Click += new System.EventHandler(this.bunifuLabel4_Click);
+            // 
+            // bunifuSeparator1
+            // 
+            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuSeparator1.BackgroundImage")));
+            this.bunifuSeparator1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuSeparator1.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Flat;
+            this.bunifuSeparator1.LineColor = System.Drawing.Color.DarkGray;
+            this.bunifuSeparator1.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
+            this.bunifuSeparator1.LineThickness = 1;
+            this.bunifuSeparator1.Location = new System.Drawing.Point(22, 110);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.bunifuSeparator1.Name = "bunifuSeparator1";
+            this.bunifuSeparator1.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
+            this.bunifuSeparator1.Size = new System.Drawing.Size(224, 17);
+            this.bunifuSeparator1.TabIndex = 3;
+            this.bunifuSeparator1.Click += new System.EventHandler(this.bunifuSeparator1_Click);
+            // 
+            // bunifuLabel3
+            // 
+            this.bunifuLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuLabel3.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel3.ForeColor = System.Drawing.Color.Gainsboro;
+            this.bunifuLabel3.Location = new System.Drawing.Point(23, 134);
+            this.bunifuLabel3.Name = "bunifuLabel3";
+            this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel3.Size = new System.Drawing.Size(82, 28);
+            this.bunifuLabel3.TabIndex = 2;
+            this.bunifuLabel3.Text = "Main";
+            this.bunifuLabel3.Click += new System.EventHandler(this.bunifuLabel3_Click);
+            // 
+            // bunifuLabel2
+            // 
+            this.bunifuLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel2.ForeColor = System.Drawing.Color.Gainsboro;
+            this.bunifuLabel2.Location = new System.Drawing.Point(23, 62);
+            this.bunifuLabel2.Name = "bunifuLabel2";
+            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel2.Size = new System.Drawing.Size(174, 28);
+            this.bunifuLabel2.TabIndex = 1;
+            this.bunifuLabel2.Text = "ERP System";
+            this.bunifuLabel2.Click += new System.EventHandler(this.bunifuLabel2_Click);
+            // 
+            // bunifuLabel1
+            // 
+            this.bunifuLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 16.128F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel1.Location = new System.Drawing.Point(23, 18);
+            this.bunifuLabel1.Name = "bunifuLabel1";
+            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel1.Size = new System.Drawing.Size(236, 37);
+            this.bunifuLabel1.TabIndex = 0;
+            this.bunifuLabel1.Text = "ASM Enterprise";
+            this.bunifuLabel1.Click += new System.EventHandler(this.bunifuLabel1_Click);
             // 
             // btnDashboard
             // 
@@ -1639,62 +1510,189 @@
             this.btnDashboard.UseDefaultRadiusAndThickness = true;
             this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
-            // bunifuSeparator1
+            // btnEmp
             // 
-            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuSeparator1.BackgroundImage")));
-            this.bunifuSeparator1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuSeparator1.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Flat;
-            this.bunifuSeparator1.LineColor = System.Drawing.Color.DarkGray;
-            this.bunifuSeparator1.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
-            this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(22, 110);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.bunifuSeparator1.Size = new System.Drawing.Size(224, 17);
-            this.bunifuSeparator1.TabIndex = 3;
-            this.bunifuSeparator1.Click += new System.EventHandler(this.bunifuSeparator1_Click);
+            this.btnEmp.AllowAnimations = true;
+            this.btnEmp.AllowMouseEffects = true;
+            this.btnEmp.AllowToggling = false;
+            this.btnEmp.AnimationSpeed = 200;
+            this.btnEmp.AutoGenerateColors = false;
+            this.btnEmp.AutoRoundBorders = false;
+            this.btnEmp.AutoSizeLeftIcon = true;
+            this.btnEmp.AutoSizeRightIcon = true;
+            this.btnEmp.BackColor = System.Drawing.Color.Transparent;
+            this.btnEmp.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(183)))));
+            this.btnEmp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEmp.BackgroundImage")));
+            this.btnEmp.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnEmp.ButtonText = "Employees";
+            this.btnEmp.ButtonTextMarginLeft = 0;
+            this.btnEmp.ColorContrastOnClick = 45;
+            this.btnEmp.ColorContrastOnHover = 45;
+            this.btnEmp.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges13.BottomLeft = true;
+            borderEdges13.BottomRight = true;
+            borderEdges13.TopLeft = true;
+            borderEdges13.TopRight = true;
+            this.btnEmp.CustomizableEdges = borderEdges13;
+            this.btnEmp.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnEmp.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btnEmp.DisabledFillColor = System.Drawing.Color.Empty;
+            this.btnEmp.DisabledForecolor = System.Drawing.Color.Empty;
+            this.btnEmp.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.btnEmp.Font = new System.Drawing.Font("Segoe UI Semibold", 9.792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmp.ForeColor = System.Drawing.Color.White;
+            this.btnEmp.IconLeft = null;
+            this.btnEmp.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEmp.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.btnEmp.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.btnEmp.IconMarginLeft = 11;
+            this.btnEmp.IconPadding = 10;
+            this.btnEmp.IconRight = null;
+            this.btnEmp.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEmp.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.btnEmp.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.btnEmp.IconSize = 25;
+            this.btnEmp.IdleBorderColor = System.Drawing.Color.Empty;
+            this.btnEmp.IdleBorderRadius = 0;
+            this.btnEmp.IdleBorderThickness = 0;
+            this.btnEmp.IdleFillColor = System.Drawing.Color.Empty;
+            this.btnEmp.IdleIconLeftImage = null;
+            this.btnEmp.IdleIconRightImage = null;
+            this.btnEmp.IndicateFocus = false;
+            this.btnEmp.Location = new System.Drawing.Point(23, 304);
+            this.btnEmp.Name = "btnEmp";
+            this.btnEmp.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btnEmp.OnDisabledState.BorderRadius = 15;
+            this.btnEmp.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnEmp.OnDisabledState.BorderThickness = 1;
+            this.btnEmp.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btnEmp.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btnEmp.OnDisabledState.IconLeftImage = null;
+            this.btnEmp.OnDisabledState.IconRightImage = null;
+            this.btnEmp.onHoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnEmp.onHoverState.BorderRadius = 15;
+            this.btnEmp.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnEmp.onHoverState.BorderThickness = 1;
+            this.btnEmp.onHoverState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.btnEmp.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.btnEmp.onHoverState.IconLeftImage = null;
+            this.btnEmp.onHoverState.IconRightImage = null;
+            this.btnEmp.OnIdleState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnEmp.OnIdleState.BorderRadius = 15;
+            this.btnEmp.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnEmp.OnIdleState.BorderThickness = 1;
+            this.btnEmp.OnIdleState.FillColor = System.Drawing.Color.Transparent;
+            this.btnEmp.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.btnEmp.OnIdleState.IconLeftImage = null;
+            this.btnEmp.OnIdleState.IconRightImage = null;
+            this.btnEmp.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btnEmp.OnPressedState.BorderRadius = 15;
+            this.btnEmp.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnEmp.OnPressedState.BorderThickness = 1;
+            this.btnEmp.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btnEmp.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.btnEmp.OnPressedState.IconLeftImage = null;
+            this.btnEmp.OnPressedState.IconRightImage = null;
+            this.btnEmp.Size = new System.Drawing.Size(217, 42);
+            this.btnEmp.TabIndex = 6;
+            this.btnEmp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEmp.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnEmp.TextMarginLeft = 0;
+            this.btnEmp.TextPadding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnEmp.UseDefaultRadiusAndThickness = true;
+            this.btnEmp.Click += new System.EventHandler(this.btnEmp_Click);
             // 
-            // bunifuLabel3
+            // btnSignOut
             // 
-            this.bunifuLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuLabel3.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.bunifuLabel3.Location = new System.Drawing.Point(23, 134);
-            this.bunifuLabel3.Name = "bunifuLabel3";
-            this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel3.Size = new System.Drawing.Size(82, 28);
-            this.bunifuLabel3.TabIndex = 2;
-            this.bunifuLabel3.Text = "Main";
-            this.bunifuLabel3.Click += new System.EventHandler(this.bunifuLabel3_Click);
-            // 
-            // bunifuLabel2
-            // 
-            this.bunifuLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.bunifuLabel2.Location = new System.Drawing.Point(23, 62);
-            this.bunifuLabel2.Name = "bunifuLabel2";
-            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(174, 28);
-            this.bunifuLabel2.TabIndex = 1;
-            this.bunifuLabel2.Text = "ERP System";
-            this.bunifuLabel2.Click += new System.EventHandler(this.bunifuLabel2_Click);
-            // 
-            // bunifuLabel1
-            // 
-            this.bunifuLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 16.128F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel1.Location = new System.Drawing.Point(23, 18);
-            this.bunifuLabel1.Name = "bunifuLabel1";
-            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(236, 37);
-            this.bunifuLabel1.TabIndex = 0;
-            this.bunifuLabel1.Text = "ASM Enterprise";
-            this.bunifuLabel1.Click += new System.EventHandler(this.bunifuLabel1_Click);
+            this.btnSignOut.AllowAnimations = true;
+            this.btnSignOut.AllowMouseEffects = true;
+            this.btnSignOut.AllowToggling = false;
+            this.btnSignOut.AnimationSpeed = 200;
+            this.btnSignOut.AutoGenerateColors = false;
+            this.btnSignOut.AutoRoundBorders = false;
+            this.btnSignOut.AutoSizeLeftIcon = true;
+            this.btnSignOut.AutoSizeRightIcon = true;
+            this.btnSignOut.BackColor = System.Drawing.Color.Transparent;
+            this.btnSignOut.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(183)))));
+            this.btnSignOut.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSignOut.BackgroundImage")));
+            this.btnSignOut.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnSignOut.ButtonText = "SignOut   ";
+            this.btnSignOut.ButtonTextMarginLeft = 0;
+            this.btnSignOut.ColorContrastOnClick = 45;
+            this.btnSignOut.ColorContrastOnHover = 45;
+            this.btnSignOut.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.btnSignOut.CustomizableEdges = borderEdges2;
+            this.btnSignOut.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnSignOut.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btnSignOut.DisabledFillColor = System.Drawing.Color.Empty;
+            this.btnSignOut.DisabledForecolor = System.Drawing.Color.Empty;
+            this.btnSignOut.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.btnSignOut.Font = new System.Drawing.Font("Segoe UI", 13.824F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSignOut.ForeColor = System.Drawing.Color.White;
+            this.btnSignOut.IconLeft = null;
+            this.btnSignOut.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSignOut.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.btnSignOut.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.btnSignOut.IconMarginLeft = 11;
+            this.btnSignOut.IconPadding = 10;
+            this.btnSignOut.IconRight = null;
+            this.btnSignOut.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSignOut.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.btnSignOut.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.btnSignOut.IconSize = 25;
+            this.btnSignOut.IdleBorderColor = System.Drawing.Color.Empty;
+            this.btnSignOut.IdleBorderRadius = 0;
+            this.btnSignOut.IdleBorderThickness = 0;
+            this.btnSignOut.IdleFillColor = System.Drawing.Color.Empty;
+            this.btnSignOut.IdleIconLeftImage = null;
+            this.btnSignOut.IdleIconRightImage = null;
+            this.btnSignOut.IndicateFocus = false;
+            this.btnSignOut.Location = new System.Drawing.Point(34, 1336);
+            this.btnSignOut.Name = "btnSignOut";
+            this.btnSignOut.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btnSignOut.OnDisabledState.BorderRadius = 15;
+            this.btnSignOut.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnSignOut.OnDisabledState.BorderThickness = 1;
+            this.btnSignOut.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btnSignOut.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btnSignOut.OnDisabledState.IconLeftImage = null;
+            this.btnSignOut.OnDisabledState.IconRightImage = null;
+            this.btnSignOut.onHoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnSignOut.onHoverState.BorderRadius = 15;
+            this.btnSignOut.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnSignOut.onHoverState.BorderThickness = 1;
+            this.btnSignOut.onHoverState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.btnSignOut.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.btnSignOut.onHoverState.IconLeftImage = null;
+            this.btnSignOut.onHoverState.IconRightImage = null;
+            this.btnSignOut.OnIdleState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnSignOut.OnIdleState.BorderRadius = 15;
+            this.btnSignOut.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnSignOut.OnIdleState.BorderThickness = 1;
+            this.btnSignOut.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnSignOut.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.btnSignOut.OnIdleState.IconLeftImage = null;
+            this.btnSignOut.OnIdleState.IconRightImage = null;
+            this.btnSignOut.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btnSignOut.OnPressedState.BorderRadius = 15;
+            this.btnSignOut.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnSignOut.OnPressedState.BorderThickness = 1;
+            this.btnSignOut.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btnSignOut.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.btnSignOut.OnPressedState.IconLeftImage = null;
+            this.btnSignOut.OnPressedState.IconRightImage = null;
+            this.btnSignOut.Size = new System.Drawing.Size(214, 46);
+            this.btnSignOut.TabIndex = 28;
+            this.btnSignOut.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSignOut.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnSignOut.TextMarginLeft = 0;
+            this.btnSignOut.TextPadding = new System.Windows.Forms.Padding(0);
+            this.btnSignOut.UseDefaultRadiusAndThickness = true;
+            this.btnSignOut.Click += new System.EventHandler(this.btnSignOut_Click);
             // 
             // SideNavBar
             // 
@@ -1705,7 +1703,7 @@
             this.Controls.Add(this.bunifuPanel1);
             this.DoubleBuffered = true;
             this.Name = "SideNavBar";
-            this.Size = new System.Drawing.Size(275, 1216);
+            this.Size = new System.Drawing.Size(165, 1106);
             this.bunifuPanel1.ResumeLayout(false);
             this.bunifuPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -1731,9 +1729,7 @@
         public Bunifu.UI.WinForms.BunifuButton.BunifuButton btnSup;
         public Bunifu.UI.WinForms.BunifuButton.BunifuButton btnProd;
         public System.Windows.Forms.Label bunifuLabel5;
-        public Bunifu.UI.WinForms.BunifuButton.BunifuButton btnEmp;
         public System.Windows.Forms.Label bunifuLabel4;
-        public Bunifu.UI.WinForms.BunifuButton.BunifuButton btnDashboard;
         private Bunifu.UI.WinForms.BunifuSeparator bunifuSeparator1;
         private System.Windows.Forms.Label bunifuLabel3;
         private System.Windows.Forms.Label bunifuLabel2;
@@ -1741,12 +1737,14 @@
         public System.Windows.Forms.Label label2;
         private Bunifu.UI.WinForms.BunifuSeparator bunifuSeparator6;
         public Bunifu.UI.WinForms.BunifuButton.BunifuButton btnReports;
-        public Bunifu.UI.WinForms.BunifuButton.BunifuButton btnSignOut;
         private Bunifu.UI.WinForms.BunifuSeparator bunifuSeparator7;
         private Bunifu.UI.WinForms.BunifuSeparator bunifuSeparator8;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel2;
         public Bunifu.UI.WinForms.BunifuButton.BunifuButton btnProfile;
         private System.Windows.Forms.Label labelRole;
         private System.Windows.Forms.Label labelusername;
+        public Bunifu.UI.WinForms.BunifuButton.BunifuButton btnDashboard;
+        public Bunifu.UI.WinForms.BunifuButton.BunifuButton btnEmp;
+        public Bunifu.UI.WinForms.BunifuButton.BunifuButton btnSignOut;
     }
 }
