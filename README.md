@@ -74,14 +74,14 @@ This project was created to:
 - Product inventory
 - Employee attendance tracking
 
-<img width="1724" height="973" alt="Screenshot 2026-04-28 161500" src="https://github.com/user-attachments/assets/fc947d1b-eafd-423d-b1af-4cc93e955246" />
-<img width="1725" height="975" alt="Screenshot 2026-04-28 161210" src="https://github.com/user-attachments/assets/44e25c35-e63c-42c6-8d28-fcd746cb41ed" />
-<img width="1725" height="973" alt="Screenshot 2026-04-28 161127" src="https://github.com/user-attachments/assets/6066923b-dbe6-4304-bbf9-6ac6e5381082" />
-<img width="1729" height="972" alt="Screenshot 2026-04-28 161110" src="https://github.com/user-attachments/assets/7666bc3e-7046-49b6-871e-5ea481cd0d93" />
-<img width="1720" height="973" alt="Screenshot 2026-04-28 161009" src="https://github.com/user-attachments/assets/8f3dc365-286f-40f3-af26-468e72767911" />
-<img width="1721" height="971" alt="Screenshot 2026-04-28 160933" src="https://github.com/user-attachments/assets/e9343b26-ffea-435c-bc1f-53d8a76fb44c" />
-<img width="1722" height="972" alt="Screenshot 2026-04-28 160904" src="https://github.com/user-attachments/assets/6be5e41b-15d1-493a-aedf-796606008529" />
 <img width="1717" height="978" alt="Screenshot 2026-04-28 160822" src="https://github.com/user-attachments/assets/663f734a-93e1-4964-8718-9097baf7c53f" />
+<img width="1722" height="972" alt="Screenshot 2026-04-28 160904" src="https://github.com/user-attachments/assets/6be5e41b-15d1-493a-aedf-796606008529" />
+<img width="1721" height="971" alt="Screenshot 2026-04-28 160933" src="https://github.com/user-attachments/assets/e9343b26-ffea-435c-bc1f-53d8a76fb44c" />
+<img width="1720" height="973" alt="Screenshot 2026-04-28 161009" src="https://github.com/user-attachments/assets/8f3dc365-286f-40f3-af26-468e72767911" />
+<img width="1729" height="972" alt="Screenshot 2026-04-28 161110" src="https://github.com/user-attachments/assets/7666bc3e-7046-49b6-871e-5ea481cd0d93" />
+<img width="1725" height="973" alt="Screenshot 2026-04-28 161127" src="https://github.com/user-attachments/assets/6066923b-dbe6-4304-bbf9-6ac6e5381082" />
+<img width="1725" height="975" alt="Screenshot 2026-04-28 161210" src="https://github.com/user-attachments/assets/44e25c35-e63c-42c6-8d28-fcd746cb41ed" />
+<img width="1724" height="973" alt="Screenshot 2026-04-28 161500" src="https://github.com/user-attachments/assets/fc947d1b-eafd-423d-b1af-4cc93e955246" />
 
 
 
