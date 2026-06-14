@@ -98,7 +98,3 @@ This project was created to:
 ## 📜 License
 This project is open-source and available under the MIT License.
 ```
-
-This README emphasizes your layered architecture and ERP modules, making it clear that you’ve built a structured, professional project.  
-
-Would you like me to also **design a visual architecture diagram** (showing DL → BL → GUI → Database flow) to include in the README? That would make it even more engaging and easier for others to understand.
